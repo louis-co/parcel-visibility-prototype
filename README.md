@@ -6,6 +6,8 @@ This repository contains the implementation and evaluation material for a parcel
 
 https://github.com/user-attachments/assets/e8d3f6c9-38f6-411a-bdef-67b7bccd78fe
 
+[Open the repository MOV demo with audio](docs/media/parcel-visibility-demo.mov).
+
 The repository also keeps a compact WebM copy at `docs/media/parcel-visibility-demo.webm`.
 
 ## System Overview
