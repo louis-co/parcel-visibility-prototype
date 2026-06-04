@@ -9,8 +9,6 @@ https://github.com/user-attachments/assets/6a2cfb43-896b-42e5-becb-74697fe3852c
 
 [Download the demo video for playback with audio](https://github.com/louis-co/parcel-visibility-prototype/raw/refs/heads/main/docs/media/parcel-visibility-demo.mov).
 
-The repository also keeps a compact WebM copy at `docs/media/parcel-visibility-demo.webm`.
-
 ## System Overview
 
 ```mermaid
