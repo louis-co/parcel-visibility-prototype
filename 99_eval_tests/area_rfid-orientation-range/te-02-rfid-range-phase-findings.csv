@@ -1,0 +1,6 @@
+orientation,angle_deg,observed_range_m,machine_evidence,interpretation
+Parallel/direct line-of-sight,0,13.0,RFID reads observed across the direct line-of-sight sequence,Longest favorable-orientation range in this run.
+Chip rotated 90 degrees,90,9.0,RFID reads observed from 1.0 m through 9.0 m,Rotation reduced the usable read range.
+Lateral 45 degrees,45,2.0,RFID reads observed through 2.0 m,Strong angular sensitivity.
+Lateral 30 degrees,30,7.0,RFID reads observed at 7.0 m,Intermediate angular sensitivity.
+Full side-facing 90 degrees,90,1.5,RFID reads observed through 1.5 m,Shortest tested orientation range.

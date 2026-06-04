@@ -1,0 +1,493 @@
+{
+  "testId": "TE-05b",
+  "name": "Synthetic Multi-Truck BLE Cross-Detection",
+  "runId": "20260501103025",
+  "beaconId": "ble:te05b-cross-20260501103025",
+  "owner": "te05b-owner-truck-20260501103025",
+  "neighbors": [
+    "te05b-neighbor-1-20260501103025",
+    "te05b-neighbor-2-20260501103025",
+    "te05b-neighbor-3-20260501103025"
+  ],
+  "baseTsMs": 1777630833600,
+  "pass": true,
+  "falseNeighborAssignment": false,
+  "assignedTracker": "te05b-owner-truck-20260501103025",
+  "ownerState": {
+    "associationState": "assigned",
+    "beaconId": "ble:te05b-cross-20260501103025",
+    "confidence": 0.6329113924050634,
+    "evidenceAgeMs": 517289,
+    "evidenceState": "confirmed",
+    "isActiveConflict": true,
+    "lastAssignedEvidenceEventType": "ble_scan",
+    "lastAssignedEvidenceTsMs": 1777630923600,
+    "lastSeenTsMs": 1777630925600,
+    "manualPrior": null,
+    "missedHeartbeats": 0,
+    "missingSinceTsMs": null,
+    "ownerState": "assigned",
+    "routeSession": null,
+    "source": "live",
+    "state": "resolved",
+    "trackerId": "te05b-owner-truck-20260501103025",
+    "trackingNumber": null
+  },
+  "expectedEvents": 14,
+  "observedEvents": 14,
+  "trackerCounts": {
+    "te05b-neighbor-2-20260501103025": 4,
+    "te05b-neighbor-1-20260501103025": 4,
+    "te05b-owner-truck-20260501103025": 4,
+    "te05b-neighbor-3-20260501103025": 2
+  },
+  "rssiSummary": {
+    "te05b-neighbor-2-20260501103025": {
+      "count": 4,
+      "min": -88,
+      "median": -88,
+      "max": -88
+    },
+    "te05b-neighbor-1-20260501103025": {
+      "count": 4,
+      "min": -82,
+      "median": -82,
+      "max": -82
+    },
+    "te05b-owner-truck-20260501103025": {
+      "count": 4,
+      "min": -54,
+      "median": -54,
+      "max": -54
+    },
+    "te05b-neighbor-3-20260501103025": {
+      "count": 2,
+      "min": -91,
+      "median": -91,
+      "max": -91
+    }
+  },
+  "batches": [
+    {
+      "durationMs": 6151.82,
+      "body": {
+        "ok": true,
+        "count": 14,
+        "accepted": 14,
+        "duplicate": 0,
+        "results": [
+          {
+            "eventId": "te05b-20260501103025-owner-strong-0",
+            "duplicate": false,
+            "ok": true,
+            "rawEventId": "jh7cndwanr4wxfnmvwafaj1x6h85wcwf"
+          },
+          {
+            "eventId": "te05b-20260501103025-neighbor1-weak-0",
+            "duplicate": false,
+            "ok": true,
+            "rawEventId": "jh72nmmvhnrneqa86yahccedvn85xqk7"
+          },
+          {
+            "eventId": "te05b-20260501103025-neighbor2-weak-0",
+            "duplicate": false,
+            "ok": true,
+            "rawEventId": "jh7f64rtk4gcsng2n2ec969mx985xk3b"
+          },
+          {
+            "eventId": "te05b-20260501103025-neighbor3-veryweak-0",
+            "duplicate": false,
+            "ok": true,
+            "rawEventId": "jh7dh6h924hys1dtsb0232ww0985wqhw"
+          },
+          {
+            "eventId": "te05b-20260501103025-owner-strong-1",
+            "duplicate": false,
+            "ok": true,
+            "rawEventId": "jh770sp2s2pvtzsrefyd48e7g585xes7"
+          },
+          {
+            "eventId": "te05b-20260501103025-neighbor1-weak-1",
+            "duplicate": false,
+            "ok": true,
+            "rawEventId": "jh74b9gd496ztn97dewsvvsmj185xs3t"
+          },
+          {
+            "eventId": "te05b-20260501103025-neighbor2-weak-1",
+            "duplicate": false,
+            "ok": true,
+            "rawEventId": "jh766c762hsb9g9yn4p4pa2cgd85wpdq"
+          },
+          {
+            "eventId": "te05b-20260501103025-owner-strong-2",
+            "duplicate": false,
+            "ok": true,
+            "rawEventId": "jh76s7fmxbecxqr2bm69kjnbv185wmdb"
+          },
+          {
+            "eventId": "te05b-20260501103025-neighbor1-weak-2",
+            "duplicate": false,
+            "ok": true,
+            "rawEventId": "jh79tf280dcaeesvj7bs3e799185w2wg"
+          },
+          {
+            "eventId": "te05b-20260501103025-neighbor2-weak-2",
+            "duplicate": false,
+            "ok": true,
+            "rawEventId": "jh7fn72sm2zcfmbf08f9hgrfxx85wq96"
+          },
+          {
+            "eventId": "te05b-20260501103025-neighbor3-veryweak-2",
+            "duplicate": false,
+            "ok": true,
+            "rawEventId": "jh75d2v7fjgygjr88gnnga6fgx85wxdq"
+          },
+          {
+            "eventId": "te05b-20260501103025-owner-strong-3",
+            "duplicate": false,
+            "ok": true,
+            "rawEventId": "jh7cfyvfg1hfs2dq9msphekjds85wrbh"
+          },
+          {
+            "eventId": "te05b-20260501103025-neighbor1-weak-3",
+            "duplicate": false,
+            "ok": true,
+            "rawEventId": "jh79j8jpqs7xptj90ewgt23j7185xdtv"
+          },
+          {
+            "eventId": "te05b-20260501103025-neighbor2-weak-3",
+            "duplicate": false,
+            "ok": true,
+            "rawEventId": "jh7069n5y8t84m781t98hv3ky585xdkn"
+          }
+        ],
+        "statusCode": 200,
+        "httpOk": true
+      }
+    }
+  ],
+  "beaconHistory": [
+    {
+      "_creationTime": 1777631439237.7166,
+      "_id": "jh7069n5y8t84m781t98hv3ky585xdkn",
+      "beaconId": "ble:te05b-cross-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te05b-20260501103025-neighbor2-weak-3",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631439237,
+      "seq": 33,
+      "signal": {
+        "rssi": -88
+      },
+      "sourcePayload": {
+        "label": "neighbor2-weak-3",
+        "role": "neighbor weak cross-detection",
+        "rssi": -88,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te05b"
+      },
+      "trackerId": "te05b-neighbor-2-20260501103025",
+      "trackerTsMs": 1777630925600
+    },
+    {
+      "_creationTime": 1777631438744.6472,
+      "_id": "jh79j8jpqs7xptj90ewgt23j7185xdtv",
+      "beaconId": "ble:te05b-cross-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te05b-20260501103025-neighbor1-weak-3",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631438744,
+      "seq": 23,
+      "signal": {
+        "rssi": -82
+      },
+      "sourcePayload": {
+        "label": "neighbor1-weak-3",
+        "role": "neighbor weak cross-detection",
+        "rssi": -82,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te05b"
+      },
+      "trackerId": "te05b-neighbor-1-20260501103025",
+      "trackerTsMs": 1777630924600
+    },
+    {
+      "_creationTime": 1777631438262.0757,
+      "_id": "jh7cfyvfg1hfs2dq9msphekjds85wrbh",
+      "beaconId": "ble:te05b-cross-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te05b-20260501103025-owner-strong-3",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631438262,
+      "seq": 4,
+      "signal": {
+        "rssi": -54
+      },
+      "sourcePayload": {
+        "label": "owner-strong-3",
+        "role": "true owner strong signal",
+        "rssi": -54,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te05b"
+      },
+      "trackerId": "te05b-owner-truck-20260501103025",
+      "trackerTsMs": 1777630923600
+    },
+    {
+      "_creationTime": 1777631437819.3792,
+      "_id": "jh75d2v7fjgygjr88gnnga6fgx85wxdq",
+      "beaconId": "ble:te05b-cross-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te05b-20260501103025-neighbor3-veryweak-2",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631437819,
+      "seq": 42,
+      "signal": {
+        "rssi": -91
+      },
+      "sourcePayload": {
+        "label": "neighbor3-veryweak-2",
+        "role": "intermittent far-neighbor cross-detection",
+        "rssi": -91,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te05b"
+      },
+      "trackerId": "te05b-neighbor-3-20260501103025",
+      "trackerTsMs": 1777630896600
+    },
+    {
+      "_creationTime": 1777631437329.872,
+      "_id": "jh7fn72sm2zcfmbf08f9hgrfxx85wq96",
+      "beaconId": "ble:te05b-cross-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te05b-20260501103025-neighbor2-weak-2",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631437329,
+      "seq": 32,
+      "signal": {
+        "rssi": -88
+      },
+      "sourcePayload": {
+        "label": "neighbor2-weak-2",
+        "role": "neighbor weak cross-detection",
+        "rssi": -88,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te05b"
+      },
+      "trackerId": "te05b-neighbor-2-20260501103025",
+      "trackerTsMs": 1777630895600
+    },
+    {
+      "_creationTime": 1777631436870.9207,
+      "_id": "jh79tf280dcaeesvj7bs3e799185w2wg",
+      "beaconId": "ble:te05b-cross-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te05b-20260501103025-neighbor1-weak-2",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631436870,
+      "seq": 22,
+      "signal": {
+        "rssi": -82
+      },
+      "sourcePayload": {
+        "label": "neighbor1-weak-2",
+        "role": "neighbor weak cross-detection",
+        "rssi": -82,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te05b"
+      },
+      "trackerId": "te05b-neighbor-1-20260501103025",
+      "trackerTsMs": 1777630894600
+    },
+    {
+      "_creationTime": 1777631436440.3286,
+      "_id": "jh76s7fmxbecxqr2bm69kjnbv185wmdb",
+      "beaconId": "ble:te05b-cross-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te05b-20260501103025-owner-strong-2",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631436440,
+      "seq": 3,
+      "signal": {
+        "rssi": -54
+      },
+      "sourcePayload": {
+        "label": "owner-strong-2",
+        "role": "true owner strong signal",
+        "rssi": -54,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te05b"
+      },
+      "trackerId": "te05b-owner-truck-20260501103025",
+      "trackerTsMs": 1777630893600
+    },
+    {
+      "_creationTime": 1777631436005.2664,
+      "_id": "jh766c762hsb9g9yn4p4pa2cgd85wpdq",
+      "beaconId": "ble:te05b-cross-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te05b-20260501103025-neighbor2-weak-1",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631436005,
+      "seq": 31,
+      "signal": {
+        "rssi": -88
+      },
+      "sourcePayload": {
+        "label": "neighbor2-weak-1",
+        "role": "neighbor weak cross-detection",
+        "rssi": -88,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te05b"
+      },
+      "trackerId": "te05b-neighbor-2-20260501103025",
+      "trackerTsMs": 1777630865600
+    },
+    {
+      "_creationTime": 1777631435585.5884,
+      "_id": "jh74b9gd496ztn97dewsvvsmj185xs3t",
+      "beaconId": "ble:te05b-cross-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te05b-20260501103025-neighbor1-weak-1",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631435585,
+      "seq": 21,
+      "signal": {
+        "rssi": -82
+      },
+      "sourcePayload": {
+        "label": "neighbor1-weak-1",
+        "role": "neighbor weak cross-detection",
+        "rssi": -82,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te05b"
+      },
+      "trackerId": "te05b-neighbor-1-20260501103025",
+      "trackerTsMs": 1777630864600
+    },
+    {
+      "_creationTime": 1777631435166.9795,
+      "_id": "jh770sp2s2pvtzsrefyd48e7g585xes7",
+      "beaconId": "ble:te05b-cross-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te05b-20260501103025-owner-strong-1",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631435167,
+      "seq": 2,
+      "signal": {
+        "rssi": -54
+      },
+      "sourcePayload": {
+        "label": "owner-strong-1",
+        "role": "true owner strong signal",
+        "rssi": -54,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te05b"
+      },
+      "trackerId": "te05b-owner-truck-20260501103025",
+      "trackerTsMs": 1777630863600
+    },
+    {
+      "_creationTime": 1777631434728.6272,
+      "_id": "jh7dh6h924hys1dtsb0232ww0985wqhw",
+      "beaconId": "ble:te05b-cross-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te05b-20260501103025-neighbor3-veryweak-0",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631434728,
+      "seq": 40,
+      "signal": {
+        "rssi": -91
+      },
+      "sourcePayload": {
+        "label": "neighbor3-veryweak-0",
+        "role": "intermittent far-neighbor cross-detection",
+        "rssi": -91,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te05b"
+      },
+      "trackerId": "te05b-neighbor-3-20260501103025",
+      "trackerTsMs": 1777630836600
+    },
+    {
+      "_creationTime": 1777631434361.72,
+      "_id": "jh7f64rtk4gcsng2n2ec969mx985xk3b",
+      "beaconId": "ble:te05b-cross-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te05b-20260501103025-neighbor2-weak-0",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631434361,
+      "seq": 30,
+      "signal": {
+        "rssi": -88
+      },
+      "sourcePayload": {
+        "label": "neighbor2-weak-0",
+        "role": "neighbor weak cross-detection",
+        "rssi": -88,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te05b"
+      },
+      "trackerId": "te05b-neighbor-2-20260501103025",
+      "trackerTsMs": 1777630835600
+    },
+    {
+      "_creationTime": 1777631433998.773,
+      "_id": "jh72nmmvhnrneqa86yahccedvn85xqk7",
+      "beaconId": "ble:te05b-cross-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te05b-20260501103025-neighbor1-weak-0",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631433998,
+      "seq": 20,
+      "signal": {
+        "rssi": -82
+      },
+      "sourcePayload": {
+        "label": "neighbor1-weak-0",
+        "role": "neighbor weak cross-detection",
+        "rssi": -82,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te05b"
+      },
+      "trackerId": "te05b-neighbor-1-20260501103025",
+      "trackerTsMs": 1777630834600
+    },
+    {
+      "_creationTime": 1777631433703.7397,
+      "_id": "jh7cndwanr4wxfnmvwafaj1x6h85wcwf",
+      "beaconId": "ble:te05b-cross-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te05b-20260501103025-owner-strong-0",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631433703,
+      "seq": 1,
+      "signal": {
+        "rssi": -54
+      },
+      "sourcePayload": {
+        "label": "owner-strong-0",
+        "role": "true owner strong signal",
+        "rssi": -54,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te05b"
+      },
+      "trackerId": "te05b-owner-truck-20260501103025",
+      "trackerTsMs": 1777630833600
+    }
+  ]
+}

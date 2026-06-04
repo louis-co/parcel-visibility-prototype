@@ -1,0 +1,221 @@
+START_MS=1777556224000
+START_ISO=
+===START_PI===
+2026-04-30T15:37:05+02:00
+               Local time: Thu 2026-04-30 15:37:05 CEST
+           Universal time: Thu 2026-04-30 13:37:05 UTC
+                 RTC time: Thu 2026-04-30 13:37:05
+                Time zone: Europe/Zurich (CEST, +0200)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no
+===START_COUNTERS===
+eth0 rx=0 tx=0
+lo rx=2627 tx=2627
+tailscale0 rx=86 tx=480
+usb0 rx=723372 tx=866146
+wlan0 rx=0 tx=0
+===START_QUEUE===
+2026-04-30T13:35:31Z producer_event 2026-04-30T15:35:25+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556125097 monoNs=2120234983352 eventType=heartbeat seq=34436 trackerTsMs=1777556125028 locationMode=no_fix
+2026-04-30T13:35:31Z producer_events_end
+2026-04-30T13:36:31Z resource_snapshot uptimeSec=2186.15 loadavg=0.05 0.10 0.06 cpuBusyPct=2.4 cpuFreqMHz=1600 memUsedKb=324160 memUsedPct=7 memAvailKb=3822784 memFreeKb=3647296 swapUsedKb=0 swapUsedPct=0 diskUsedKb=5221744 diskTotalKb=30400792 diskAvailKb=23905508 diskUsePct=18% inodeUsed=126545 inodeTotal=1861872 inodeUsePct=7% cpuTempC=41.4 routeIf=usb0 routeGw=192.168.0.1 routeIp=192.168.0.100/24 netRxBytes=705181 netTxBytes=841535 netRxBps=1618 netTxBps=2552 throttledRaw=0x50000 uvNow=0 uvSinceBoot=1 freqCapNow=0 freqCapSinceBoot=0 throttledNow=0 throttledSinceBoot=1 softTempNow=0 softTempSinceBoot=0
+2026-04-30T13:36:31Z iface_counters iface=eth0 operState=down carrier=0 rxBytes=0 txBytes=0
+2026-04-30T13:36:31Z iface_counters iface=lo operState=unknown carrier=1 rxBytes=2627 txBytes=2627
+2026-04-30T13:36:31Z iface_counters iface=tailscale0 operState=unknown carrier=1 rxBytes=86 txBytes=480
+2026-04-30T13:36:31Z iface_counters iface=usb0 operState=unknown carrier=1 rxBytes=705181 txBytes=841535
+2026-04-30T13:36:31Z iface_counters iface=wlan0 operState=down carrier=0 rxBytes=0 txBytes=0
+2026-04-30T13:36:31Z queue_snapshot producer=location db=/var/lib/parcel-tracker/location_uplink.db outboxCount=2 deadLetterCount=0 dbBytes=2605056
+2026-04-30T13:36:31Z queue_snapshot producer=ble db=/var/lib/parcel-tracker/ble_uplink.db outboxCount=0 deadLetterCount=na dbBytes=20480
+2026-04-30T13:36:31Z queue_snapshot producer=rfid db=/var/lib/parcel-tracker/rfid_uplink.db outboxCount=0 deadLetterCount=na dbBytes=20480
+2026-04-30T13:36:31Z service_state unit=location_uplink.service active=active enabled=enabled
+2026-04-30T13:36:31Z service_state unit=ble_receiver.service active=active enabled=enabled
+2026-04-30T13:36:31Z service_state unit=rfid_uplink.service active=inactive enabled=enabled
+2026-04-30T13:36:31Z service_state unit=lte-init.service active=active enabled=enabled
+2026-04-30T13:36:31Z service_state unit=lte_watchdog.service active=active enabled=enabled
+2026-04-30T13:36:31Z service_state unit=resource_monitor.service active=active enabled=enabled
+2026-04-30T13:36:31Z producer_events_begin from=1777556130 to=1777556191
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:30+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556130191 monoNs=2125329227511 eventId=2d5861ce-ff81-4ca5-964b-7ea8a549dbb4 attempt=1 uploadAttemptMs=1777556130191 queueSize=2
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:30+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556130359 monoNs=2125497416779 windowSec=10.006 detections=27 queued=0 duplicates=27 uniqueBeacons=1 beaconCounts={"ble:1002:2": 27} queueSize=0
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:30+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556130440 monoNs=2125578183757 eventId=2d5861ce-ff81-4ca5-964b-7ea8a549dbb4 attempt=1 uploadAttemptMs=1777556130191 uploadResponseMs=1777556130440 latencyMs=249 status=200 queueSize=1
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:30+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556130440 monoNs=2125578264279 eventId=31829c3a-268a-44d8-95d2-e7b49de534ee attempt=1 uploadAttemptMs=1777556130440 queueSize=1
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:30+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556130694 monoNs=2125831910611 eventId=31829c3a-268a-44d8-95d2-e7b49de534ee attempt=1 uploadAttemptMs=1777556130440 uploadResponseMs=1777556130694 latencyMs=254 status=200 queueSize=0
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:31+02:00 tracker python3[903]: ble-uplink: scan_detected wallTsMs=1777556131784 monoNs=2126922708929 beaconId=ble:1002:2 rssi=-36 seq=36 trackerTsMs=1777556131784
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:32+02:00 tracker python3[903]: ble-uplink: event_queued wallTsMs=1777556132397 monoNs=2127534805473 eventId=5711cf23-06d6-48d5-84ba-05214ab8d3d9 eventType=ble_scan beaconId=ble:1002:2 seq=36 trackerTsMs=1777556131784 localCreatedMs=1777556132360 queueSize=1
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:32+02:00 tracker python3[903]: ble-uplink: upload_attempt wallTsMs=1777556132397 monoNs=2127534883736 eventId=5711cf23-06d6-48d5-84ba-05214ab8d3d9 attempt=1 uploadAttemptMs=1777556132397 queueSize=1
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:38+02:00 tracker python3[903]: ble-uplink: upload_response wallTsMs=1777556138287 monoNs=2133424731299 eventId=5711cf23-06d6-48d5-84ba-05214ab8d3d9 attempt=1 uploadAttemptMs=1777556132397 uploadResponseMs=1777556138286 latencyMs=5889 status=200 queueSize=0
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:41+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556141328 monoNs=2136466068305 windowSec=10.969 detections=27 queued=1 duplicates=26 uniqueBeacons=1 beaconCounts={"ble:1002:2": 27} queueSize=0
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:51+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556151334 monoNs=2146472322054 windowSec=10.006 detections=27 queued=0 duplicates=27 uniqueBeacons=1 beaconCounts={"ble:1002:2": 27} queueSize=0
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:53+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556153111 monoNs=2148248817144 eventId=f990e16b-c658-48a0-893c-b2ed62124ed1 eventType=gps_no_fix seq=34437 trackerTsMs=1777556153043 localCreatedMs=1777556153079 queueSize=1
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:53+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556153111 monoNs=2148248861146 eventType=gps_no_fix seq=34437 trackerTsMs=1777556153043 nofixStreak=1
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:53+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556153172 monoNs=2148310077367 eventId=d05ce2f5-1980-42ca-9c24-dc82bc01c52f eventType=heartbeat seq=34438 trackerTsMs=1777556153111 localCreatedMs=1777556153140 queueSize=2
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:53+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556153172 monoNs=2148310117239 eventType=heartbeat seq=34438 trackerTsMs=1777556153111 locationMode=no_fix
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:58+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556158280 monoNs=2153418259240 eventId=f990e16b-c658-48a0-893c-b2ed62124ed1 attempt=1 uploadAttemptMs=1777556158280 queueSize=2
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:58+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556158527 monoNs=2153664951531 eventId=f990e16b-c658-48a0-893c-b2ed62124ed1 attempt=1 uploadAttemptMs=1777556158280 uploadResponseMs=1777556158527 latencyMs=247 status=200 queueSize=1
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:58+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556158527 monoNs=2153665202466 eventId=d05ce2f5-1980-42ca-9c24-dc82bc01c52f attempt=1 uploadAttemptMs=1777556158527 queueSize=1
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:35:58+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556158787 monoNs=2153925233480 eventId=d05ce2f5-1980-42ca-9c24-dc82bc01c52f attempt=1 uploadAttemptMs=1777556158527 uploadResponseMs=1777556158787 latencyMs=260 status=200 queueSize=0
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:36:01+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556161341 monoNs=2156479178466 windowSec=10.007 detections=28 queued=0 duplicates=28 uniqueBeacons=1 beaconCounts={"ble:1002:2": 28} queueSize=0
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:36:11+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556171347 monoNs=2166484760551 windowSec=10.006 detections=24 queued=0 duplicates=24 uniqueBeacons=1 beaconCounts={"ble:1002:2": 24} queueSize=0
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:36:21+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556181352 monoNs=2176490099558 windowSec=10.005 detections=18 queued=0 duplicates=18 uniqueBeacons=1 beaconCounts={"ble:1002:2": 18} queueSize=0
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:36:30+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556190011 monoNs=2185149585257 eventId=1c063edb-06fd-4077-8f2d-6c2961bd5cc9 eventType=gps_no_fix seq=34439 trackerTsMs=1777556189432 localCreatedMs=1777556189470 queueSize=1
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:36:30+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556190011 monoNs=2185149626166 eventType=gps_no_fix seq=34439 trackerTsMs=1777556189432 nofixStreak=2
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:36:30+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556190360 monoNs=2185498130628 eventId=c415db0a-aadb-42d3-bebe-981a955c1bca eventType=heartbeat seq=34440 trackerTsMs=1777556190011 localCreatedMs=1777556190330 queueSize=2
+2026-04-30T13:36:31Z producer_event 2026-04-30T15:36:30+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556190360 monoNs=2185498168000 eventType=heartbeat seq=34440 trackerTsMs=1777556190011 locationMode=no_fix
+2026-04-30T13:36:31Z producer_events_end
+END_MS=1777556525000
+END_ISO=
+===END_PI===
+2026-04-30T15:42:07+02:00
+               Local time: Thu 2026-04-30 15:42:07 CEST
+           Universal time: Thu 2026-04-30 13:42:07 UTC
+                 RTC time: Thu 2026-04-30 13:42:07
+                Time zone: Europe/Zurich (CEST, +0200)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no
+===END_COUNTERS===
+eth0 rx=0 tx=0
+lo rx=2627 tx=2627
+tailscale0 rx=86 tx=480
+usb0 rx=856869 tx=1071912
+wlan0 rx=0 tx=0
+===END_QUEUE===
+2026-04-30T13:38:31Z producer_event 2026-04-30T15:37:38+02:00 tracker python3[903]: ble-uplink: upload_response wallTsMs=1777556258846 monoNs=2253983858065 eventId=bc5fa84b-a32b-43e6-a746-0bf4829415f5 attempt=1 uploadAttemptMs=1777556252788 uploadResponseMs=1777556258845 latencyMs=6057 status=200 queueSize=0
+2026-04-30T13:38:31Z producer_event 2026-04-30T15:37:41+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556261877 monoNs=2257014773317 windowSec=10.128 detections=22 queued=1 duplicates=21 uniqueBeacons=1 beaconCounts={"ble:1002:2": 22} queueSize=0
+2026-04-30T13:38:31Z producer_event 2026-04-30T15:37:51+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556271882 monoNs=2267020281553 windowSec=10.006 detections=24 queued=0 duplicates=24 uniqueBeacons=1 beaconCounts={"ble:1002:2": 24} queueSize=0
+2026-04-30T13:38:31Z producer_event 2026-04-30T15:38:01+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556281890 monoNs=2277027811534 windowSec=10.008 detections=21 queued=0 duplicates=21 uniqueBeacons=1 beaconCounts={"ble:1002:2": 21} queueSize=0
+2026-04-30T13:38:31Z producer_event 2026-04-30T15:38:09+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556289131 monoNs=2284269081072 eventId=30ba7c7e-989a-4675-8737-d0c9e44a6485 eventType=gps_no_fix seq=34445 trackerTsMs=1777556288760 localCreatedMs=1777556288787 queueSize=1
+2026-04-30T13:38:31Z producer_event 2026-04-30T15:38:09+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556289131 monoNs=2284269123869 eventType=gps_no_fix seq=34445 trackerTsMs=1777556288760 nofixStreak=2
+2026-04-30T13:38:31Z producer_event 2026-04-30T15:38:09+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556289386 monoNs=2284524081616 eventId=dc8de6ba-a167-475c-9338-9e77e90d0260 eventType=heartbeat seq=34446 trackerTsMs=1777556289131 localCreatedMs=1777556289352 queueSize=2
+2026-04-30T13:38:31Z producer_event 2026-04-30T15:38:09+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556289386 monoNs=2284524120024 eventType=heartbeat seq=34446 trackerTsMs=1777556289131 locationMode=no_fix
+2026-04-30T13:38:31Z producer_event 2026-04-30T15:38:11+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556291895 monoNs=2287033255291 windowSec=10.005 detections=27 queued=0 duplicates=27 uniqueBeacons=1 beaconCounts={"ble:1002:2": 27} queueSize=0
+2026-04-30T13:38:31Z producer_event 2026-04-30T15:38:14+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556294486 monoNs=2289624584462 eventId=30ba7c7e-989a-4675-8737-d0c9e44a6485 attempt=1 uploadAttemptMs=1777556294486 queueSize=2
+2026-04-30T13:38:31Z producer_event 2026-04-30T15:38:14+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556294733 monoNs=2289871274484 eventId=30ba7c7e-989a-4675-8737-d0c9e44a6485 attempt=1 uploadAttemptMs=1777556294486 uploadResponseMs=1777556294733 latencyMs=247 status=200 queueSize=1
+2026-04-30T13:38:31Z producer_event 2026-04-30T15:38:14+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556294733 monoNs=2289871358856 eventId=dc8de6ba-a167-475c-9338-9e77e90d0260 attempt=1 uploadAttemptMs=1777556294733 queueSize=1
+2026-04-30T13:38:31Z producer_event 2026-04-30T15:38:14+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556294993 monoNs=2290131093315 eventId=dc8de6ba-a167-475c-9338-9e77e90d0260 attempt=1 uploadAttemptMs=1777556294733 uploadResponseMs=1777556294993 latencyMs=260 status=200 queueSize=0
+2026-04-30T13:38:31Z producer_event 2026-04-30T15:38:21+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556301903 monoNs=2297041706130 windowSec=10.008 detections=24 queued=0 duplicates=24 uniqueBeacons=1 beaconCounts={"ble:1002:2": 24} queueSize=0
+2026-04-30T13:38:31Z producer_events_end
+2026-04-30T13:39:31Z resource_snapshot uptimeSec=2367.01 loadavg=0.11 0.14 0.09 cpuBusyPct=1.7 cpuFreqMHz=1600 memUsedKb=312960 memUsedPct=7 memAvailKb=3833984 memFreeKb=3657408 swapUsedKb=0 swapUsedPct=0 diskUsedKb=5221760 diskTotalKb=30400792 diskAvailKb=23905492 diskUsePct=18% inodeUsed=126543 inodeTotal=1861872 inodeUsePct=7% cpuTempC=39.7 routeIf=usb0 routeGw=192.168.0.1 routeIp=192.168.0.100/24 netRxBytes=767450 netTxBytes=936033 netRxBps=267 netTxBps=294 throttledRaw=0x50000 uvNow=0 uvSinceBoot=1 freqCapNow=0 freqCapSinceBoot=0 throttledNow=0 throttledSinceBoot=1 softTempNow=0 softTempSinceBoot=0
+2026-04-30T13:39:31Z iface_counters iface=eth0 operState=down carrier=0 rxBytes=0 txBytes=0
+2026-04-30T13:39:31Z iface_counters iface=lo operState=unknown carrier=1 rxBytes=2627 txBytes=2627
+2026-04-30T13:39:31Z iface_counters iface=tailscale0 operState=unknown carrier=1 rxBytes=86 txBytes=480
+2026-04-30T13:39:31Z iface_counters iface=usb0 operState=unknown carrier=1 rxBytes=767450 txBytes=936033
+2026-04-30T13:39:31Z iface_counters iface=wlan0 operState=down carrier=0 rxBytes=0 txBytes=0
+2026-04-30T13:39:32Z queue_snapshot producer=location db=/var/lib/parcel-tracker/location_uplink.db outboxCount=0 deadLetterCount=0 dbBytes=2605056
+2026-04-30T13:39:32Z queue_snapshot producer=ble db=/var/lib/parcel-tracker/ble_uplink.db outboxCount=0 deadLetterCount=na dbBytes=20480
+2026-04-30T13:39:32Z queue_snapshot producer=rfid db=/var/lib/parcel-tracker/rfid_uplink.db outboxCount=0 deadLetterCount=na dbBytes=20480
+2026-04-30T13:39:32Z service_state unit=location_uplink.service active=active enabled=enabled
+2026-04-30T13:39:32Z service_state unit=ble_receiver.service active=active enabled=enabled
+2026-04-30T13:39:32Z service_state unit=rfid_uplink.service active=inactive enabled=enabled
+2026-04-30T13:39:32Z service_state unit=lte-init.service active=active enabled=enabled
+2026-04-30T13:39:32Z service_state unit=lte_watchdog.service active=active enabled=enabled
+2026-04-30T13:39:32Z service_state unit=resource_monitor.service active=active enabled=enabled
+2026-04-30T13:39:32Z producer_events_begin from=1777556311 to=1777556372
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:31+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556311910 monoNs=2307048048288 windowSec=10.006 detections=21 queued=0 duplicates=21 uniqueBeacons=1 beaconCounts={"ble:1002:2": 21} queueSize=0
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:32+02:00 tracker python3[903]: ble-uplink: scan_detected wallTsMs=1777556312209 monoNs=2307347373311 beaconId=ble:1002:2 rssi=-36 seq=39 trackerTsMs=1777556312209
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:32+02:00 tracker python3[903]: ble-uplink: event_queued wallTsMs=1777556312943 monoNs=2308081720479 eventId=041b2eee-4ea5-43f6-9681-d81468813381 eventType=ble_scan beaconId=ble:1002:2 seq=39 trackerTsMs=1777556312209 localCreatedMs=1777556312911 queueSize=1
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:32+02:00 tracker python3[903]: ble-uplink: upload_attempt wallTsMs=1777556312944 monoNs=2308081793685 eventId=041b2eee-4ea5-43f6-9681-d81468813381 attempt=1 uploadAttemptMs=1777556312944 queueSize=1
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:39+02:00 tracker python3[903]: ble-uplink: upload_response wallTsMs=1777556319005 monoNs=2314143362994 eventId=041b2eee-4ea5-43f6-9681-d81468813381 attempt=1 uploadAttemptMs=1777556312944 uploadResponseMs=1777556319005 latencyMs=6061 status=200 queueSize=0
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:42+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556322038 monoNs=2317176507177 windowSec=10.128 detections=26 queued=1 duplicates=25 uniqueBeacons=1 beaconCounts={"ble:1002:2": 26} queueSize=0
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:43+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556323429 monoNs=2318566784075 eventId=65b9f330-83ae-4ebd-9098-5d9bd17bb738 eventType=gps_no_fix seq=34447 trackerTsMs=1777556323356 localCreatedMs=1777556323396 queueSize=1
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:43+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556323429 monoNs=2318566822076 eventType=gps_no_fix seq=34447 trackerTsMs=1777556323356 nofixStreak=0
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:43+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556323500 monoNs=2318637934616 eventId=cd48d87a-650c-4e42-814b-047b7800ed92 eventType=heartbeat seq=34448 trackerTsMs=1777556323429 localCreatedMs=1777556323461 queueSize=2
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:43+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556323500 monoNs=2318637970117 eventType=heartbeat seq=34448 trackerTsMs=1777556323429 locationMode=no_fix
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:48+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556328600 monoNs=2323738506927 eventId=65b9f330-83ae-4ebd-9098-5d9bd17bb738 attempt=1 uploadAttemptMs=1777556328600 queueSize=2
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:48+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556328840 monoNs=2323977972805 eventId=65b9f330-83ae-4ebd-9098-5d9bd17bb738 attempt=1 uploadAttemptMs=1777556328600 uploadResponseMs=1777556328840 latencyMs=240 status=200 queueSize=1
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:48+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556328840 monoNs=2323978062715 eventId=cd48d87a-650c-4e42-814b-047b7800ed92 attempt=1 uploadAttemptMs=1777556328840 queueSize=1
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:49+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556329092 monoNs=2324229806780 eventId=cd48d87a-650c-4e42-814b-047b7800ed92 attempt=1 uploadAttemptMs=1777556328840 uploadResponseMs=1777556329092 latencyMs=252 status=200 queueSize=0
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:38:52+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556332047 monoNs=2327185684859 windowSec=10.009 detections=21 queued=0 duplicates=21 uniqueBeacons=1 beaconCounts={"ble:1002:2": 21} queueSize=0
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:39:02+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556342054 monoNs=2337192076151 windowSec=10.006 detections=21 queued=0 duplicates=21 uniqueBeacons=1 beaconCounts={"ble:1002:2": 21} queueSize=0
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:39:11+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556351500 monoNs=2346637994551 eventId=6f267972-1f96-4a7d-949f-6497090e80d2 eventType=gps_no_fix seq=34449 trackerTsMs=1777556351438 localCreatedMs=1777556351468 queueSize=1
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:39:11+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556351500 monoNs=2346638035200 eventType=gps_no_fix seq=34449 trackerTsMs=1777556351438 nofixStreak=1
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:39:11+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556351566 monoNs=2346704106886 eventId=d1abfa9e-522d-4944-9176-85cf5d557d0e eventType=heartbeat seq=34450 trackerTsMs=1777556351500 localCreatedMs=1777556351537 queueSize=2
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:39:11+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556351566 monoNs=2346704144461 eventType=heartbeat seq=34450 trackerTsMs=1777556351500 locationMode=no_fix
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:39:12+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556352061 monoNs=2347199526584 windowSec=10.007 detections=20 queued=0 duplicates=20 uniqueBeacons=1 beaconCounts={"ble:1002:2": 20} queueSize=0
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:39:16+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556356690 monoNs=2351828099218 eventId=6f267972-1f96-4a7d-949f-6497090e80d2 attempt=1 uploadAttemptMs=1777556356690 queueSize=2
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:39:16+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556356931 monoNs=2352069487501 eventId=6f267972-1f96-4a7d-949f-6497090e80d2 attempt=1 uploadAttemptMs=1777556356690 uploadResponseMs=1777556356931 latencyMs=241 status=200 queueSize=1
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:39:16+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556356931 monoNs=2352069566262 eventId=d1abfa9e-522d-4944-9176-85cf5d557d0e attempt=1 uploadAttemptMs=1777556356931 queueSize=1
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:39:17+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556357193 monoNs=2352331331150 eventId=d1abfa9e-522d-4944-9176-85cf5d557d0e attempt=1 uploadAttemptMs=1777556356931 uploadResponseMs=1777556357193 latencyMs=262 status=200 queueSize=0
+2026-04-30T13:39:32Z producer_event 2026-04-30T15:39:22+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556362068 monoNs=2357206321041 windowSec=10.007 detections=23 queued=0 duplicates=23 uniqueBeacons=1 beaconCounts={"ble:1002:2": 23} queueSize=0
+2026-04-30T13:39:32Z producer_events_end
+2026-04-30T13:40:32Z resource_snapshot uptimeSec=2427.35 loadavg=0.04 0.11 0.08 cpuBusyPct=1.8 cpuFreqMHz=1500 memUsedKb=312304 memUsedPct=7 memAvailKb=3834640 memFreeKb=3657680 swapUsedKb=0 swapUsedPct=0 diskUsedKb=5221768 diskTotalKb=30400792 diskAvailKb=23905484 diskUsePct=18% inodeUsed=126543 inodeTotal=1861872 inodeUsePct=7% cpuTempC=41.9 routeIf=usb0 routeGw=192.168.0.1 routeIp=192.168.0.100/24 netRxBytes=803279 netTxBytes=991793 netRxBps=587 netTxBps=914 throttledRaw=0x50000 uvNow=0 uvSinceBoot=1 freqCapNow=0 freqCapSinceBoot=0 throttledNow=0 throttledSinceBoot=1 softTempNow=0 softTempSinceBoot=0
+2026-04-30T13:40:32Z iface_counters iface=eth0 operState=down carrier=0 rxBytes=0 txBytes=0
+2026-04-30T13:40:32Z iface_counters iface=lo operState=unknown carrier=1 rxBytes=2627 txBytes=2627
+2026-04-30T13:40:32Z iface_counters iface=tailscale0 operState=unknown carrier=1 rxBytes=86 txBytes=480
+2026-04-30T13:40:32Z iface_counters iface=usb0 operState=unknown carrier=1 rxBytes=803279 txBytes=991793
+2026-04-30T13:40:32Z iface_counters iface=wlan0 operState=down carrier=0 rxBytes=0 txBytes=0
+2026-04-30T13:40:32Z queue_snapshot producer=location db=/var/lib/parcel-tracker/location_uplink.db outboxCount=0 deadLetterCount=0 dbBytes=2605056
+2026-04-30T13:40:32Z queue_snapshot producer=ble db=/var/lib/parcel-tracker/ble_uplink.db outboxCount=0 deadLetterCount=na dbBytes=20480
+2026-04-30T13:40:32Z queue_snapshot producer=rfid db=/var/lib/parcel-tracker/rfid_uplink.db outboxCount=0 deadLetterCount=na dbBytes=20480
+2026-04-30T13:40:32Z service_state unit=location_uplink.service active=active enabled=enabled
+2026-04-30T13:40:32Z service_state unit=ble_receiver.service active=active enabled=enabled
+2026-04-30T13:40:32Z service_state unit=rfid_uplink.service active=inactive enabled=enabled
+2026-04-30T13:40:32Z service_state unit=lte-init.service active=active enabled=enabled
+2026-04-30T13:40:32Z service_state unit=lte_watchdog.service active=active enabled=enabled
+2026-04-30T13:40:32Z service_state unit=resource_monitor.service active=active enabled=enabled
+2026-04-30T13:40:32Z producer_events_begin from=1777556372 to=1777556432
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:32+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556372074 monoNs=2367211837233 windowSec=10.006 detections=22 queued=0 duplicates=22 uniqueBeacons=1 beaconCounts={"ble:1002:2": 22} queueSize=0
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:32+02:00 tracker python3[903]: ble-uplink: scan_detected wallTsMs=1777556372399 monoNs=2367536979323 beaconId=ble:1002:2 rssi=-63 seq=40 trackerTsMs=1777556372399
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:33+02:00 tracker python3[903]: ble-uplink: event_queued wallTsMs=1777556373114 monoNs=2368252316503 eventId=ee4cd8a5-61f2-4632-a536-e728de14e697 eventType=ble_scan beaconId=ble:1002:2 seq=40 trackerTsMs=1777556372399 localCreatedMs=1777556373074 queueSize=1
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:33+02:00 tracker python3[903]: ble-uplink: upload_attempt wallTsMs=1777556373114 monoNs=2368252421857 eventId=ee4cd8a5-61f2-4632-a536-e728de14e697 attempt=1 uploadAttemptMs=1777556373114 queueSize=1
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:39+02:00 tracker python3[903]: ble-uplink: upload_response wallTsMs=1777556379053 monoNs=2374191371638 eventId=ee4cd8a5-61f2-4632-a536-e728de14e697 attempt=1 uploadAttemptMs=1777556373114 uploadResponseMs=1777556379053 latencyMs=5939 status=200 queueSize=0
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:42+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556382097 monoNs=2377235019826 windowSec=10.023 detections=29 queued=1 duplicates=28 uniqueBeacons=1 beaconCounts={"ble:1002:2": 29} queueSize=0
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:47+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556387949 monoNs=2383086782339 eventId=81a56f6f-8e39-421e-b8f6-845030cb5e7b eventType=gps_no_fix seq=34451 trackerTsMs=1777556387890 localCreatedMs=1777556387921 queueSize=1
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:47+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556387949 monoNs=2383086821951 eventType=gps_no_fix seq=34451 trackerTsMs=1777556387890 nofixStreak=2
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:48+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556388019 monoNs=2383157662823 eventId=5d814854-cc50-4bbd-b52a-f535a4651211 eventType=heartbeat seq=34452 trackerTsMs=1777556387949 localCreatedMs=1777556387988 queueSize=2
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:48+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556388019 monoNs=2383157700398 eventType=heartbeat seq=34452 trackerTsMs=1777556387949 locationMode=no_fix
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:52+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556392103 monoNs=2387241373221 windowSec=10.006 detections=22 queued=0 duplicates=22 uniqueBeacons=1 beaconCounts={"ble:1002:2": 22} queueSize=0
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:53+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556393107 monoNs=2388245294522 eventId=81a56f6f-8e39-421e-b8f6-845030cb5e7b attempt=1 uploadAttemptMs=1777556393107 queueSize=2
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:53+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556393352 monoNs=2388490017267 eventId=81a56f6f-8e39-421e-b8f6-845030cb5e7b attempt=1 uploadAttemptMs=1777556393107 uploadResponseMs=1777556393352 latencyMs=245 status=200 queueSize=1
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:53+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556393352 monoNs=2388490286088 eventId=5d814854-cc50-4bbd-b52a-f535a4651211 attempt=1 uploadAttemptMs=1777556393352 queueSize=1
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:39:53+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556393623 monoNs=2388760860576 eventId=5d814854-cc50-4bbd-b52a-f535a4651211 attempt=1 uploadAttemptMs=1777556393352 uploadResponseMs=1777556393623 latencyMs=271 status=200 queueSize=0
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:40:02+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556402111 monoNs=2397249515781 windowSec=10.008 detections=23 queued=0 duplicates=23 uniqueBeacons=1 beaconCounts={"ble:1002:2": 23} queueSize=0
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:40:12+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556412118 monoNs=2407256508101 windowSec=10.007 detections=17 queued=0 duplicates=17 uniqueBeacons=1 beaconCounts={"ble:1002:2": 17} queueSize=0
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:40:22+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556422125 monoNs=2417262902926 windowSec=10.006 detections=29 queued=0 duplicates=29 uniqueBeacons=1 beaconCounts={"ble:1002:2": 29} queueSize=0
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:40:22+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556422764 monoNs=2417902605651 eventId=2f7400d3-f1c5-4d01-9561-d8dd95ce215a eventType=gps_no_fix seq=34453 trackerTsMs=1777556421949 localCreatedMs=1777556422486 queueSize=1
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:40:22+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556422764 monoNs=2417902648245 eventType=gps_no_fix seq=34453 trackerTsMs=1777556421949 nofixStreak=0
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:40:22+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556422824 monoNs=2417962572771 eventId=92c43d6a-c079-4123-b652-0265f00b8868 eventType=heartbeat seq=34454 trackerTsMs=1777556422765 localCreatedMs=1777556422794 queueSize=2
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:40:22+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556422824 monoNs=2417962610476 eventType=heartbeat seq=34454 trackerTsMs=1777556422765 locationMode=no_fix
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:40:27+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556427911 monoNs=2423048866039 eventId=2f7400d3-f1c5-4d01-9561-d8dd95ce215a attempt=1 uploadAttemptMs=1777556427911 queueSize=2
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:40:28+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556428160 monoNs=2423298571603 eventId=2f7400d3-f1c5-4d01-9561-d8dd95ce215a attempt=1 uploadAttemptMs=1777556427911 uploadResponseMs=1777556428160 latencyMs=249 status=200 queueSize=1
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:40:28+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556428160 monoNs=2423298652716 eventId=92c43d6a-c079-4123-b652-0265f00b8868 attempt=1 uploadAttemptMs=1777556428160 queueSize=1
+2026-04-30T13:40:32Z producer_event 2026-04-30T15:40:28+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556428413 monoNs=2423551407674 eventId=92c43d6a-c079-4123-b652-0265f00b8868 attempt=1 uploadAttemptMs=1777556428160 uploadResponseMs=1777556428413 latencyMs=253 status=200 queueSize=0
+2026-04-30T13:40:32Z producer_events_end
+2026-04-30T13:41:32Z resource_snapshot uptimeSec=2487.63 loadavg=0.01 0.09 0.07 cpuBusyPct=1.7 cpuFreqMHz=1600 memUsedKb=309760 memUsedPct=7 memAvailKb=3837184 memFreeKb=3659808 swapUsedKb=0 swapUsedPct=0 diskUsedKb=5221780 diskTotalKb=30400792 diskAvailKb=23905472 diskUsePct=18% inodeUsed=126543 inodeTotal=1861872 inodeUsePct=7% cpuTempC=40.2 routeIf=usb0 routeGw=192.168.0.1 routeIp=192.168.0.100/24 netRxBytes=829176 netTxBytes=1035070 netRxBps=431 netTxBps=721 throttledRaw=0x50000 uvNow=0 uvSinceBoot=1 freqCapNow=0 freqCapSinceBoot=0 throttledNow=0 throttledSinceBoot=1 softTempNow=0 softTempSinceBoot=0
+2026-04-30T13:41:32Z iface_counters iface=eth0 operState=down carrier=0 rxBytes=0 txBytes=0
+2026-04-30T13:41:32Z iface_counters iface=lo operState=unknown carrier=1 rxBytes=2627 txBytes=2627
+2026-04-30T13:41:32Z iface_counters iface=tailscale0 operState=unknown carrier=1 rxBytes=86 txBytes=480
+2026-04-30T13:41:32Z iface_counters iface=usb0 operState=unknown carrier=1 rxBytes=829228 txBytes=1035070
+2026-04-30T13:41:32Z iface_counters iface=wlan0 operState=down carrier=0 rxBytes=0 txBytes=0
+2026-04-30T13:41:32Z queue_snapshot producer=location db=/var/lib/parcel-tracker/location_uplink.db outboxCount=2 deadLetterCount=0 dbBytes=2605056
+2026-04-30T13:41:32Z queue_snapshot producer=ble db=/var/lib/parcel-tracker/ble_uplink.db outboxCount=0 deadLetterCount=na dbBytes=20480
+2026-04-30T13:41:32Z queue_snapshot producer=rfid db=/var/lib/parcel-tracker/rfid_uplink.db outboxCount=0 deadLetterCount=na dbBytes=20480
+2026-04-30T13:41:32Z service_state unit=location_uplink.service active=active enabled=enabled
+2026-04-30T13:41:32Z service_state unit=ble_receiver.service active=active enabled=enabled
+2026-04-30T13:41:32Z service_state unit=rfid_uplink.service active=inactive enabled=enabled
+2026-04-30T13:41:32Z service_state unit=lte-init.service active=active enabled=enabled
+2026-04-30T13:41:32Z service_state unit=lte_watchdog.service active=active enabled=enabled
+2026-04-30T13:41:32Z service_state unit=resource_monitor.service active=active enabled=enabled
+2026-04-30T13:41:32Z producer_events_begin from=1777556432 to=1777556492
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:32+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556432133 monoNs=2427271024039 windowSec=10.008 detections=18 queued=0 duplicates=18 uniqueBeacons=1 beaconCounts={"ble:1002:2": 18} queueSize=0
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:32+02:00 tracker python3[903]: ble-uplink: scan_detected wallTsMs=1777556432594 monoNs=2427732421245 beaconId=ble:1002:2 rssi=-61 seq=41 trackerTsMs=1777556432594
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:33+02:00 tracker python3[903]: ble-uplink: event_queued wallTsMs=1777556433162 monoNs=2428300338258 eventId=cbd837f3-d184-47d9-8235-f5fe3dadfb33 eventType=ble_scan beaconId=ble:1002:2 seq=41 trackerTsMs=1777556432594 localCreatedMs=1777556433133 queueSize=1
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:33+02:00 tracker python3[903]: ble-uplink: upload_attempt wallTsMs=1777556433162 monoNs=2428300418315 eventId=cbd837f3-d184-47d9-8235-f5fe3dadfb33 attempt=1 uploadAttemptMs=1777556433162 queueSize=1
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:39+02:00 tracker python3[903]: ble-uplink: upload_response wallTsMs=1777556439072 monoNs=2434210183299 eventId=cbd837f3-d184-47d9-8235-f5fe3dadfb33 attempt=1 uploadAttemptMs=1777556433162 uploadResponseMs=1777556439072 latencyMs=5910 status=200 queueSize=0
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:43+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556443109 monoNs=2438246856254 windowSec=10.976 detections=27 queued=1 duplicates=26 uniqueBeacons=1 beaconCounts={"ble:1002:2": 27} queueSize=0
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:50+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556450782 monoNs=2445920072011 eventId=b9ee9a11-696f-4c54-9370-d32d114e45ce eventType=gps_no_fix seq=34455 trackerTsMs=1777556450712 localCreatedMs=1777556450751 queueSize=1
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:50+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556450782 monoNs=2445920113846 eventType=gps_no_fix seq=34455 trackerTsMs=1777556450712 nofixStreak=1
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:50+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556450866 monoNs=2446004204729 eventId=d642708f-66d7-42c9-8508-87e13f0424bd eventType=heartbeat seq=34456 trackerTsMs=1777556450782 localCreatedMs=1777556450818 queueSize=2
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:50+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556450866 monoNs=2446004242970 eventType=heartbeat seq=34456 trackerTsMs=1777556450782 locationMode=no_fix
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:53+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556453116 monoNs=2448254033406 windowSec=10.007 detections=24 queued=0 duplicates=24 uniqueBeacons=1 beaconCounts={"ble:1002:2": 24} queueSize=0
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:55+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556455961 monoNs=2451099194472 eventId=b9ee9a11-696f-4c54-9370-d32d114e45ce attempt=1 uploadAttemptMs=1777556455961 queueSize=2
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:56+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556456201 monoNs=2451339099904 eventId=b9ee9a11-696f-4c54-9370-d32d114e45ce attempt=1 uploadAttemptMs=1777556455961 uploadResponseMs=1777556456201 latencyMs=240 status=200 queueSize=1
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:56+02:00 tracker python3[1234]: location-uplink: upload_attempt wallTsMs=1777556456201 monoNs=2451339179091 eventId=d642708f-66d7-42c9-8508-87e13f0424bd attempt=1 uploadAttemptMs=1777556456201 queueSize=1
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:40:56+02:00 tracker python3[1234]: location-uplink: upload_response wallTsMs=1777556456464 monoNs=2451601829892 eventId=d642708f-66d7-42c9-8508-87e13f0424bd attempt=1 uploadAttemptMs=1777556456201 uploadResponseMs=1777556456464 latencyMs=263 status=200 queueSize=0
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:41:03+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556463125 monoNs=2458262837605 windowSec=10.009 detections=22 queued=0 duplicates=22 uniqueBeacons=1 beaconCounts={"ble:1002:2": 22} queueSize=0
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:41:13+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556473131 monoNs=2468269325719 windowSec=10.006 detections=21 queued=0 duplicates=21 uniqueBeacons=1 beaconCounts={"ble:1002:2": 21} queueSize=0
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:41:23+02:00 tracker python3[903]: ble-uplink: scan_window wallTsMs=1777556483140 monoNs=2478278070396 windowSec=10.009 detections=30 queued=0 duplicates=30 uniqueBeacons=1 beaconCounts={"ble:1002:2": 30} queueSize=0
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:41:27+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556487244 monoNs=2482382658629 eventId=22fb04fe-776c-4e9c-879c-586f4ab6ca65 eventType=gps_no_fix seq=34457 trackerTsMs=1777556487175 localCreatedMs=1777556487206 queueSize=1
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:41:27+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556487244 monoNs=2482382697129 eventType=gps_no_fix seq=34457 trackerTsMs=1777556487175 nofixStreak=2
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:41:27+02:00 tracker python3[1234]: location-uplink: event_queued wallTsMs=1777556487338 monoNs=2482476132740 eventId=e08cb556-0187-4bc1-b067-9ab15a833455 eventType=heartbeat seq=34458 trackerTsMs=1777556487245 localCreatedMs=1777556487275 queueSize=2
+2026-04-30T13:41:32Z producer_event 2026-04-30T15:41:27+02:00 tracker python3[1234]: location-uplink: gnss_event wallTsMs=1777556487338 monoNs=2482476171444 eventType=heartbeat seq=34458 trackerTsMs=1777556487245 locationMode=no_fix
+2026-04-30T13:41:32Z producer_events_end

@@ -1,0 +1,15 @@
+---current-queue---
+---rfid-outbox-sample---
+---rfid-status---
+× rfid_uplink.service - RFID Uplink to Convex /ingest
+     Loaded: loaded (/etc/systemd/system/rfid_uplink.service; enabled; preset: enabled)
+     Active: failed (Result: exit-code) since Sun 2026-05-10 21:11:54 CEST; 17min ago
+   Duration: 33ms
+ Invocation: 8724fefb44314555b14f04a7ef2bec07
+    Process: 2157 ExecStart=/usr/bin/python3 /opt/parcel-tracker-pi/runtime/rfid_uplink.py (code=exited, status=1/FAILURE)
+   Main PID: 2157 (code=exited, status=1/FAILURE)
+
+May 10 21:11:54 tracker2 systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 11.
+May 10 21:11:54 tracker2 systemd[1]: rfid_uplink.service: Start request repeated too quickly.
+May 10 21:11:54 tracker2 systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+May 10 21:11:54 tracker2 systemd[1]: Failed to start rfid_uplink.service - RFID Uplink to Convex /ingest.

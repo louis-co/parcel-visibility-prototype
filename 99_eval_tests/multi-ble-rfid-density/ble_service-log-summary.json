@@ -1,0 +1,1296 @@
+{
+  "bleService": {
+    "scanWindowCount": 96,
+    "attempts": 61,
+    "responses": 60,
+    "fallbacks": 1,
+    "p50LatencyMs": 12282,
+    "p95LatencyMs": 16509,
+    "maxLatencyMs": 29857,
+    "scanWindows": [
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.004
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 24,
+        "queued": 10,
+        "duplicates": 14,
+        "uniqueBeacons": 10,
+        "queueSize": 9,
+        "windowSec": 10.009
+      },
+      {
+        "detections": 31,
+        "queued": 11,
+        "duplicates": 20,
+        "uniqueBeacons": 12,
+        "queueSize": 1,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 40,
+        "queued": 12,
+        "duplicates": 28,
+        "uniqueBeacons": 12,
+        "queueSize": 12,
+        "windowSec": 10.004
+      },
+      {
+        "detections": 37,
+        "queued": 10,
+        "duplicates": 27,
+        "uniqueBeacons": 11,
+        "queueSize": 10,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 33,
+        "queued": 11,
+        "duplicates": 22,
+        "uniqueBeacons": 11,
+        "queueSize": 8,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 20,
+        "queued": 5,
+        "duplicates": 15,
+        "uniqueBeacons": 6,
+        "queueSize": 0,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 34,
+        "queued": 11,
+        "duplicates": 23,
+        "uniqueBeacons": 11,
+        "queueSize": 3,
+        "windowSec": 10.009
+      },
+      {
+        "detections": 33,
+        "queued": 12,
+        "duplicates": 21,
+        "uniqueBeacons": 12,
+        "queueSize": 15,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 30,
+        "queued": 11,
+        "duplicates": 19,
+        "uniqueBeacons": 12,
+        "queueSize": 26,
+        "windowSec": 10.004
+      },
+      {
+        "detections": 35,
+        "queued": 10,
+        "duplicates": 25,
+        "uniqueBeacons": 11,
+        "queueSize": 36,
+        "windowSec": 10.004
+      },
+      {
+        "detections": 34,
+        "queued": 11,
+        "duplicates": 23,
+        "uniqueBeacons": 11,
+        "queueSize": 47,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 10,
+        "queued": 4,
+        "duplicates": 6,
+        "uniqueBeacons": 5,
+        "queueSize": 51,
+        "windowSec": 10.008
+      },
+      {
+        "detections": 34,
+        "queued": 11,
+        "duplicates": 23,
+        "uniqueBeacons": 11,
+        "queueSize": 3,
+        "windowSec": 10.009
+      },
+      {
+        "detections": 38,
+        "queued": 11,
+        "duplicates": 27,
+        "uniqueBeacons": 11,
+        "queueSize": 14,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 41,
+        "queued": 12,
+        "duplicates": 29,
+        "uniqueBeacons": 12,
+        "queueSize": 26,
+        "windowSec": 10.008
+      },
+      {
+        "detections": 33,
+        "queued": 10,
+        "duplicates": 23,
+        "uniqueBeacons": 10,
+        "queueSize": 5,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 29,
+        "queued": 11,
+        "duplicates": 18,
+        "uniqueBeacons": 11,
+        "queueSize": 10,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 12,
+        "queued": 5,
+        "duplicates": 7,
+        "uniqueBeacons": 6,
+        "queueSize": 15,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 29,
+        "queued": 11,
+        "duplicates": 18,
+        "uniqueBeacons": 11,
+        "queueSize": 6,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 36,
+        "queued": 12,
+        "duplicates": 24,
+        "uniqueBeacons": 13,
+        "queueSize": 3,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 38,
+        "queued": 11,
+        "duplicates": 27,
+        "uniqueBeacons": 12,
+        "queueSize": 10,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 28,
+        "queued": 10,
+        "duplicates": 18,
+        "uniqueBeacons": 10,
+        "queueSize": 4,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 33,
+        "queued": 11,
+        "duplicates": 22,
+        "uniqueBeacons": 11,
+        "queueSize": 1,
+        "windowSec": 10.009
+      },
+      {
+        "detections": 21,
+        "queued": 5,
+        "duplicates": 16,
+        "uniqueBeacons": 6,
+        "queueSize": 6,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 32,
+        "queued": 11,
+        "duplicates": 21,
+        "uniqueBeacons": 11,
+        "queueSize": 10,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 32,
+        "queued": 12,
+        "duplicates": 20,
+        "uniqueBeacons": 12,
+        "queueSize": 10,
+        "windowSec": 10.005
+      },
+      {
+        "detections": 34,
+        "queued": 11,
+        "duplicates": 23,
+        "uniqueBeacons": 12,
+        "queueSize": 7,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 31,
+        "queued": 11,
+        "duplicates": 20,
+        "uniqueBeacons": 11,
+        "queueSize": 2,
+        "windowSec": 10.005
+      },
+      {
+        "detections": 38,
+        "queued": 10,
+        "duplicates": 28,
+        "uniqueBeacons": 11,
+        "queueSize": 12,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 17,
+        "queued": 5,
+        "duplicates": 12,
+        "uniqueBeacons": 6,
+        "queueSize": 2,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 35,
+        "queued": 10,
+        "duplicates": 25,
+        "uniqueBeacons": 10,
+        "queueSize": 3,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 32,
+        "queued": 12,
+        "duplicates": 20,
+        "uniqueBeacons": 12,
+        "queueSize": 1,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 33,
+        "queued": 11,
+        "duplicates": 22,
+        "uniqueBeacons": 12,
+        "queueSize": 11,
+        "windowSec": 10.011
+      },
+      {
+        "detections": 26,
+        "queued": 10,
+        "duplicates": 16,
+        "uniqueBeacons": 10,
+        "queueSize": 5,
+        "windowSec": 10.005
+      },
+      {
+        "detections": 29,
+        "queued": 11,
+        "duplicates": 18,
+        "uniqueBeacons": 11,
+        "queueSize": 6,
+        "windowSec": 10.008
+      },
+      {
+        "detections": 13,
+        "queued": 5,
+        "duplicates": 8,
+        "uniqueBeacons": 6,
+        "queueSize": 5,
+        "windowSec": 10.005
+      },
+      {
+        "detections": 36,
+        "queued": 11,
+        "duplicates": 25,
+        "uniqueBeacons": 11,
+        "queueSize": 7,
+        "windowSec": 10.009
+      },
+      {
+        "detections": 34,
+        "queued": 12,
+        "duplicates": 22,
+        "uniqueBeacons": 12,
+        "queueSize": 3,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 32,
+        "queued": 11,
+        "duplicates": 21,
+        "uniqueBeacons": 11,
+        "queueSize": 14,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 26,
+        "queued": 11,
+        "duplicates": 15,
+        "uniqueBeacons": 11,
+        "queueSize": 8,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 31,
+        "queued": 9,
+        "duplicates": 22,
+        "uniqueBeacons": 10,
+        "queueSize": 1,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 11,
+        "queued": 5,
+        "duplicates": 6,
+        "uniqueBeacons": 5,
+        "queueSize": 6,
+        "windowSec": 10.009
+      },
+      {
+        "detections": 33,
+        "queued": 11,
+        "duplicates": 22,
+        "uniqueBeacons": 11,
+        "queueSize": 10,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 39,
+        "queued": 12,
+        "duplicates": 27,
+        "uniqueBeacons": 12,
+        "queueSize": 8,
+        "windowSec": 10.005
+      },
+      {
+        "detections": 32,
+        "queued": 11,
+        "duplicates": 21,
+        "uniqueBeacons": 11,
+        "queueSize": 3,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 31,
+        "queued": 11,
+        "duplicates": 20,
+        "uniqueBeacons": 11,
+        "queueSize": 14,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 31,
+        "queued": 10,
+        "duplicates": 21,
+        "uniqueBeacons": 11,
+        "queueSize": 7,
+        "windowSec": 10.008
+      },
+      {
+        "detections": 7,
+        "queued": 4,
+        "duplicates": 3,
+        "uniqueBeacons": 4,
+        "queueSize": 0,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 34,
+        "queued": 11,
+        "duplicates": 23,
+        "uniqueBeacons": 11,
+        "queueSize": 11,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 30,
+        "queued": 12,
+        "duplicates": 18,
+        "uniqueBeacons": 12,
+        "queueSize": 10,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 32,
+        "queued": 11,
+        "duplicates": 21,
+        "uniqueBeacons": 11,
+        "queueSize": 5,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 27,
+        "queued": 11,
+        "duplicates": 16,
+        "uniqueBeacons": 11,
+        "queueSize": 7,
+        "windowSec": 10.008
+      },
+      {
+        "detections": 31,
+        "queued": 10,
+        "duplicates": 21,
+        "uniqueBeacons": 11,
+        "queueSize": 9,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 11,
+        "queued": 5,
+        "duplicates": 6,
+        "uniqueBeacons": 5,
+        "queueSize": 1,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 30,
+        "queued": 11,
+        "duplicates": 19,
+        "uniqueBeacons": 11,
+        "queueSize": 3,
+        "windowSec": 10.005
+      },
+      {
+        "detections": 33,
+        "queued": 10,
+        "duplicates": 23,
+        "uniqueBeacons": 10,
+        "queueSize": 1,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 33,
+        "queued": 11,
+        "duplicates": 22,
+        "uniqueBeacons": 11,
+        "queueSize": 12,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 27,
+        "queued": 11,
+        "duplicates": 16,
+        "uniqueBeacons": 11,
+        "queueSize": 9,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 35,
+        "queued": 10,
+        "duplicates": 25,
+        "uniqueBeacons": 11,
+        "queueSize": 5,
+        "windowSec": 10.008
+      },
+      {
+        "detections": 14,
+        "queued": 5,
+        "duplicates": 9,
+        "uniqueBeacons": 5,
+        "queueSize": 1,
+        "windowSec": 10.005
+      },
+      {
+        "detections": 34,
+        "queued": 9,
+        "duplicates": 25,
+        "uniqueBeacons": 10,
+        "queueSize": 1,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 42,
+        "queued": 12,
+        "duplicates": 30,
+        "uniqueBeacons": 12,
+        "queueSize": 11,
+        "windowSec": 10.005
+      },
+      {
+        "detections": 24,
+        "queued": 10,
+        "duplicates": 14,
+        "uniqueBeacons": 10,
+        "queueSize": 6,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 32,
+        "queued": 11,
+        "duplicates": 21,
+        "uniqueBeacons": 11,
+        "queueSize": 2,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 29,
+        "queued": 10,
+        "duplicates": 19,
+        "uniqueBeacons": 11,
+        "queueSize": 12,
+        "windowSec": 10.005
+      },
+      {
+        "detections": 17,
+        "queued": 6,
+        "duplicates": 11,
+        "uniqueBeacons": 6,
+        "queueSize": 2,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 27,
+        "queued": 9,
+        "duplicates": 18,
+        "uniqueBeacons": 10,
+        "queueSize": 3,
+        "windowSec": 10.008
+      },
+      {
+        "detections": 41,
+        "queued": 12,
+        "duplicates": 29,
+        "uniqueBeacons": 12,
+        "queueSize": 2,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 28,
+        "queued": 11,
+        "duplicates": 17,
+        "uniqueBeacons": 11,
+        "queueSize": 13,
+        "windowSec": 10.008
+      },
+      {
+        "detections": 28,
+        "queued": 11,
+        "duplicates": 17,
+        "uniqueBeacons": 11,
+        "queueSize": 7,
+        "windowSec": 10.005
+      },
+      {
+        "detections": 20,
+        "queued": 9,
+        "duplicates": 11,
+        "uniqueBeacons": 9,
+        "queueSize": 0,
+        "windowSec": 10.005
+      },
+      {
+        "detections": 11,
+        "queued": 4,
+        "duplicates": 7,
+        "uniqueBeacons": 4,
+        "queueSize": 4,
+        "windowSec": 10.008
+      },
+      {
+        "detections": 36,
+        "queued": 11,
+        "duplicates": 25,
+        "uniqueBeacons": 11,
+        "queueSize": 4,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 37,
+        "queued": 12,
+        "duplicates": 25,
+        "uniqueBeacons": 12,
+        "queueSize": 1,
+        "windowSec": 10.009
+      },
+      {
+        "detections": 40,
+        "queued": 11,
+        "duplicates": 29,
+        "uniqueBeacons": 11,
+        "queueSize": 11,
+        "windowSec": 10.008
+      },
+      {
+        "detections": 27,
+        "queued": 11,
+        "duplicates": 16,
+        "uniqueBeacons": 11,
+        "queueSize": 2,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 30,
+        "queued": 9,
+        "duplicates": 21,
+        "uniqueBeacons": 9,
+        "queueSize": 11,
+        "windowSec": 10.005
+      },
+      {
+        "detections": 15,
+        "queued": 5,
+        "duplicates": 10,
+        "uniqueBeacons": 5,
+        "queueSize": 1,
+        "windowSec": 10.008
+      },
+      {
+        "detections": 2,
+        "queued": 1,
+        "duplicates": 1,
+        "uniqueBeacons": 1,
+        "queueSize": 2,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.008
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.006
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.004
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.008
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.007
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.008
+      },
+      {
+        "detections": 0,
+        "queued": 0,
+        "duplicates": 0,
+        "uniqueBeacons": 0,
+        "queueSize": 0,
+        "windowSec": 10.008
+      }
+    ]
+  },
+  "rfidService": {
+    "scanWindowCount": 63,
+    "attempts": 124,
+    "responses": 112,
+    "fallbacks": 10,
+    "p50LatencyMs": 6232,
+    "p95LatencyMs": 8013,
+    "maxLatencyMs": 19788,
+    "scanWindows": [
+      {
+        "queued": 0,
+        "duplicates": 0,
+        "readCount": 0,
+        "uniqueEpcs": 0,
+        "queueSize": 0,
+        "windowSec": 10.059
+      },
+      {
+        "queued": 0,
+        "duplicates": 0,
+        "readCount": 0,
+        "uniqueEpcs": 0,
+        "queueSize": 0,
+        "windowSec": 10.005
+      },
+      {
+        "queued": 0,
+        "duplicates": 0,
+        "readCount": 0,
+        "uniqueEpcs": 0,
+        "queueSize": 0,
+        "windowSec": 10.005
+      },
+      {
+        "queued": 0,
+        "duplicates": 0,
+        "readCount": 0,
+        "uniqueEpcs": 0,
+        "queueSize": 0,
+        "windowSec": 10.005
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 13.919
+      },
+      {
+        "queued": 1,
+        "duplicates": 1,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 26.001
+      },
+      {
+        "queued": 15,
+        "duplicates": 70,
+        "readCount": 85,
+        "uniqueEpcs": 16,
+        "queueSize": 0,
+        "windowSec": 11.746
+      },
+      {
+        "queued": 1,
+        "duplicates": 224,
+        "readCount": 225,
+        "uniqueEpcs": 16,
+        "queueSize": 0,
+        "windowSec": 10.124
+      },
+      {
+        "queued": 3,
+        "duplicates": 201,
+        "readCount": 204,
+        "uniqueEpcs": 16,
+        "queueSize": 0,
+        "windowSec": 15.285
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.219
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.101
+      },
+      {
+        "queued": 1,
+        "duplicates": 0,
+        "readCount": 1,
+        "uniqueEpcs": 1,
+        "queueSize": 0,
+        "windowSec": 13.97
+      },
+      {
+        "queued": 1,
+        "duplicates": 0,
+        "readCount": 1,
+        "uniqueEpcs": 1,
+        "queueSize": 0,
+        "windowSec": 13.812
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.233
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 13.166
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 19.252
+      },
+      {
+        "queued": 1,
+        "duplicates": 0,
+        "readCount": 1,
+        "uniqueEpcs": 1,
+        "queueSize": 0,
+        "windowSec": 14.603
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.656
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 13.265
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 11.834
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 13.933
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 13.232
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.914
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 14.63
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 13.118
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.96
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 14.234
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 20.624
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 13.246
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 14.636
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 13.194
+      },
+      {
+        "queued": 1,
+        "duplicates": 0,
+        "readCount": 1,
+        "uniqueEpcs": 1,
+        "queueSize": 0,
+        "windowSec": 13.873
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 15.412
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.307
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 14.393
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 15.428
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 14.277
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 13.826
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.807
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 14.52
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 13.815
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 13.289
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 13.613
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.495
+      },
+      {
+        "queued": 1,
+        "duplicates": 0,
+        "readCount": 1,
+        "uniqueEpcs": 1,
+        "queueSize": 0,
+        "windowSec": 10.073
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 14.356
+      },
+      {
+        "queued": 1,
+        "duplicates": 0,
+        "readCount": 1,
+        "uniqueEpcs": 1,
+        "queueSize": 0,
+        "windowSec": 13.773
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.092
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 15.305
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.788
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 14.474
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 13.096
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 14.147
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.812
+      },
+      {
+        "queued": 1,
+        "duplicates": 0,
+        "readCount": 1,
+        "uniqueEpcs": 1,
+        "queueSize": 0,
+        "windowSec": 14.391
+      },
+      {
+        "queued": 1,
+        "duplicates": 0,
+        "readCount": 1,
+        "uniqueEpcs": 1,
+        "queueSize": 0,
+        "windowSec": 14.644
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.871
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.649
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.617
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 13.511
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.409
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.187
+      },
+      {
+        "queued": 2,
+        "duplicates": 0,
+        "readCount": 2,
+        "uniqueEpcs": 2,
+        "queueSize": 0,
+        "windowSec": 12.647
+      }
+    ]
+  }
+}

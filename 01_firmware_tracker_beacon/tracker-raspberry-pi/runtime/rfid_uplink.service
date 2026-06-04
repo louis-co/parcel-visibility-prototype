@@ -1,0 +1,29 @@
+[Unit]
+Description=RFID Uplink to Convex /ingest
+After=network-online.target
+Wants=network-online.target
+After=dev-rfid_reader.device
+BindsTo=dev-rfid_reader.device
+ConditionPathExists=/dev/rfid_reader
+StartLimitIntervalSec=60
+StartLimitBurst=10
+
+[Service]
+Type=notify
+NotifyAccess=main
+WatchdogSec=30
+User=louis
+Group=louis
+WorkingDirectory=/opt/parcel-tracker-pi/runtime
+EnvironmentFile=-/etc/default/rfid_uplink
+Environment=INGEST_URL=https://your-deployment.convex.site/ingest
+Environment=TRACKER_ID=pi-5-gateway-01
+Environment=CONTRACT_VERSION=1.0.0
+Environment=RFID_DEVICE=/dev/rfid_reader
+Environment=RFID_COOLDOWN_SECONDS=60
+ExecStart=/usr/bin/python3 /opt/parcel-tracker-pi/runtime/rfid_uplink.py
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

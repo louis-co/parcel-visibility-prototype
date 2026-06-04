@@ -1,0 +1,436 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 10px);
+  --radius-3xl: calc(var(--radius) + 18px);
+  --radius-4xl: calc(var(--radius) + 30px);
+  --font-sans: var(--font-geist-sans), "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-display: var(--font-geist-sans);
+  --font-pixel: var(--font-geist-pixel-square), "Geist Pixel", monospace;
+}
+
+:root {
+  --radius: 0.72rem;
+
+  /* Core palette (5 colors only) */
+  --tone-ink: #101311;
+  --tone-panel: #171b18;
+  --tone-line: #313833;
+  --tone-text: #dde5db;
+  --tone-accent: #b9d8be;
+
+  /* Semantic tokens derived from the core palette */
+  --shell-bg: var(--tone-ink);
+  --background: var(--tone-ink);
+  --foreground: var(--tone-text);
+  --card: color-mix(in srgb, var(--tone-panel) 94%, var(--tone-ink) 6%);
+  --card-foreground: var(--tone-text);
+  --popover: color-mix(in srgb, var(--tone-panel) 90%, var(--tone-ink) 10%);
+  --popover-foreground: var(--tone-text);
+  --primary: var(--tone-accent);
+  --primary-foreground: var(--tone-ink);
+  --secondary: color-mix(in srgb, var(--tone-panel) 82%, var(--tone-line) 18%);
+  --secondary-foreground: var(--tone-text);
+  --muted: color-mix(in srgb, var(--tone-panel) 70%, var(--tone-line) 30%);
+  --muted-foreground: color-mix(in srgb, var(--tone-text) 58%, transparent);
+  --accent: color-mix(in srgb, var(--tone-accent) 20%, var(--tone-panel) 80%);
+  --accent-foreground: var(--tone-text);
+  --destructive: color-mix(in srgb, var(--tone-text) 62%, var(--tone-line) 38%);
+  --border: color-mix(in srgb, var(--tone-line) 78%, var(--tone-text) 22%);
+  --input: color-mix(in srgb, var(--tone-panel) 87%, var(--tone-line) 13%);
+  --ring: color-mix(in srgb, var(--tone-accent) 48%, transparent);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply text-foreground;
+    min-height: 100vh;
+    font-family: var(--font-sans);
+    background: var(--background);
+  }
+}
+
+.dashboard-shell {
+  position: relative;
+  background: var(--background);
+}
+
+.dashboard-canvas {
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+
+.surface-panel,
+.surface-card {
+  border: 1px solid color-mix(in srgb, var(--tone-line) 85%, var(--tone-text) 15%);
+  border-radius: 16px;
+  background: var(--card);
+  box-shadow: none;
+}
+
+.hero-panel {
+  border-radius: 17px;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+
+.font-pixel {
+  font-family: var(--font-pixel);
+  letter-spacing: 0.06em;
+}
+
+.time-label,
+.date-label {
+  font-family: var(--font-mono);
+  color: color-mix(in srgb, var(--tone-text) 88%, transparent);
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+
+@keyframes panel-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.entry-fade {
+  animation: panel-rise 340ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+
+.reveal-1 { animation-delay: 10ms; }
+.reveal-2 { animation-delay: 32ms; }
+.reveal-3 { animation-delay: 54ms; }
+.reveal-4 { animation-delay: 76ms; }
+.reveal-5 { animation-delay: 98ms; }
+.reveal-6 { animation-delay: 120ms; }
+
+.control-chip {
+  border-color: color-mix(in srgb, var(--tone-line) 80%, var(--tone-text) 20%) !important;
+  background: color-mix(in srgb, var(--tone-panel) 90%, var(--tone-ink) 10%) !important;
+  color: var(--tone-text);
+}
+
+.control-chip:hover {
+  background: color-mix(in srgb, var(--tone-panel) 78%, var(--tone-line) 22%) !important;
+}
+
+.status-pill {
+  border-radius: 999px;
+  border-width: 1px;
+  padding: 0.3rem 0.68rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.status-pill-live {
+  border-color: color-mix(in srgb, var(--tone-accent) 72%, var(--tone-line) 28%);
+  color: var(--tone-accent);
+  background: color-mix(in srgb, var(--tone-accent) 12%, transparent);
+}
+
+.status-pill-fallback {
+  border-color: #f4c95d;
+  color: #f4c95d;
+  background: color-mix(in srgb, #f4c95d 14%, transparent);
+}
+
+.status-pill-heartbeat {
+  border-color: color-mix(in srgb, var(--tone-text) 48%, var(--tone-line) 52%);
+  color: color-mix(in srgb, var(--tone-text) 84%, transparent);
+  background: color-mix(in srgb, var(--tone-panel) 82%, var(--tone-line) 18%);
+}
+
+.status-pill-offline,
+.status-pill-error {
+  border-color: #ef5a5a;
+  color: #ef5a5a;
+  background: color-mix(in srgb, #ef5a5a 14%, transparent);
+}
+
+.status-pill-sync {
+  border-color: color-mix(in srgb, var(--tone-accent) 66%, var(--tone-line) 34%);
+  color: var(--tone-accent);
+  background: color-mix(in srgb, var(--tone-accent) 10%, transparent);
+}
+
+.filter-panel {
+  background: color-mix(in srgb, var(--tone-panel) 95%, var(--tone-ink) 5%);
+}
+
+.preset-chip {
+  min-width: 74px;
+  border-color: color-mix(in srgb, var(--tone-line) 80%, var(--tone-text) 20%) !important;
+  background: color-mix(in srgb, var(--tone-panel) 92%, var(--tone-ink) 8%) !important;
+}
+
+.preset-chip:hover {
+  background: color-mix(in srgb, var(--tone-panel) 78%, var(--tone-line) 22%) !important;
+}
+
+.field-control {
+  border-color: color-mix(in srgb, var(--tone-line) 78%, var(--tone-text) 22%) !important;
+  background: color-mix(in srgb, var(--tone-panel) 90%, var(--tone-ink) 10%) !important;
+}
+
+.metric-card {
+  min-height: 96px;
+}
+
+.metric-label {
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.metric-value {
+  font-family: var(--font-mono);
+  letter-spacing: -0.01em;
+}
+
+.signal-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  display: inline-block;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--tone-line) 70%, transparent);
+}
+
+.signal-live {
+  background: var(--tone-accent);
+}
+
+.signal-heartbeat {
+  background: color-mix(in srgb, var(--tone-accent) 56%, var(--tone-text) 44%);
+}
+
+.signal-fallback {
+  background: #f4c95d;
+}
+
+.signal-offline {
+  background: #ef5a5a;
+}
+
+.heartbeat-card {
+  background: color-mix(in srgb, var(--tone-accent) 94%, var(--tone-text) 6%);
+  border-color: color-mix(in srgb, var(--tone-ink) 20%, var(--tone-accent) 80%);
+  color: var(--tone-ink);
+}
+
+.heartbeat-card .text-muted-foreground,
+.heartbeat-card .text-muted-foreground\/90 {
+  color: color-mix(in srgb, var(--tone-ink) 62%, transparent) !important;
+}
+
+.map-panel,
+.inspector-panel,
+.speed-panel {
+  background: color-mix(in srgb, var(--tone-panel) 95%, var(--tone-ink) 5%);
+}
+
+.timeline-control {
+  border-top: 1px solid color-mix(in srgb, var(--tone-line) 72%, transparent);
+  padding-top: 0.85rem;
+}
+
+.timeline-slider {
+  height: 0.4rem;
+}
+
+.timeline-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 13px;
+  width: 13px;
+  border-radius: 999px;
+  border: 2px solid color-mix(in srgb, var(--tone-panel) 74%, var(--tone-ink) 26%);
+  background: var(--tone-accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--tone-accent) 25%, transparent);
+}
+
+.timeline-slider::-moz-range-thumb {
+  height: 13px;
+  width: 13px;
+  border-radius: 999px;
+  border: 2px solid color-mix(in srgb, var(--tone-panel) 74%, var(--tone-ink) 26%);
+  background: var(--tone-accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--tone-accent) 25%, transparent);
+}
+
+.inspector-grid {
+  background: color-mix(in srgb, var(--tone-panel) 88%, var(--tone-ink) 12%) !important;
+}
+
+.inspector-panel [role="tablist"] {
+  border-color: color-mix(in srgb, var(--tone-line) 74%, var(--tone-text) 26%) !important;
+  background: color-mix(in srgb, var(--tone-panel) 89%, var(--tone-ink) 11%) !important;
+}
+
+.inspector-panel [role="tab"][data-state="active"] {
+  background: color-mix(in srgb, var(--tone-panel) 76%, var(--tone-line) 24%) !important;
+  color: var(--tone-text) !important;
+}
+
+.settings-sheet {
+  border-left-color: color-mix(in srgb, var(--tone-line) 72%, var(--tone-text) 28%) !important;
+}
+
+.settings-sheet textarea,
+.settings-sheet input {
+  border-color: color-mix(in srgb, var(--tone-line) 76%, var(--tone-text) 24%) !important;
+  background: color-mix(in srgb, var(--tone-panel) 88%, var(--tone-ink) 12%) !important;
+}
+
+.settings-row {
+  background: color-mix(in srgb, var(--tone-panel) 90%, var(--tone-ink) 10%) !important;
+}
+
+.settings-textarea {
+  border-color: color-mix(in srgb, var(--tone-line) 76%, var(--tone-text) 24%) !important;
+  background: color-mix(in srgb, var(--tone-panel) 88%, var(--tone-ink) 12%) !important;
+}
+
+.settings-textarea:focus-visible {
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--tone-accent) 35%, transparent);
+}
+
+.route-map-frame {
+  border-radius: 12px;
+  border-color: color-mix(in srgb, var(--tone-line) 78%, var(--tone-text) 22%) !important;
+  background: color-mix(in srgb, var(--tone-panel) 90%, var(--tone-ink) 10%) !important;
+}
+
+.route-map-frame .maplibregl-canvas {
+  filter: brightness(1.11) contrast(0.92) saturate(0.88);
+}
+
+.route-map-frame .maplibregl-ctrl-group {
+  border: 1px solid color-mix(in srgb, var(--tone-line) 70%, var(--tone-text) 30%);
+  background: color-mix(in srgb, var(--tone-panel) 88%, var(--tone-ink) 12%);
+  box-shadow: none;
+}
+
+.route-map-frame .maplibregl-ctrl button {
+  color: var(--tone-text);
+  border: 0;
+}
+
+.route-map-frame .maplibregl-ctrl-group button + button {
+  border-top: 1px solid color-mix(in srgb, var(--tone-line) 62%, var(--tone-text) 38%) !important;
+}
+
+.route-map-frame .maplibregl-ctrl button .maplibregl-ctrl-icon {
+  filter: brightness(0) invert(1);
+  opacity: 0.95;
+}
+
+.route-map-frame .maplibregl-ctrl button:hover {
+  background: color-mix(in srgb, var(--tone-panel) 72%, var(--tone-line) 28%);
+}
+
+.maplibregl-popup-content {
+  max-width: 320px !important;
+  width: max-content;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--tone-line) 70%, var(--tone-text) 30%);
+  background: color-mix(in srgb, var(--tone-panel) 92%, var(--tone-ink) 8%);
+  color: var(--tone-text);
+  box-shadow: none;
+  padding: 10px;
+}
+
+.telemetry-popup {
+  color: var(--tone-text);
+}
+
+.telemetry-popup-close {
+  border-color: color-mix(in srgb, var(--tone-line) 76%, var(--tone-text) 24%);
+  color: color-mix(in srgb, var(--tone-text) 76%, transparent);
+}
+
+.telemetry-popup-close:hover {
+  background: color-mix(in srgb, var(--tone-panel) 72%, var(--tone-line) 28%);
+  color: var(--tone-text);
+}
+
+.maplibregl-popup-close-button,
+.maplibregl-popup-close-button:hover,
+.maplibregl-popup-tip {
+  display: none !important;
+}
+
+.telemetry-empty-state {
+  background: color-mix(in srgb, var(--tone-ink) 70%, transparent);
+}
+
+@media (max-width: 900px) {
+  .dashboard-canvas {
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .surface-panel,
+  .surface-card {
+    border-radius: 12px;
+  }
+
+  .metric-card {
+    min-height: 84px;
+  }
+
+  .time-label,
+  .date-label {
+    font-size: 1.7rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .entry-fade {
+    animation: none;
+  }
+}

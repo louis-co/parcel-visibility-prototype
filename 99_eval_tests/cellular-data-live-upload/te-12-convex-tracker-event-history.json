@@ -1,0 +1,417 @@
+[
+  {
+    "_creationTime": 1777556526903.2817,
+    "_id": "jh79debwt6n4pgag1k0j5s8hdn85t0sh",
+    "contractVersion": "1.0.0",
+    "eventId": "ae41b677-dc89-412e-bd34-11cd8df45394",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1777556526903.0,
+    "seq": 34460.0,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556521414.0
+  },
+  {
+    "_creationTime": 1777556526672.3572,
+    "_id": "jh77dwaneb967qkvwybebpf2r585taaj",
+    "contractVersion": "1.0.0",
+    "eventId": "57c0c5af-deb0-4b96-bf4a-300e6f40c661",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1777556526672.0,
+    "seq": 34459.0,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556521355.0
+  },
+  {
+    "_creationTime": 1777556498580.685,
+    "_id": "jh78s5jpynn86emqx8f8hgd04985vkbb",
+    "beaconId": "ble:1002:2",
+    "contractVersion": "1.0.0",
+    "eventId": "0710b5b5-f1aa-42cf-b0fa-9345de9054f0",
+    "eventType": "ble_scan",
+    "ingestTsMs": 1777556498580.0,
+    "seq": 42.0,
+    "signal": {
+      "rssi": -58.0
+    },
+    "sourcePayload": {
+      "companyId": 65535.0,
+      "instanceId": 2.0,
+      "parcelId": 1002.0,
+      "payloadKind": "legacyParcelId",
+      "payloadVersion": 1.0,
+      "source": "ble"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556492821.0
+  },
+  {
+    "_creationTime": 1777556492874.243,
+    "_id": "jh77n3dst95gpe4f4kvdch54jx85vbfs",
+    "contractVersion": "1.0.0",
+    "eventId": "e08cb556-0187-4bc1-b067-9ab15a833455",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1777556492874.0,
+    "seq": 34458.0,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556487245.0
+  },
+  {
+    "_creationTime": 1777556492635.203,
+    "_id": "jh7116h80a56zt4b8qzpqa9ays85thwd",
+    "contractVersion": "1.0.0",
+    "eventId": "22fb04fe-776c-4e9c-879c-586f4ab6ca65",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1777556492635.0,
+    "seq": 34457.0,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556487175.0
+  },
+  {
+    "_creationTime": 1777556456317.5671,
+    "_id": "jh7d7fpjf7wjsv3tyg7370vned85v5m8",
+    "contractVersion": "1.0.0",
+    "eventId": "d642708f-66d7-42c9-8508-87e13f0424bd",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1777556456317.0,
+    "seq": 34456.0,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556450782.0
+  },
+  {
+    "_creationTime": 1777556456082.732,
+    "_id": "jh75g485ryq4xktwryrqm0fzns85v2sx",
+    "contractVersion": "1.0.0",
+    "eventId": "b9ee9a11-696f-4c54-9370-d32d114e45ce",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1777556456082.0,
+    "seq": 34455.0,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556450712.0
+  },
+  {
+    "_creationTime": 1777556438544.973,
+    "_id": "jh795t0a82f3q7062vgbtcbxed85v8pp",
+    "beaconId": "ble:1002:2",
+    "contractVersion": "1.0.0",
+    "eventId": "cbd837f3-d184-47d9-8235-f5fe3dadfb33",
+    "eventType": "ble_scan",
+    "ingestTsMs": 1777556438545.0,
+    "seq": 41.0,
+    "signal": {
+      "rssi": -61.0
+    },
+    "sourcePayload": {
+      "companyId": 65535.0,
+      "instanceId": 2.0,
+      "parcelId": 1002.0,
+      "payloadKind": "legacyParcelId",
+      "payloadVersion": 1.0,
+      "source": "ble"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556432594.0
+  },
+  {
+    "_creationTime": 1777556428272.162,
+    "_id": "jh719dvpsyfca2mgazfpsfatqd85t43s",
+    "contractVersion": "1.0.0",
+    "eventId": "92c43d6a-c079-4123-b652-0265f00b8868",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1777556428272.0,
+    "seq": 34454.0,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556422765.0
+  },
+  {
+    "_creationTime": 1777556428029.9927,
+    "_id": "jh7esx7j5dmkx9gqdd9zw490x985vhrf",
+    "contractVersion": "1.0.0",
+    "eventId": "2f7400d3-f1c5-4d01-9561-d8dd95ce215a",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1777556428030.0,
+    "seq": 34453.0,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556421949.0
+  },
+  {
+    "_creationTime": 1777556393478.444,
+    "_id": "jh757hchac4frhs7fvwkrj894d85t9fd",
+    "contractVersion": "1.0.0",
+    "eventId": "5d814854-cc50-4bbd-b52a-f535a4651211",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1777556393478.0,
+    "seq": 34452.0,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556387949.0
+  },
+  {
+    "_creationTime": 1777556393228.3042,
+    "_id": "jh7dcqzd4y68fxr47g39eqjgmh85t49j",
+    "contractVersion": "1.0.0",
+    "eventId": "81a56f6f-8e39-421e-b8f6-845030cb5e7b",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1777556393228.0,
+    "seq": 34451.0,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556387890.0
+  },
+  {
+    "_creationTime": 1777556378518.3372,
+    "_id": "jh77qdzxa36evhybzq0p7628e185vjkk",
+    "beaconId": "ble:1002:2",
+    "contractVersion": "1.0.0",
+    "eventId": "ee4cd8a5-61f2-4632-a536-e728de14e697",
+    "eventType": "ble_scan",
+    "ingestTsMs": 1777556378518.0,
+    "seq": 40.0,
+    "signal": {
+      "rssi": -63.0
+    },
+    "sourcePayload": {
+      "companyId": 65535.0,
+      "instanceId": 2.0,
+      "parcelId": 1002.0,
+      "payloadKind": "legacyParcelId",
+      "payloadVersion": 1.0,
+      "source": "ble"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556372399.0
+  },
+  {
+    "_creationTime": 1777556357049.8416,
+    "_id": "jh78evy1ykr08ksz0h05z2m6ah85vgrf",
+    "contractVersion": "1.0.0",
+    "eventId": "d1abfa9e-522d-4944-9176-85cf5d557d0e",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1777556357049.0,
+    "seq": 34450.0,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556351500.0
+  },
+  {
+    "_creationTime": 1777556356814.9736,
+    "_id": "jh7d5wm5tpdf5f4n4cpn11pcxn85ttfk",
+    "contractVersion": "1.0.0",
+    "eventId": "6f267972-1f96-4a7d-949f-6497090e80d2",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1777556356815.0,
+    "seq": 34449.0,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556351438.0
+  },
+  {
+    "_creationTime": 1777556328953.24,
+    "_id": "jh77hnm49t3pc3zhj1wsbxztax85v0mx",
+    "contractVersion": "1.0.0",
+    "eventId": "cd48d87a-650c-4e42-814b-047b7800ed92",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1777556328953.0,
+    "seq": 34448.0,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556323429.0
+  },
+  {
+    "_creationTime": 1777556328716.612,
+    "_id": "jh74hq1r8djdvvgpwja89fq0es85v0wb",
+    "contractVersion": "1.0.0",
+    "eventId": "65b9f330-83ae-4ebd-9098-5d9bd17bb738",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1777556328716.0,
+    "seq": 34447.0,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556323356.0
+  },
+  {
+    "_creationTime": 1777556318336.945,
+    "_id": "jh769p8zy2xajm8m9t4vt5e55s85tfz9",
+    "beaconId": "ble:1002:2",
+    "contractVersion": "1.0.0",
+    "eventId": "041b2eee-4ea5-43f6-9681-d81468813381",
+    "eventType": "ble_scan",
+    "ingestTsMs": 1777556318337.0,
+    "seq": 39.0,
+    "signal": {
+      "rssi": -36.0
+    },
+    "sourcePayload": {
+      "companyId": 65535.0,
+      "instanceId": 2.0,
+      "parcelId": 1002.0,
+      "payloadKind": "legacyParcelId",
+      "payloadVersion": 1.0,
+      "source": "ble"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556312209.0
+  },
+  {
+    "_creationTime": 1777556294846.3752,
+    "_id": "jh7320nxt21t74vknb0zttvs8x85t3qa",
+    "contractVersion": "1.0.0",
+    "eventId": "dc8de6ba-a167-475c-9338-9e77e90d0260",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1777556294846.0,
+    "seq": 34446.0,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556289131.0
+  },
+  {
+    "_creationTime": 1777556294603.787,
+    "_id": "jh72439p0chffxfwe16agbh85x85vtpb",
+    "contractVersion": "1.0.0",
+    "eventId": "30ba7c7e-989a-4675-8737-d0c9e44a6485",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1777556294603.0,
+    "seq": 34445.0,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556288760.0
+  },
+  {
+    "_creationTime": 1777556257975.43,
+    "_id": "jh766cn23eq9gydwbe9196y8ts85v5q9",
+    "contractVersion": "1.0.0",
+    "eventId": "83a741e4-1fb6-46a5-9087-ee3de3dc3022",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1777556257975.0,
+    "seq": 34444.0,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556252452.0
+  },
+  {
+    "_creationTime": 1777556257739.1125,
+    "_id": "jh74sy2gxeb2ae40xxfdbb8fwn85th6d",
+    "contractVersion": "1.0.0",
+    "eventId": "3870f2b4-947e-4b3f-a393-5e4c42f091cb",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1777556257739.0,
+    "seq": 34443.0,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556252391.0
+  },
+  {
+    "_creationTime": 1777556258205.0708,
+    "_id": "jh7855ckgj2v40tjb40v0ezzzd85v20h",
+    "beaconId": "ble:1002:2",
+    "contractVersion": "1.0.0",
+    "eventId": "bc5fa84b-a32b-43e6-a746-0bf4829415f5",
+    "eventType": "ble_scan",
+    "ingestTsMs": 1777556258205.0,
+    "seq": 38.0,
+    "signal": {
+      "rssi": -36.0
+    },
+    "sourcePayload": {
+      "companyId": 65535.0,
+      "instanceId": 2.0,
+      "parcelId": 1002.0,
+      "payloadKind": "legacyParcelId",
+      "payloadVersion": 1.0,
+      "source": "ble"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556252032.0
+  },
+  {
+    "_creationTime": 1777556229893.7532,
+    "_id": "jh7dzzcrerdhzbnj34ah4c6zk185vyj6",
+    "contractVersion": "1.0.0",
+    "eventId": "f37f49e3-c41a-4e6e-a9fe-531ff13a1d04",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1777556229893.0,
+    "seq": 34442.0,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556224393.0
+  },
+  {
+    "_creationTime": 1777556229662.0215,
+    "_id": "jh72p2afr4hrkt0zgmctz5hy7585vr0s",
+    "contractVersion": "1.0.0",
+    "eventId": "af251002-9a8f-4245-a641-1990c1e622d3",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1777556229662.0,
+    "seq": 34441.0,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556224324.0
+  }
+]

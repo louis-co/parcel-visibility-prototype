@@ -1,0 +1,269 @@
+{
+  "testId": "TE-15b",
+  "name": "Synthetic Uncertainty State",
+  "runId": "20260501103025",
+  "noFixTracker": "te15b-nofix-tracker-20260501103025",
+  "beaconId": "ble:te15b-ambiguous-20260501103025",
+  "ambiguityTrackers": [
+    "te15b-amb-a-20260501103025",
+    "te15b-amb-b-20260501103025"
+  ],
+  "baseTsMs": 1777631093529,
+  "pass": true,
+  "noFixVisible": true,
+  "ambiguousVisible": true,
+  "staleStateLimitation": "A true dashboard stale status cannot be created immediately through public ingest because stale state is based on lastIngestTsMs age, not only trackerTsMs.",
+  "noFixResponse": {
+    "durationMs": 205.88,
+    "body": {
+      "duplicate": false,
+      "ok": true,
+      "rawEventId": "jh7367y3gnet70cwwk1rsph6ch85xqn6",
+      "statusCode": 200,
+      "httpOk": true
+    }
+  },
+  "ambiguousResponse": {
+    "durationMs": 1764.42,
+    "body": {
+      "ok": true,
+      "count": 6,
+      "accepted": 6,
+      "duplicate": 0,
+      "results": [
+        {
+          "eventId": "te15b-20260501103025-amb-a-0",
+          "duplicate": false,
+          "ok": true,
+          "rawEventId": "jh7dw1stkwr78yn482naan2ce585xc4b"
+        },
+        {
+          "eventId": "te15b-20260501103025-amb-b-0",
+          "duplicate": false,
+          "ok": true,
+          "rawEventId": "jh768095mytjj4ynkkbztdnes185x8xb"
+        },
+        {
+          "eventId": "te15b-20260501103025-amb-a-1",
+          "duplicate": false,
+          "ok": true,
+          "rawEventId": "jh79p4nm96ddgrnw34vgye8dzh85wtxq"
+        },
+        {
+          "eventId": "te15b-20260501103025-amb-b-1",
+          "duplicate": false,
+          "ok": true,
+          "rawEventId": "jh7fzvbx2jxjpy98v72zh92kzh85w7bf"
+        },
+        {
+          "eventId": "te15b-20260501103025-amb-a-2",
+          "duplicate": false,
+          "ok": true,
+          "rawEventId": "jh7a20mpr8amb2pmh2ey2yc7en85xfj4"
+        },
+        {
+          "eventId": "te15b-20260501103025-amb-b-2",
+          "duplicate": false,
+          "ok": true,
+          "rawEventId": "jh74xg6nwnmvjkvc5c9a4cwjys85xkw7"
+        }
+      ],
+      "statusCode": 200,
+      "httpOk": true
+    }
+  },
+  "liveness": [
+    {
+      "_creationTime": 1777631573632.5618,
+      "_id": "jn71p7vvrfjm9yp7kn1wqkkdq585x4mq",
+      "lastEventType": "gps_no_fix",
+      "lastIngestTsMs": 1777631573632,
+      "lastTrackerTsMs": 1777631103529,
+      "locationMode": "no_fix",
+      "trackerId": "te15b-nofix-tracker-20260501103025"
+    }
+  ],
+  "noFixHistory": [
+    {
+      "_creationTime": 1777631573632.5613,
+      "_id": "jh7367y3gnet70cwwk1rsph6ch85xqn6",
+      "contractVersion": "1.0.0",
+      "eventId": "te15b-20260501103025-gps-no-fix",
+      "eventType": "gps_no_fix",
+      "ingestTsMs": 1777631573632,
+      "seq": 1,
+      "sourcePayload": {
+        "label": "gps-no-fix",
+        "purpose": "dashboard no-location state evidence",
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te15b"
+      },
+      "status": {
+        "locationMode": "no_fix"
+      },
+      "trackerId": "te15b-nofix-tracker-20260501103025",
+      "trackerTsMs": 1777631103529
+    }
+  ],
+  "ownerState": {
+    "associationState": "handover_pending",
+    "beaconId": "ble:te15b-ambiguous-20260501103025",
+    "confidence": 0.58,
+    "evidenceAgeMs": 423322,
+    "evidenceState": "confirmed",
+    "isActiveConflict": true,
+    "lastAssignedEvidenceEventType": "ble_scan",
+    "lastAssignedEvidenceTsMs": 1777631153529,
+    "lastSeenTsMs": 1777631154529,
+    "manualPrior": null,
+    "missedHeartbeats": 0,
+    "missingSinceTsMs": null,
+    "ownerState": "ambiguous",
+    "routeSession": null,
+    "source": "live",
+    "state": "ambiguous",
+    "trackerId": "te15b-amb-a-20260501103025",
+    "trackingNumber": null
+  },
+  "beaconHistory": [
+    {
+      "_creationTime": 1777631575156.158,
+      "_id": "jh74xg6nwnmvjkvc5c9a4cwjys85xkw7",
+      "beaconId": "ble:te15b-ambiguous-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te15b-20260501103025-amb-b-2",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631575156,
+      "seq": 22,
+      "signal": {
+        "rssi": -64
+      },
+      "sourcePayload": {
+        "label": "amb-b-2",
+        "role": "equal competing signal B",
+        "rssi": -64,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te15b"
+      },
+      "trackerId": "te15b-amb-b-20260501103025",
+      "trackerTsMs": 1777631154529
+    },
+    {
+      "_creationTime": 1777631574857.2393,
+      "_id": "jh7a20mpr8amb2pmh2ey2yc7en85xfj4",
+      "beaconId": "ble:te15b-ambiguous-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te15b-20260501103025-amb-a-2",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631574857,
+      "seq": 12,
+      "signal": {
+        "rssi": -64
+      },
+      "sourcePayload": {
+        "label": "amb-a-2",
+        "role": "equal competing signal A",
+        "rssi": -64,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te15b"
+      },
+      "trackerId": "te15b-amb-a-20260501103025",
+      "trackerTsMs": 1777631153529
+    },
+    {
+      "_creationTime": 1777631574570.8093,
+      "_id": "jh7fzvbx2jxjpy98v72zh92kzh85w7bf",
+      "beaconId": "ble:te15b-ambiguous-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te15b-20260501103025-amb-b-1",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631574570,
+      "seq": 21,
+      "signal": {
+        "rssi": -64
+      },
+      "sourcePayload": {
+        "label": "amb-b-1",
+        "role": "equal competing signal B",
+        "rssi": -64,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te15b"
+      },
+      "trackerId": "te15b-amb-b-20260501103025",
+      "trackerTsMs": 1777631124529
+    },
+    {
+      "_creationTime": 1777631574307.2712,
+      "_id": "jh79p4nm96ddgrnw34vgye8dzh85wtxq",
+      "beaconId": "ble:te15b-ambiguous-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te15b-20260501103025-amb-a-1",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631574307,
+      "seq": 11,
+      "signal": {
+        "rssi": -64
+      },
+      "sourcePayload": {
+        "label": "amb-a-1",
+        "role": "equal competing signal A",
+        "rssi": -64,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te15b"
+      },
+      "trackerId": "te15b-amb-a-20260501103025",
+      "trackerTsMs": 1777631123529
+    },
+    {
+      "_creationTime": 1777631574040.1738,
+      "_id": "jh768095mytjj4ynkkbztdnes185x8xb",
+      "beaconId": "ble:te15b-ambiguous-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te15b-20260501103025-amb-b-0",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631574040,
+      "seq": 20,
+      "signal": {
+        "rssi": -64
+      },
+      "sourcePayload": {
+        "label": "amb-b-0",
+        "role": "equal competing signal B",
+        "rssi": -64,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te15b"
+      },
+      "trackerId": "te15b-amb-b-20260501103025",
+      "trackerTsMs": 1777631094529
+    },
+    {
+      "_creationTime": 1777631573842.7393,
+      "_id": "jh7dw1stkwr78yn482naan2ce585xc4b",
+      "beaconId": "ble:te15b-ambiguous-20260501103025",
+      "contractVersion": "1.0.0",
+      "eventId": "te15b-20260501103025-amb-a-0",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777631573842,
+      "seq": 10,
+      "signal": {
+        "rssi": -64
+      },
+      "sourcePayload": {
+        "label": "amb-a-0",
+        "role": "equal competing signal A",
+        "rssi": -64,
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te15b"
+      },
+      "trackerId": "te15b-amb-a-20260501103025",
+      "trackerTsMs": 1777631093529
+    }
+  ]
+}

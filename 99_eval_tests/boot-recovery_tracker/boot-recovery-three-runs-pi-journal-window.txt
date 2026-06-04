@@ -1,0 +1,288 @@
+2026-04-29T19:00:46+02:00 tracker systemd[1]: Starting NetworkManager.service - Network Manager...
+2026-04-29T19:00:46+02:00 tracker systemd[1]: Starting ModemManager.service - Modem Manager...
+2026-04-29T19:00:47+02:00 tracker ModemManager[720]: <msg> ModemManager (version 1.24.0) starting in system bus...
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.2376] NetworkManager (version 1.52.1) is starting... (boot:9f198c02-5dc6-4581-acbf-08c36197f81a)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.2377] Read config: /etc/NetworkManager/NetworkManager.conf, /usr/lib/NetworkManager/conf.d/{no-mac-addr-change.conf,rpi-no-scan-rand-mac-address.conf}, /run/NetworkManager/conf.d/10-globally-managed-devices.conf
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.2690] manager[0x5555f3508970]: monitoring kernel firmware directory '/lib/firmware'.
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.2690] monitoring ifupdown state file '/run/network/ifstate'.
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.2731] hostname: hostname: using hostnamed
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.2732] hostname: static hostname changed from (none) to "tracker"
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.2747] dns-mgr: init: dns=default,systemd-resolved rc-manager=symlink (auto)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.2778] rfkill1: found Wi-Fi radio killswitch (at /sys/devices/platform/axi/1001100000.mmc/mmc_host/mmc1/mmc1:0001/mmc1:0001:1/ieee80211/phy0/rfkill1) (driver brcmfmac)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.2780] manager[0x5555f3508970]: rfkill: Wi-Fi hardware radio set enabled
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.2780] manager[0x5555f3508970]: rfkill: WWAN hardware radio set enabled
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.2966] Loaded device plugin: NMWwanFactory (/usr/lib/aarch64-linux-gnu/NetworkManager/1.52.1/libnm-device-plugin-wwan.so)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.3122] Loaded device plugin: NMTeamFactory (/usr/lib/aarch64-linux-gnu/NetworkManager/1.52.1/libnm-device-plugin-team.so)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.3245] Loaded device plugin: NMBluezManager (/usr/lib/aarch64-linux-gnu/NetworkManager/1.52.1/libnm-device-plugin-bluetooth.so)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.3344] Loaded device plugin: NMWifiFactory (/usr/lib/aarch64-linux-gnu/NetworkManager/1.52.1/libnm-device-plugin-wifi.so)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.3380] Loaded device plugin: NMAtmManager (/usr/lib/aarch64-linux-gnu/NetworkManager/1.52.1/libnm-device-plugin-adsl.so)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.3382] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.3382] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.3383] manager: Networking is enabled by state file
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.3446] settings: Loaded settings plugin: ifupdown ("/usr/lib/aarch64-linux-gnu/NetworkManager/1.52.1/libnm-settings-plugin-ifupdown.so")
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.3447] settings: Loaded settings plugin: keyfile (internal)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.3447] ifupdown: management mode: unmanaged
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.3462] ifupdown: interfaces file /etc/network/interfaces doesn't exist
+2026-04-29T19:00:47+02:00 tracker systemd[1]: Started ModemManager.service - Modem Manager.
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9295] dhcp: init: Using DHCP client 'internal'
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9297] manager: (lo): new Loopback device (/org/freedesktop/NetworkManager/Devices/1)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9348] device (lo): state change: unmanaged -> unavailable (reason 'connection-assumed', managed-type: 'external')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9351] device (lo): state change: unavailable -> disconnected (reason 'connection-assumed', managed-type: 'external')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9355] device (lo): Activation: starting connection 'lo' (83612137-6451-41eb-a997-1c7677e5c043)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9369] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9377] settings: (eth0): created default wired connection 'Wired connection 1'
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9377] device (eth0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9482] manager: (usb0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/3)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9491] settings: (usb0): created default wired connection 'Wired connection 2'
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9491] device (usb0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9536] device (wlan0): driver supports Access Point (AP) mode
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9541] manager: (wlan0): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/4)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9543] device (wlan0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9599] failed to open /run/network/ifstate
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9603] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+2026-04-29T19:00:47+02:00 tracker systemd[1]: Started NetworkManager.service - Network Manager.
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9613] device (lo): state change: disconnected -> prepare (reason 'none', managed-type: 'external')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9615] device (lo): state change: prepare -> config (reason 'none', managed-type: 'external')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9617] device (lo): state change: config -> ip-config (reason 'none', managed-type: 'external')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9621] device (usb0): carrier: link connected
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9625] device (lo): state change: ip-config -> ip-check (reason 'none', managed-type: 'external')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9632] device (usb0): state change: unavailable -> disconnected (reason 'carrier-changed', managed-type: 'full')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9637] policy: auto-activating connection 'Wired connection 2' (d6a3d3c0-9afa-3354-93ad-b5cfdf860f85)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9641] device (usb0): Activation: starting connection 'Wired connection 2' (d6a3d3c0-9afa-3354-93ad-b5cfdf860f85)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9642] device (usb0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9643] manager: NetworkManager state is now CONNECTING
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9644] device (usb0): state change: prepare -> config (reason 'none', managed-type: 'full')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9650] device (usb0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9654] dhcp4 (usb0): activation: beginning transaction (timeout in 45 seconds)
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9672] modem-manager: oFono is not available
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9700] dhcp4 (usb0): state changed new lease, address=192.168.0.100, acd pending
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9703] modem-manager: ModemManager available
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9711] device (lo): state change: ip-check -> secondaries (reason 'none', managed-type: 'external')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9715] device (lo): state change: secondaries -> activated (reason 'none', managed-type: 'external')
+2026-04-29T19:00:47+02:00 tracker NetworkManager[705]: <info>  [1777482047.9726] device (lo): Activation: successful, device activated.
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.0970] device (wlan0): supplicant interface state: internal-starting -> disconnected
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.0971] Wi-Fi P2P device controlled by interface wlan0 created
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.0973] manager: (p2p-dev-wlan0): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/5)
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.0974] device (p2p-dev-wlan0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.0977] device (wlan0): state change: unavailable -> disconnected (reason 'supplicant-available', managed-type: 'full')
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.0981] device (p2p-dev-wlan0): state change: unavailable -> disconnected (reason 'none', managed-type: 'full')
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.1998] dhcp4 (usb0): state changed new lease, address=192.168.0.100
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.2005] policy: set 'Wired connection 2' (usb0) as default for IPv4 routing and DNS
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.2562] device (usb0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.2583] device (usb0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.2584] device (usb0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.2587] manager: NetworkManager state is now CONNECTED_SITE
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.2589] device (usb0): Activation: successful, device activated.
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.2594] manager: NetworkManager state is now CONNECTED_GLOBAL
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.8042] device (usb0): state change: activated -> unmanaged (reason 'unmanaged-link-not-init', managed-type: 'removed')
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.8200] dhcp4 (usb0): canceled DHCP transaction
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.8200] dhcp4 (usb0): activation: beginning transaction (timeout in 45 seconds)
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.8200] dhcp4 (usb0): state changed no lease
+2026-04-29T19:00:48+02:00 tracker NetworkManager[705]: <info>  [1777482048.8205] manager: NetworkManager state is now DISCONNECTED
+2026-04-29T19:00:49+02:00 tracker ModemManager[720]: <msg> [base-manager] port ttyACM3 released by device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4'
+2026-04-29T19:00:49+02:00 tracker ModemManager[720]: <msg> [base-manager] port usb0 released by device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4'
+2026-04-29T19:00:49+02:00 tracker ModemManager[720]: <msg> [base-manager] port ttyACM1 released by device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4'
+2026-04-29T19:00:49+02:00 tracker ModemManager[720]: <msg> [base-manager] port ttyACM0 released by device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4'
+2026-04-29T19:00:49+02:00 tracker ModemManager[720]: <msg> [base-manager] port ttyACM2 released by device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4'
+2026-04-29T19:00:49+02:00 tracker ModemManager[720]: <msg> [base-manager] couldn't check support for device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4': Operation was cancelled
+2026-04-29T19:00:51+02:00 tracker ModemManager[720]: <msg> [base-manager] port ttyACM0 released by device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1'
+2026-04-29T19:00:51+02:00 tracker ModemManager[720]: <msg> [base-manager] port ttyACM3 released by device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1'
+2026-04-29T19:00:51+02:00 tracker ModemManager[720]: <msg> [base-manager] port ttyACM1 released by device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1'
+2026-04-29T19:00:51+02:00 tracker ModemManager[720]: <msg> [base-manager] port ttyACM2 released by device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1'
+2026-04-29T19:00:51+02:00 tracker ModemManager[720]: <msg> [base-manager] couldn't check support for device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1': Operation was cancelled
+2026-04-29T19:00:51+02:00 tracker ModemManager[720]: <msg> [base-manager] couldn't check support for device '/sys/devices/platform/axi/1000120000.pcie/1f00100000.ethernet': not supported by any plugin
+2026-04-29T19:00:51+02:00 tracker ModemManager[720]: <msg> [base-manager] couldn't check support for device '/sys/devices/platform/axi/1001100000.mmc/mmc_host/mmc1/mmc1:0001/mmc1:0001:1': not supported by any plugin
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.7935] manager: (usb0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/6)
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.8251] device (usb0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.8285] settings: (usb0): created default wired connection 'Wired connection 2'
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.8290] device (usb0): carrier: link connected
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.8293] device (usb0): state change: unavailable -> disconnected (reason 'carrier-changed', managed-type: 'full')
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.8300] policy: auto-activating connection 'Wired connection 2' (d6a3d3c0-9afa-3354-93ad-b5cfdf860f85)
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.8307] device (usb0): Activation: starting connection 'Wired connection 2' (d6a3d3c0-9afa-3354-93ad-b5cfdf860f85)
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.8308] device (usb0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.8313] manager: NetworkManager state is now CONNECTING
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.8316] device (usb0): state change: prepare -> config (reason 'none', managed-type: 'full')
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.8323] device (usb0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.8328] dhcp4 (usb0): activation: beginning transaction (timeout in 45 seconds)
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.8347] dhcp4 (usb0): state changed new lease, address=192.168.0.100, acd pending
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.9718] dhcp4 (usb0): state changed new lease, address=192.168.0.100
+2026-04-29T19:00:51+02:00 tracker NetworkManager[705]: <info>  [1777482051.9724] policy: set 'Wired connection 2' (usb0) as default for IPv4 routing and DNS
+2026-04-29T19:00:52+02:00 tracker NetworkManager[705]: <info>  [1777482052.0325] device (usb0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+2026-04-29T19:00:52+02:00 tracker NetworkManager[705]: <info>  [1777482052.0346] device (usb0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+2026-04-29T19:00:52+02:00 tracker NetworkManager[705]: <info>  [1777482052.0348] device (usb0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+2026-04-29T19:00:52+02:00 tracker NetworkManager[705]: <info>  [1777482052.0350] manager: NetworkManager state is now CONNECTED_SITE
+2026-04-29T19:00:52+02:00 tracker NetworkManager[705]: <info>  [1777482052.0352] device (usb0): Activation: successful, device activated.
+2026-04-29T19:00:52+02:00 tracker NetworkManager[705]: <info>  [1777482052.0363] manager: NetworkManager state is now CONNECTED_GLOBAL
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: start
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: AT custom init open port
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: start
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT custom init open port
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: start
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT custom init open port
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: start
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: AT custom init open port
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: AT custom init run
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT custom init run
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT custom init run
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: AT custom init run
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: AT open port
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT open port
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT open port
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: AT open port
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: AT
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: AT
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT vendor
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT vendor
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT close port
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: done
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: start
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT open port
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT close port
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: done
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: start
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT open port
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: Icera
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: Icera
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: start
+2026-04-29T19:00:53+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: QCDM
+2026-04-29T19:00:54+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: QCDM close port
+2026-04-29T19:00:54+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: done
+2026-04-29T19:00:54+02:00 tracker NetworkManager[705]: <info>  [1777482054.9826] manager: startup complete
+2026-04-29T19:00:54+02:00 tracker systemd[1]: Starting ble_receiver.service - BLE Beacon Uplink to Convex /ingest...
+2026-04-29T19:00:55+02:00 tracker systemd[1]: Starting lte-init.service - LTE Modem Initialization...
+2026-04-29T19:00:55+02:00 tracker systemd[1]: Started resource_monitor.service - Parcel Tracker Resource and Error Monitor.
+2026-04-29T19:00:55+02:00 tracker systemd[1]: rfid_uplink.service - RFID Uplink to Convex /ingest was skipped because of an unmet condition check (ConditionPathExists=/dev/rfid_reader).
+2026-04-29T19:00:55+02:00 tracker lte-init.sh[954]: [lte-init] Using AT port: /dev/serial/by-id/usb-QualComm_QualComm_Compo_000000000001-if06
+2026-04-29T19:00:55+02:00 tracker systemd[1]: Started ble_receiver.service - BLE Beacon Uplink to Convex /ingest.
+2026-04-29T19:00:55+02:00 tracker python3[952]: BLE uplink scanner started
+2026-04-29T19:00:55+02:00 tracker python3[952]: ble-uplink: scan_detected wallTsMs=1777482055855 monoNs=18343370710 beaconId=ble:1002:2 rssi=-33 seq=1 trackerTsMs=1777482055855
+2026-04-29T19:00:56+02:00 tracker python3[952]: ble-uplink: event_queued wallTsMs=1777482056390 monoNs=18878621043 eventId=6438ca79-c4f8-4b6a-a082-fba62cb4f478 eventType=ble_scan beaconId=ble:1002:2 seq=1 trackerTsMs=1777482055855 localCreatedMs=1777482056362 queueSize=1
+2026-04-29T19:00:56+02:00 tracker python3[952]: ble-uplink: upload_attempt wallTsMs=1777482056390 monoNs=18878750858 eventId=6438ca79-c4f8-4b6a-a082-fba62cb4f478 attempt=1 uploadAttemptMs=1777482056390 queueSize=1
+2026-04-29T19:01:00+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT close port
+2026-04-29T19:01:00+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: done
+2026-04-29T19:01:00+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: start
+2026-04-29T19:01:00+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT open port
+2026-04-29T19:01:00+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT product
+2026-04-29T19:01:01+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT close port
+2026-04-29T19:01:01+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: done
+2026-04-29T19:01:02+02:00 tracker python3[952]: ble-uplink: upload_response wallTsMs=1777482062837 monoNs=25326026372 eventId=6438ca79-c4f8-4b6a-a082-fba62cb4f478 attempt=1 uploadAttemptMs=1777482056390 uploadResponseMs=1777482062837 latencyMs=6447 status=200 queueSize=0
+2026-04-29T19:01:03+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT close port
+2026-04-29T19:01:03+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: done
+2026-04-29T19:01:03+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: start
+2026-04-29T19:01:03+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT open port
+2026-04-29T19:01:03+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT product
+2026-04-29T19:01:09+02:00 tracker lte-init.sh[954]: [lte-init] SIM state READY
+2026-04-29T19:01:10+02:00 tracker NetworkManager[705]: <info>  [1777482070.2280] device (usb0): state change: activated -> unmanaged (reason 'unmanaged-link-not-init', managed-type: 'removed')
+2026-04-29T19:01:10+02:00 tracker NetworkManager[705]: <info>  [1777482070.2281] dhcp4 (usb0): canceled DHCP transaction
+2026-04-29T19:01:10+02:00 tracker NetworkManager[705]: <info>  [1777482070.2281] dhcp4 (usb0): activation: beginning transaction (timeout in 45 seconds)
+2026-04-29T19:01:10+02:00 tracker NetworkManager[705]: <info>  [1777482070.2281] dhcp4 (usb0): state changed no lease
+2026-04-29T19:01:10+02:00 tracker NetworkManager[705]: <info>  [1777482070.2285] manager: NetworkManager state is now DISCONNECTED
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT close port
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: done
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: AT close port
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: done
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: start
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: QCDM
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <wrn> [plugin-manager] task 4,ttyACM3: error when checking support with plugin 'via': (tty/ttyACM3) Failed to open QCDM port: Could not open serial device ttyACM3: No such file or directory
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: start
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: QCDM
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: done
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [device /sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4] creating modem with plugin 'generic' and '5' ports (05c6:9330)
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <wrn> [plugin/generic] could not grab port ttyACM3: Cannot add port 'tty/ttyACM3', unhandled port type
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <wrn> [plugin/generic] could not grab port ttyACM1: Cannot add port 'tty/ttyACM1', unhandled port type
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [base-manager] modem for device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4' successfully created
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [base-manager] running setup for device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4'...
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <wrn> [modem0] couldn't start initialization: Couldn't open ports during modem initialization: Couldn't open primary port: Could not open serial device ttyACM0: No such file or directory
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <err> [device /sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4] fatal error initializing: Fatal error: modem is unusable
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [base-manager] port usb0 released by device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4'
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [base-manager] port ttyACM1 released by device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4'
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [base-manager] port ttyACM2 released by device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4'
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [base-manager] port ttyACM0 released by device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4'
+2026-04-29T19:01:10+02:00 tracker ModemManager[720]: <msg> [base-manager] port ttyACM3 released by device '/sys/devices/platform/axi/1000120000.pcie/1f00300000.usb/xhci-hcd.1/usb3/3-1/3-1.4'
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.6015] manager: (usb0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/7)
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.6229] device (usb0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.6250] settings: (usb0): created default wired connection 'Wired connection 2'
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.6253] device (usb0): carrier: link connected
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.6254] device (usb0): state change: unavailable -> disconnected (reason 'carrier-changed', managed-type: 'full')
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.6258] policy: auto-activating connection 'Wired connection 2' (d6a3d3c0-9afa-3354-93ad-b5cfdf860f85)
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.6261] device (usb0): Activation: starting connection 'Wired connection 2' (d6a3d3c0-9afa-3354-93ad-b5cfdf860f85)
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.6261] device (usb0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.6263] manager: NetworkManager state is now CONNECTING
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.6264] device (usb0): state change: prepare -> config (reason 'none', managed-type: 'full')
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.6266] device (usb0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.6269] dhcp4 (usb0): activation: beginning transaction (timeout in 45 seconds)
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.6285] dhcp4 (usb0): state changed new lease, address=192.168.0.100, acd pending
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.7758] dhcp4 (usb0): state changed new lease, address=192.168.0.100
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.7765] policy: set 'Wired connection 2' (usb0) as default for IPv4 routing and DNS
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.8294] device (usb0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.8308] device (usb0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.8309] device (usb0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.8311] manager: NetworkManager state is now CONNECTED_SITE
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.8313] device (usb0): Activation: successful, device activated.
+2026-04-29T19:01:11+02:00 tracker NetworkManager[705]: <info>  [1777482071.8318] manager: NetworkManager state is now CONNECTED_GLOBAL
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: start
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: AT custom init open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: start
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT custom init open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: start
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: AT custom init open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: start
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT custom init open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [ttyACM2/at] failed to open serial device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [plugin-manager] task 5,ttyACM2: error when checking support with plugin 'u-blox': (tty/ttyACM2) failed to open port: Could not lock serial device ttyACM2: Inappropriate ioctl for device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: start
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: AT custom init run
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [ttyACM2/at] failed to open serial device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [plugin-manager] task 5,ttyACM2: error when checking support with plugin 'nokia': (tty/ttyACM2) failed to open port: Could not lock serial device ttyACM2: Inappropriate ioctl for device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: start
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: AT custom init run
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT custom init run
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: AT open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: AT open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [ttyACM2/at] failed to open serial device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [plugin-manager] task 5,ttyACM2: error when checking support with plugin 'via': (tty/ttyACM2) failed to open port: Could not lock serial device ttyACM2: Inappropriate ioctl for device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: start
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [ttyACM2/at] failed to open serial device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [plugin-manager] task 5,ttyACM2: error when checking support with plugin 'quectel': (tty/ttyACM2) failed to open port: Could not lock serial device ttyACM2: Inappropriate ioctl for device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: start
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM3/probe] probe step: AT
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: AT
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [ttyACM2/at] failed to open serial device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [plugin-manager] task 5,ttyACM2: error when checking support with plugin 'iridium': (tty/ttyACM2) failed to open port: Could not lock serial device ttyACM2: Inappropriate ioctl for device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: start
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT custom init open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [ttyACM2/at] failed to open serial device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [plugin-manager] task 5,ttyACM2: error when checking support with plugin 'cinterion': (tty/ttyACM2) failed to open port: Could not lock serial device ttyACM2: Inappropriate ioctl for device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: start
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT custom init open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [ttyACM2/at] failed to open serial device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [plugin-manager] task 5,ttyACM2: error when checking support with plugin 'telit': (tty/ttyACM2) failed to open port: Could not lock serial device ttyACM2: Inappropriate ioctl for device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: start
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM2/probe] probe step: AT open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [ttyACM2/at] failed to open serial device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <wrn> [plugin-manager] task 5,ttyACM2: error when checking support with plugin 'generic': (tty/ttyACM2) failed to open port: Could not lock serial device ttyACM2: Inappropriate ioctl for device
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT vendor
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT close port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: done
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: start
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT open port
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: Icera
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: start
+2026-04-29T19:01:13+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: QCDM
+2026-04-29T19:01:14+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: QCDM close port
+2026-04-29T19:01:14+02:00 tracker ModemManager[720]: <msg> [ttyACM1/probe] probe step: done
+2026-04-29T19:01:20+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT close port
+2026-04-29T19:01:20+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: done
+2026-04-29T19:01:20+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: start
+2026-04-29T19:01:20+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT open port
+2026-04-29T19:01:20+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT product
+2026-04-29T19:01:21+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: AT close port
+2026-04-29T19:01:21+02:00 tracker ModemManager[720]: <msg> [ttyACM0/probe] probe step: done

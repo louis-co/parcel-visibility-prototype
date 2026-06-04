@@ -1,0 +1,79 @@
+{
+  "generatedAt": "2026-05-01T10:20:18.774Z",
+  "runId": "20260501102013",
+  "trackerId": "te13-replay-truck-a-20260501102013",
+  "beaconId": "ble:te13-replay-20260501102013",
+  "testWindow": {
+    "startTsMs": 1777629913312,
+    "endTsMs": 1777630043312,
+    "startZurich": "2026-05-01T12:05:13+02:00",
+    "endZurich": "2026-05-01T12:07:23+02:00"
+  },
+  "submittedAttempts": 9,
+  "uniqueEventIdsSubmitted": 7,
+  "acceptedEvents": 7,
+  "duplicateAttempts": 2,
+  "duplicateHeartbeatOccurrences": 1,
+  "duplicateBleOccurrences": 1,
+  "trackerHistoryRowsForRun": 7,
+  "beaconHistoryRowsForRun": 2,
+  "livenessDidNotRegressAfterDelayedOlder": true,
+  "finalLivenessOnLatestEvent": true,
+  "livenessTableRows": [
+    {
+      "label": "after heartbeat-newer",
+      "lastEventType": "heartbeat",
+      "lastTrackerTsMs": 1777629973312,
+      "lastTrackerZurich": "2026-05-01T12:06:13+02:00",
+      "deltaMs": 0
+    },
+    {
+      "label": "after duplicate heartbeat-newer",
+      "lastEventType": "heartbeat",
+      "lastTrackerTsMs": 1777629973312,
+      "lastTrackerZurich": "2026-05-01T12:06:13+02:00",
+      "deltaMs": 0
+    },
+    {
+      "label": "after delayed older heartbeat",
+      "lastEventType": "heartbeat",
+      "lastTrackerTsMs": 1777629973312,
+      "lastTrackerZurich": "2026-05-01T12:06:13+02:00",
+      "deltaMs": 0
+    },
+    {
+      "label": "after same-timestamp gps_no_fix",
+      "lastEventType": "gps_no_fix",
+      "lastTrackerTsMs": 1777629973312,
+      "lastTrackerZurich": "2026-05-01T12:06:13+02:00",
+      "deltaMs": 0
+    },
+    {
+      "label": "after shuffled batch",
+      "lastEventType": "heartbeat",
+      "lastTrackerTsMs": 1777630033312,
+      "lastTrackerZurich": "2026-05-01T12:07:13+02:00",
+      "deltaMs": 0
+    }
+  ],
+  "currentOwnerSnapshot": {
+    "associationState": "candidate",
+    "beaconId": "ble:te13-replay-20260501102013",
+    "confidence": 0.7969629927594529,
+    "evidenceAgeMs": 798617,
+    "evidenceState": "confirmed",
+    "isActiveConflict": true,
+    "lastAssignedEvidenceEventType": null,
+    "lastAssignedEvidenceTsMs": 1777630019999,
+    "lastSeenTsMs": 1777630003312,
+    "manualPrior": null,
+    "missedHeartbeats": 0,
+    "missingSinceTsMs": null,
+    "ownerState": "ambiguous",
+    "routeSession": null,
+    "source": "live",
+    "state": "ambiguous",
+    "trackerId": null,
+    "trackingNumber": null
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "parcel-tracker-convex",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "convex:dev": "convex dev",
+    "convex:deploy": "convex deploy"
+  },
+  "dependencies": {
+    "convex": "^1.16.0"
+  }
+}

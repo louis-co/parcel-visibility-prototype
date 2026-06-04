@@ -1,0 +1,3999 @@
+[
+  {
+    "_creationTime": 1772238802205.6406,
+    "_id": "jh7248577pqpxdrxavafcxfcnd8215f4",
+    "beaconId": "ble:1001",
+    "contractVersion": "1.0.0",
+    "eventId": "e6c2cab5-7ace-4617-b53e-78ab30cf6064",
+    "eventType": "ble_scan",
+    "ingestTsMs": 1772238802205,
+    "seq": 1772238796847,
+    "signal": {
+      "rssi": -45
+    },
+    "sourcePayload": {
+      "companyId": 65535,
+      "parcelId": 1001,
+      "source": "ble"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772238796847,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772238806843.923,
+    "_id": "jh7d9nzf7wcyzj7d75yn7dd1g9821je2",
+    "contractVersion": "1.0.0",
+    "eventId": "14175294-bd33-4a87-8708-6dab0b8106c3",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772238806843,
+    "seq": 25853,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772238801539,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772238806988.6904,
+    "_id": "jh77e9fdhsm0br3v85pn7qswp9821zwx",
+    "contractVersion": "1.0.0",
+    "eventId": "f8a28a26-46de-4197-81d2-4b0a42249aa4",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772238806988,
+    "seq": 25854,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772238801602,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772238908463.999,
+    "_id": "jh72p82a3c33eftdy8kwddrj7x821cqy",
+    "contractVersion": "1.0.0",
+    "eventId": "dfd8faa6-c056-4ca7-abc7-25d2ae979b46",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772238908464,
+    "seq": 25855,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772238897172,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772238908642.9236,
+    "_id": "jh7112ecy6t4h54hvd8d7fjqnd8211sr",
+    "contractVersion": "1.0.0",
+    "eventId": "04d5e064-0e86-4a0d-bf0b-e5624c1bbd0c",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772238908643,
+    "seq": 25856,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772238897717,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772238938788.4336,
+    "_id": "jh75p8xdg826ccfvf94z0xqdq5820s0e",
+    "beaconId": "ble:1001",
+    "contractVersion": "1.0.0",
+    "eventId": "731c65f3-8c0c-44bf-881b-bcdad0f08064",
+    "eventType": "ble_scan",
+    "ingestTsMs": 1772238938788,
+    "seq": 1772238933390,
+    "signal": {
+      "rssi": -93
+    },
+    "sourcePayload": {
+      "companyId": 65535,
+      "parcelId": 1001,
+      "source": "ble"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772238933390,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772238939697.0342,
+    "_id": "jh77z9kfzbq0f0v6x6qwawfs6x821f2t",
+    "contractVersion": "1.0.0",
+    "eventId": "5de5c34d-c489-4bac-8654-c875c37ca9aa",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772238939697,
+    "seq": 25857,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772238934351,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772238939886.8796,
+    "_id": "jh74r68hy1cjdjst95ebvf8hzs820tmt",
+    "contractVersion": "1.0.0",
+    "eventId": "bcbf6489-a6a6-4fd4-ac4f-0dec8eb7b062",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772238939886,
+    "seq": 25858,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772238934421,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772238973964.833,
+    "_id": "jh78zyby8q57dp0qqfnp5fvtqn821jkp",
+    "contractVersion": "1.0.0",
+    "eventId": "e283c226-81ed-4680-9546-c4db3181d708",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772238973964,
+    "seq": 25859,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772238968534,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772238974133.0378,
+    "_id": "jh76n0fa3rkk3ncwezzfs9v6ds821yjb",
+    "contractVersion": "1.0.0",
+    "eventId": "c14a60e6-cf7c-496c-86c6-6c7d5df888fc",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772238974133,
+    "seq": 25860,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772238968602,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239002320.4688,
+    "_id": "jh7c3ketrc0g4acztz6hbzywcs820gqx",
+    "contractVersion": "1.0.0",
+    "eventId": "409c052e-1463-4bcf-8508-c30acd7cf4f4",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772239002320,
+    "seq": 25861,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772238996683,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239002473.4263,
+    "_id": "jh7c75gwt03ts0vx5g35qqqjr1820sxd",
+    "contractVersion": "1.0.0",
+    "eventId": "1a60f2ca-d3e7-4d87-a3fa-ffdc3fc30b39",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239002473,
+    "seq": 25862,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772238996752,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239038889.1997,
+    "_id": "jh7fc71v99hnv14h518wkkv5r5821xa9",
+    "contractVersion": "1.0.0",
+    "eventId": "801d4cf5-7f1d-4468-a8f1-33f0b6ff81e0",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772239038889,
+    "seq": 25863,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239033513,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239039035.4238,
+    "_id": "jh7bhddwshe1vtc22nyryvht5n8208aj",
+    "contractVersion": "1.0.0",
+    "eventId": "e7c057ea-3285-4b82-81d6-74976df3bcc0",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239039035,
+    "seq": 25864,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239033581,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239073569.0876,
+    "_id": "jh77h0gxz0j6kegqj86w8h66js821gms",
+    "contractVersion": "1.0.0",
+    "eventId": "92de36ec-4685-49ad-89c9-94fe7b0940c9",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772239073569,
+    "seq": 25865,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239067978,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239073723.2292,
+    "_id": "jh73g5p8tjnf4ekj1s2kcch53h82107h",
+    "contractVersion": "1.0.0",
+    "eventId": "42c918c2-16a8-49df-9fcc-83fa2ad75cff",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239073723,
+    "seq": 25866,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239068046,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239101501.73,
+    "_id": "jh7f55t4gzr94mrdjq0w1w5xr98203bm",
+    "contractVersion": "1.0.0",
+    "eventId": "f2617dda-dc93-4546-b8e2-18a00e5e81f6",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772239101501,
+    "seq": 25867,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239096202,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239101657.373,
+    "_id": "jh7dmr9kyrzz479eaqkjq1j7sx820d99",
+    "contractVersion": "1.0.0",
+    "eventId": "0448668c-c8fd-48e2-a691-82ae2060c6a7",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239101657,
+    "seq": 25868,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239096261,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239139092.6226,
+    "_id": "jh74rp94dpazets339fp0k4fp58201t4",
+    "contractVersion": "1.0.0",
+    "eventId": "4cc0e77a-a6e8-42e6-9294-f9525ac44c2f",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772239139092,
+    "seq": 25869,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239133759,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239139257.8008,
+    "_id": "jh7ecy9pav7rgepqeepbyabcf98214hf",
+    "contractVersion": "1.0.0",
+    "eventId": "9789187d-43b4-4268-ad74-00e3bd2b2562",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239139257,
+    "seq": 25870,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239133829,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239345577.36,
+    "_id": "jh7eyqe5ms51qrpmmvyys7mnkh8210nq",
+    "contractVersion": "1.0.0",
+    "eventId": "fc34feb9-9dc5-44e2-b576-d70023bcfbd7",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772239345577,
+    "seq": 25871,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239334777,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239345743.967,
+    "_id": "jh71x2e2c6yv4pv6jkg7egk7nn8213f3",
+    "contractVersion": "1.0.0",
+    "eventId": "63435b31-8266-4478-95c0-73838ab6cea7",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239345744,
+    "seq": 25872,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239334853,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239376657.895,
+    "_id": "jh7d593wehqt9whjrabmjhzted820hdz",
+    "contractVersion": "1.0.0",
+    "eventId": "4dad0e89-aff7-42dc-9dc8-7965e0f4cb98",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772239376657,
+    "seq": 25873,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239371218,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239376818.3943,
+    "_id": "jh71nkggtf1hneq57mscw9nzb582050h",
+    "contractVersion": "1.0.0",
+    "eventId": "66385a93-eeae-4632-85f2-e274afd245c5",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239376818,
+    "seq": 25874,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239371290,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239401644.3704,
+    "_id": "jh7cy138bd2hmyd31xhk1kmb618213nf",
+    "contractVersion": "1.0.0",
+    "eventId": "6d75f71b-e41f-4521-852d-384cf938dc32",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239401644,
+    "location": {
+      "altM": 7.1,
+      "lat": 25.764416666666666,
+      "lon": -80.13961166666667,
+      "method": "gnss",
+      "speedKmh": 4.54
+    },
+    "seq": 25875,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2545.8650,N,08008.3767,W,280226,004313.000,7.1,4.54,291.34"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239396347,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239401827.8943,
+    "_id": "jh7cm4r77dkfasy6zdqsc7sv39820vfs",
+    "contractVersion": "1.0.0",
+    "eventId": "f63edb76-125a-4cd0-b6ea-4417186682bb",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239401827,
+    "seq": 25876,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239396407,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239433062.6162,
+    "_id": "jh75ztk96qwpv4m0e91708p1bx8205y3",
+    "contractVersion": "1.0.0",
+    "eventId": "cb868505-5e9e-4ffb-9240-a506a707fe6a",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239433062,
+    "location": {
+      "altM": 4.2,
+      "lat": 25.764431666666667,
+      "lon": -80.13968666666666,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 25877,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2545.8659,N,08008.3812,W,280226,004343.000,4.2,0.01,287.04"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239426644,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239433223.4817,
+    "_id": "jh70w9k5jg9fqts21ytmt463d5821sjb",
+    "contractVersion": "1.0.0",
+    "eventId": "2499398f-2e74-40e2-8f7e-33b6e14ac350",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239433223,
+    "seq": 25878,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239427575,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239463389.3574,
+    "_id": "jh70qnkea6s9vqqmemshedgved8215kj",
+    "contractVersion": "1.0.0",
+    "eventId": "ab73dcae-8335-4e48-9e14-1e08826ff20b",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239463389,
+    "location": {
+      "altM": 8.2,
+      "lat": 25.764446666666668,
+      "lon": -80.13968,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 25879,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2545.8668,N,08008.3808,W,280226,004414.000,8.2,0.01,287.04"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239458034,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239463561.568,
+    "_id": "jh703k6jgh230h3za4cg6jgmbn821n0b",
+    "contractVersion": "1.0.0",
+    "eventId": "57de7aa0-1609-49b0-ba7e-8f077dfe6af8",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239463561,
+    "seq": 25880,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239458103,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239493775.5686,
+    "_id": "jh7evg1719xvqc6p2ccrsq493n8209mk",
+    "contractVersion": "1.0.0",
+    "eventId": "ebee5bf1-d9a5-4bf0-bb2d-2b63cafdd46c",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239493775,
+    "location": {
+      "altM": 6.2,
+      "lat": 25.764451666666666,
+      "lon": -80.13967833333334,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 25881,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2545.8671,N,08008.3807,W,280226,004445.000,6.2,0.01,287.04"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239488440,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239493917.1042,
+    "_id": "jh7fkkt32yfmdtk8qpfhx8t11s8205vg",
+    "contractVersion": "1.0.0",
+    "eventId": "558c658a-7050-4962-9a68-8c8b466db2c5",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239493917,
+    "seq": 25882,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239488509,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239524033.8237,
+    "_id": "jh710x93aw420y1je3m80ard8h820xv7",
+    "contractVersion": "1.0.0",
+    "eventId": "8155eb73-e949-4d86-bad1-63c86a64d795",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239524033,
+    "location": {
+      "altM": 6.6,
+      "lat": 25.764451666666666,
+      "lon": -80.13968,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 25883,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2545.8671,N,08008.3808,W,280226,004515.000,6.6,0.00,287.04"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239518724,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239524168.826,
+    "_id": "jh7c2gp5wvzwkzkadbe59gaej5820tqh",
+    "contractVersion": "1.0.0",
+    "eventId": "bf4172fa-afa0-4ddd-ab0f-7d634ed18ced",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239524168,
+    "seq": 25884,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239518796,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239554300.6528,
+    "_id": "jh7exbsfs0c0tg0rs1s472y8hs821gd9",
+    "contractVersion": "1.0.0",
+    "eventId": "bfdc52f7-7d99-44d7-9ce6-179ef0eb7bb6",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239554300,
+    "location": {
+      "altM": 6.6,
+      "lat": 25.764456666666668,
+      "lon": -80.13968333333334,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 25885,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2545.8674,N,08008.3810,W,280226,004545.000,6.6,0.01,287.04"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239548978,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239554442.5208,
+    "_id": "jh7f4d0tn912s9dby1e6cb8nv9821j1c",
+    "contractVersion": "1.0.0",
+    "eventId": "2dd994d0-a1aa-4501-aea6-254e08b10d14",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239554442,
+    "seq": 25886,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239549047,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239585122.443,
+    "_id": "jh76ak71w1pvkpfg6d6rd04bp9820xjt",
+    "contractVersion": "1.0.0",
+    "eventId": "cf336254-ae49-4e23-b942-dbf4720b40e8",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239585122,
+    "location": {
+      "altM": 7.4,
+      "lat": 25.764455,
+      "lon": -80.13969833333333,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 25887,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2545.8673,N,08008.3819,W,280226,004616.000,7.4,0.01,287.04"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239579258,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239585276.3882,
+    "_id": "jh78hkwfcsbtz0sqk0qx86nrhh820nx4",
+    "contractVersion": "1.0.0",
+    "eventId": "a08fef01-7ac4-4cd7-9dd8-ced8abb1fce5",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239585276,
+    "seq": 25888,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239579331,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239615838.5645,
+    "_id": "jh773tr1v25xgbfs3gxt4j9zz58212gx",
+    "contractVersion": "1.0.0",
+    "eventId": "938ee4f5-8697-44a6-8b4f-94f6738ed1fd",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239615838,
+    "location": {
+      "altM": 5.7,
+      "lat": 25.764446666666668,
+      "lon": -80.13969666666667,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 25889,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2545.8668,N,08008.3818,W,280226,004646.000,5.7,0.01,287.04"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239610205,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239615997.8125,
+    "_id": "jh7cg98zqkr44feqme4yg3ehq9820320",
+    "contractVersion": "1.0.0",
+    "eventId": "703f3927-eb75-45b1-9081-3601892c783d",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239615997,
+    "seq": 25890,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239610273,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239646071.4692,
+    "_id": "jh7ftb0wt3fcsb7kf50edn2m2582126m",
+    "contractVersion": "1.0.0",
+    "eventId": "5b715993-4700-43f0-aae1-4a3686a53d6a",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239646071,
+    "location": {
+      "altM": 6.3,
+      "lat": 25.76445,
+      "lon": -80.13970166666667,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 25891,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2545.8670,N,08008.3821,W,280226,004717.000,6.3,0.01,287.04"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239640777,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239646220.611,
+    "_id": "jh76gwbz8g1ctcvw5c2308j73x820myk",
+    "contractVersion": "1.0.0",
+    "eventId": "3647ea48-798f-4db0-8711-142ed97d3bc6",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239646220,
+    "seq": 25892,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239640844,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239676300.0898,
+    "_id": "jh74say01rtj5z494n3zrg60a1821arx",
+    "contractVersion": "1.0.0",
+    "eventId": "291dbc4e-67d1-485c-b0f9-4491b834b67e",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239676300,
+    "location": {
+      "altM": 6.1,
+      "lat": 25.76452,
+      "lon": -80.13969,
+      "method": "gnss",
+      "speedKmh": 1.8
+    },
+    "seq": 25893,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2545.8712,N,08008.3814,W,280226,004747.000,6.1,1.80,333.03"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239670955,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239676444.9023,
+    "_id": "jh73jyvb1k85cp03v6pjns6pps8207qv",
+    "contractVersion": "1.0.0",
+    "eventId": "12cad031-be5b-4a55-ad1b-be6bee7b62dc",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239676444,
+    "seq": 25894,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239671017,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239706701.2517,
+    "_id": "jh72a87g8xy8pmac1zxyypexe18204ag",
+    "contractVersion": "1.0.0",
+    "eventId": "0bff3d9c-e0c1-4e17-a218-1a9a88a78318",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239706701,
+    "location": {
+      "altM": 2.8,
+      "lat": 25.76505166666667,
+      "lon": -80.14014333333333,
+      "method": "gnss",
+      "speedKmh": 7.4
+    },
+    "seq": 25895,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2545.9031,N,08008.4086,W,280226,004818.000,2.8,7.40,323.98"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239701293,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239706863.8743,
+    "_id": "jh7bpngg4hhk3ggd5gy30v1pn9821qn2",
+    "contractVersion": "1.0.0",
+    "eventId": "5ced18d7-7587-4be5-9caf-66dc52b78259",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239706863,
+    "seq": 25896,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239701355,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239737195.0647,
+    "_id": "jh70t25jh844ahz8dxe6h4dzws82124g",
+    "contractVersion": "1.0.0",
+    "eventId": "a924e4dd-130d-4564-9dd3-79c4bcc96180",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239737195,
+    "location": {
+      "altM": 0.9,
+      "lat": 25.765981666666665,
+      "lon": -80.140915,
+      "method": "gnss",
+      "speedKmh": 8.79
+    },
+    "seq": 25897,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2545.9589,N,08008.4549,W,280226,004848.000,0.9,8.79,321.85"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239731655,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239737363.7195,
+    "_id": "jh715amd8mfgv3g4ykm3vw9p1h821tkd",
+    "contractVersion": "1.0.0",
+    "eventId": "cbe94b1c-77b3-4e7d-808a-2ae432b3a87c",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239737363,
+    "seq": 25898,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239731732,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239769508.304,
+    "_id": "jh71bsghkgrrmyhm3bmgm2vfth821fn6",
+    "contractVersion": "1.0.0",
+    "eventId": "f2ec57f3-719c-4ed6-ab23-b66c982e67a7",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239769508,
+    "location": {
+      "altM": 2.5,
+      "lat": 25.766966666666665,
+      "lon": -80.14183666666666,
+      "method": "gnss",
+      "speedKmh": 8.89
+    },
+    "seq": 25899,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.0180,N,08008.5102,W,280226,004919.000,2.5,8.89,314.95"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239763056,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239769658.4258,
+    "_id": "jh7b31y2pm38f1fhmcdek7zre5821cke",
+    "contractVersion": "1.0.0",
+    "eventId": "1839eaa1-89a9-4bf5-8094-88983bf4f46c",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239769658,
+    "seq": 25900,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239763520,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239801029.7327,
+    "_id": "jh77r017pv1v7c1tr0h1qphebx820vyw",
+    "contractVersion": "1.0.0",
+    "eventId": "ea6fb223-56bf-442e-ac3a-040a604adbeb",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239801029,
+    "location": {
+      "altM": 4.9,
+      "lat": 25.767765,
+      "lon": -80.14299833333334,
+      "method": "gnss",
+      "speedKmh": 8.89
+    },
+    "seq": 25901,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.0659,N,08008.5799,W,280226,004951.000,4.9,8.89,298.71"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239794701,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239801179.406,
+    "_id": "jh7bffsv9xqmz1an6f58pnh3w1821jsp",
+    "contractVersion": "1.0.0",
+    "eventId": "78e845d2-62e6-4913-b311-8f162b7a6e86",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239801179,
+    "seq": 25902,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239795452,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239832830.9673,
+    "_id": "jh721wba00q0h9y52w136a7cex820hg9",
+    "contractVersion": "1.0.0",
+    "eventId": "af81e628-1025-44d2-9f57-6bb2207bbcdf",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239832831,
+    "location": {
+      "altM": 6.4,
+      "lat": 25.768293333333332,
+      "lon": -80.14431,
+      "method": "gnss",
+      "speedKmh": 8.92
+    },
+    "seq": 25903,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.0976,N,08008.6586,W,280226,005022.000,6.4,8.92,292.21"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239826226,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239832972.7764,
+    "_id": "jh7er5h752r4sqtgngemw6ba8x821bwd",
+    "contractVersion": "1.0.0",
+    "eventId": "9e2d3110-c93b-47c2-9480-b7b1ccc08136",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239832972,
+    "seq": 25904,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239826881,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239863985.6775,
+    "_id": "jh7ameed21y9j113453y3fs42n8213z2",
+    "contractVersion": "1.0.0",
+    "eventId": "81af8c1b-4c3b-46b8-9778-cbb568b82b80",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239863985,
+    "location": {
+      "altM": 6.2,
+      "lat": 25.7688,
+      "lon": -80.14566333333333,
+      "method": "gnss",
+      "speedKmh": 8.97
+    },
+    "seq": 25905,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.1280,N,08008.7398,W,280226,005054.000,6.2,8.97,291.41"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239858130,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239864135.9666,
+    "_id": "jh78xdansp5x76ae3t9y96262s8211ec",
+    "contractVersion": "1.0.0",
+    "eventId": "c9c66d0a-4455-40e6-9951-cf864d2c0042",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239864136,
+    "seq": 25906,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239858578,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239894212.341,
+    "_id": "jh7csvg6stfs79whswnvaem351821qnz",
+    "contractVersion": "1.0.0",
+    "eventId": "974f0cfe-e53f-425f-820b-0922ad24ba0d",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239894212,
+    "location": {
+      "altM": 5.8,
+      "lat": 25.769306666666665,
+      "lon": -80.14693833333334,
+      "method": "gnss",
+      "speedKmh": 8.82
+    },
+    "seq": 25907,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.1584,N,08008.8163,W,280226,005125.000,5.8,8.82,296.24"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239888929,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239894355.2405,
+    "_id": "jh740kvh43q34zav7zk9mfs5cs821wr7",
+    "contractVersion": "1.0.0",
+    "eventId": "21076993-ebc3-4235-aaa3-5c40f51da134",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239894355,
+    "seq": 25908,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239888968,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239927782.2678,
+    "_id": "jh7dc5mjzs583s8t723pjjf2yn821r3w",
+    "contractVersion": "1.0.0",
+    "eventId": "9d0ce3a4-1db2-4196-82a4-9b7a9dd00826",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239927782,
+    "location": {
+      "altM": 5.1,
+      "lat": 25.769968333333335,
+      "lon": -80.14827833333334,
+      "method": "gnss",
+      "speedKmh": 8.8
+    },
+    "seq": 25909,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.1981,N,08008.8967,W,280226,005159.000,5.1,8.80,296.81"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239922310,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239927935.679,
+    "_id": "jh7dww1v4gr34wc164x7qb4wys820xyv",
+    "contractVersion": "1.0.0",
+    "eventId": "93cedf2c-d57d-40ff-867a-4c5d15210b12",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239927935,
+    "seq": 25910,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239922345,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239959217.3113,
+    "_id": "jh7ah9k52cjtk9ef1005g3txw18201km",
+    "contractVersion": "1.0.0",
+    "eventId": "6cf3b32f-0690-49d6-bc6e-396318c53c19",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239959217,
+    "location": {
+      "altM": 4.5,
+      "lat": 25.770498333333332,
+      "lon": -80.14951333333333,
+      "method": "gnss",
+      "speedKmh": 8.89
+    },
+    "seq": 25911,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2299,N,08008.9708,W,280226,005229.000,4.5,8.89,294.25"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239953079,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239959384.5972,
+    "_id": "jh7edbttcqnzhgvggra2rz7bx9821myr",
+    "contractVersion": "1.0.0",
+    "eventId": "7aa6e0ac-65ce-44ae-90e1-51106b65e2a7",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239959384,
+    "seq": 25912,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239953845,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239990015.808,
+    "_id": "jh792n1txe0v022j7jyd2as471820dsm",
+    "contractVersion": "1.0.0",
+    "eventId": "1054df03-e2c8-43f7-9031-f0c25b289a02",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772239990015,
+    "location": {
+      "altM": 5.2,
+      "lat": 25.770995,
+      "lon": -80.15066833333333,
+      "method": "gnss",
+      "speedKmh": 7.44
+    },
+    "seq": 25913,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2597,N,08009.0401,W,280226,005301.000,5.2,7.44,294.78"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239984534,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772239990179.935,
+    "_id": "jh7fgd6t5256zz0f2f6vsdyybd820419",
+    "contractVersion": "1.0.0",
+    "eventId": "92d183b3-4f39-4dc7-ab22-04fa46d80d07",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772239990180,
+    "seq": 25914,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772239984596,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240020742.3364,
+    "_id": "jh70mz2t9mja0ne0j521rha18h8204z6",
+    "contractVersion": "1.0.0",
+    "eventId": "0d0d3548-19bb-4e79-838f-67362a67cdad",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240020742,
+    "location": {
+      "altM": 5.2,
+      "lat": 25.771395,
+      "lon": -80.15163166666666,
+      "method": "gnss",
+      "speedKmh": 5.4
+    },
+    "seq": 25915,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2837,N,08009.0979,W,280226,005332.000,5.2,5.40,293.29"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240015341,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240020913.8503,
+    "_id": "jh70tytknwtz0qpg9v1x1q9wgh821b82",
+    "contractVersion": "1.0.0",
+    "eventId": "09b4444a-03df-457a-b996-6462e15083d6",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240020913,
+    "seq": 25916,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240015398,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240051500.5564,
+    "_id": "jh7fz69hcty1kpx9tbjgqhxqz58204st",
+    "contractVersion": "1.0.0",
+    "eventId": "2f09eca6-3d94-432f-b03b-493976ec5f5e",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240051500,
+    "location": {
+      "altM": 5.1,
+      "lat": 25.771658333333335,
+      "lon": -80.15190333333334,
+      "method": "gnss",
+      "speedKmh": 1.14
+    },
+    "seq": 25917,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2995,N,08009.1142,W,280226,005402.000,5.1,1.14,12.33"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240046041,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240051660.7751,
+    "_id": "jh74sfpb6zmwtdpeqd0brq4885821x71",
+    "contractVersion": "1.0.0",
+    "eventId": "ba75505a-92d7-4f0e-b508-379fed4ad9ce",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240051660,
+    "seq": 25918,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240046108,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240090957.782,
+    "_id": "jh74m41dz8a3631cgdj33n5nz1821trd",
+    "contractVersion": "1.0.0",
+    "eventId": "a8697f39-d7cd-4391-9b9a-dbacf85cef41",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240090959,
+    "location": {
+      "altM": 8.2,
+      "lat": 25.7717,
+      "lon": -80.15168,
+      "method": "gnss",
+      "speedKmh": 2.07
+    },
+    "seq": 25919,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.3020,N,08009.1008,W,280226,005442.000,8.2,2.07,81.61"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240085510,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240091120.761,
+    "_id": "jh750a86642ys25ds3nxv9hzex82056d",
+    "contractVersion": "1.0.0",
+    "eventId": "f17a6f09-97bb-41c1-bb41-1ac4814e46ba",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240091120,
+    "seq": 25920,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240085564,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240121737.668,
+    "_id": "jh763ejkkxnfjfb8dq7y968v21820jx0",
+    "contractVersion": "1.0.0",
+    "eventId": "3d98e36b-ecb4-44f5-a624-e8b427a0a84f",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240121737,
+    "location": {
+      "altM": 8,
+      "lat": 25.77169,
+      "lon": -80.15131333333333,
+      "method": "gnss",
+      "speedKmh": 1.77
+    },
+    "seq": 25921,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.3014,N,08009.0788,W,280226,005513.000,8.0,1.77,81.61"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240116329,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240121893.7249,
+    "_id": "jh78hn0jg57c4n9rhq1ag8wdn1820bcm",
+    "contractVersion": "1.0.0",
+    "eventId": "3b971b19-9ce8-44e3-b7b0-55eb676a1397",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240121893,
+    "seq": 25922,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240116390,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240152499.3586,
+    "_id": "jh7bjngz9k5hvrjhzq3eekh72h8206g8",
+    "contractVersion": "1.0.0",
+    "eventId": "f6427203-fb65-445f-96ae-e83a6706651f",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240152499,
+    "location": {
+      "altM": 7.8,
+      "lat": 25.77167,
+      "lon": -80.15124833333333,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 25923,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.3002,N,08009.0749,W,280226,005543.000,7.8,0.00,110.48"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240147061,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240152649.0696,
+    "_id": "jh77q1fbbbj2q3xy9pabcxfyhs8212xd",
+    "contractVersion": "1.0.0",
+    "eventId": "010b7aa1-5a6c-4f73-a44c-2cca4b7f9adf",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240152649,
+    "seq": 25924,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240147115,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240184022.1992,
+    "_id": "jh788p1kb0tfprnw9nkq02vyrx820yg6",
+    "contractVersion": "1.0.0",
+    "eventId": "c7b82f85-e35c-47f1-82f7-3470c30c986b",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240184022,
+    "location": {
+      "altM": 7.8,
+      "lat": 25.77167,
+      "lon": -80.15124833333333,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 25925,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.3002,N,08009.0749,W,280226,005614.000,7.8,0.00,110.48"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240177900,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240184183.7068,
+    "_id": "jh7d5n4r9a95jrwew60xm7mxvx82136d",
+    "contractVersion": "1.0.0",
+    "eventId": "d516fd7e-e182-43c9-b332-f8cf2ee93bb8",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240184183,
+    "seq": 25926,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240178210,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240214825.7517,
+    "_id": "jh70cs417tzzh1jymgt6qj6bjs8210pg",
+    "contractVersion": "1.0.0",
+    "eventId": "71297030-ee5c-466f-9906-88b88f0be7e5",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240214825,
+    "location": {
+      "altM": 7.8,
+      "lat": 25.77167,
+      "lon": -80.15124833333333,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 25927,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.3002,N,08009.0749,W,280226,005646.000,7.8,0.00,110.48"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240209388,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240214990.515,
+    "_id": "jh71rzsgrascsjt7n377zb3gsh820k76",
+    "contractVersion": "1.0.0",
+    "eventId": "5095fc77-d47b-4ece-80ae-989896b248db",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240214990,
+    "seq": 25928,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240209449,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240245538.0164,
+    "_id": "jh7evytwsqyxvhw9qexwznxqys820nqy",
+    "contractVersion": "1.0.0",
+    "eventId": "8f7829fe-e6f1-4aae-97c1-0fe3854a6f55",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240245538,
+    "location": {
+      "altM": 7.8,
+      "lat": 25.77167,
+      "lon": -80.15124833333333,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 25929,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.3002,N,08009.0749,W,280226,005716.000,7.8,0.00,110.48"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240240181,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240245717.3623,
+    "_id": "jh76drqpebnyxz1h1emv85tz5s820559",
+    "contractVersion": "1.0.0",
+    "eventId": "f1518b3e-a849-4a7c-b525-c9716d2a4aac",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240245717,
+    "seq": 25930,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240240241,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240276385.6267,
+    "_id": "jh728k8spp8rhnbtc4tjnmyh8s8218wm",
+    "contractVersion": "1.0.0",
+    "eventId": "5e43d60a-e026-48c4-9d2e-b4e5efadefce",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240276385,
+    "location": {
+      "altM": 7.8,
+      "lat": 25.77167,
+      "lon": -80.15124833333333,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 25931,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.3002,N,08009.0749,W,280226,005747.000,7.8,0.00,110.48"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240270951,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240276549.2976,
+    "_id": "jh77x51wyc4hkyqjxmpjb7yhk1821t7e",
+    "contractVersion": "1.0.0",
+    "eventId": "ed6dd4a3-74c7-4ab4-9f19-f76253ed55d6",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240276549,
+    "seq": 25932,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240271013,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240307192.7485,
+    "_id": "jh7b2347f2m25by3s83tp4ka4s820t4j",
+    "contractVersion": "1.0.0",
+    "eventId": "8a93cc92-aefc-4eda-8dea-12c34df4a9c5",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240307192,
+    "location": {
+      "altM": 6.9,
+      "lat": 25.771630000000002,
+      "lon": -80.150605,
+      "method": "gnss",
+      "speedKmh": 9.14
+    },
+    "seq": 25933,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2978,N,08009.0363,W,280226,005818.000,6.9,9.14,21.03"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240301788,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240307338.998,
+    "_id": "jh7azh8m5b9ptmnsnpea0cx9q1821k4a",
+    "contractVersion": "1.0.0",
+    "eventId": "a92b5763-6a0f-44f0-b5dc-6afc6466f1a9",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240307339,
+    "seq": 25934,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240301850,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240338002.1125,
+    "_id": "jh7351vjzas145mzkd8axc02z1820ctt",
+    "contractVersion": "1.0.0",
+    "eventId": "83a28576-d548-40cf-bc29-39079929a1d3",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240338002,
+    "location": {
+      "altM": 6.9,
+      "lat": 25.772041666666667,
+      "lon": -80.15155333333334,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 25935,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.3225,N,08009.0932,W,280226,005849.000,6.9,0.00,296.57"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240332531,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240338156.7087,
+    "_id": "jh7cmhszch551jdcg6akjsdqfx821zsp",
+    "contractVersion": "1.0.0",
+    "eventId": "366413e7-8020-48c7-a312-76b6810f4bf6",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240338156,
+    "seq": 25936,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240332592,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240368805.3442,
+    "_id": "jh7710d2nxgwmsh5n8ajt90g9d821dfd",
+    "contractVersion": "1.0.0",
+    "eventId": "56cabff7-5408-4352-a4a7-cb9b966dd507",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240368805,
+    "location": {
+      "altM": 6.3,
+      "lat": 25.773253333333333,
+      "lon": -80.153885,
+      "method": "gnss",
+      "speedKmh": 38.09
+    },
+    "seq": 25937,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.3952,N,08009.2331,W,280226,005920.000,6.3,38.09,295.18"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240363336,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240368964.95,
+    "_id": "jh7fdqpcxp34nxya4bdet2mw3d8206n6",
+    "contractVersion": "1.0.0",
+    "eventId": "3e4da8c5-cb15-471b-acad-72fb74049f9a",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240368965,
+    "seq": 25938,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240363392,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240676955.8538,
+    "_id": "jh701wg1znm85rmevp5wwd9wds821cbz",
+    "contractVersion": "1.0.0",
+    "eventId": "61ba88b6-3e1d-4933-9bfb-ac9e1d555bc6",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240676955,
+    "location": {
+      "altM": 6.5,
+      "lat": 25.77617,
+      "lon": -80.160665,
+      "method": "gnss",
+      "speedKmh": 2.03
+    },
+    "seq": 25939,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.5702,N,08009.6399,W,280226,010012.000,6.5,2.03,294.24"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240415479,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240668204.6042,
+    "_id": "jh7ca5p2fny6mzqcf0efm228td820vcw",
+    "contractVersion": "1.0.0",
+    "eventId": "46bd3140-8975-4f00-9062-bdb20354acc9",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240668204,
+    "seq": 25940,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240415536,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240668809.3809,
+    "_id": "jh73rgt8n6s9bx5g963v516n1d8214sd",
+    "contractVersion": "1.0.0",
+    "eventId": "78319ee7-5cc3-4a66-8e5c-8a2684192626",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240668809,
+    "location": {
+      "altM": 6,
+      "lat": 25.776885,
+      "lon": -80.16230833333333,
+      "method": "gnss"
+    },
+    "seq": 25941,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.6131,N,08009.7385,W,,010043.000,6.0,,"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240446874,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240669099.8418,
+    "_id": "jh7cvasf9jz9kaqbh0k90apc698215sx",
+    "contractVersion": "1.0.0",
+    "eventId": "4c1e1036-2cca-4eb4-a82f-1e5d71084c14",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240669099,
+    "seq": 25942,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240446982,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240669393.707,
+    "_id": "jh7dmg2520t548dt50vbh3pf4n821emh",
+    "contractVersion": "1.0.0",
+    "eventId": "92364490-d75b-4a0e-9328-86d6ae9025f2",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240669393,
+    "location": {
+      "altM": 6.5,
+      "lat": 25.776936666666668,
+      "lon": -80.16242333333334,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 25943,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.6162,N,08009.7454,W,280226,010115.000,6.5,0.00,296.18"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240478342,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240677726.7053,
+    "_id": "jh7dss9d1tg25623nvcd26w2vn821f2j",
+    "contractVersion": "1.0.0",
+    "eventId": "73a15ed7-1141-4a2c-9c1c-1f53189487d0",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240677726,
+    "seq": 25944,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240478397,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240677926.8499,
+    "_id": "jh720b36k9sqthvq3xm9vw404182004p",
+    "contractVersion": "1.0.0",
+    "eventId": "61c7eebd-c689-4b73-ad2e-25ffaff6e05c",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240677926,
+    "location": {
+      "altM": 5.7,
+      "lat": 25.778315,
+      "lon": -80.16562666666667,
+      "method": "gnss",
+      "speedKmh": 35.89
+    },
+    "seq": 25945,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.6989,N,08009.9376,W,280226,010146.000,5.7,35.89,295.81"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240509740,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240678095.3171,
+    "_id": "jh7czdkv1e52p35vnnvpx7bgm98206m9",
+    "contractVersion": "1.0.0",
+    "eventId": "22e602cd-79f9-481c-84e9-b5d1bb66d258",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240678095,
+    "seq": 25946,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240509798,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240678288.85,
+    "_id": "jh75wgd64pmmf1y7zvjpf0s05d8204k5",
+    "contractVersion": "1.0.0",
+    "eventId": "233ab3fd-95da-4a53-b160-bddaad4727f5",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772240678288,
+    "seq": 25947,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": null,
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240544146,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240678478.435,
+    "_id": "jh7487f0pas6pbqrcbx95a1dah8217tj",
+    "contractVersion": "1.0.0",
+    "eventId": "2760a8dc-1969-4ca1-9177-36fee22df39e",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240678478,
+    "seq": 25948,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240544202,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240678659.259,
+    "_id": "jh77t5df64hkbhjvmrtpq6acsd820czx",
+    "contractVersion": "1.0.0",
+    "eventId": "fe9588c4-3095-4cfd-bc82-9f28d5b1e4f1",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240678659,
+    "location": {
+      "altM": 9.1,
+      "hdop": 329.53,
+      "lat": 25.785798,
+      "lon": -80.175691,
+      "method": "gnss",
+      "speedKmh": 39.4
+    },
+    "seq": 25949,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: 3,12,05,11,07,25.785798,N,80.175691,W,280226,010255.000,9.1,39.40,329.53,0.93,0.53,0.76,27",
+      "cgpsinfoRaw": null
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240579254,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240678848.6416,
+    "_id": "jh74wdry3ptykjpct7v971cqbd8205yn",
+    "contractVersion": "1.0.0",
+    "eventId": "ca5c0907-6227-4a69-98ef-6d76ce6e4c7d",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240678848,
+    "seq": 25950,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240579311,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240679047.29,
+    "_id": "jh73fem8pykj9kbyg4gtw77h8s820etw",
+    "contractVersion": "1.0.0",
+    "eventId": "f5ba00f2-b836-46ec-a4ff-5054ae323156",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240679047,
+    "location": {
+      "altM": 28.2,
+      "lat": 25.787501666666667,
+      "lon": -80.18104333333333,
+      "method": "gnss",
+      "speedKmh": 28.18
+    },
+    "seq": 25951,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2547.2501,N,08010.8626,W,280226,010327.000,28.2,28.18,266.97"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240610665,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240679212.7903,
+    "_id": "jh75fyjxh77hez3txy72tspc998212xy",
+    "contractVersion": "1.0.0",
+    "eventId": "21df3094-5066-4aa9-ac1f-28a30c6e89e1",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240679212,
+    "seq": 25952,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240610731,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240679421.7751,
+    "_id": "jh7eyysfq5bbz0v3ez13tnrc75821caa",
+    "contractVersion": "1.0.0",
+    "eventId": "f4ed95ff-0e26-4494-959b-ec5e446eac14",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240679421,
+    "location": {
+      "altM": 14.1,
+      "lat": 25.787231666666667,
+      "lon": -80.18500166666666,
+      "method": "gnss",
+      "speedKmh": 34.57
+    },
+    "seq": 25953,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2547.2339,N,08011.1001,W,280226,010358.000,14.1,34.57,265.49"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240642077,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240679605.5576,
+    "_id": "jh74byk1f0sxz6f5n04vhdk2dx821tq4",
+    "contractVersion": "1.0.0",
+    "eventId": "82bd71a0-0151-4093-b31f-87458285d504",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240679605,
+    "seq": 25954,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240642144,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240679816.367,
+    "_id": "jh774z143qsm2nc5jdhqg5rj35820fvw",
+    "contractVersion": "1.0.0",
+    "eventId": "6cfa55d9-4e7a-454c-a484-81a1bfbab65d",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240679816,
+    "location": {
+      "altM": 13.2,
+      "lat": 25.785876666666667,
+      "lon": -80.19047166666667,
+      "method": "gnss",
+      "speedKmh": 34.48
+    },
+    "seq": 25955,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2547.1526,N,08011.4283,W,280226,010432.000,13.2,34.48,266.61"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240675531,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240680007.6567,
+    "_id": "jh73b97aka1a2dvaqsjb5tsa31820x12",
+    "contractVersion": "1.0.0",
+    "eventId": "cfc67eef-ea00-433b-93a6-1a7108911fa2",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240680007,
+    "seq": 25956,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240676380,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240705781.5767,
+    "_id": "jh742177jeya93em4pjy7nny45820d0k",
+    "contractVersion": "1.0.0",
+    "eventId": "8a6727bc-be0a-4835-a416-48ec006db2ec",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240705781,
+    "location": {
+      "altM": 18.4,
+      "lat": 25.78684833333333,
+      "lon": -80.19475833333334,
+      "method": "gnss",
+      "speedKmh": 29.8
+    },
+    "seq": 25957,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2547.2109,N,08011.6855,W,280226,010502.000,18.4,29.80,288.54"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240705597,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240705974.1116,
+    "_id": "jh7drhwfjzb9db2xzvqraabnp1821m3v",
+    "contractVersion": "1.0.0",
+    "eventId": "e68cfeb0-b646-4890-b494-ccde5c1cf17d",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240705974,
+    "seq": 25958,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240705659,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240735904.7805,
+    "_id": "jh74ktdvrhv3fbdbbms1bdbhtx821afv",
+    "contractVersion": "1.0.0",
+    "eventId": "0bd73aa1-51b6-487e-993c-4e9328213b20",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240735904,
+    "location": {
+      "altM": 18.3,
+      "lat": 25.788425,
+      "lon": -80.19881666666667,
+      "method": "gnss",
+      "speedKmh": 32.75
+    },
+    "seq": 25959,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2547.3055,N,08011.9290,W,280226,010532.000,18.3,32.75,294.86"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240735680,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240736136.1135,
+    "_id": "jh76bqxrymfaw5s78kb4zdfcth820az8",
+    "contractVersion": "1.0.0",
+    "eventId": "7b787ed4-04fb-4b21-8d4c-64fad60eba22",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240736136,
+    "seq": 25960,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240735739,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240766382.8079,
+    "_id": "jh7000k089wagf68ev4m3pzgwd820j5b",
+    "contractVersion": "1.0.0",
+    "eventId": "755aa4e9-c2ff-4051-883d-7e95a683f6b5",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240766382,
+    "location": {
+      "altM": 27.1,
+      "lat": 25.789076666666666,
+      "lon": -80.202745,
+      "method": "gnss",
+      "speedKmh": 30.91
+    },
+    "seq": 25961,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2547.3446,N,08012.1647,W,280226,010602.000,27.1,30.91,257.59"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240766094,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240766597.5325,
+    "_id": "jh7fd7tdhmwv9tmn452wn921ss82043r",
+    "contractVersion": "1.0.0",
+    "eventId": "8316afe2-2a38-4ceb-a09d-c12bbc853486",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240766597,
+    "seq": 25962,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240766153,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240796555.1663,
+    "_id": "jh7b8q66p0n3s7ab346vgftq41821eks",
+    "contractVersion": "1.0.0",
+    "eventId": "73197e91-ce10-416a-82b5-edbcf2161159",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240796555,
+    "location": {
+      "altM": 20.5,
+      "lat": 25.786751666666667,
+      "lon": -80.20364666666667,
+      "method": "gnss",
+      "speedKmh": 12.06
+    },
+    "seq": 25963,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2547.2051,N,08012.2188,W,280226,010633.000,20.5,12.06,151.73"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240796318,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240796747.565,
+    "_id": "jh72bc82y7g7jqjqmfkc8sxnyn8211vw",
+    "contractVersion": "1.0.0",
+    "eventId": "5cd6a75c-25dc-4dd8-990a-1b7bb4d94178",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240796747,
+    "seq": 25964,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240796378,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240826737.878,
+    "_id": "jh7f6k1kqkszkhb6rc49qfjxed8212s4",
+    "contractVersion": "1.0.0",
+    "eventId": "dbfffe51-66c2-4b7b-9a61-8d52fecb98ef",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240826737,
+    "location": {
+      "altM": 17.4,
+      "lat": 25.78571833333333,
+      "lon": -80.20296166666667,
+      "method": "gnss",
+      "speedKmh": 5.43
+    },
+    "seq": 25965,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2547.1431,N,08012.1777,W,280226,010703.000,17.4,5.43,144.11"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240826398,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240827474.6648,
+    "_id": "jh7345x7etsb7e4a1e2cegzkbh820hyf",
+    "contractVersion": "1.0.0",
+    "eventId": "5610186d-ffde-43c5-8a50-5ae7fd29c588",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240827474,
+    "seq": 25966,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240826458,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240868446.697,
+    "_id": "jh719pns1hzk2yda58srkv22q98219mp",
+    "contractVersion": "1.0.0",
+    "eventId": "08f0aff2-b066-43f4-b4fd-11076d7adba3",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240868446,
+    "location": {
+      "altM": 16.7,
+      "lat": 25.78486,
+      "lon": -80.20227833333334,
+      "method": "gnss",
+      "speedKmh": 9.05
+    },
+    "seq": 25967,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2547.0916,N,08012.1367,W,280226,010743.000,16.7,9.05,145.43"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240866348,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240868631.3704,
+    "_id": "jh7a10b7hwb4tgq0xvyxbyc3xs820651",
+    "contractVersion": "1.0.0",
+    "eventId": "a2c546a2-fe8d-4856-a4ea-c0f1f4a91e86",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240868631,
+    "seq": 25968,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240866407,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240896917.5632,
+    "_id": "jh77vcsvnyb50p99y8njpbhhxs820tap",
+    "contractVersion": "1.0.0",
+    "eventId": "6166187d-91a5-4a0c-9e9e-263001f48f3e",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240896917,
+    "location": {
+      "altM": 17.6,
+      "lat": 25.78436,
+      "lon": -80.20193,
+      "method": "gnss",
+      "speedKmh": 7.04
+    },
+    "seq": 25969,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2547.0616,N,08012.1158,W,280226,010813.000,17.6,7.04,149.90"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240896548,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240897131.5037,
+    "_id": "jh7e80m11m03zy7cnsr72wmd0h820yxw",
+    "contractVersion": "1.0.0",
+    "eventId": "d7cbcb08-f7c3-451e-8dee-5ce577aaaad3",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240897131,
+    "seq": 25970,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240896601,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240928171.1687,
+    "_id": "jh791vktvfvfdgwej66zyzhgq9821swa",
+    "contractVersion": "1.0.0",
+    "eventId": "9def6d0d-5ce3-4335-998a-949851758377",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240928171,
+    "location": {
+      "altM": 17.1,
+      "lat": 25.783698333333334,
+      "lon": -80.20147666666666,
+      "method": "gnss",
+      "speedKmh": 9.8
+    },
+    "seq": 25971,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2547.0219,N,08012.0886,W,280226,010843.000,17.1,9.80,149.21"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240927072,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240928458.0146,
+    "_id": "jh76cjt1wy7mma8mrzj7wdzdgx8205ar",
+    "contractVersion": "1.0.0",
+    "eventId": "90ab9d29-a448-447b-af2a-43e9005c3920",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240928458,
+    "seq": 25972,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240927129,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240957642.9941,
+    "_id": "jh7f33qd5wxjbmgvqvfm8wqbrd820ev3",
+    "contractVersion": "1.0.0",
+    "eventId": "d9515cc5-207f-40c9-bd6b-b97109ea8e20",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240957643,
+    "location": {
+      "altM": 14,
+      "lat": 25.781816666666668,
+      "lon": -80.20040833333333,
+      "method": "gnss",
+      "speedKmh": 24.8
+    },
+    "seq": 25973,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.9090,N,08012.0245,W,280226,010914.000,14.0,24.80,161.91"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240957253,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240957822.2856,
+    "_id": "jh74h1q3g654kw8vgk648szpzd820kxq",
+    "contractVersion": "1.0.0",
+    "eventId": "f7f72b32-7c98-4988-9dbe-01c881c7fe80",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240957822,
+    "seq": 25974,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240957366,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240987780.9114,
+    "_id": "jh7b4d5mbzs0g7mnpg6je8znn1821856",
+    "contractVersion": "1.0.0",
+    "eventId": "c59a8c60-1410-4a4f-9504-abfce3b0f2d5",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772240987780,
+    "location": {
+      "altM": 11.7,
+      "lat": 25.777336666666667,
+      "lon": -80.19990166666666,
+      "method": "gnss",
+      "speedKmh": 31.85
+    },
+    "seq": 25975,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.6402,N,08011.9941,W,280226,010944.000,11.7,31.85,178.11"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240987426,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772240987981.5974,
+    "_id": "jh766n3wtgydqr9yy0zchf7z3n820q8g",
+    "contractVersion": "1.0.0",
+    "eventId": "9fe890a1-a73d-406c-a623-97726052e070",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772240987981,
+    "seq": 25976,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772240987483,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241018508.497,
+    "_id": "jh7f21rxj3n1q11ts8phv6kxt1821dd7",
+    "contractVersion": "1.0.0",
+    "eventId": "eb845a23-c768-4ec7-bda5-6375fd1b119a",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241018508,
+    "location": {
+      "altM": 11.5,
+      "lat": 25.772711666666666,
+      "lon": -80.19798,
+      "method": "gnss",
+      "speedKmh": 33.97
+    },
+    "seq": 25977,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.3627,N,08011.8788,W,280226,011014.000,11.5,33.97,98.94"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241017555,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241018705.4868,
+    "_id": "jh75mepsr1tyvj5acf0d8qbfbx820xb9",
+    "contractVersion": "1.0.0",
+    "eventId": "a98f1d42-264d-428f-b7fb-192d0242822f",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241018705,
+    "seq": 25978,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241018139,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241048110.1936,
+    "_id": "jh72gb41x16r0e7s6ew1mm0ech821n3x",
+    "contractVersion": "1.0.0",
+    "eventId": "5a2c639a-d03d-43c8-ab41-8d0cd957bf9c",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241048110,
+    "location": {
+      "altM": 11.1,
+      "lat": 25.771635,
+      "lon": -80.19292833333333,
+      "method": "gnss",
+      "speedKmh": 32.73
+    },
+    "seq": 25979,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2981,N,08011.5757,W,280226,011044.000,11.1,32.73,98.75"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241047762,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241048317.146,
+    "_id": "jh7fgeahfm2ge2zkzvqm6xyrrx8218c9",
+    "contractVersion": "1.0.0",
+    "eventId": "736afc4b-2f3c-4ec9-aa6a-e804a81b5eac",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241048317,
+    "seq": 25980,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241047829,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241078304.4026,
+    "_id": "jh70jqjjdm79v0x9j330g99rr5821jys",
+    "contractVersion": "1.0.0",
+    "eventId": "b2846703-c5b6-4706-a4a1-ee462d2845b7",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241078304,
+    "location": {
+      "altM": 18.5,
+      "lat": 25.771661666666667,
+      "lon": -80.19091166666666,
+      "method": "gnss",
+      "speedKmh": 12.69
+    },
+    "seq": 25981,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2997,N,08011.4547,W,280226,011114.000,18.5,12.69,84.14"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241077946,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241078492.2485,
+    "_id": "jh719crdcmvtb5rmem2he92f1982084j",
+    "contractVersion": "1.0.0",
+    "eventId": "89dd003a-5b98-4ec7-81fd-f6b759f20d0c",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241078492,
+    "seq": 25982,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241078010,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241108651.3882,
+    "_id": "jh77s1gs19x5svc3tbrp0842ss820m6j",
+    "contractVersion": "1.0.0",
+    "eventId": "894e8934-7015-4206-b3ff-f30f31eef496",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241108651,
+    "location": {
+      "altM": 17.7,
+      "lat": 25.77166,
+      "lon": -80.19004166666667,
+      "method": "gnss",
+      "speedKmh": 0.35
+    },
+    "seq": 25983,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2996,N,08011.4025,W,280226,011145.000,17.7,0.35,92.86"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241108265,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241108844.754,
+    "_id": "jh7b1xev0e688vhkn4jm37d2e5820hf2",
+    "contractVersion": "1.0.0",
+    "eventId": "323aa2d3-fa36-4d5c-960c-a9ba7eb964f9",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241108844,
+    "seq": 25984,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241108390,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241138786.3542,
+    "_id": "jh7ef7tvnqdqq4zzr5a007czh182088n",
+    "contractVersion": "1.0.0",
+    "eventId": "2abdf813-ceac-4451-98f1-dd2516f403f3",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241138786,
+    "location": {
+      "altM": 16.6,
+      "lat": 25.771643333333333,
+      "lon": -80.18944333333333,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 25985,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2986,N,08011.3666,W,280226,011214.000,16.6,0.00,97.59"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241138417,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241138971.721,
+    "_id": "jh75rh5mzwe5sntb5e4z15tbnn820wg7",
+    "contractVersion": "1.0.0",
+    "eventId": "64f4a913-68c7-4468-9ab1-3e55d1cb1949",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241138971,
+    "seq": 25986,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241138477,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241169001.168,
+    "_id": "jh72j3b854mvzm9n475gfamp1x820j9c",
+    "contractVersion": "1.0.0",
+    "eventId": "e60c03b3-8db0-41eb-9a7e-d9962385b26c",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241169001,
+    "location": {
+      "altM": 16.6,
+      "lat": 25.771643333333333,
+      "lon": -80.18944333333333,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 25987,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2986,N,08011.3666,W,280226,011245.000,16.6,0.00,97.59"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241168600,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241169204.4968,
+    "_id": "jh72e6syrnfz086y0av5mcac7d821bme",
+    "contractVersion": "1.0.0",
+    "eventId": "388931a2-fce6-43c2-be13-c74fa58f8448",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241169204,
+    "seq": 25988,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241168668,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241199810.6794,
+    "_id": "jh7bwxv596gsbn57vdhcnx0yb1820nra",
+    "contractVersion": "1.0.0",
+    "eventId": "35510101-52e1-45f3-8672-e975915322cd",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241199810,
+    "location": {
+      "altM": 17.1,
+      "lat": 25.77164,
+      "lon": -80.18942833333334,
+      "method": "gnss",
+      "speedKmh": 3.81
+    },
+    "seq": 25989,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2984,N,08011.3657,W,280226,011315.000,17.1,3.81,87.49"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241198799,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241200290.7441,
+    "_id": "jh778p2wztw7xvzq29y84mnwjs820j07",
+    "contractVersion": "1.0.0",
+    "eventId": "d18b3dbe-b8ec-430c-9b81-678c9d934892",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241200290,
+    "seq": 25990,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241198866,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241229487.4475,
+    "_id": "jh7eccmsq04k92nwy61bkem3bx8201hs",
+    "contractVersion": "1.0.0",
+    "eventId": "4c6d5045-0cfd-4ee5-95c4-4f1f1ab61ef2",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241229487,
+    "location": {
+      "altM": 14.4,
+      "lat": 25.771395,
+      "lon": -80.18903833333333,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 25991,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2837,N,08011.3423,W,280226,011345.000,14.4,0.00,177.62"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241228966,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241230535.593,
+    "_id": "jh7egp76ky9vm7b5kt35e8dq69820tzh",
+    "contractVersion": "1.0.0",
+    "eventId": "b87caf06-4572-40bc-949e-163a88533fe5",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241230535,
+    "seq": 25992,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241229044,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241260665.92,
+    "_id": "jh7bkh5h1x28ts9js01ne0kx4s821fmn",
+    "contractVersion": "1.0.0",
+    "eventId": "720b8e93-ef7f-4de9-bdc2-2a356c09a8a5",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241260666,
+    "location": {
+      "altM": 14.4,
+      "lat": 25.771395,
+      "lon": -80.18903833333333,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 25993,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2837,N,08011.3423,W,280226,011417.000,14.4,0.00,177.62"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241260319,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241260846.895,
+    "_id": "jh7ep5h3xzh36mg3111shesn81821rjn",
+    "contractVersion": "1.0.0",
+    "eventId": "394f6327-828f-4dbb-9c7c-68fd50bee7f5",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241260847,
+    "seq": 25994,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241260387,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241299588.6958,
+    "_id": "jh796an1qp4jzps2cg0ny8dp9d82022k",
+    "contractVersion": "1.0.0",
+    "eventId": "d19a1c31-9cd6-40f7-91b7-6437c51c30f0",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241299588,
+    "location": {
+      "altM": 11.4,
+      "lat": 25.771288333333334,
+      "lon": -80.189035,
+      "method": "gnss",
+      "speedKmh": 8.86
+    },
+    "seq": 25995,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2773,N,08011.3421,W,280226,011455.000,11.4,8.86,174.54"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241299106,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241299758.6694,
+    "_id": "jh78p0a926mcm2nvsn95ht4f2x820x1m",
+    "contractVersion": "1.0.0",
+    "eventId": "536a706a-141f-4cd9-8a37-b95616272382",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241299758,
+    "seq": 25996,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241299174,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241329736.8254,
+    "_id": "jh70vp061ahhj6x47fdnbhzy8n820dxa",
+    "contractVersion": "1.0.0",
+    "eventId": "f65cc664-167e-497e-b70c-2e0f835fd36d",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241329736,
+    "location": {
+      "altM": 12.1,
+      "lat": 25.770928333333334,
+      "lon": -80.18902666666666,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 25997,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2557,N,08011.3416,W,280226,011526.000,12.1,0.00,182.50"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241329390,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241329912.1013,
+    "_id": "jh7aeyrw4xcy622ze8eedas9vn820ztw",
+    "contractVersion": "1.0.0",
+    "eventId": "f0248c41-4ff6-4bc0-842b-b26c74a89327",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241329912,
+    "seq": 25998,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241329454,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241360237.1929,
+    "_id": "jh75m4ny20f8p1xc1mrzdr8jy582007e",
+    "contractVersion": "1.0.0",
+    "eventId": "54d6909e-3d45-4b50-88df-955f8aaf0bc5",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241360237,
+    "location": {
+      "altM": 12.1,
+      "lat": 25.770928333333334,
+      "lon": -80.18902666666666,
+      "method": "gnss"
+    },
+    "seq": 25999,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2557,N,08011.3416,W,,011556.000,12.1,,"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241359616,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241360448.989,
+    "_id": "jh7a7fz962m1rpcv8f0qant7rh820r0y",
+    "contractVersion": "1.0.0",
+    "eventId": "7ced8f86-6395-4406-97b3-1256a096e7b5",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241360449,
+    "seq": 26000,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241359683,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241390011.2427,
+    "_id": "jh7d87ats2bzw7sf051vqgqtkx8218g6",
+    "contractVersion": "1.0.0",
+    "eventId": "c2ec58c1-579b-4790-9f3b-c77f7e32a084",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241390011,
+    "location": {
+      "altM": 12.1,
+      "lat": 25.770928333333334,
+      "lon": -80.18902666666666,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26001,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2557,N,08011.3416,W,280226,011626.000,12.1,0.00,182.50"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241389666,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241390204.6985,
+    "_id": "jh7afyns84cgv86tg7cnw0k6xx82170p",
+    "contractVersion": "1.0.0",
+    "eventId": "ef9b2ff3-f16f-4767-8384-eec430294e74",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241390204,
+    "seq": 26002,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241389723,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241420201.6187,
+    "_id": "jh7a2b9zwayyjvnrbkc0v13fkx821r6v",
+    "contractVersion": "1.0.0",
+    "eventId": "7eb384a4-96f1-4d26-9cc4-8e835b9b4696",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241420201,
+    "location": {
+      "altM": 19.1,
+      "lat": 25.770875,
+      "lon": -80.18903,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26003,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2525,N,08011.3418,W,280226,011656.000,19.1,0.00,159.93"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241419833,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241420384.8254,
+    "_id": "jh7cq3m609yfstsmhztvmf1k7s821dd5",
+    "contractVersion": "1.0.0",
+    "eventId": "3ba0f736-851e-4f9c-ab76-34830bf119cb",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241420384,
+    "seq": 26004,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241419902,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241450546.6523,
+    "_id": "jh73hwkcpqjph2teqy17a6yab5821dvv",
+    "contractVersion": "1.0.0",
+    "eventId": "c669ca43-be75-4325-8b82-4b6e190ce523",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241450546,
+    "location": {
+      "altM": 24.1,
+      "lat": 25.77070833333333,
+      "lon": -80.18897333333334,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26005,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2425,N,08011.3384,W,280226,011726.000,24.1,0.00,145.29"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241450066,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241450800.5728,
+    "_id": "jh70xyp61z81sbn56vxncb4zc582088c",
+    "contractVersion": "1.0.0",
+    "eventId": "e7fd4e11-3901-4141-a92e-1a25fbcb5b95",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241450800,
+    "seq": 26006,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241450135,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241480584.8616,
+    "_id": "jh705dh11bwmyk84ddgmyd5at18215ww",
+    "contractVersion": "1.0.0",
+    "eventId": "fcc82f38-ffd5-4657-9534-3ea5020e05c4",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241480584,
+    "location": {
+      "altM": 24.1,
+      "lat": 25.77070833333333,
+      "lon": -80.18897333333334,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26007,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2425,N,08011.3384,W,280226,011757.000,24.1,0.00,145.29"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241480215,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241480849.497,
+    "_id": "jh74sc3306w3jfj30zf0hgjggd8219p4",
+    "contractVersion": "1.0.0",
+    "eventId": "99205137-c943-460e-b504-6eb77056a9d9",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241480849,
+    "seq": 26008,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241480283,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241511580.8013,
+    "_id": "jh766gmxp5xndzf24j50jke5c18207gj",
+    "contractVersion": "1.0.0",
+    "eventId": "bba22792-db9d-46c6-ac00-92eaf233541e",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241511580,
+    "location": {
+      "altM": 24.1,
+      "lat": 25.77070833333333,
+      "lon": -80.18897333333334,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26009,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2425,N,08011.3384,W,280226,011828.000,24.1,0.00,145.29"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241511299,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241511759.2993,
+    "_id": "jh7b19bxq5hwpfv2mn8ykpqz4d8211zx",
+    "contractVersion": "1.0.0",
+    "eventId": "8f0a4b98-d2e7-4ce4-8f72-318533e452b4",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241511759,
+    "seq": 26010,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241511368,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241542351.8457,
+    "_id": "jh73h2tazkhk3zsrhtv8re1eq98215hg",
+    "contractVersion": "1.0.0",
+    "eventId": "db5a14e8-71d2-4876-bbad-755fdc77cdfe",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241542351,
+    "location": {
+      "altM": 21.2,
+      "lat": 25.770638333333334,
+      "lon": -80.18894333333333,
+      "method": "gnss",
+      "speedKmh": 2.44
+    },
+    "seq": 26011,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2383,N,08011.3366,W,280226,011858.000,21.2,2.44,176.74"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241542049,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241542539.4573,
+    "_id": "jh74za8mp2b6xbngtghqat2jcd821ydz",
+    "contractVersion": "1.0.0",
+    "eventId": "347d7eed-6a9a-4291-a7e9-13b7ab895329",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241542539,
+    "seq": 26012,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241542130,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241573063.3357,
+    "_id": "jh7awg3gz72rgptx5b3hr40aw1821d93",
+    "contractVersion": "1.0.0",
+    "eventId": "653e44f3-b919-4fa1-a040-283418e6667c",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241573063,
+    "location": {
+      "altM": 20.5,
+      "lat": 25.770523333333333,
+      "lon": -80.188865,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26013,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2314,N,08011.3319,W,280226,011929.000,20.5,0.00,143.60"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241572805,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241573236.094,
+    "_id": "jh7831zsweknbdgxpy03j82gv1821f86",
+    "contractVersion": "1.0.0",
+    "eventId": "bb4f6f83-028e-4ce7-b107-9e40aa11f32a",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241573236,
+    "seq": 26014,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241572880,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241603795.6265,
+    "_id": "jh77dtr42txw9q00htknv4cmrd8218hp",
+    "contractVersion": "1.0.0",
+    "eventId": "723dc6a2-5f90-4e6c-a319-6138b5536cb5",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241603795,
+    "location": {
+      "altM": 20.5,
+      "lat": 25.770523333333333,
+      "lon": -80.188865,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26015,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2314,N,08011.3319,W,280226,012000.000,20.5,0.00,143.60"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241603556,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241604002.2393,
+    "_id": "jh7f56w926g2dmwdvhq1mwsayd8214vs",
+    "contractVersion": "1.0.0",
+    "eventId": "8caa6d09-64cb-4da2-aa3e-3c98e14b5abf",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241604002,
+    "seq": 26016,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241603628,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241634878.4185,
+    "_id": "jh747mr0s68dxrcvanzk9gcrrd820fv6",
+    "contractVersion": "1.0.0",
+    "eventId": "3e1a05a0-901e-4d0a-893a-b77a7ea5909e",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241634878,
+    "location": {
+      "altM": 20.5,
+      "lat": 25.770523333333333,
+      "lon": -80.188865,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26017,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2314,N,08011.3319,W,280226,012030.000,20.5,0.00,143.60"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241633768,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241635046.177,
+    "_id": "jh7c3fsxsdpr6nmrqpjrcjf4ph8210an",
+    "contractVersion": "1.0.0",
+    "eventId": "6d40f68e-a197-47a2-bb46-a3da4fd7f330",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241635046,
+    "seq": 26018,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241634731,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241664098.3772,
+    "_id": "jh7cnjxzde76x6j2cefk0y0z19821f7q",
+    "contractVersion": "1.0.0",
+    "eventId": "963c6993-3d2a-4264-87e2-466b83a79360",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241664098,
+    "location": {
+      "altM": 20.5,
+      "lat": 25.770523333333333,
+      "lon": -80.188865,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26019,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2314,N,08011.3319,W,280226,012100.000,20.5,0.00,143.60"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241663877,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241664279.4414,
+    "_id": "jh73k6h0k4jjxfzr0xf5gn8xxn82010k",
+    "contractVersion": "1.0.0",
+    "eventId": "c06321f0-9905-40ab-9da2-6eec57b98d4e",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241664279,
+    "seq": 26020,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241663949,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241694133.0566,
+    "_id": "jh796s9xq435e3gnexm3f896bs821ysb",
+    "contractVersion": "1.0.0",
+    "eventId": "7a4ea033-b6dd-456c-9123-7e2f1335cdb2",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241694133,
+    "location": {
+      "altM": 20.5,
+      "lat": 25.770523333333333,
+      "lon": -80.188865,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26021,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2314,N,08011.3319,W,280226,012130.000,20.5,0.00,143.60"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241693907,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241694313.3,
+    "_id": "jh72nmw6bf3ad0pzfydd3dqzan821w9r",
+    "contractVersion": "1.0.0",
+    "eventId": "e23cb763-89f0-4b1c-8ab0-35b6f22733b2",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241694313,
+    "seq": 26022,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241693967,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241725006.5596,
+    "_id": "jh7cn7ks8vtmf60rc67rbv4c4h820xqw",
+    "contractVersion": "1.0.0",
+    "eventId": "1a34a4f4-bb6d-451c-8135-60214e739064",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241725006,
+    "location": {
+      "altM": 18,
+      "lat": 25.77051833333333,
+      "lon": -80.18883166666667,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26023,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2311,N,08011.3299,W,280226,012200.000,18.0,0.00,338.96"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241724064,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241725200.148,
+    "_id": "jh71khbm7wjyp30ancp91nbbvh82137r",
+    "contractVersion": "1.0.0",
+    "eventId": "009754ad-6d57-40eb-868c-b519f6ebc3c1",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241725200,
+    "seq": 26024,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241724759,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241754476.5679,
+    "_id": "jh755xswvtvf2fpay5tggc7sdh820sz9",
+    "contractVersion": "1.0.0",
+    "eventId": "5ec4514a-62dc-47cc-94f5-fc3104d13bfc",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241754476,
+    "location": {
+      "altM": 16.8,
+      "lat": 25.770586666666667,
+      "lon": -80.18889333333334,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26025,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2352,N,08011.3336,W,280226,012230.000,16.8,0.00,304.41"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241754290,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241754649.8413,
+    "_id": "jh74by31xzyv3t1m23w0vc18as821v52",
+    "contractVersion": "1.0.0",
+    "eventId": "447036ac-dd18-4dc7-a3cc-0040366c7392",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241754649,
+    "seq": 26026,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241754356,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241784663.316,
+    "_id": "jh772p099d7qq5x3gjxt0h7m318218q2",
+    "contractVersion": "1.0.0",
+    "eventId": "51358abb-c843-45ee-a285-0400884c00bc",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241784663,
+    "location": {
+      "altM": 14.4,
+      "lat": 25.770621666666667,
+      "lon": -80.188985,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26027,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2373,N,08011.3391,W,280226,012301.000,14.4,0.00,324.07"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241784453,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241784840.521,
+    "_id": "jh7f050622mwdy5jc0c2tecmbh820msx",
+    "contractVersion": "1.0.0",
+    "eventId": "f3bd8439-e71c-4952-b67b-dbcf8fc123aa",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241784840,
+    "seq": 26028,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241784519,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241815034.532,
+    "_id": "jh77fb783yc60s49mn8z2y3g3n820kca",
+    "contractVersion": "1.0.0",
+    "eventId": "04d48357-b359-40e0-91b9-6fb950f255f5",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241815034,
+    "location": {
+      "altM": 14.4,
+      "lat": 25.770621666666667,
+      "lon": -80.188985,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26029,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2373,N,08011.3391,W,280226,012331.000,14.4,0.00,324.07"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241814812,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241815227.7202,
+    "_id": "jh78vfw29706z8420bmcvzk5rs8216ph",
+    "contractVersion": "1.0.0",
+    "eventId": "718eafd9-a9a2-42b1-8ab6-54d567979c28",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241815227,
+    "seq": 26030,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241814876,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241845259.1013,
+    "_id": "jh746x3qrzbn1cand1k0gmb8j98215bz",
+    "contractVersion": "1.0.0",
+    "eventId": "cfb9bc86-c8a6-40f1-84c0-6c7e04d10576",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1772241845259,
+    "location": {
+      "altM": 17.9,
+      "lat": 25.770645000000002,
+      "lon": -80.18898333333334,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 26031,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 2546.2387,N,08011.3390,W,280226,012401.000,17.9,0.00,127.81"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241844927,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241845463.185,
+    "_id": "jh7bqkpag7f9gmepqete1j4rj58200tg",
+    "contractVersion": "1.0.0",
+    "eventId": "b5a52d5c-dc8d-4afc-8b23-1a98c1035be2",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241845463,
+    "seq": 26032,
+    "status": {
+      "locationMode": "gnss_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241844995,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241878236.2478,
+    "_id": "jh71tscb6yxdf3scg543y02x5h820wzz",
+    "contractVersion": "1.0.0",
+    "eventId": "b84f7531-f678-4b14-a5da-bb0f98ca30ab",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772241878236,
+    "seq": 26033,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241877936,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241878436.6106,
+    "_id": "jh7d4mp710ardzftr21kdbkfs9820dth",
+    "contractVersion": "1.0.0",
+    "eventId": "213b91e8-6b04-4d44-89fe-db90ccbed8ed",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241878436,
+    "seq": 26034,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241878001,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241911328.5564,
+    "_id": "jh76m4nsmfg0vwhkp2a4r6c4tn820fgq",
+    "contractVersion": "1.0.0",
+    "eventId": "089cb0ff-e43e-439c-8785-86af4b026a8f",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772241911328,
+    "seq": 26035,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241911129,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241911518.2607,
+    "_id": "jh78d905zyzfhg4qhdwrcsfnw9820ms8",
+    "contractVersion": "1.0.0",
+    "eventId": "df6942c0-332d-40f7-a32d-92d483fd9c17",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241911518,
+    "seq": 26036,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241911184,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241944568.8318,
+    "_id": "jh78vjj5ns34jb14mrne6vsban8207bx",
+    "contractVersion": "1.0.0",
+    "eventId": "3eb54dfd-f95c-48cc-ac62-0286d8a3fe79",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772241944568,
+    "seq": 26037,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241944258,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241944759.8833,
+    "_id": "jh73zvhgpbtar0r3w1nhx92hxn820mpf",
+    "contractVersion": "1.0.0",
+    "eventId": "322eb38c-49ec-4387-8755-66073ed9b02d",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241944759,
+    "seq": 26038,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241944384,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241968505.0686,
+    "_id": "jh78rxf0gvvs09t41bz42s7jt58206x4",
+    "contractVersion": "1.0.0",
+    "eventId": "f0186733-5f4d-4b11-9cab-ddc331d3cf39",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772241968505,
+    "seq": 26039,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241968300,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772241968711.737,
+    "_id": "jh7afaf20nc3yy8d1z29sy8jrx821st4",
+    "contractVersion": "1.0.0",
+    "eventId": "4b8d45e9-93c8-41cd-8726-3b9ce0b4b165",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772241968711,
+    "seq": 26040,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772241968358,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242001688.0295,
+    "_id": "jh79ssvqegakwyzngcyv2jewe98212sj",
+    "contractVersion": "1.0.0",
+    "eventId": "7adefa3d-00cb-483b-8df4-4b0a4d3b927c",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242001688,
+    "seq": 26041,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242001488,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242001949.5833,
+    "_id": "jh76e2bf6ders320gygneyg09d820qft",
+    "contractVersion": "1.0.0",
+    "eventId": "e5b45dd8-f44c-493d-9b58-78096cbf7607",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242001949,
+    "seq": 26042,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242001547,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242034921.6,
+    "_id": "jh71rzfgwcng7v4fkpwz71gn2d820qj8",
+    "contractVersion": "1.0.0",
+    "eventId": "ae94187b-9133-4cb1-8636-608f15a9e055",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242034921,
+    "seq": 26043,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242034655,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242035106.7402,
+    "_id": "jh74s48yj1hvbq8hvv5s9ajjbh820y6j",
+    "contractVersion": "1.0.0",
+    "eventId": "7c7bfaa5-4201-42b2-b68d-3f66dd5b4f05",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242035106,
+    "seq": 26044,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242034708,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242059058.6155,
+    "_id": "jh7e5e3t5728181amev572wtx9820p2a",
+    "contractVersion": "1.0.0",
+    "eventId": "9016750d-cf7c-47d0-a53b-75bc5a417ce5",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242059058,
+    "seq": 26045,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242058887,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242059241.1316,
+    "_id": "jh7cpkbay3g8zaz1kbdagfh4es821cwz",
+    "contractVersion": "1.0.0",
+    "eventId": "dd6a41d9-a8aa-40f6-90c6-85e3b2e148a4",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242059241,
+    "seq": 26046,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242058948,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242093005.8909,
+    "_id": "jh79r04s1sg5qdhrrf61zr03qs8213dk",
+    "contractVersion": "1.0.0",
+    "eventId": "54967ec5-648e-45f5-9f3f-4fe9f615f28e",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242093005,
+    "seq": 26047,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242092048,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242093189.4487,
+    "_id": "jh7509fvrhdv1jqbw3637rehxn821h30",
+    "contractVersion": "1.0.0",
+    "eventId": "2b854c56-883f-469e-abbf-d99033af931e",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242093189,
+    "seq": 26048,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242092787,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242125528.4275,
+    "_id": "jh74znhgajp7js8afdhsw1k999821h14",
+    "contractVersion": "1.0.0",
+    "eventId": "dfa76108-e3be-436d-ac31-87e7fa550873",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242125528,
+    "seq": 26049,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242125264,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242125717.4224,
+    "_id": "jh75vrrn2jqvwpsnc46yfc3f2s820gn1",
+    "contractVersion": "1.0.0",
+    "eventId": "c51334c8-0183-45e5-aa8c-b8e83625925c",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242125717,
+    "seq": 26050,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242125329,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242149495.4465,
+    "_id": "jh7432zws46j490mg84f1n4m29820fj8",
+    "contractVersion": "1.0.0",
+    "eventId": "066f3a9a-707e-470a-a1ed-2c8cf81031d2",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242149495,
+    "seq": 26051,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242149302,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242149726.7202,
+    "_id": "jh75tvq0ty1pz5sjgphts4w61n82128q",
+    "contractVersion": "1.0.0",
+    "eventId": "e0cea6f8-3275-41a3-99bd-70823bb22bea",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242149726,
+    "seq": 26052,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242149379,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242182681.984,
+    "_id": "jh750fsg8zdd6zjnvqjx0aqz2h8219w9",
+    "contractVersion": "1.0.0",
+    "eventId": "f5b8a2fd-7195-4b4b-bd8b-7c994db0dbb2",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242182682,
+    "seq": 26053,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242182503,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242182853.6663,
+    "_id": "jh77hnaw1hjsh3wfbhaek5038s82161t",
+    "contractVersion": "1.0.0",
+    "eventId": "f581ae48-6e12-4258-b0cc-5d049238f052",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242182853,
+    "seq": 26054,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242182578,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242215978.396,
+    "_id": "jh7c52sydd9yb6gfw6f6s0cr4n820mqa",
+    "contractVersion": "1.0.0",
+    "eventId": "4aa7e9cb-5571-4461-a7f5-c85e407d056c",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242215978,
+    "seq": 26055,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242215735,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242216164.8125,
+    "_id": "jh703789pytdwy0fz0bh8b2dvd820g0d",
+    "contractVersion": "1.0.0",
+    "eventId": "8ad4fc5b-b1cc-45ca-8975-096a5e3f4882",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242216164,
+    "seq": 26056,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242215804,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242240133.0537,
+    "_id": "jh759054d73v78hmm1vgsp3v7x820e7t",
+    "contractVersion": "1.0.0",
+    "eventId": "dba5a01f-bcd1-41bd-95d8-7c74de7d93c1",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242240133,
+    "seq": 26057,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242239906,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242240315.5205,
+    "_id": "jh7e8cyk7kvme6347dyd3zw2zn820e2t",
+    "contractVersion": "1.0.0",
+    "eventId": "0ac31f3d-2bf7-4a39-ad50-e1daa35a188b",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242240315,
+    "seq": 26058,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242239976,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242273805.225,
+    "_id": "jh71ey7j9k8w75xbtbdjxaxaps821pxy",
+    "contractVersion": "1.0.0",
+    "eventId": "8d50d7a4-29be-4b6f-9b57-17e350a2c811",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242273805,
+    "seq": 26059,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242272951,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242273979.058,
+    "_id": "jh71vb6n1gmczef1hsc3s2am2x8218z6",
+    "contractVersion": "1.0.0",
+    "eventId": "cee69314-eb3f-4e69-8ce1-80f7946e8d8e",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242273979,
+    "seq": 26060,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242273438,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242306251.7957,
+    "_id": "jh79aa3kym0r1kp7nn6qfex5m1821znr",
+    "contractVersion": "1.0.0",
+    "eventId": "f91ac1f8-cf8d-4322-bfa3-b48e443af064",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242306251,
+    "seq": 26061,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242306044,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242306451.748,
+    "_id": "jh7fw9cwm0pnt2df545f3cnbws820pnh",
+    "contractVersion": "1.0.0",
+    "eventId": "0ba2ec42-7e54-4939-9034-7f094e34e7e0",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242306451,
+    "seq": 26062,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242306112,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242330490.6533,
+    "_id": "jh7ewbjgs7g4gvej7xfkbzbkb58212jg",
+    "contractVersion": "1.0.0",
+    "eventId": "33fa7784-8e4b-4061-a1e2-0f007c2b7bc0",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242330490,
+    "seq": 26063,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242330283,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242330671.4631,
+    "_id": "jh7fg9y4ty233kes2pvtqydrvx820vnn",
+    "contractVersion": "1.0.0",
+    "eventId": "e801ec97-768f-4e02-8b81-48c59d184657",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242330671,
+    "seq": 26064,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242330354,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242363502.4468,
+    "_id": "jh77aqry8kdjtwak7trppf6rv18216hm",
+    "contractVersion": "1.0.0",
+    "eventId": "7b5ff24f-a691-4e7e-8672-e40e945d9aa8",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242363502,
+    "seq": 26065,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242363295,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242363686.079,
+    "_id": "jh72b7vky5xajzdcvehbwgr59s8215ve",
+    "contractVersion": "1.0.0",
+    "eventId": "5c78a586-69c9-4b02-8d9b-7d69c8d0d63a",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242363686,
+    "seq": 26066,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242363368,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242396706.353,
+    "_id": "jh75hhwcxnfv7qxwa2ztpnbdbd820vpg",
+    "contractVersion": "1.0.0",
+    "eventId": "3448fd55-599f-47db-acd2-16aceace716c",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242396706,
+    "seq": 26067,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242396373,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242396886.569,
+    "_id": "jh7a0hcd29pvqr86z7ch11m96n8202wy",
+    "contractVersion": "1.0.0",
+    "eventId": "11a57322-e3b8-406a-988c-4ff735062ff3",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242396886,
+    "seq": 26068,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242396438,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242421393.3552,
+    "_id": "jh71rmdt75mjwykfzrj95z4vas821ms9",
+    "contractVersion": "1.0.0",
+    "eventId": "7bffd1f7-1072-4ead-ac50-06fef46a4e37",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1772242421393,
+    "seq": 26069,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242420598,
+    "__deployment": "thesis-backend-main"
+  },
+  {
+    "_creationTime": 1772242421596.162,
+    "_id": "jh791qzbng2ggk602x4mg54yh9820n9a",
+    "contractVersion": "1.0.0",
+    "eventId": "eb7e8ea9-7a6f-476a-841e-4c1aba4ef995",
+    "eventType": "heartbeat",
+    "ingestTsMs": 1772242421596,
+    "seq": 26070,
+    "status": {
+      "locationMode": "no_fix"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1772242421277,
+    "__deployment": "thesis-backend-main"
+  }
+]

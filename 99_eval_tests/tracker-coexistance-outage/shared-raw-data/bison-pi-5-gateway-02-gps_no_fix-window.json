@@ -1,0 +1,834 @@
+[
+  {
+    "_creationTime": 1778440947818.1023,
+    "_id": "jh7av4a9egpcng0gprpxn5710d86f3rm",
+    "contractVersion": "1.0.0",
+    "eventId": "d142c21e-76d2-4403-8fdd-71934cb4cb75",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440947818,
+    "seq": 28644,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440947621
+  },
+  {
+    "_creationTime": 1778440914675.3337,
+    "_id": "jh77eg9qcv9bexzxz29rdsvmp186e1wr",
+    "contractVersion": "1.0.0",
+    "eventId": "f3a253a4-368f-4865-986c-294e07188b44",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440914675,
+    "seq": 28642,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440914501
+  },
+  {
+    "_creationTime": 1778440881591.9258,
+    "_id": "jh7da5xg4yr7wyqr48de6yv48x86egfb",
+    "contractVersion": "1.0.0",
+    "eventId": "d88a0b6c-e765-4fe3-8e85-e7eee3ab9fb4",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440881592,
+    "seq": 28640,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440881480
+  },
+  {
+    "_creationTime": 1778440857905.4272,
+    "_id": "jh7652gqgf21re02rmnrt24as986e4nk",
+    "contractVersion": "1.0.0",
+    "eventId": "2c546dd5-fecb-4c24-9768-6105f707a793",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440857905,
+    "seq": 28638,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440857490
+  },
+  {
+    "_creationTime": 1778440824468.4646,
+    "_id": "jh71j63eqvtyngs7yqyyz6ndx986fmb7",
+    "contractVersion": "1.0.0",
+    "eventId": "f6e12e69-4e82-4c1f-afb1-c420dcc9a157",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440824468,
+    "seq": 28636,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440824291
+  },
+  {
+    "_creationTime": 1778440791390.7236,
+    "_id": "jh7b5pw0mhsg0fkh7y241q5jr986ffrx",
+    "contractVersion": "1.0.0",
+    "eventId": "18c23281-4823-4b1c-8e67-1eb62ca219b0",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440791390,
+    "seq": 28634,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440791239
+  },
+  {
+    "_creationTime": 1778440767443.8628,
+    "_id": "jh7fhtjny9re4chk0baf9dx3cs86e0tx",
+    "contractVersion": "1.0.0",
+    "eventId": "021cfe86-ff97-46fa-81d4-18af5ecb3348",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440767443,
+    "seq": 28632,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440767183
+  },
+  {
+    "_creationTime": 1778440734142.6987,
+    "_id": "jh773bxq8h2pj03cqdn6079bcx86e0jz",
+    "contractVersion": "1.0.0",
+    "eventId": "3be49c0c-61ec-42e9-8707-4c3e11265b18",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440734142,
+    "seq": 28630,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440733947
+  },
+  {
+    "_creationTime": 1778440701005.2817,
+    "_id": "jh784mzpeqpm3rt97jna18w3mh86f0y2",
+    "contractVersion": "1.0.0",
+    "eventId": "c57e8015-4b0b-45a1-ae7d-5bd293557e73",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440701005,
+    "seq": 28628,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440700834
+  },
+  {
+    "_creationTime": 1778440676992.8916,
+    "_id": "jh724b683ymtynpmgk7s1pwwh586ecwg",
+    "contractVersion": "1.0.0",
+    "eventId": "5be465f9-c025-4034-a71b-20cb460fb942",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440676992,
+    "seq": 28626,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440676732
+  },
+  {
+    "_creationTime": 1778440643805.6497,
+    "_id": "jh7dgmh85j9325a9vemvptsszd86e5kj",
+    "contractVersion": "1.0.0",
+    "eventId": "5382e093-b3b7-447c-96bc-8c8b42210bd2",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440643805,
+    "seq": 28624,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440643561
+  },
+  {
+    "_creationTime": 1778440610609.5696,
+    "_id": "jh73nnpm0bb82f45rk1kgc7sj186e3tt",
+    "contractVersion": "1.0.0",
+    "eventId": "eef22a9c-224e-4278-9888-9ea5c877a290",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440610609,
+    "seq": 28622,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440610449
+  },
+  {
+    "_creationTime": 1778440586383.5352,
+    "_id": "jh7fs0w4bcdte3kf87dhhgpy3186e8q4",
+    "contractVersion": "1.0.0",
+    "eventId": "1cd13abb-c641-4466-bdcd-2e3a4a1e6986",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440586383,
+    "seq": 28620,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440586248
+  },
+  {
+    "_creationTime": 1778440553391.8516,
+    "_id": "jh75y1vs3kj2ppagqs1rbtajen86f0qa",
+    "contractVersion": "1.0.0",
+    "eventId": "b18ad720-b9ce-452a-a5d7-f133e70357e2",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440553391,
+    "seq": 28618,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440553181
+  },
+  {
+    "_creationTime": 1778440520312.2578,
+    "_id": "jh7fnx96z7k7ka36a5cwekq0e186e8v9",
+    "contractVersion": "1.0.0",
+    "eventId": "84bba5b3-25cc-4d92-9a97-f11de6920dad",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440520312,
+    "seq": 28616,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440520128
+  },
+  {
+    "_creationTime": 1778440496083.9968,
+    "_id": "jh7504pemqnxp509wsjahyptq986fm9a",
+    "contractVersion": "1.0.0",
+    "eventId": "bfcbc533-5245-45f1-aced-53fef743ab35",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440496084,
+    "seq": 28614,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440495930
+  },
+  {
+    "_creationTime": 1778440463084.5579,
+    "_id": "jh7efvvtpa3f3tewgvwxe1784186eeat",
+    "contractVersion": "1.0.0",
+    "eventId": "7433dc50-47e6-43d6-9ffe-8965269c2901",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440463084,
+    "seq": 28612,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440462888
+  },
+  {
+    "_creationTime": 1778440429967.9326,
+    "_id": "jh7128mewa0scp5trhxb5zbppx86ezzh",
+    "contractVersion": "1.0.0",
+    "eventId": "41c65a92-1748-4018-887b-f6c39c7a85f9",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440429967,
+    "seq": 28610,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440429800
+  },
+  {
+    "_creationTime": 1778440406002.8872,
+    "_id": "jh7ek0xccfpqdb754fsrxde1wn86e1w9",
+    "contractVersion": "1.0.0",
+    "eventId": "f0af2692-16af-4dd2-95cf-1eef80126c3e",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440406002,
+    "seq": 28608,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440405685
+  },
+  {
+    "_creationTime": 1778440372637.7917,
+    "_id": "jh79nkwqewajn089710wpfbvm586exgs",
+    "contractVersion": "1.0.0",
+    "eventId": "a6e8fdda-c103-4270-8000-ba44ceeb136a",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440372637,
+    "seq": 28606,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440372458
+  },
+  {
+    "_creationTime": 1778440339748.1929,
+    "_id": "jh72jfjhrbcdwbcx45g34gqmdn86ft9x",
+    "contractVersion": "1.0.0",
+    "eventId": "457bcac2-d5a1-448b-9cd8-f3a4f03ddab7",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440339748,
+    "seq": 28604,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778440339383
+  },
+  {
+    "_creationTime": 1778440295986.3245,
+    "_id": "jh72e14703x9y7s66t0sx570rh86fdjz",
+    "contractVersion": "1.0.0",
+    "eventId": "8d294b77-c4d3-468a-b66c-91669abc3d22",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440295986,
+    "seq": 28602,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": null,
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439921368
+  },
+  {
+    "_creationTime": 1778440295794.2207,
+    "_id": "jh76byg06zxh4asq46nsx9rhnd86etvp",
+    "contractVersion": "1.0.0",
+    "eventId": "48ccca15-c921-4647-b43a-2b82a1860f2f",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440295794,
+    "seq": 28600,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": null,
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439881035
+  },
+  {
+    "_creationTime": 1778440295604.3108,
+    "_id": "jh75dp452t9ns4ts1mpz108cd986eqqp",
+    "contractVersion": "1.0.0",
+    "eventId": "db2ac51d-c4a1-4808-89cb-71422c6e5bb7",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440295604,
+    "seq": 28598,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": null,
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439843708
+  },
+  {
+    "_creationTime": 1778440295398.207,
+    "_id": "jh70r9mmm1gdgwkt63emfw4yb186eqdt",
+    "contractVersion": "1.0.0",
+    "eventId": "41d16778-f1b7-487b-8624-960e69bac144",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440295398,
+    "seq": 28596,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": null,
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439809382
+  },
+  {
+    "_creationTime": 1778440295199.0469,
+    "_id": "jh77cbahayx04fphcqxtcwp45986e5dx",
+    "contractVersion": "1.0.0",
+    "eventId": "6178dd9b-58c3-434b-a34a-0303ba81b7ca",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440295199,
+    "seq": 28594,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": null,
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439769050
+  },
+  {
+    "_creationTime": 1778440295006.4253,
+    "_id": "jh769ne447kr6zbxtps2s234td86f3dr",
+    "contractVersion": "1.0.0",
+    "eventId": "84dab878-9662-4ce4-a23e-1f1674c8d9c6",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440295006,
+    "seq": 28592,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": null,
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439731723
+  },
+  {
+    "_creationTime": 1778440294805.425,
+    "_id": "jh78kcdsv74f0nbg4j5jjn3d0d86ezq5",
+    "contractVersion": "1.0.0",
+    "eventId": "dea59b86-6406-404d-a377-42217b0c27da",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440294805,
+    "seq": 28590,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": null,
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439697401
+  },
+  {
+    "_creationTime": 1778440294605.9297,
+    "_id": "jh7bsbe5nnbpcp7h1re4x7s9yd86fb8e",
+    "contractVersion": "1.0.0",
+    "eventId": "b809c6ec-3852-40e6-8f7c-ba45d731e037",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440294606,
+    "seq": 28588,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": null,
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439657060
+  },
+  {
+    "_creationTime": 1778440294369.5745,
+    "_id": "jh7bf3taeq2nww9mcwbdsk4v0586e9tm",
+    "contractVersion": "1.0.0",
+    "eventId": "81463dee-612c-4f69-86b6-f712ca4ee026",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440294369,
+    "seq": 28586,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": null,
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439619743
+  },
+  {
+    "_creationTime": 1778440294170.479,
+    "_id": "jh7dt127zw43bsgaswhfh3v56n86fzxf",
+    "contractVersion": "1.0.0",
+    "eventId": "a503e1fc-48dc-4fdc-b6db-55b7bada80dd",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440294170,
+    "seq": 28584,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": null,
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439585417
+  },
+  {
+    "_creationTime": 1778440293980.1304,
+    "_id": "jh73qnpnv274tja412zg56xq8x86e8f7",
+    "contractVersion": "1.0.0",
+    "eventId": "234fcf8b-5a32-4c17-a788-c33709dc91a6",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440293980,
+    "seq": 28582,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": null,
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439545085
+  },
+  {
+    "_creationTime": 1778440293769.5532,
+    "_id": "jh77apt10w6rmap66ww5pzwbwd86fvr1",
+    "contractVersion": "1.0.0",
+    "eventId": "76cda744-7460-4ad7-8f7e-a6ae1268c12c",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440293769,
+    "seq": 28580,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439507754
+  },
+  {
+    "_creationTime": 1778440293550.3167,
+    "_id": "jh79zdhkp928rp14h95myma23x86fx94",
+    "contractVersion": "1.0.0",
+    "eventId": "1bda0508-03f8-46fc-9f6b-a48617f20674",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440293550,
+    "seq": 28578,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": null,
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439421570
+  },
+  {
+    "_creationTime": 1778440293350.1199,
+    "_id": "jh782w3a814jpvx7rd5j514r5h86edhc",
+    "contractVersion": "1.0.0",
+    "eventId": "19829553-a8d7-4009-a7be-fc23d59298e4",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440293350,
+    "seq": 28576,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439394750
+  },
+  {
+    "_creationTime": 1778440293132.1243,
+    "_id": "jh7b14z0c5edgxzr78bm6tht0s86fzkc",
+    "contractVersion": "1.0.0",
+    "eventId": "71f2f1db-798f-4c98-9413-0f8d3cb77f61",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440293132,
+    "seq": 28574,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439354417
+  },
+  {
+    "_creationTime": 1778440292804.9946,
+    "_id": "jh739p8qn7nbbm7a62xcqq430n86fp23",
+    "contractVersion": "1.0.0",
+    "eventId": "69402f5f-a9dc-4d45-b8ad-82279b7419cd",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778440292805,
+    "seq": 28572,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439317090
+  },
+  {
+    "_creationTime": 1778439276804.6658,
+    "_id": "jh7avwf58dkqpdcemkn2fzkh7586erbv",
+    "contractVersion": "1.0.0",
+    "eventId": "944530d2-737e-4dab-8e0a-8a73e1b6dc05",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778439276804,
+    "seq": 28570,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439271189
+  },
+  {
+    "_creationTime": 1778439242380.2263,
+    "_id": "jh70btxqz97dc5nmktb1ahyx3s86fcs9",
+    "contractVersion": "1.0.0",
+    "eventId": "cf1ad94b-9e92-48b3-abb4-e0ecb2158f48",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778439242380,
+    "seq": 28568,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439236894
+  },
+  {
+    "_creationTime": 1778439205295.3237,
+    "_id": "jh738p3h0ncjmxnha7zbw1xnq586fhtk",
+    "contractVersion": "1.0.0",
+    "eventId": "bc81e083-acb2-4eb4-ad05-2a6d7a0271a5",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778439205295,
+    "seq": 28566,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439199354
+  },
+  {
+    "_creationTime": 1778439176639.5774,
+    "_id": "jh7a7x08d6qdbb6n0d5ftja67d86fed4",
+    "contractVersion": "1.0.0",
+    "eventId": "1dc2ca05-6cee-4b3f-955f-8f4295c4fb78",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778439176639,
+    "seq": 28564,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439171085
+  },
+  {
+    "_creationTime": 1778439141784.601,
+    "_id": "jh72ev5mkkh4j9gz02rr4rpwzn86epn7",
+    "contractVersion": "1.0.0",
+    "eventId": "bd2b8e43-fbdd-4212-8ec8-c1e533523ad0",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778439141784,
+    "seq": 28562,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439135708
+  },
+  {
+    "_creationTime": 1778439104347.5137,
+    "_id": "jh737pgss5fshr9k3g5ehqzygh86e0hc",
+    "contractVersion": "1.0.0",
+    "eventId": "450ae059-5737-4e65-a30f-e3b0f05b0adf",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778439104347,
+    "seq": 28560,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439098848
+  },
+  {
+    "_creationTime": 1778439078658.4639,
+    "_id": "jh7a5r5vby5qcwmxmgpwn1qywx86ejyv",
+    "contractVersion": "1.0.0",
+    "eventId": "20ef0b79-8269-47dc-89fb-398099e290f0",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778439078658,
+    "seq": 28558,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439073252
+  },
+  {
+    "_creationTime": 1778439043990.631,
+    "_id": "jh726th5g8hfj15dzh9tpmpn9d86e191",
+    "contractVersion": "1.0.0",
+    "eventId": "b0df2745-1b67-4743-af05-22ea7dbbf500",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778439043990,
+    "seq": 28556,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439038569
+  },
+  {
+    "_creationTime": 1778439014728.2175,
+    "_id": "jh7a7j2npndnjqxqgn8z6sn4ph86eqtk",
+    "contractVersion": "1.0.0",
+    "eventId": "4f43dcda-1135-45b7-84ef-1ef4c293d9b5",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778439014728,
+    "seq": 28554,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778439003156
+  },
+  {
+    "_creationTime": 1778430932121.2097,
+    "_id": "jh73yhh5b2vnpgcfz25b0ggzhn86f7a6",
+    "contractVersion": "1.0.0",
+    "eventId": "c595e9ed-ec43-4868-a307-e45089c2d3de",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778430932121,
+    "seq": 28436,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778430921360
+  },
+  {
+    "_creationTime": 1778429871557.373,
+    "_id": "jh71k2bmby15nk59qtx48pyqcn86fche",
+    "contractVersion": "1.0.0",
+    "eventId": "7d5753b8-7e12-4df3-afba-4fbf853db52c",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778429871557,
+    "seq": 28434,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778429866266
+  },
+  {
+    "_creationTime": 1778429835073.252,
+    "_id": "jh74p1azbp3gcrrbnbh4rghjx986fnkg",
+    "contractVersion": "1.0.0",
+    "eventId": "5aec09a2-2c24-4bf8-957a-a2b58d99dd0e",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778429835073,
+    "seq": 28432,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778429829844
+  },
+  {
+    "_creationTime": 1778429807210.2876,
+    "_id": "jh7fywdm7rqsvrbh1yy6w8s11x86f9bg",
+    "contractVersion": "1.0.0",
+    "eventId": "dd7ac172-d9c5-4743-90d4-9abcfc7545de",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778429807210,
+    "seq": 28430,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778429801958
+  },
+  {
+    "_creationTime": 1778429773190.733,
+    "_id": "jh786se4187n2jrx2rfsegq1d586evsg",
+    "contractVersion": "1.0.0",
+    "eventId": "8771a7fe-8125-4824-9854-2252bfe16cca",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778429773190,
+    "seq": 28428,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778429767969
+  },
+  {
+    "_creationTime": 1778429734842.2944,
+    "_id": "jh7c2n9hbqpdnam2x39hrxcmnn86ff00",
+    "contractVersion": "1.0.0",
+    "eventId": "8ff5d541-5eb9-48e2-b2f3-3bb1d654b941",
+    "eventType": "gps_no_fix",
+    "ingestTsMs": 1778429734842,
+    "seq": 28426,
+    "sourcePayload": {
+      "cgnssinfoRaw": "+CGNSSINFO: ,,,,,,,,",
+      "cgpsinfoRaw": "+CGPSINFO: ,,,,,,,,",
+      "reason": "gnss_unavailable"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778429729550
+  }
+]

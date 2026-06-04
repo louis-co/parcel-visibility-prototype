@@ -1,0 +1,2 @@
+ble []
+rfid [[465, "4011c02e-3ed8-4d90-bee6-86742fb3b8e3", "{\"eventId\":\"4011c02e-3ed8-4d90-bee6-86742fb3b8e3\",\"contractVersion\":\"1.0.0\",\"trackerId\":\"pi-5-gateway-01\",\"eventType\":\"rfid_scan\",\"trackerTsMs\":1778274194553,\"seq\":39,\"beaconId\":\"rfid:E280B110200078011129AC71\",\"sourcePayload\":{\"epc\":\"E280B110200078011129AC71\",\"source\":\"rfid\",\"readerDevice\":\"/dev/rfid_reader\",\"frameSize\":64,\"readerSetting\":\"na\"}}", 0, 1778274194553, 1778274194553]]

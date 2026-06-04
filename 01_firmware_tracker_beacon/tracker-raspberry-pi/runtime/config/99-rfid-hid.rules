@@ -1,0 +1,8 @@
+# Stable RFID reader symlink + auto-start rfid_uplink on plug-in.
+# Match by USB vendor/product so the symlink is independent of USB port.
+# Current reader IDs used in this project: idVendor=04d8, idProduct=033f
+
+ACTION=="add", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="033f", SYMLINK+="rfid_reader", MODE="0660", GROUP="plugdev", TAG+="systemd", ENV{SYSTEMD_WANTS}+="rfid_uplink.service"
+
+# Keep permissions/symlink updated if udev sends change events.
+ACTION=="change", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="033f", SYMLINK+="rfid_reader", MODE="0660", GROUP="plugdev"

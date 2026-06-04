@@ -1,0 +1,117 @@
+[
+  {
+    "_creationTime": 1777556498580.685,
+    "_id": "jh78s5jpynn86emqx8f8hgd04985vkbb",
+    "beaconId": "ble:1002:2",
+    "contractVersion": "1.0.0",
+    "eventId": "0710b5b5-f1aa-42cf-b0fa-9345de9054f0",
+    "eventType": "ble_scan",
+    "ingestTsMs": 1777556498580.0,
+    "seq": 42.0,
+    "signal": {
+      "rssi": -58.0
+    },
+    "sourcePayload": {
+      "companyId": 65535.0,
+      "instanceId": 2.0,
+      "parcelId": 1002.0,
+      "payloadKind": "legacyParcelId",
+      "payloadVersion": 1.0,
+      "source": "ble"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556492821.0
+  },
+  {
+    "_creationTime": 1777556438544.973,
+    "_id": "jh795t0a82f3q7062vgbtcbxed85v8pp",
+    "beaconId": "ble:1002:2",
+    "contractVersion": "1.0.0",
+    "eventId": "cbd837f3-d184-47d9-8235-f5fe3dadfb33",
+    "eventType": "ble_scan",
+    "ingestTsMs": 1777556438545.0,
+    "seq": 41.0,
+    "signal": {
+      "rssi": -61.0
+    },
+    "sourcePayload": {
+      "companyId": 65535.0,
+      "instanceId": 2.0,
+      "parcelId": 1002.0,
+      "payloadKind": "legacyParcelId",
+      "payloadVersion": 1.0,
+      "source": "ble"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556432594.0
+  },
+  {
+    "_creationTime": 1777556378518.3372,
+    "_id": "jh77qdzxa36evhybzq0p7628e185vjkk",
+    "beaconId": "ble:1002:2",
+    "contractVersion": "1.0.0",
+    "eventId": "ee4cd8a5-61f2-4632-a536-e728de14e697",
+    "eventType": "ble_scan",
+    "ingestTsMs": 1777556378518.0,
+    "seq": 40.0,
+    "signal": {
+      "rssi": -63.0
+    },
+    "sourcePayload": {
+      "companyId": 65535.0,
+      "instanceId": 2.0,
+      "parcelId": 1002.0,
+      "payloadKind": "legacyParcelId",
+      "payloadVersion": 1.0,
+      "source": "ble"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556372399.0
+  },
+  {
+    "_creationTime": 1777556318336.945,
+    "_id": "jh769p8zy2xajm8m9t4vt5e55s85tfz9",
+    "beaconId": "ble:1002:2",
+    "contractVersion": "1.0.0",
+    "eventId": "041b2eee-4ea5-43f6-9681-d81468813381",
+    "eventType": "ble_scan",
+    "ingestTsMs": 1777556318337.0,
+    "seq": 39.0,
+    "signal": {
+      "rssi": -36.0
+    },
+    "sourcePayload": {
+      "companyId": 65535.0,
+      "instanceId": 2.0,
+      "parcelId": 1002.0,
+      "payloadKind": "legacyParcelId",
+      "payloadVersion": 1.0,
+      "source": "ble"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556312209.0
+  },
+  {
+    "_creationTime": 1777556258205.0708,
+    "_id": "jh7855ckgj2v40tjb40v0ezzzd85v20h",
+    "beaconId": "ble:1002:2",
+    "contractVersion": "1.0.0",
+    "eventId": "bc5fa84b-a32b-43e6-a746-0bf4829415f5",
+    "eventType": "ble_scan",
+    "ingestTsMs": 1777556258205.0,
+    "seq": 38.0,
+    "signal": {
+      "rssi": -36.0
+    },
+    "sourcePayload": {
+      "companyId": 65535.0,
+      "instanceId": 2.0,
+      "parcelId": 1002.0,
+      "payloadKind": "legacyParcelId",
+      "payloadVersion": 1.0,
+      "source": "ble"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777556252032.0
+  }
+]

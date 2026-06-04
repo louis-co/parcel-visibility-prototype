@@ -1,0 +1,131 @@
+{
+  "generatedAt": "2026-05-01T10:20:13.312Z",
+  "runId": "20260501102013",
+  "trackerId": "te13-replay-truck-a-20260501102013",
+  "beaconId": "ble:te13-replay-20260501102013",
+  "baseTsMs": 1777629913312,
+  "baseZurich": "2026-05-01T12:05:13+02:00",
+  "ingestEndpoint": "https://thesis-backend-main.convex.site/ingest",
+  "batchEndpoint": "https://thesis-backend-main.convex.site/ingest/batch",
+  "queryEndpoint": "https://thesis-backend-main.convex.cloud/api/query",
+  "sendPlan": [
+    "single heartbeat-newer",
+    "single duplicate of heartbeat-newer",
+    "single heartbeat-older-delayed",
+    "single gps-no-fix-same-ts",
+    "batch ble-newer, duplicate ble-newer, ble-older-delayed, heartbeat-latest, heartbeat-stale-after-latest"
+  ],
+  "events": {
+    "heartbeatNewer": {
+      "eventId": "te13-20260501102013-heartbeat-newer",
+      "contractVersion": "1.0.0",
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "eventType": "heartbeat",
+      "trackerTsMs": 1777629973312,
+      "seq": 60,
+      "sourcePayload": {
+        "testId": "TE-13",
+        "runId": "20260501102013",
+        "label": "heartbeat-newer",
+        "scenario": "newer live snapshot sent first"
+      }
+    },
+    "heartbeatOlderDelayed": {
+      "eventId": "te13-20260501102013-heartbeat-older-delayed",
+      "contractVersion": "1.0.0",
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "eventType": "heartbeat",
+      "trackerTsMs": 1777629933312,
+      "seq": 20,
+      "sourcePayload": {
+        "testId": "TE-13",
+        "runId": "20260501102013",
+        "label": "heartbeat-older-delayed",
+        "scenario": "delayed old event sent after newer live snapshot"
+      }
+    },
+    "gpsNoFixSameTimestamp": {
+      "eventId": "te13-20260501102013-gps-no-fix-same-ts",
+      "contractVersion": "1.0.0",
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "eventType": "gps_no_fix",
+      "trackerTsMs": 1777629973312,
+      "seq": 61,
+      "sourcePayload": {
+        "testId": "TE-13",
+        "runId": "20260501102013",
+        "label": "gps-no-fix-same-ts",
+        "scenario": "equal tracker timestamp sent later to verify equal timestamp tie behavior"
+      },
+      "status": {
+        "locationMode": "no_fix"
+      }
+    },
+    "bleNewer": {
+      "eventId": "te13-20260501102013-ble-newer",
+      "contractVersion": "1.0.0",
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "eventType": "ble_scan",
+      "trackerTsMs": 1777630003312,
+      "seq": 90,
+      "sourcePayload": {
+        "testId": "TE-13",
+        "runId": "20260501102013",
+        "label": "ble-newer",
+        "scenario": "newer BLE scan included in shuffled batch",
+        "syntheticRssiAnchor": "strong"
+      },
+      "beaconId": "ble:te13-replay-20260501102013",
+      "signal": {
+        "rssi": -55
+      }
+    },
+    "bleOlderDelayed": {
+      "eventId": "te13-20260501102013-ble-older-delayed",
+      "contractVersion": "1.0.0",
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "eventType": "ble_scan",
+      "trackerTsMs": 1777629943312,
+      "seq": 30,
+      "sourcePayload": {
+        "testId": "TE-13",
+        "runId": "20260501102013",
+        "label": "ble-older-delayed",
+        "scenario": "older BLE scan replayed after newer BLE evidence",
+        "syntheticRssiAnchor": "weak"
+      },
+      "beaconId": "ble:te13-replay-20260501102013",
+      "signal": {
+        "rssi": -82
+      }
+    },
+    "heartbeatLatest": {
+      "eventId": "te13-20260501102013-heartbeat-latest",
+      "contractVersion": "1.0.0",
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "eventType": "heartbeat",
+      "trackerTsMs": 1777630033312,
+      "seq": 120,
+      "sourcePayload": {
+        "testId": "TE-13",
+        "runId": "20260501102013",
+        "label": "heartbeat-latest",
+        "scenario": "latest event in shuffled batch should become live tracker snapshot"
+      }
+    },
+    "heartbeatStaleAfterLatest": {
+      "eventId": "te13-20260501102013-heartbeat-stale-after-latest",
+      "contractVersion": "1.0.0",
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "eventType": "heartbeat",
+      "trackerTsMs": 1777629923312,
+      "seq": 10,
+      "sourcePayload": {
+        "testId": "TE-13",
+        "runId": "20260501102013",
+        "label": "heartbeat-stale-after-latest",
+        "scenario": "very old heartbeat sent after latest event should not regress live snapshot"
+      }
+    }
+  }
+}

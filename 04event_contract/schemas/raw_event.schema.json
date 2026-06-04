@@ -1,0 +1,217 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://parcel-tracker.local/schemas/raw_event.schema.json",
+  "title": "Raw Event Envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "eventId": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 128
+    },
+    "contractVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "trackerId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "eventType": {
+      "type": "string",
+      "enum": [
+        "heartbeat",
+        "gps_fix",
+        "gps_no_fix",
+        "gps_cell_fallback",
+        "ble_scan",
+        "rfid_scan"
+      ]
+    },
+    "trackerTsMs": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "seq": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "beaconId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lon": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "speedKmh": {
+          "type": "number",
+          "minimum": 0
+        },
+        "altM": {
+          "type": "number"
+        },
+        "hdop": {
+          "type": "number",
+          "minimum": 0
+        },
+        "method": {
+          "type": "string",
+          "enum": [
+            "gnss",
+            "cell_lbs_native"
+          ]
+        },
+        "accuracyM": {
+          "type": "number",
+          "minimum": 0
+        },
+        "source": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "lat",
+        "lon",
+        "method"
+      ]
+    },
+    "signal": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "rssi": {
+          "type": "number"
+        }
+      }
+    },
+    "status": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "locationMode": {
+          "type": "string",
+          "enum": [
+            "gnss_fix",
+            "cell_fallback",
+            "no_fix"
+          ]
+        }
+      }
+    },
+    "sourcePayload": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "eventId",
+    "contractVersion",
+    "trackerId",
+    "eventType",
+    "trackerTsMs",
+    "seq"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "eventType": {
+            "const": "gps_fix"
+          }
+        },
+        "required": [
+          "eventType"
+        ]
+      },
+      "then": {
+        "required": [
+          "location"
+        ],
+        "properties": {
+          "location": {
+            "required": [
+              "lat",
+              "lon",
+              "method"
+            ],
+            "properties": {
+              "method": {
+                "const": "gnss"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "eventType": {
+            "const": "gps_cell_fallback"
+          }
+        },
+        "required": [
+          "eventType"
+        ]
+      },
+      "then": {
+        "required": [
+          "location"
+        ],
+        "properties": {
+          "location": {
+            "required": [
+              "lat",
+              "lon",
+              "method",
+              "accuracyM",
+              "source"
+            ],
+            "properties": {
+              "method": {
+                "const": "cell_lbs_native"
+              },
+              "source": {
+                "const": "sim7670_clbs"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "eventType": {
+            "enum": [
+              "ble_scan",
+              "rfid_scan"
+            ]
+          }
+        },
+        "required": [
+          "eventType"
+        ]
+      },
+      "then": {
+        "required": [
+          "beaconId"
+        ]
+      }
+    }
+  ]
+}

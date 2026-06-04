@@ -1,0 +1,24 @@
+{
+  "testId": "TE-BLE-BATTERY-2026-05-09",
+  "beaconId": "ble:7f3c2d1a-9b4e-4c22-a8f0-251011020001",
+  "reportedStartTsMs": 1778278200000,
+  "reportedStartZurich": "2026-05-09 00:10:00",
+  "firstDetectedTsMs": 1778278215319,
+  "firstDetectedZurich": "2026-05-09 00:10:15",
+  "lastDetectedTsMs": 1778367751160,
+  "lastDetectedZurich": "2026-05-10 01:02:31",
+  "observedDetectionRuntimeHours": 24.875322222222223,
+  "observedDetectionRuntime": "24 h 52 min 31 s",
+  "detectionCount": 1391,
+  "byTracker": {
+    "pi-5-gateway-01": 1306,
+    "pi-5-gateway-02": 85
+  },
+  "averageAcceptedIntervalSec": 64.42529496402878,
+  "rssi": {
+    "min": -83,
+    "max": -53,
+    "avg": -70.11502516175413
+  },
+  "linearRuntimeAtTwentyMinuteIntervalDays": 20.729435185185185
+}

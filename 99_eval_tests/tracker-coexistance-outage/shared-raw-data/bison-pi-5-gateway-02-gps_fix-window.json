@@ -1,0 +1,1278 @@
+[
+  {
+    "_creationTime": 1778432690923.5671,
+    "_id": "jh79z7q3j7v9j8p721ah3fgs8586em0t",
+    "contractVersion": "1.0.0",
+    "eventId": "92e29a98-36b8-4519-93fe-3b78681722f3",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432690923,
+    "location": {
+      "altM": 709.4,
+      "lat": 47.43740833333333,
+      "lon": 9.381143333333334,
+      "method": "gnss",
+      "speedKmh": 0.05
+    },
+    "seq": 28552,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2445,N,00922.8686,E,100526,170442.000,709.4,0.05,106.32"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432685547
+  },
+  {
+    "_creationTime": 1778432660376.403,
+    "_id": "jh7ar4ttrqb6gjwf5bkbasywrs86eqbs",
+    "contractVersion": "1.0.0",
+    "eventId": "11402b34-4a0b-4a1e-846d-dc8db8dedd4b",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432660376,
+    "location": {
+      "altM": 711.9,
+      "lat": 47.43741333333333,
+      "lon": 9.381125,
+      "method": "gnss",
+      "speedKmh": 0.04
+    },
+    "seq": 28550,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2448,N,00922.8675,E,100526,170411.000,711.9,0.04,94.57"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432655060
+  },
+  {
+    "_creationTime": 1778432630076.9355,
+    "_id": "jh780hbz729hwc25y7xnn37dcd86eq87",
+    "contractVersion": "1.0.0",
+    "eventId": "f9b05648-4e6e-411b-a709-569b0d6a2b28",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432630077,
+    "location": {
+      "altM": 712.8,
+      "lat": 47.43741833333333,
+      "lon": 9.381123333333333,
+      "method": "gnss",
+      "speedKmh": 0.2
+    },
+    "seq": 28548,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2451,N,00922.8674,E,100526,170341.000,712.8,0.20,94.57"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432624660
+  },
+  {
+    "_creationTime": 1778432599647.121,
+    "_id": "jh73w5k3a2xn9tcfne24m6sgc986ekez",
+    "contractVersion": "1.0.0",
+    "eventId": "08371d83-b06b-4356-8fc2-83b66995fe48",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432599647,
+    "location": {
+      "altM": 713,
+      "lat": 47.43742,
+      "lon": 9.381125,
+      "method": "gnss",
+      "speedKmh": 0.21
+    },
+    "seq": 28546,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2452,N,00922.8675,E,100526,170311.000,713.0,0.21,269.85"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432594261
+  },
+  {
+    "_creationTime": 1778432569246.8914,
+    "_id": "jh740pknwgd2041bt5f6dqmced86ewzn",
+    "contractVersion": "1.0.0",
+    "eventId": "8b5f6f1b-3d0e-4b9d-93df-42863ba89701",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432569246,
+    "location": {
+      "altM": 712.1,
+      "lat": 47.43742,
+      "lon": 9.381135,
+      "method": "gnss",
+      "speedKmh": 0.05
+    },
+    "seq": 28544,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2452,N,00922.8681,E,100526,170240.000,712.1,0.05,87.83"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432563862
+  },
+  {
+    "_creationTime": 1778432538840.9885,
+    "_id": "jh7fegz6gv470stfw1y1c4zgyd86f59s",
+    "contractVersion": "1.0.0",
+    "eventId": "303c90fe-2e29-4523-8422-22501d80b02e",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432538841,
+    "location": {
+      "altM": 711.9,
+      "lat": 47.43742,
+      "lon": 9.38114,
+      "method": "gnss",
+      "speedKmh": 0.03
+    },
+    "seq": 28542,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2452,N,00922.8684,E,100526,170210.000,711.9,0.03,87.83"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432533375
+  },
+  {
+    "_creationTime": 1778432508372.5903,
+    "_id": "jh752n5j37bmrn00wjdfkjwnz586em4w",
+    "contractVersion": "1.0.0",
+    "eventId": "00fa3000-9a99-44f8-bedc-f89a046d6970",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432508372,
+    "location": {
+      "altM": 711.4,
+      "lat": 47.43741833333333,
+      "lon": 9.381141666666666,
+      "method": "gnss",
+      "speedKmh": 0.2
+    },
+    "seq": 28540,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2451,N,00922.8685,E,100526,170139.000,711.4,0.20,88.01"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432502745
+  },
+  {
+    "_creationTime": 1778432477655.743,
+    "_id": "jh75ab0xzbhpnhmqyys4z2mwth86fk8m",
+    "contractVersion": "1.0.0",
+    "eventId": "df701404-4827-49fa-98c9-2433551ed56f",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432477655,
+    "location": {
+      "altM": 713,
+      "lat": 47.43741833333333,
+      "lon": 9.381115,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 28538,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2451,N,00922.8669,E,100526,170109.000,713.0,0.01,87.19"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432472225
+  },
+  {
+    "_creationTime": 1778432447178.9915,
+    "_id": "jh70cemjjrne0a8zzn32cehtc986f4hc",
+    "contractVersion": "1.0.0",
+    "eventId": "72456879-144e-4fb5-86b7-a886521e8189",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432447179,
+    "location": {
+      "altM": 712.5,
+      "lat": 47.437416666666664,
+      "lon": 9.381118333333333,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 28536,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2450,N,00922.8671,E,100526,170038.000,712.5,0.01,87.19"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432441786
+  },
+  {
+    "_creationTime": 1778432416780.8672,
+    "_id": "jh76k0xa6c59sy03a96evq6me186fbpj",
+    "contractVersion": "1.0.0",
+    "eventId": "3d12e120-33d3-4cfc-bad8-99ecdced2573",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432416780,
+    "location": {
+      "altM": 710.2,
+      "lat": 47.437416666666664,
+      "lon": 9.381136666666666,
+      "method": "gnss",
+      "speedKmh": 0.15
+    },
+    "seq": 28534,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2450,N,00922.8682,E,100526,170008.000,710.2,0.15,90.49"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432411387
+  },
+  {
+    "_creationTime": 1778432386374.184,
+    "_id": "jh7619nxp63stwp6c56q32amp986e5r3",
+    "contractVersion": "1.0.0",
+    "eventId": "4de73885-f146-4444-9dcb-2c07c87c481a",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432386374,
+    "location": {
+      "altM": 710,
+      "lat": 47.437416666666664,
+      "lon": 9.381143333333334,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 28532,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2450,N,00922.8686,E,100526,165937.000,710.0,0.01,81.74"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432380988
+  },
+  {
+    "_creationTime": 1778432355974.435,
+    "_id": "jh7awtvja45d88jq19kbzx5mfd86e7nb",
+    "contractVersion": "1.0.0",
+    "eventId": "c0f60337-93f1-43e5-b884-cb9c2f0b383e",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432355974,
+    "location": {
+      "altM": 709.1,
+      "lat": 47.43741833333333,
+      "lon": 9.38115,
+      "method": "gnss",
+      "speedKmh": 0.07
+    },
+    "seq": 28530,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2451,N,00922.8690,E,100526,165907.000,709.1,0.07,81.74"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432350549
+  },
+  {
+    "_creationTime": 1778432325422.501,
+    "_id": "jh73t3fxve368vt2kp3p12a8ah86fzr3",
+    "contractVersion": "1.0.0",
+    "eventId": "3ea0eb38-5054-4b98-8f05-44fdf68d102d",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432325422,
+    "location": {
+      "altM": 706.8,
+      "lat": 47.43742,
+      "lon": 9.381171666666667,
+      "method": "gnss",
+      "speedKmh": 0.2
+    },
+    "seq": 28528,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2452,N,00922.8703,E,100526,165836.000,706.8,0.20,81.74"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432320030
+  },
+  {
+    "_creationTime": 1778432295025.7551,
+    "_id": "jh77pc3y0xzwj63bjc2enm677s86ftnw",
+    "contractVersion": "1.0.0",
+    "eventId": "422ea3b5-da1d-46da-8c6e-f7ab7be1404b",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432295025,
+    "location": {
+      "altM": 706.3,
+      "lat": 47.437423333333335,
+      "lon": 9.381183333333333,
+      "method": "gnss",
+      "speedKmh": 0.19
+    },
+    "seq": 28526,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2454,N,00922.8710,E,100526,165806.000,706.3,0.19,81.74"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432289631
+  },
+  {
+    "_creationTime": 1778432264610.6565,
+    "_id": "jh77zxrr6zc1t7mc3b4mk29t4986e3mr",
+    "contractVersion": "1.0.0",
+    "eventId": "aa2ad5b0-5d87-4a39-a24d-ba0b6d94665f",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432264610,
+    "location": {
+      "altM": 705.4,
+      "lat": 47.437425,
+      "lon": 9.381193333333334,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 28524,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2455,N,00922.8716,E,100526,165736.000,705.4,0.01,81.74"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432259232
+  },
+  {
+    "_creationTime": 1778432234210.7654,
+    "_id": "jh7ccwv2rw203n29g5w2qh0n3n86edrp",
+    "contractVersion": "1.0.0",
+    "eventId": "4ab6de45-f564-4378-85ee-5998ef4970f5",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432234210,
+    "location": {
+      "altM": 705.6,
+      "lat": 47.43742666666667,
+      "lon": 9.381196666666666,
+      "method": "gnss",
+      "speedKmh": 0.03
+    },
+    "seq": 28522,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2456,N,00922.8718,E,100526,165705.000,705.6,0.03,81.74"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432228833
+  },
+  {
+    "_creationTime": 1778432203877.2546,
+    "_id": "jh741bj1v8dqbtf55vzj34j2yh86e5pe",
+    "contractVersion": "1.0.0",
+    "eventId": "fda5fc31-7e0c-409b-8a78-724f6eb51eae",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432203877,
+    "location": {
+      "altM": 704.2,
+      "lat": 47.43743,
+      "lon": 9.381211666666667,
+      "method": "gnss",
+      "speedKmh": 0.07
+    },
+    "seq": 28520,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2458,N,00922.8727,E,100526,165635.000,704.2,0.07,81.74"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432198506
+  },
+  {
+    "_creationTime": 1778432173570.7937,
+    "_id": "jh74fg2fa3vw8eznkanrmkmky186fjqn",
+    "contractVersion": "1.0.0",
+    "eventId": "6ee7f9e1-288c-404a-aec9-9872712b9297",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432173570,
+    "location": {
+      "altM": 704.9,
+      "lat": 47.43742833333334,
+      "lon": 9.381206666666667,
+      "method": "gnss",
+      "speedKmh": 0.55
+    },
+    "seq": 28518,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2457,N,00922.8724,E,100526,165604.000,704.9,0.55,81.74"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432168199
+  },
+  {
+    "_creationTime": 1778432143087.94,
+    "_id": "jh74rbp0gwyayw1jkcfs7s0pm986fm5p",
+    "contractVersion": "1.0.0",
+    "eventId": "b6205967-c284-4d6d-9c4c-984b905d7f22",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432143088,
+    "location": {
+      "altM": 705.2,
+      "lat": 47.43743,
+      "lon": 9.381201666666666,
+      "method": "gnss",
+      "speedKmh": 0.03
+    },
+    "seq": 28516,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2458,N,00922.8721,E,100526,165534.000,705.2,0.03,81.74"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432137717
+  },
+  {
+    "_creationTime": 1778432112614.5032,
+    "_id": "jh73fjqymhjf5f2fw58cjncmt986emnd",
+    "contractVersion": "1.0.0",
+    "eventId": "81b47663-9d8c-445d-bb47-f2de2fee10d4",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432112614,
+    "location": {
+      "altM": 704.4,
+      "lat": 47.43743,
+      "lon": 9.381205,
+      "method": "gnss",
+      "speedKmh": 0.06
+    },
+    "seq": 28514,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2458,N,00922.8723,E,100526,165503.000,704.4,0.06,81.74"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432107237
+  },
+  {
+    "_creationTime": 1778432082057.6396,
+    "_id": "jh7aa6830h4ctj94wbvgnq7fk986ea7j",
+    "contractVersion": "1.0.0",
+    "eventId": "ad530a74-a73c-475f-99d8-1e983354ffb3",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432082057,
+    "location": {
+      "altM": 703.9,
+      "lat": 47.43743,
+      "lon": 9.381203333333334,
+      "method": "gnss",
+      "speedKmh": 0.21
+    },
+    "seq": 28512,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2458,N,00922.8722,E,100526,165433.000,703.9,0.21,81.74"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432076598
+  },
+  {
+    "_creationTime": 1778432051490.4626,
+    "_id": "jh79vkfa0yykywy4dcgfte68jd86egn1",
+    "contractVersion": "1.0.0",
+    "eventId": "fba738c9-edf8-409e-a23e-6bf2f7b385c3",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432051490,
+    "location": {
+      "altM": 704.1,
+      "lat": 47.43742833333334,
+      "lon": 9.381193333333334,
+      "method": "gnss",
+      "speedKmh": 0.17
+    },
+    "seq": 28510,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2457,N,00922.8716,E,100526,165402.000,704.1,0.17,80.45"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432045880
+  },
+  {
+    "_creationTime": 1778432020852.386,
+    "_id": "jh71qja85px2a5rcmaezc8hejx86e41m",
+    "contractVersion": "1.0.0",
+    "eventId": "b2b2f878-f82f-4a70-b55f-26abdc086e0f",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778432020852,
+    "location": {
+      "altM": 708,
+      "lat": 47.437423333333335,
+      "lon": 9.38115,
+      "method": "gnss",
+      "speedKmh": 0.46
+    },
+    "seq": 28508,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2454,N,00922.8690,E,100526,165332.000,708.0,0.46,79.88"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778432015560
+  },
+  {
+    "_creationTime": 1778431990522.6514,
+    "_id": "jh7c3tsxkzw3yn72ae4h908a9h86enea",
+    "contractVersion": "1.0.0",
+    "eventId": "078288ae-bc1f-4363-9fa9-11d69dd40a93",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431990522,
+    "location": {
+      "altM": 708.8,
+      "lat": 47.43742,
+      "lon": 9.381143333333334,
+      "method": "gnss",
+      "speedKmh": 0.09
+    },
+    "seq": 28506,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2452,N,00922.8686,E,100526,165302.000,708.8,0.09,79.88"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431985228
+  },
+  {
+    "_creationTime": 1778431960215.7986,
+    "_id": "jh7dkyh28dvdnncg5syhtmhs1n86fsmc",
+    "contractVersion": "1.0.0",
+    "eventId": "51b1813a-fefa-42c4-bbaa-500c9b2913ae",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431960215,
+    "location": {
+      "altM": 711.3,
+      "lat": 47.43741166666667,
+      "lon": 9.381115,
+      "method": "gnss",
+      "speedKmh": 0.02
+    },
+    "seq": 28504,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2447,N,00922.8669,E,100526,165231.000,711.3,0.02,85.71"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431954842
+  },
+  {
+    "_creationTime": 1778431929806.585,
+    "_id": "jh7c5a06p342d0kfgkz7bvp32n86encq",
+    "contractVersion": "1.0.0",
+    "eventId": "7c535e45-f2ba-49f7-9e84-47b887691183",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431929806,
+    "location": {
+      "altM": 712.1,
+      "lat": 47.43741166666667,
+      "lon": 9.3811,
+      "method": "gnss",
+      "speedKmh": 0.18
+    },
+    "seq": 28502,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2447,N,00922.8660,E,100526,165201.000,712.1,0.18,85.28"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431924523
+  },
+  {
+    "_creationTime": 1778431899469.5662,
+    "_id": "jh7am7m1q4mf4bnkbdw6p24k1n86ez0c",
+    "contractVersion": "1.0.0",
+    "eventId": "8807bc39-7b9a-437f-9afa-25170b86ceaf",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431899469,
+    "location": {
+      "altM": 715.7,
+      "lat": 47.43741166666667,
+      "lon": 9.381068333333333,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 28500,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2447,N,00922.8641,E,100526,165130.000,715.7,0.01,80.24"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431894195
+  },
+  {
+    "_creationTime": 1778431869241.24,
+    "_id": "jh7daqf903q6pmwvnsjy0d5c6n86e0tp",
+    "contractVersion": "1.0.0",
+    "eventId": "3939d9a0-4f5e-4eac-84f3-ad4cc3629847",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431869241,
+    "location": {
+      "altM": 715.7,
+      "lat": 47.437415,
+      "lon": 9.381076666666667,
+      "method": "gnss",
+      "speedKmh": 0
+    },
+    "seq": 28498,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2449,N,00922.8646,E,100526,165100.000,715.7,0.00,80.24"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431863725
+  },
+  {
+    "_creationTime": 1778431838710.4043,
+    "_id": "jh7adnfewv4pe6syx113xj8zk586epqn",
+    "contractVersion": "1.0.0",
+    "eventId": "965470c6-81b4-48f9-956b-a955f1d02bf1",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431838710,
+    "location": {
+      "altM": 715.9,
+      "lat": 47.43741833333333,
+      "lon": 9.381075,
+      "method": "gnss",
+      "speedKmh": 0.04
+    },
+    "seq": 28496,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2451,N,00922.8645,E,100526,165030.000,715.9,0.04,80.24"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431833318
+  },
+  {
+    "_creationTime": 1778431808355.1655,
+    "_id": "jh7bmb7revc555sghy5g6rgcss86edvp",
+    "contractVersion": "1.0.0",
+    "eventId": "12fce7a4-341e-4402-8caf-890a03cbd8db",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431808355,
+    "location": {
+      "altM": 716.2,
+      "lat": 47.43742,
+      "lon": 9.381068333333333,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 28494,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2452,N,00922.8641,E,100526,164959.000,716.2,0.01,80.24"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431803087
+  },
+  {
+    "_creationTime": 1778431778042.971,
+    "_id": "jh79sa0a2rfbn01wdzwcg6qmbs86eb5x",
+    "contractVersion": "1.0.0",
+    "eventId": "743254f1-d3a6-48f9-82f5-b1e129ed8a44",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431778043,
+    "location": {
+      "altM": 716.1,
+      "lat": 47.43741833333333,
+      "lon": 9.381066666666667,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 28492,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2451,N,00922.8640,E,100526,164929.000,716.1,0.01,80.24"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431772768
+  },
+  {
+    "_creationTime": 1778431747685.8835,
+    "_id": "jh77d2k7mvawpcwbgbwtnxaxgx86e0k6",
+    "contractVersion": "1.0.0",
+    "eventId": "4adf1812-f2f6-427b-8b5d-a88729adea6f",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431747685,
+    "location": {
+      "altM": 715.6,
+      "lat": 47.437423333333335,
+      "lon": 9.381078333333333,
+      "method": "gnss",
+      "speedKmh": 0.07
+    },
+    "seq": 28490,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2454,N,00922.8647,E,100526,164859.000,715.6,0.07,80.24"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431742289
+  },
+  {
+    "_creationTime": 1778431717254.0154,
+    "_id": "jh79q1k8jy72m9583m77xq99j186ez1b",
+    "contractVersion": "1.0.0",
+    "eventId": "fa4baa5a-e441-4916-a812-5b14e0971dd2",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431717254,
+    "location": {
+      "altM": 715.7,
+      "lat": 47.43742666666667,
+      "lon": 9.38108,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 28488,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2456,N,00922.8648,E,100526,164828.000,715.7,0.01,80.24"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431711891
+  },
+  {
+    "_creationTime": 1778431686879.9202,
+    "_id": "jh7fxerf5gn0bmn2y7ww5safqd86fjty",
+    "contractVersion": "1.0.0",
+    "eventId": "136e1bd9-bb44-404e-bc45-826bbe6eb984",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431686879,
+    "location": {
+      "altM": 715.3,
+      "lat": 47.43743166666667,
+      "lon": 9.381088333333333,
+      "method": "gnss",
+      "speedKmh": 0.11
+    },
+    "seq": 28486,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2459,N,00922.8653,E,100526,164758.000,715.3,0.11,80.24"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431681492
+  },
+  {
+    "_creationTime": 1778431656291.0059,
+    "_id": "jh716vcgw7b58nhn09rt49agpn86ezk5",
+    "contractVersion": "1.0.0",
+    "eventId": "2bd36a38-42cb-4018-9e82-5c0552976e03",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431656291,
+    "location": {
+      "altM": 714.2,
+      "lat": 47.43743666666667,
+      "lon": 9.381105,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 28484,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2462,N,00922.8663,E,100526,164727.000,714.2,0.01,80.24"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431650933
+  },
+  {
+    "_creationTime": 1778431625880.7183,
+    "_id": "jh7aq86f19z9mt5h2zz5qrwpc586ee06",
+    "contractVersion": "1.0.0",
+    "eventId": "a254001b-bb43-4604-b613-405291d4c290",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431625880,
+    "location": {
+      "altM": 714.3,
+      "lat": 47.43743833333333,
+      "lon": 9.381106666666666,
+      "method": "gnss",
+      "speedKmh": 0.1
+    },
+    "seq": 28482,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2463,N,00922.8664,E,100526,164657.000,714.3,0.10,80.24"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431620534
+  },
+  {
+    "_creationTime": 1778431595565.184,
+    "_id": "jh75rxfxd3qqdhtqkya8vkz1bh86e7k6",
+    "contractVersion": "1.0.0",
+    "eventId": "1819e158-ba46-4085-ac8a-1186ebb7e984",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431595565,
+    "location": {
+      "altM": 715.8,
+      "lat": 47.43743666666667,
+      "lon": 9.381095,
+      "method": "gnss",
+      "speedKmh": 0.02
+    },
+    "seq": 28480,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2462,N,00922.8657,E,100526,164626.000,715.8,0.02,262.51"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431590215
+  },
+  {
+    "_creationTime": 1778431565178.4329,
+    "_id": "jh7dd1f20k8w6eg7ak6tw6qmqh86ej6x",
+    "contractVersion": "1.0.0",
+    "eventId": "c54291fb-7fc6-430b-b0bd-f3011d69ef53",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431565178,
+    "location": {
+      "altM": 714.1,
+      "lat": 47.43743666666667,
+      "lon": 9.38111,
+      "method": "gnss",
+      "speedKmh": 0.25
+    },
+    "seq": 28478,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2462,N,00922.8666,E,100526,164556.000,714.1,0.25,262.51"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431559644
+  },
+  {
+    "_creationTime": 1778431534596.875,
+    "_id": "jh72pbek4xj3fv4aq75arvmnw986e40a",
+    "contractVersion": "1.0.0",
+    "eventId": "a31a5779-f005-43f5-b5ac-752def7172c0",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431534596,
+    "location": {
+      "altM": 713.5,
+      "lat": 47.43743833333333,
+      "lon": 9.381116666666667,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 28476,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2463,N,00922.8670,E,100526,164526.000,713.5,0.01,62.04"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431529338
+  },
+  {
+    "_creationTime": 1778431504359.0872,
+    "_id": "jh7669w12w3wafjr9rst7psxr986e6y6",
+    "contractVersion": "1.0.0",
+    "eventId": "3d7b3ca3-d1fe-48d7-88ed-cfe181bfe055",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431504359,
+    "location": {
+      "altM": 712.8,
+      "lat": 47.437443333333334,
+      "lon": 9.381126666666667,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 28474,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2466,N,00922.8676,E,100526,164455.000,712.8,0.01,62.04"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431499019
+  },
+  {
+    "_creationTime": 1778431473967.2395,
+    "_id": "jh7f6fjfdhj2yaj7qtsr4vxxzd86f8r6",
+    "contractVersion": "1.0.0",
+    "eventId": "3ebfd54f-fc0d-43e7-8d6f-e4d2b48ca20c",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431473967,
+    "location": {
+      "altM": 712.7,
+      "lat": 47.437445,
+      "lon": 9.381128333333333,
+      "method": "gnss",
+      "speedKmh": 0.02
+    },
+    "seq": 28472,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2467,N,00922.8677,E,100526,164425.000,712.7,0.02,62.04"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431468580
+  },
+  {
+    "_creationTime": 1778431443492.9055,
+    "_id": "jh71198grnptgx69q43kdb5dhn86em8a",
+    "contractVersion": "1.0.0",
+    "eventId": "ee897a97-4308-4117-bce9-60ae2dbf4cee",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431443492,
+    "location": {
+      "altM": 712.8,
+      "lat": 47.437445,
+      "lon": 9.381128333333333,
+      "method": "gnss",
+      "speedKmh": 0.02
+    },
+    "seq": 28470,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2467,N,00922.8677,E,100526,164354.000,712.8,0.02,62.04"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431438223
+  },
+  {
+    "_creationTime": 1778431413193.9324,
+    "_id": "jh7bvqxhv09twkt2ffcy1mgm9x86eya8",
+    "contractVersion": "1.0.0",
+    "eventId": "ac2ab8d1-18a7-481f-99ff-f4593adb9bf4",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431413193,
+    "location": {
+      "altM": 711.2,
+      "lat": 47.437446666666666,
+      "lon": 9.381145,
+      "method": "gnss",
+      "speedKmh": 0.13
+    },
+    "seq": 28468,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2468,N,00922.8687,E,100526,164324.000,711.2,0.13,62.04"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431407829
+  },
+  {
+    "_creationTime": 1778431382774.23,
+    "_id": "jh73h0pdf6q171pgs2nje6x0ys86fytv",
+    "contractVersion": "1.0.0",
+    "eventId": "d5f77a5f-d1c1-407b-b4f3-ae2807996aa9",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431382774,
+    "location": {
+      "altM": 710.7,
+      "lat": 47.43745166666667,
+      "lon": 9.38115,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 28466,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2471,N,00922.8690,E,100526,164254.000,710.7,0.01,62.04"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431377417
+  },
+  {
+    "_creationTime": 1778431352365.1965,
+    "_id": "jh76qewcpdrc5hwzdws1axedgh86e4jh",
+    "contractVersion": "1.0.0",
+    "eventId": "f2f75672-046c-4517-841d-ce3bd105602c",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431352365,
+    "location": {
+      "altM": 710.7,
+      "lat": 47.43745333333333,
+      "lon": 9.381151666666666,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 28464,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2472,N,00922.8691,E,100526,164223.000,710.7,0.01,62.04"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431347026
+  },
+  {
+    "_creationTime": 1778431321819.9702,
+    "_id": "jh71hny75cc82xe8k03abjmsk586f3zn",
+    "contractVersion": "1.0.0",
+    "eventId": "d0c082d0-8bc7-4c62-bc84-a9c0b99f87c1",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431321820,
+    "location": {
+      "altM": 711.1,
+      "lat": 47.43745166666667,
+      "lon": 9.381146666666666,
+      "method": "gnss",
+      "speedKmh": 0.24
+    },
+    "seq": 28462,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2471,N,00922.8688,E,100526,164153.000,711.1,0.24,62.04"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431316467
+  },
+  {
+    "_creationTime": 1778431291396.3696,
+    "_id": "jh7a1hrngsqv8vpv4qeky04k6186e2xj",
+    "contractVersion": "1.0.0",
+    "eventId": "a8fb7a4c-9e6c-4a48-85fb-2b99ca4d2a5d",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431291396,
+    "location": {
+      "altM": 712.6,
+      "lat": 47.437445,
+      "lon": 9.381126666666667,
+      "method": "gnss",
+      "speedKmh": 0.23
+    },
+    "seq": 28460,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2467,N,00922.8676,E,100526,164122.000,712.6,0.23,58.51"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431286149
+  },
+  {
+    "_creationTime": 1778431261102.839,
+    "_id": "jh79wnekzzrtwhg4t3pctmpfzs86fvsd",
+    "contractVersion": "1.0.0",
+    "eventId": "cfdc6376-d6a4-46a9-bb00-195938e5d39a",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431261102,
+    "location": {
+      "altM": 715.1,
+      "lat": 47.43743333333333,
+      "lon": 9.381098333333334,
+      "method": "gnss",
+      "speedKmh": 0.28
+    },
+    "seq": 28458,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2460,N,00922.8659,E,100526,164052.000,715.1,0.28,53.99"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431255751
+  },
+  {
+    "_creationTime": 1778431230767.7388,
+    "_id": "jh76en86hc00bwj1tcsta861s986ex1w",
+    "contractVersion": "1.0.0",
+    "eventId": "6a54dcd8-227a-470d-b4a9-d298b1c10b89",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431230767,
+    "location": {
+      "altM": 716.5,
+      "lat": 47.43742666666667,
+      "lon": 9.381081666666667,
+      "method": "gnss",
+      "speedKmh": 0.44
+    },
+    "seq": 28456,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2456,N,00922.8649,E,100526,164022.000,716.5,0.44,53.99"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431225400
+  },
+  {
+    "_creationTime": 1778431200197.4404,
+    "_id": "jh7e75cfytrfr696a2etn0nazx86egsj",
+    "contractVersion": "1.0.0",
+    "eventId": "5cebc6e0-ca03-408e-b322-91bdf58e9695",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431200197,
+    "location": {
+      "altM": 716.8,
+      "lat": 47.437423333333335,
+      "lon": 9.38108,
+      "method": "gnss",
+      "speedKmh": 0.14
+    },
+    "seq": 28454,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2454,N,00922.8648,E,100526,163951.000,716.8,0.14,53.99"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431194873
+  },
+  {
+    "_creationTime": 1778431169726.2024,
+    "_id": "jh72n9hzfr9g3dmssxqz488j5s86e6pz",
+    "contractVersion": "1.0.0",
+    "eventId": "de18a858-b4e6-48e2-ae18-0c747b4cc8fc",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431169726,
+    "location": {
+      "altM": 718.2,
+      "lat": 47.437415,
+      "lon": 9.381065,
+      "method": "gnss",
+      "speedKmh": 0.62
+    },
+    "seq": 28452,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2449,N,00922.8639,E,100526,163921.000,718.2,0.62,64.76"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431164395
+  },
+  {
+    "_creationTime": 1778431139333.1775,
+    "_id": "jh70ypzbq26p0j2fhyhdd28czn86fgs5",
+    "contractVersion": "1.0.0",
+    "eventId": "ff18b14a-d4af-4d65-9eb5-9c1e8ed00b0d",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431139333,
+    "location": {
+      "altM": 720.7,
+      "lat": 47.43741,
+      "lon": 9.38105,
+      "method": "gnss",
+      "speedKmh": 0.25
+    },
+    "seq": 28450,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2446,N,00922.8630,E,100526,163850.000,720.7,0.25,0.00"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431134078
+  },
+  {
+    "_creationTime": 1778431109004.0715,
+    "_id": "jh718r55px7dnvn8xax350xbxx86e6n2",
+    "contractVersion": "1.0.0",
+    "eventId": "fcb1d82c-e4d0-45a9-987b-2e24d63962af",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431109004,
+    "location": {
+      "altM": 721.9,
+      "lat": 47.437405,
+      "lon": 9.381041666666667,
+      "method": "gnss",
+      "speedKmh": 0.03
+    },
+    "seq": 28448,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2443,N,00922.8625,E,100526,163820.000,721.9,0.03,0.00"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431103680
+  },
+  {
+    "_creationTime": 1778431078608.594,
+    "_id": "jh7by015ge7vk20brhhzh3v2qn86fa63",
+    "contractVersion": "1.0.0",
+    "eventId": "5b2ba394-1471-4598-be39-610b917776f8",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431078608,
+    "location": {
+      "altM": 721.4,
+      "lat": 47.43740833333333,
+      "lon": 9.381046666666666,
+      "method": "gnss",
+      "speedKmh": 0.05
+    },
+    "seq": 28446,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2445,N,00922.8628,E,100526,163749.000,721.4,0.05,0.00"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431073200
+  },
+  {
+    "_creationTime": 1778431048201.732,
+    "_id": "jh71h4fg8gv9r0p2d79bssak6x86ewha",
+    "contractVersion": "1.0.0",
+    "eventId": "ab0bc8d5-d455-4db4-8177-eafaeb682a98",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431048201,
+    "location": {
+      "altM": 721.5,
+      "lat": 47.43740666666667,
+      "lon": 9.381048333333334,
+      "method": "gnss",
+      "speedKmh": 0.01
+    },
+    "seq": 28444,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2444,N,00922.8629,E,100526,163719.000,721.5,0.01,0.00"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431042881
+  },
+  {
+    "_creationTime": 1778431017823.4885,
+    "_id": "jh72dhtcnmyh0et9mwyv45sbg586fadk",
+    "contractVersion": "1.0.0",
+    "eventId": "470bb943-c657-45f0-b058-7f2909594ebc",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778431017823,
+    "location": {
+      "altM": 721.5,
+      "lat": 47.437405,
+      "lon": 9.381048333333334,
+      "method": "gnss",
+      "speedKmh": 0.02
+    },
+    "seq": 28442,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2443,N,00922.8629,E,100526,163649.000,721.5,0.02,0.00"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778431012486
+  },
+  {
+    "_creationTime": 1778430987410.0442,
+    "_id": "jh7ck8gjw8xy2n5j3cex2qztc986fqmc",
+    "contractVersion": "1.0.0",
+    "eventId": "fd768eb2-9d69-401d-8772-4d0268c8db42",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778430987410,
+    "location": {
+      "altM": 722.9,
+      "lat": 47.437403333333336,
+      "lon": 9.381071666666667,
+      "method": "gnss",
+      "speedKmh": 0.05
+    },
+    "seq": 28440,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2442,N,00922.8643,E,100526,163618.000,722.9,0.05,0.00"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778430982085
+  },
+  {
+    "_creationTime": 1778430957078.194,
+    "_id": "jh726z7cjcy6s48f04d3d5mpnx86eava",
+    "contractVersion": "1.0.0",
+    "eventId": "d2737bd7-3a14-4011-88bf-865570db0a59",
+    "eventType": "gps_fix",
+    "ingestTsMs": 1778430957078,
+    "location": {
+      "altM": 729.5,
+      "lat": 47.437315,
+      "lon": 9.38112,
+      "method": "gnss",
+      "speedKmh": 0.04
+    },
+    "seq": 28438,
+    "sourcePayload": {
+      "cgnssinfoRaw": null,
+      "cgpsinfoRaw": "+CGPSINFO: 4726.2389,N,00922.8672,E,100526,163548.000,729.5,0.04,0.00"
+    },
+    "trackerId": "pi-5-gateway-02",
+    "trackerTsMs": 1778430951765
+  }
+]

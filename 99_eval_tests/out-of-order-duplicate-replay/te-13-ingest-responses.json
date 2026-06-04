@@ -1,0 +1,60 @@
+{
+  "heartbeatNewer": {
+    "duplicate": false,
+    "ok": true,
+    "rawEventId": "jh7ayw1mce8m7k06q4772gcrdn85wtma"
+  },
+  "heartbeatNewerDuplicate": {
+    "duplicate": true,
+    "ok": true,
+    "rawEventId": "jh7ayw1mce8m7k06q4772gcrdn85wtma"
+  },
+  "heartbeatOlderDelayed": {
+    "duplicate": false,
+    "ok": true,
+    "rawEventId": "jh74ymvf645fstq0vn0vjgakg585x3js"
+  },
+  "gpsNoFixSameTimestamp": {
+    "duplicate": false,
+    "ok": true,
+    "rawEventId": "jh7aqp8fny0a2rmjewhfvt364585xv58"
+  },
+  "shuffledBatch": {
+    "ok": true,
+    "count": 5,
+    "accepted": 4,
+    "duplicate": 1,
+    "results": [
+      {
+        "eventId": "te13-20260501102013-ble-newer",
+        "duplicate": false,
+        "ok": true,
+        "rawEventId": "jh71ct1h5q848g1b07tdksvcz985w1mx"
+      },
+      {
+        "eventId": "te13-20260501102013-ble-newer",
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh71ct1h5q848g1b07tdksvcz985w1mx"
+      },
+      {
+        "eventId": "te13-20260501102013-ble-older-delayed",
+        "duplicate": false,
+        "ok": true,
+        "rawEventId": "jh7838hrzd1dg7avn1f5rced2h85xv05"
+      },
+      {
+        "eventId": "te13-20260501102013-heartbeat-latest",
+        "duplicate": false,
+        "ok": true,
+        "rawEventId": "jh7esqgh7aate7jzdhej7x08hs85xn1d"
+      },
+      {
+        "eventId": "te13-20260501102013-heartbeat-stale-after-latest",
+        "duplicate": false,
+        "ok": true,
+        "rawEventId": "jh74v2fe1deznc4n3ht4eby2kh85wqxj"
+      }
+    ]
+  }
+}

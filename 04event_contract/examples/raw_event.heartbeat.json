@@ -1,0 +1,11 @@
+{
+  "eventId": "sample-heartbeat-0001",
+  "contractVersion": "1.0.0",
+  "trackerId": "pi-sample-01",
+  "eventType": "heartbeat",
+  "trackerTsMs": 1771251179000,
+  "seq": 125,
+  "status": {
+    "locationMode": "no_fix"
+  }
+}

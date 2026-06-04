@@ -1,0 +1,15 @@
+{
+  "eventId": "sample-cell-fallback-0001",
+  "contractVersion": "1.0.0",
+  "trackerId": "pi-sample-01",
+  "eventType": "gps_cell_fallback",
+  "trackerTsMs": 1771251199000,
+  "seq": 127,
+  "location": {
+    "lat": 47.3800,
+    "lon": 8.5300,
+    "method": "cell_lbs_native",
+    "source": "sim7670_clbs",
+    "accuracyM": 550
+  }
+}

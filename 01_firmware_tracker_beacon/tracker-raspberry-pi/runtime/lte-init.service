@@ -1,0 +1,11 @@
+[Unit]
+Description=LTE Modem Initialization
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/lte-init.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

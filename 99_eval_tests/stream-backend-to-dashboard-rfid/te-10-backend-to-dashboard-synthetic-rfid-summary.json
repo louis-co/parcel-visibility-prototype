@@ -1,0 +1,105 @@
+{
+  "test": "TE-10 backend-to-dashboard synthetic RFID visibility",
+  "date": "2026-04-30",
+  "runId": "TE10DASH-APR30-2210",
+  "dashboard": {
+    "url": "https://tnt.luui.sh/trackers",
+    "selectedTracker": "pi-5-gateway-01",
+    "selectedPlate": "SG10301",
+    "visibleSurface": "Trackers page / Event intelligence / Recent beacon scans",
+    "refreshIntervalSec": 5,
+    "timeWindowLocal": {
+      "from": "2026-04-30 21:08 CEST",
+      "to": "2026-04-30 22:59 CEST"
+    }
+  },
+  "method": {
+    "eventType": "rfid_scan",
+    "eventSource": "synthetic direct POST to Convex /ingest",
+    "cadenceSec": 5,
+    "count": 6,
+    "note": "This isolates backend-to-dashboard visibility. It does not include physical RFID reader, Pi outbox, or LTE upload latency."
+  },
+  "records": [
+    {
+      "sequence": 1,
+      "beaconId": "rfid:TE10DASH-APR30-2210-01",
+      "trackerLocal": "22:12:24.799",
+      "backendIngestLocal": "22:12:24.991",
+      "dashboardFirstSeenLocal": "22:12:28",
+      "backendLagMs": 192,
+      "backendToDashboardMs": 3109,
+      "trackerToDashboardMs": 3301
+    },
+    {
+      "sequence": 2,
+      "beaconId": "rfid:TE10DASH-APR30-2210-02",
+      "trackerLocal": "22:12:30.534",
+      "backendIngestLocal": "22:12:30.701",
+      "dashboardFirstSeenLocal": "22:12:33",
+      "backendLagMs": 167,
+      "backendToDashboardMs": 2456,
+      "trackerToDashboardMs": 2623
+    },
+    {
+      "sequence": 3,
+      "beaconId": "rfid:TE10DASH-APR30-2210-03",
+      "trackerLocal": "22:12:36.265",
+      "backendIngestLocal": "22:12:36.445",
+      "dashboardFirstSeenLocal": "22:12:38",
+      "backendLagMs": 180,
+      "backendToDashboardMs": 1792,
+      "trackerToDashboardMs": 1972
+    },
+    {
+      "sequence": 4,
+      "beaconId": "rfid:TE10DASH-APR30-2210-04",
+      "trackerLocal": "22:12:42.021",
+      "backendIngestLocal": "22:12:42.189",
+      "dashboardFirstSeenLocal": "22:12:43",
+      "backendLagMs": 168,
+      "backendToDashboardMs": 887,
+      "trackerToDashboardMs": 1055
+    },
+    {
+      "sequence": 5,
+      "beaconId": "rfid:TE10DASH-APR30-2210-05",
+      "trackerLocal": "22:12:47.745",
+      "backendIngestLocal": "22:12:47.918",
+      "dashboardFirstSeenLocal": "22:12:53",
+      "backendLagMs": 173,
+      "backendToDashboardMs": 5317,
+      "trackerToDashboardMs": 5490
+    },
+    {
+      "sequence": 6,
+      "beaconId": "rfid:TE10DASH-APR30-2210-06",
+      "trackerLocal": "22:12:53.434",
+      "backendIngestLocal": "22:12:53.599",
+      "dashboardFirstSeenLocal": "22:12:58",
+      "backendLagMs": 165,
+      "backendToDashboardMs": 4486,
+      "trackerToDashboardMs": 4651
+    }
+  ],
+  "summaryMs": {
+    "backendLag": {
+      "min": 165,
+      "median": 170.5,
+      "max": 192
+    },
+    "backendToDashboard": {
+      "min": 887,
+      "median": 2782.5,
+      "max": 5317
+    },
+    "trackerToDashboardSynthetic": {
+      "min": 1055,
+      "median": 2962,
+      "max": 5490
+    }
+  },
+  "evidence": {
+    "screenshot": "screenshots/te-10-backend-to-dashboard-synthetic-rfid-stream.png"
+  }
+}

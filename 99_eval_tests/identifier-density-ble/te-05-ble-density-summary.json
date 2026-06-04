@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-04-30T23:00:04.509Z",
+  "queryWindow": {
+    "startUtc": "2026-04-30T17:00:01.231Z",
+    "endUtc": "2026-04-30T23:00:01.231Z",
+    "startZurich": "2026-04-30T19:00:01+02:00",
+    "endZurich": "2026-05-01T01:00:01+02:00"
+  },
+  "expected": {
+    "base": 905000,
+    "last": 905499,
+    "count": 500
+  },
+  "fetchedBleScanEvents": 3285,
+  "densityEvents": 3170,
+  "totalUniqueDensityIds": 500,
+  "burstsDetected": 3,
+  "analyzedBursts": 2,
+  "ignoredLaterBursts": 1,
+  "bursts": [
+    {
+      "burst": 1,
+      "startZurich": "2026-05-01T00:17:01+02:00",
+      "endZurich": "2026-05-01T00:18:01+02:00",
+      "durationSeconds": 59.976,
+      "totalEvents": 1616,
+      "uniqueIds": 497,
+      "captureShare": 0.994,
+      "missingCount": 3,
+      "missingRanges": [
+        "905053",
+        "905075",
+        "905311"
+      ],
+      "duplicateEvents": 1119,
+      "minId": 905000,
+      "maxId": 905499,
+      "rssiMedian": -57,
+      "ingestLagMedianMs": 515455.5,
+      "ingestLagP95Ms": 934353.5,
+      "ingestLagMaxMs": 975719
+    },
+    {
+      "burst": 2,
+      "startZurich": "2026-05-01T00:22:59+02:00",
+      "endZurich": "2026-05-01T00:23:59+02:00",
+      "durationSeconds": 59.923,
+      "totalEvents": 1554,
+      "uniqueIds": 495,
+      "captureShare": 0.99,
+      "missingCount": 5,
+      "missingRanges": [
+        "905055",
+        "905111",
+        "905151",
+        "905182",
+        "905478"
+      ],
+      "duplicateEvents": 1059,
+      "minId": 905000,
+      "maxId": 905499,
+      "rssiMedian": -56,
+      "ingestLagMedianMs": 1402140.5,
+      "ingestLagP95Ms": 2020528.3,
+      "ingestLagMaxMs": 2077494
+    }
+  ]
+}

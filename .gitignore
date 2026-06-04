@@ -1,0 +1,28 @@
+.DS_Store
+Thumbs.db
+
+# Dependencies and build outputs
+node_modules/
+.next/
+dist/
+build/
+.vercel/
+.pio/
+*.tsbuildinfo
+__pycache__/
+*.pyc
+.tile-cache/
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Local editor/runtime state
+.venv/
+venv/
+.idea/
+.vscode/
+tmp/
+

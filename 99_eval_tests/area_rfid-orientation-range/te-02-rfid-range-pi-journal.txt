@@ -1,0 +1,592 @@
+Apr 29 20:23:48 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 20:23:48 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 20:23:48 tracker python3[918]: RFID uplink started on /dev/rfid_reader
+Apr 29 20:24:10 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487050780 monoNs=38833298494 eventId=eda6f1ab-f4c8-4920-950a-e62c0b945c5a eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=1 trackerTsMs=1777487050721 localCreatedMs=1777487050721 queueSize=1
+Apr 29 20:24:10 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487050780 monoNs=38833337753 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=1 trackerTsMs=1777487050721 readerSetting=na
+Apr 29 20:24:11 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487051707 monoNs=39760131031 eventId=eda6f1ab-f4c8-4920-950a-e62c0b945c5a attempt=1 uploadAttemptMs=1777487051707 queueSize=1
+Apr 29 20:28:13 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487293167 monoNs=46522429323 eventId=eda6f1ab-f4c8-4920-950a-e62c0b945c5a attempt=1 uploadAttemptMs=1777487051707 uploadResponseMs=1777487293167 latencyMs=241460 status=200 queueSize=0
+Apr 29 20:28:18 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487298269 monoNs=51624250079 eventId=f32fa926-d1aa-4bda-8f0b-093a0d89d0d8 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=2 trackerTsMs=1777487297915 localCreatedMs=1777487297915 queueSize=1
+Apr 29 20:28:18 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487298269 monoNs=51624282950 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=2 trackerTsMs=1777487297915 readerSetting=na
+Apr 29 20:28:18 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487298382 monoNs=51737720598 eventId=f32fa926-d1aa-4bda-8f0b-093a0d89d0d8 attempt=1 uploadAttemptMs=1777487298382 queueSize=1
+Apr 29 20:28:19 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487299524 monoNs=52879280264 eventId=f32fa926-d1aa-4bda-8f0b-093a0d89d0d8 attempt=1 uploadAttemptMs=1777487298382 uploadResponseMs=1777487299523 latencyMs=1141 status=200 queueSize=0
+Apr 29 20:28:28 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487308899 monoNs=62254892888 eventId=c71c54f4-8d4a-47fd-aa86-4da6fc58eeca eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=3 trackerTsMs=1777487308586 localCreatedMs=1777487308586 queueSize=1
+Apr 29 20:28:28 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487308899 monoNs=62254937573 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=3 trackerTsMs=1777487308586 readerSetting=na
+Apr 29 20:28:28 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487308899 monoNs=62255007239 eventId=c71c54f4-8d4a-47fd-aa86-4da6fc58eeca attempt=1 uploadAttemptMs=1777487308899 queueSize=1
+Apr 29 20:28:35 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487315273 monoNs=68629052125 eventId=c71c54f4-8d4a-47fd-aa86-4da6fc58eeca attempt=1 uploadAttemptMs=1777487308899 uploadResponseMs=1777487315273 latencyMs=6374 status=200 queueSize=0
+Apr 29 20:28:43 tracker python3[918]: rfid-uplink: scan_window wallTsMs=1777487323651 monoNs=77006181134 windowSec=60.311 readCount=14 queued=3 duplicates=11 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 14} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 20:28:44 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487324576 monoNs=77931602522 eventId=20018bd3-72dc-41f4-8a34-b91d405f0721 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=4 trackerTsMs=1777487324082 localCreatedMs=1777487324082 queueSize=1
+Apr 29 20:28:44 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487324576 monoNs=77931644977 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=4 trackerTsMs=1777487324082 readerSetting=na
+Apr 29 20:28:44 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487324651 monoNs=78006239698 eventId=20018bd3-72dc-41f4-8a34-b91d405f0721 attempt=1 uploadAttemptMs=1777487324651 queueSize=1
+Apr 29 20:28:51 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487331426 monoNs=84782109447 eventId=20018bd3-72dc-41f4-8a34-b91d405f0721 attempt=1 uploadAttemptMs=1777487324651 uploadResponseMs=1777487331426 latencyMs=6775 status=200 queueSize=0
+Apr 29 20:28:56 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487336905 monoNs=90260648306 eventId=039196cf-694e-4791-92b9-6f34e48069b7 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=5 trackerTsMs=1777487336879 localCreatedMs=1777487336879 queueSize=1
+Apr 29 20:28:56 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487336905 monoNs=90260689782 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=5 trackerTsMs=1777487336879 readerSetting=na
+Apr 29 20:28:57 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487337498 monoNs=90854078685 eventId=039196cf-694e-4791-92b9-6f34e48069b7 attempt=1 uploadAttemptMs=1777487337498 queueSize=1
+Apr 29 20:29:03 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487343844 monoNs=97199842899 eventId=039196cf-694e-4791-92b9-6f34e48069b7 attempt=1 uploadAttemptMs=1777487337498 uploadResponseMs=1777487343844 latencyMs=6346 status=200 queueSize=0
+Apr 29 20:29:06 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487346905 monoNs=100260932398 eventId=8caaa908-c89d-46dc-8c36-e64de541683f eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=6 trackerTsMs=1777487346885 localCreatedMs=1777487346885 queueSize=1
+Apr 29 20:29:06 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487346905 monoNs=100260972275 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=6 trackerTsMs=1777487346885 readerSetting=na
+Apr 29 20:29:07 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487347863 monoNs=101218991610 eventId=8caaa908-c89d-46dc-8c36-e64de541683f attempt=1 uploadAttemptMs=1777487347863 queueSize=1
+Apr 29 20:29:13 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487353999 monoNs=107354340513 eventId=8caaa908-c89d-46dc-8c36-e64de541683f attempt=1 uploadAttemptMs=1777487347863 uploadResponseMs=1777487353999 latencyMs=6136 status=200 queueSize=0
+Apr 29 20:29:21 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487361860 monoNs=115215149242 eventId=f011e7d7-e8ee-417c-acfa-d324b3011e60 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=7 trackerTsMs=1777487361842 localCreatedMs=1777487361842 queueSize=1
+Apr 29 20:29:21 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487361860 monoNs=115215189726 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=7 trackerTsMs=1777487361842 readerSetting=na
+Apr 29 20:29:22 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487362020 monoNs=115376090835 eventId=f011e7d7-e8ee-417c-acfa-d324b3011e60 attempt=1 uploadAttemptMs=1777487362020 queueSize=1
+Apr 29 20:29:28 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487368400 monoNs=121755611929 eventId=f011e7d7-e8ee-417c-acfa-d324b3011e60 attempt=1 uploadAttemptMs=1777487362020 uploadResponseMs=1777487368400 latencyMs=6380 status=200 queueSize=0
+Apr 29 20:29:32 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487372277 monoNs=125632565800 eventId=68d3006c-4c4d-43c0-9f18-dd5877f3bf8e eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=8 trackerTsMs=1777487372257 localCreatedMs=1777487372257 queueSize=1
+Apr 29 20:29:32 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487372277 monoNs=125632608560 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=8 trackerTsMs=1777487372257 readerSetting=na
+Apr 29 20:29:32 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487372426 monoNs=125781939674 eventId=68d3006c-4c4d-43c0-9f18-dd5877f3bf8e attempt=1 uploadAttemptMs=1777487372426 queueSize=1
+Apr 29 20:29:38 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487378641 monoNs=131996230550 eventId=68d3006c-4c4d-43c0-9f18-dd5877f3bf8e attempt=1 uploadAttemptMs=1777487372426 uploadResponseMs=1777487378640 latencyMs=6214 status=200 queueSize=0
+Apr 29 20:29:42 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487382769 monoNs=136124733540 eventId=05036c6c-9ac1-4b06-9209-522f460cd5f7 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=9 trackerTsMs=1777487382751 localCreatedMs=1777487382751 queueSize=1
+Apr 29 20:29:42 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487382769 monoNs=136124775874 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=9 trackerTsMs=1777487382751 readerSetting=na
+Apr 29 20:29:43 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487383660 monoNs=137015501826 eventId=05036c6c-9ac1-4b06-9209-522f460cd5f7 attempt=1 uploadAttemptMs=1777487383660 queueSize=1
+Apr 29 20:29:49 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487389840 monoNs=143195601146 eventId=05036c6c-9ac1-4b06-9209-522f460cd5f7 attempt=1 uploadAttemptMs=1777487383660 uploadResponseMs=1777487389840 latencyMs=6180 status=200 queueSize=0
+Apr 29 20:29:49 tracker python3[918]: rfid-uplink: scan_window wallTsMs=1777487389859 monoNs=143214384564 windowSec=60.009 readCount=55 queued=6 duplicates=49 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 55} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 20:29:53 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487393307 monoNs=146662274735 eventId=a06aaaca-04a2-4c79-a4d9-0289879b004d eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=10 trackerTsMs=1777487393286 localCreatedMs=1777487393286 queueSize=1
+Apr 29 20:29:53 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487393307 monoNs=146662316341 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=10 trackerTsMs=1777487393286 readerSetting=na
+Apr 29 20:29:53 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487393860 monoNs=147215392179 eventId=a06aaaca-04a2-4c79-a4d9-0289879b004d attempt=1 uploadAttemptMs=1777487393860 queueSize=1
+Apr 29 20:30:00 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487400079 monoNs=153434729321 eventId=a06aaaca-04a2-4c79-a4d9-0289879b004d attempt=1 uploadAttemptMs=1777487393860 uploadResponseMs=1777487400079 latencyMs=6219 status=200 queueSize=0
+Apr 29 20:30:03 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487403368 monoNs=156723253685 eventId=3c2d6fee-8d03-4dd4-a494-5865ca7b1b90 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=11 trackerTsMs=1777487403349 localCreatedMs=1777487403349 queueSize=1
+Apr 29 20:30:03 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487403368 monoNs=156723294867 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=11 trackerTsMs=1777487403349 readerSetting=na
+Apr 29 20:30:04 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487404099 monoNs=157454282853 eventId=3c2d6fee-8d03-4dd4-a494-5865ca7b1b90 attempt=1 uploadAttemptMs=1777487404099 queueSize=1
+Apr 29 20:30:10 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487410329 monoNs=163684624763 eventId=3c2d6fee-8d03-4dd4-a494-5865ca7b1b90 attempt=1 uploadAttemptMs=1777487404099 uploadResponseMs=1777487410329 latencyMs=6230 status=200 queueSize=0
+Apr 29 20:30:13 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487413582 monoNs=166937290248 eventId=8edb9ce9-72c0-4263-a0ac-775af7252ce9 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=12 trackerTsMs=1777487413563 localCreatedMs=1777487413564 queueSize=1
+Apr 29 20:30:13 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487413582 monoNs=166937331319 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=12 trackerTsMs=1777487413563 readerSetting=na
+Apr 29 20:30:14 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487414350 monoNs=167705922683 eventId=8edb9ce9-72c0-4263-a0ac-775af7252ce9 attempt=1 uploadAttemptMs=1777487414350 queueSize=1
+Apr 29 20:30:20 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487420562 monoNs=173917413120 eventId=8edb9ce9-72c0-4263-a0ac-775af7252ce9 attempt=1 uploadAttemptMs=1777487414350 uploadResponseMs=1777487420562 latencyMs=6212 status=200 queueSize=0
+Apr 29 20:30:23 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487423891 monoNs=177246619475 eventId=2def77de-2e03-47a9-af6a-480d21fdfc6c eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=13 trackerTsMs=1777487423871 localCreatedMs=1777487423871 queueSize=1
+Apr 29 20:30:23 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487423891 monoNs=177246661954 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=13 trackerTsMs=1777487423871 readerSetting=na
+Apr 29 20:30:24 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487424620 monoNs=177975586124 eventId=2def77de-2e03-47a9-af6a-480d21fdfc6c attempt=1 uploadAttemptMs=1777487424620 queueSize=1
+Apr 29 20:30:31 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487431135 monoNs=184490320123 eventId=2def77de-2e03-47a9-af6a-480d21fdfc6c attempt=1 uploadAttemptMs=1777487424620 uploadResponseMs=1777487431134 latencyMs=6514 status=200 queueSize=0
+Apr 29 20:30:44 tracker python3[918]: rfid-uplink: scan_window wallTsMs=1777487444159 monoNs=197515042424 windowSec=60.499 readCount=68 queued=4 duplicates=64 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 68} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 20:31:04 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487464199 monoNs=217554832757 eventId=50476903-6c0d-408c-9ab7-e32783078f9c eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=14 trackerTsMs=1777487464181 localCreatedMs=1777487464181 queueSize=1
+Apr 29 20:31:04 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487464199 monoNs=217554875459 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=14 trackerTsMs=1777487464181 readerSetting=na
+Apr 29 20:31:05 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487465170 monoNs=218525977694 eventId=50476903-6c0d-408c-9ab7-e32783078f9c attempt=1 uploadAttemptMs=1777487465170 queueSize=1
+Apr 29 20:31:11 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487471698 monoNs=225054110490 eventId=50476903-6c0d-408c-9ab7-e32783078f9c attempt=1 uploadAttemptMs=1777487465170 uploadResponseMs=1777487471698 latencyMs=6528 status=200 queueSize=0
+Apr 29 20:31:44 tracker python3[918]: rfid-uplink: scan_window wallTsMs=1777487504236 monoNs=257591654654 windowSec=60.077 readCount=6 queued=1 duplicates=5 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 6} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 20:32:44 tracker python3[918]: rfid-uplink: scan_window wallTsMs=1777487564268 monoNs=317623202048 windowSec=60.032 readCount=0 queued=0 duplicates=0 uniqueEpcs=0 epcCounts={} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 20:33:44 tracker python3[918]: rfid-uplink: scan_window wallTsMs=1777487624299 monoNs=377654954521 windowSec=60.032 readCount=0 queued=0 duplicates=0 uniqueEpcs=0 epcCounts={} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 20:33:57 tracker python3[918]: rfid-uplink: event_queued wallTsMs=1777487637350 monoNs=390705756803 eventId=44d55475-4343-4ecf-8bbd-1d7b3b1321b4 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=15 trackerTsMs=1777487637321 localCreatedMs=1777487637321 queueSize=1
+Apr 29 20:33:57 tracker python3[918]: rfid-uplink: scan_detected wallTsMs=1777487637350 monoNs=390705800878 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=15 trackerTsMs=1777487637321 readerSetting=na
+Apr 29 20:33:57 tracker python3[918]: rfid-uplink: upload_attempt wallTsMs=1777487637806 monoNs=391161710577 eventId=44d55475-4343-4ecf-8bbd-1d7b3b1321b4 attempt=1 uploadAttemptMs=1777487637806 queueSize=1
+Apr 29 20:34:03 tracker python3[918]: rfid-uplink: upload_response wallTsMs=1777487643969 monoNs=397324284000 eventId=44d55475-4343-4ecf-8bbd-1d7b3b1321b4 attempt=1 uploadAttemptMs=1777487637806 uploadResponseMs=1777487643968 latencyMs=6162 status=200 queueSize=0
+Apr 29 20:34:08 tracker python3[918]: Traceback (most recent call last):
+Apr 29 20:34:08 tracker python3[918]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 20:34:08 tracker python3[918]:     main()
+Apr 29 20:34:08 tracker python3[918]:     ~~~~^^
+Apr 29 20:34:08 tracker python3[918]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 154, in main
+Apr 29 20:34:08 tracker python3[918]:     frame = os.read(fd, FRAME_SIZE)
+Apr 29 20:34:08 tracker python3[918]: OSError: [Errno 5] Input/output error
+Apr 29 20:34:08 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 20:34:08 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 20:34:10 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 1.
+Apr 29 20:34:10 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 20:34:10 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 20:34:10 tracker python3[2524]: Traceback (most recent call last):
+Apr 29 20:34:10 tracker python3[2524]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 20:34:10 tracker python3[2524]:     main()
+Apr 29 20:34:10 tracker python3[2524]:     ~~~~^^
+Apr 29 20:34:10 tracker python3[2524]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 20:34:10 tracker python3[2524]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 20:34:10 tracker python3[2524]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 20:34:10 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 20:34:10 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 20:34:12 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 2.
+Apr 29 20:34:12 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 20:34:12 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 20:34:12 tracker python3[2526]: Traceback (most recent call last):
+Apr 29 20:34:12 tracker python3[2526]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 20:34:12 tracker python3[2526]:     main()
+Apr 29 20:34:12 tracker python3[2526]:     ~~~~^^
+Apr 29 20:34:12 tracker python3[2526]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 20:34:12 tracker python3[2526]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 20:34:12 tracker python3[2526]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 20:34:12 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 20:34:12 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 20:34:14 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 3.
+Apr 29 20:34:14 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 20:34:14 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 20:34:14 tracker python3[2528]: Traceback (most recent call last):
+Apr 29 20:34:14 tracker python3[2528]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 20:34:14 tracker python3[2528]:     main()
+Apr 29 20:34:14 tracker python3[2528]:     ~~~~^^
+Apr 29 20:34:14 tracker python3[2528]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 20:34:14 tracker python3[2528]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 20:34:14 tracker python3[2528]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 20:34:14 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 20:34:14 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 20:34:17 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 4.
+Apr 29 20:34:17 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 20:34:17 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 20:34:17 tracker python3[2532]: Traceback (most recent call last):
+Apr 29 20:34:17 tracker python3[2532]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 20:34:17 tracker python3[2532]:     main()
+Apr 29 20:34:17 tracker python3[2532]:     ~~~~^^
+Apr 29 20:34:17 tracker python3[2532]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 20:34:17 tracker python3[2532]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 20:34:17 tracker python3[2532]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 20:34:17 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 20:34:17 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 20:34:19 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 5.
+Apr 29 20:34:19 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 20:34:19 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 20:34:19 tracker python3[2534]: Traceback (most recent call last):
+Apr 29 20:34:19 tracker python3[2534]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 20:34:19 tracker python3[2534]:     main()
+Apr 29 20:34:19 tracker python3[2534]:     ~~~~^^
+Apr 29 20:34:19 tracker python3[2534]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 20:34:19 tracker python3[2534]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 20:34:19 tracker python3[2534]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 20:34:19 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 20:34:19 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 20:34:21 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 6.
+Apr 29 20:34:21 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 20:34:21 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 20:34:21 tracker python3[2536]: Traceback (most recent call last):
+Apr 29 20:34:21 tracker python3[2536]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 20:34:21 tracker python3[2536]:     main()
+Apr 29 20:34:21 tracker python3[2536]:     ~~~~^^
+Apr 29 20:34:21 tracker python3[2536]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 20:34:21 tracker python3[2536]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 20:34:21 tracker python3[2536]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 20:34:21 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 20:34:21 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 20:34:23 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 7.
+Apr 29 20:34:23 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 20:34:23 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 20:34:23 tracker python3[2538]: Traceback (most recent call last):
+Apr 29 20:34:23 tracker python3[2538]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 20:34:23 tracker python3[2538]:     main()
+Apr 29 20:34:23 tracker python3[2538]:     ~~~~^^
+Apr 29 20:34:23 tracker python3[2538]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 20:34:23 tracker python3[2538]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 20:34:23 tracker python3[2538]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 20:34:23 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 20:34:23 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 20:34:26 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 8.
+Apr 29 20:34:26 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 20:34:26 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 20:34:26 tracker python3[2540]: Traceback (most recent call last):
+Apr 29 20:34:26 tracker python3[2540]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 20:34:26 tracker python3[2540]:     main()
+Apr 29 20:34:26 tracker python3[2540]:     ~~~~^^
+Apr 29 20:34:26 tracker python3[2540]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 20:34:26 tracker python3[2540]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 20:34:26 tracker python3[2540]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 20:34:26 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 20:34:26 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 20:34:28 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 9.
+Apr 29 20:34:28 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 20:34:28 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 20:34:28 tracker python3[2542]: Traceback (most recent call last):
+Apr 29 20:34:28 tracker python3[2542]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 20:34:28 tracker python3[2542]:     main()
+Apr 29 20:34:28 tracker python3[2542]:     ~~~~^^
+Apr 29 20:34:28 tracker python3[2542]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 20:34:28 tracker python3[2542]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 20:34:28 tracker python3[2542]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 20:34:28 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 20:34:28 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 20:34:30 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 10.
+Apr 29 20:34:30 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 20:34:30 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 20:34:30 tracker python3[2544]: Traceback (most recent call last):
+Apr 29 20:34:30 tracker python3[2544]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 20:34:30 tracker python3[2544]:     main()
+Apr 29 20:34:30 tracker python3[2544]:     ~~~~^^
+Apr 29 20:34:30 tracker python3[2544]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 20:34:30 tracker python3[2544]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 20:34:30 tracker python3[2544]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 20:34:30 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 20:34:30 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 20:34:32 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 11.
+Apr 29 20:34:32 tracker systemd[1]: rfid_uplink.service: Start request repeated too quickly.
+Apr 29 20:34:32 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 20:34:32 tracker systemd[1]: Failed to start rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 21:08:33 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 21:08:34 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 21:08:34 tracker python3[8505]: RFID uplink started on /dev/rfid_reader
+Apr 29 21:08:38 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489718308 monoNs=2471663619638 eventId=faf2c323-e0db-4eae-83ef-401c422f0380 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=1 trackerTsMs=1777489718273 localCreatedMs=1777489718273 queueSize=1
+Apr 29 21:08:38 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489718308 monoNs=2471663658231 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=1 trackerTsMs=1777489718273 readerSetting=na
+Apr 29 21:08:39 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489719119 monoNs=2472474714828 eventId=faf2c323-e0db-4eae-83ef-401c422f0380 attempt=1 uploadAttemptMs=1777489719119 queueSize=1
+Apr 29 21:08:45 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489725441 monoNs=2478796348917 eventId=faf2c323-e0db-4eae-83ef-401c422f0380 attempt=1 uploadAttemptMs=1777489719119 uploadResponseMs=1777489725440 latencyMs=6321 status=200 queueSize=0
+Apr 29 21:08:48 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489728711 monoNs=2482066494345 eventId=9fa5ebc2-bf5c-4635-bb92-a47eb167f300 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=2 trackerTsMs=1777489728635 localCreatedMs=1777489728635 queueSize=1
+Apr 29 21:08:48 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489728711 monoNs=2482066538586 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=2 trackerTsMs=1777489728635 readerSetting=na
+Apr 29 21:08:49 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489729476 monoNs=2482832051966 eventId=9fa5ebc2-bf5c-4635-bb92-a47eb167f300 attempt=1 uploadAttemptMs=1777489729476 queueSize=1
+Apr 29 21:08:55 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489735874 monoNs=2489229151588 eventId=9fa5ebc2-bf5c-4635-bb92-a47eb167f300 attempt=1 uploadAttemptMs=1777489729476 uploadResponseMs=1777489735873 latencyMs=6397 status=200 queueSize=0
+Apr 29 21:08:59 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489739146 monoNs=2492501253706 eventId=a1fa7a41-77dd-47dd-8df1-25bebd95d80a eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=3 trackerTsMs=1777489739081 localCreatedMs=1777489739081 queueSize=1
+Apr 29 21:08:59 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489739146 monoNs=2492501295243 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=3 trackerTsMs=1777489739081 readerSetting=na
+Apr 29 21:08:59 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489739927 monoNs=2493282905711 eventId=a1fa7a41-77dd-47dd-8df1-25bebd95d80a attempt=1 uploadAttemptMs=1777489739927 queueSize=1
+Apr 29 21:09:08 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489748785 monoNs=2502140330278 eventId=a1fa7a41-77dd-47dd-8df1-25bebd95d80a attempt=1 uploadAttemptMs=1777489739927 uploadResponseMs=1777489748785 latencyMs=8858 status=200 queueSize=0
+Apr 29 21:09:09 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489749369 monoNs=2502724622080 eventId=d086ef20-374a-443c-8cd2-864022ed5f67 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=4 trackerTsMs=1777489749330 localCreatedMs=1777489749330 queueSize=1
+Apr 29 21:09:09 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489749369 monoNs=2502724661284 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=4 trackerTsMs=1777489749330 readerSetting=na
+Apr 29 21:09:09 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489749818 monoNs=2503173155511 eventId=d086ef20-374a-443c-8cd2-864022ed5f67 attempt=1 uploadAttemptMs=1777489749818 queueSize=1
+Apr 29 21:09:16 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489756145 monoNs=2509501088989 eventId=d086ef20-374a-443c-8cd2-864022ed5f67 attempt=1 uploadAttemptMs=1777489749818 uploadResponseMs=1777489756145 latencyMs=6327 status=200 queueSize=0
+Apr 29 21:09:19 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489759742 monoNs=2513098045013 eventId=f031178b-1b8d-4ba6-bbf5-a5df9d5f80c4 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=5 trackerTsMs=1777489759717 localCreatedMs=1777489759717 queueSize=1
+Apr 29 21:09:19 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489759742 monoNs=2513098086291 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=5 trackerTsMs=1777489759717 readerSetting=na
+Apr 29 21:09:20 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489760185 monoNs=2513540829836 eventId=f031178b-1b8d-4ba6-bbf5-a5df9d5f80c4 attempt=1 uploadAttemptMs=1777489760185 queueSize=1
+Apr 29 21:09:26 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489766384 monoNs=2519739152010 eventId=f031178b-1b8d-4ba6-bbf5-a5df9d5f80c4 attempt=1 uploadAttemptMs=1777489760185 uploadResponseMs=1777489766383 latencyMs=6198 status=200 queueSize=0
+Apr 29 21:09:30 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489770423 monoNs=2523778299565 eventId=a6352826-774a-4355-9e46-58ca5bcb22d3 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=6 trackerTsMs=1777489770391 localCreatedMs=1777489770391 queueSize=1
+Apr 29 21:09:30 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489770423 monoNs=2523778345306 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=6 trackerTsMs=1777489770391 readerSetting=na
+Apr 29 21:09:30 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489770423 monoNs=2523778413622 eventId=a6352826-774a-4355-9e46-58ca5bcb22d3 attempt=1 uploadAttemptMs=1777489770423 queueSize=1
+Apr 29 21:09:37 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489777031 monoNs=2530387045046 eventId=a6352826-774a-4355-9e46-58ca5bcb22d3 attempt=1 uploadAttemptMs=1777489770423 uploadResponseMs=1777489777031 latencyMs=6608 status=200 queueSize=0
+Apr 29 21:09:37 tracker python3[8505]: rfid-uplink: scan_window wallTsMs=1777489777066 monoNs=2530421526918 windowSec=63.004 readCount=84 queued=6 duplicates=78 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 84} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 21:09:41 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489781675 monoNs=2535030348394 eventId=f548a2b7-49a1-4f0e-b235-5bbcde0ec3e2 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=7 trackerTsMs=1777489781639 localCreatedMs=1777489781639 queueSize=1
+Apr 29 21:09:41 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489781675 monoNs=2535030389950 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=7 trackerTsMs=1777489781639 readerSetting=na
+Apr 29 21:09:42 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489782068 monoNs=2535423117035 eventId=f548a2b7-49a1-4f0e-b235-5bbcde0ec3e2 attempt=1 uploadAttemptMs=1777489782067 queueSize=1
+Apr 29 21:09:48 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489788342 monoNs=2541697440446 eventId=f548a2b7-49a1-4f0e-b235-5bbcde0ec3e2 attempt=1 uploadAttemptMs=1777489782067 uploadResponseMs=1777489788342 latencyMs=6275 status=200 queueSize=0
+Apr 29 21:09:52 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489792054 monoNs=2545410054867 eventId=fcd2d6e0-70c5-4879-84da-18bd92c19bbb eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=8 trackerTsMs=1777489792030 localCreatedMs=1777489792030 queueSize=1
+Apr 29 21:09:52 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489792054 monoNs=2545410096849 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=8 trackerTsMs=1777489792030 readerSetting=na
+Apr 29 21:09:52 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489792383 monoNs=2545738473894 eventId=fcd2d6e0-70c5-4879-84da-18bd92c19bbb attempt=1 uploadAttemptMs=1777489792383 queueSize=1
+Apr 29 21:09:58 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489798862 monoNs=2552217669565 eventId=fcd2d6e0-70c5-4879-84da-18bd92c19bbb attempt=1 uploadAttemptMs=1777489792383 uploadResponseMs=1777489798862 latencyMs=6479 status=200 queueSize=0
+Apr 29 21:10:02 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489802730 monoNs=2556085599459 eventId=ce426f36-62c6-4770-8004-ff77963622f2 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=9 trackerTsMs=1777489802341 localCreatedMs=1777489802341 queueSize=1
+Apr 29 21:10:02 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489802730 monoNs=2556085641514 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=9 trackerTsMs=1777489802341 readerSetting=na
+Apr 29 21:10:02 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489802954 monoNs=2556309906383 eventId=ce426f36-62c6-4770-8004-ff77963622f2 attempt=1 uploadAttemptMs=1777489802954 queueSize=1
+Apr 29 21:10:09 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489809437 monoNs=2562792878833 eventId=ce426f36-62c6-4770-8004-ff77963622f2 attempt=1 uploadAttemptMs=1777489802954 uploadResponseMs=1777489809437 latencyMs=6483 status=200 queueSize=0
+Apr 29 21:10:12 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489812993 monoNs=2566348587575 eventId=93480048-ddab-4953-a81d-8bec4de60fa1 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=10 trackerTsMs=1777489812951 localCreatedMs=1777489812951 queueSize=1
+Apr 29 21:10:12 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489812993 monoNs=2566349038374 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=10 trackerTsMs=1777489812951 readerSetting=na
+Apr 29 21:10:13 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489813509 monoNs=2566864841117 eventId=93480048-ddab-4953-a81d-8bec4de60fa1 attempt=1 uploadAttemptMs=1777489813509 queueSize=1
+Apr 29 21:10:20 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489820636 monoNs=2573991888690 eventId=93480048-ddab-4953-a81d-8bec4de60fa1 attempt=1 uploadAttemptMs=1777489813509 uploadResponseMs=1777489820636 latencyMs=7127 status=200 queueSize=0
+Apr 29 21:10:22 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489822953 monoNs=2576308461485 eventId=a11699c9-9b84-42a3-9dec-90ef636c99ab eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=11 trackerTsMs=1777489822928 localCreatedMs=1777489822928 queueSize=1
+Apr 29 21:10:22 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489822953 monoNs=2576308906913 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=11 trackerTsMs=1777489822928 readerSetting=na
+Apr 29 21:10:23 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489823673 monoNs=2577029073604 eventId=a11699c9-9b84-42a3-9dec-90ef636c99ab attempt=1 uploadAttemptMs=1777489823673 queueSize=1
+Apr 29 21:10:30 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489830339 monoNs=2583695047281 eventId=a11699c9-9b84-42a3-9dec-90ef636c99ab attempt=1 uploadAttemptMs=1777489823673 uploadResponseMs=1777489830339 latencyMs=6666 status=200 queueSize=0
+Apr 29 21:10:33 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489833070 monoNs=2586425156644 eventId=9aba2dc9-8d26-4084-b838-623becd795da eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=12 trackerTsMs=1777489833037 localCreatedMs=1777489833037 queueSize=1
+Apr 29 21:10:33 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489833070 monoNs=2586425197607 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=12 trackerTsMs=1777489833037 readerSetting=na
+Apr 29 21:10:33 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489833371 monoNs=2586727084029 eventId=9aba2dc9-8d26-4084-b838-623becd795da attempt=1 uploadAttemptMs=1777489833371 queueSize=1
+Apr 29 21:10:40 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489840156 monoNs=2593511122859 eventId=9aba2dc9-8d26-4084-b838-623becd795da attempt=1 uploadAttemptMs=1777489833371 uploadResponseMs=1777489840155 latencyMs=6784 status=200 queueSize=0
+Apr 29 21:10:40 tracker python3[8505]: rfid-uplink: scan_window wallTsMs=1777489840187 monoNs=2593542777845 windowSec=63.121 readCount=100 queued=6 duplicates=94 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 100} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 21:10:44 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489844623 monoNs=2597978407886 eventId=c3a64f8e-7c8a-494e-8408-464ee5fab1fb eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=13 trackerTsMs=1777489844585 localCreatedMs=1777489844585 queueSize=1
+Apr 29 21:10:44 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489844623 monoNs=2597978452312 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=13 trackerTsMs=1777489844585 readerSetting=na
+Apr 29 21:10:45 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489845189 monoNs=2598544394929 eventId=c3a64f8e-7c8a-494e-8408-464ee5fab1fb attempt=1 uploadAttemptMs=1777489845189 queueSize=1
+Apr 29 21:10:51 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489851356 monoNs=2604712079695 eventId=c3a64f8e-7c8a-494e-8408-464ee5fab1fb attempt=1 uploadAttemptMs=1777489845189 uploadResponseMs=1777489851356 latencyMs=6167 status=200 queueSize=0
+Apr 29 21:10:54 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489854765 monoNs=2608120118374 eventId=919893d4-8a4e-40d7-a96a-dac5b29c30ab eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=14 trackerTsMs=1777489854732 localCreatedMs=1777489854733 queueSize=1
+Apr 29 21:10:54 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489854765 monoNs=2608120164115 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=14 trackerTsMs=1777489854732 readerSetting=na
+Apr 29 21:10:55 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489855392 monoNs=2608747662837 eventId=919893d4-8a4e-40d7-a96a-dac5b29c30ab attempt=1 uploadAttemptMs=1777489855392 queueSize=1
+Apr 29 21:11:01 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489861596 monoNs=2614951591698 eventId=919893d4-8a4e-40d7-a96a-dac5b29c30ab attempt=1 uploadAttemptMs=1777489855392 uploadResponseMs=1777489861596 latencyMs=6204 status=200 queueSize=0
+Apr 29 21:11:05 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489865449 monoNs=2618804204682 eventId=705e653e-cdcc-4d42-8a80-eddf7ee640f0 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=15 trackerTsMs=1777489865414 localCreatedMs=1777489865414 queueSize=1
+Apr 29 21:11:05 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489865449 monoNs=2618804246256 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=15 trackerTsMs=1777489865414 readerSetting=na
+Apr 29 21:11:05 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489865631 monoNs=2618986925541 eventId=705e653e-cdcc-4d42-8a80-eddf7ee640f0 attempt=1 uploadAttemptMs=1777489865631 queueSize=1
+Apr 29 21:11:11 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489871835 monoNs=2625191040250 eventId=705e653e-cdcc-4d42-8a80-eddf7ee640f0 attempt=1 uploadAttemptMs=1777489865631 uploadResponseMs=1777489871835 latencyMs=6204 status=200 queueSize=0
+Apr 29 21:11:15 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489875493 monoNs=2628848463873 eventId=fa2c864f-3932-4fff-87ad-087ef41103b1 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=16 trackerTsMs=1777489875458 localCreatedMs=1777489875458 queueSize=1
+Apr 29 21:11:15 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489875493 monoNs=2628848503170 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=16 trackerTsMs=1777489875458 readerSetting=na
+Apr 29 21:11:15 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489875871 monoNs=2629227079447 eventId=fa2c864f-3932-4fff-87ad-087ef41103b1 attempt=1 uploadAttemptMs=1777489875871 queueSize=1
+Apr 29 21:11:22 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489882075 monoNs=2635430970911 eventId=fa2c864f-3932-4fff-87ad-087ef41103b1 attempt=1 uploadAttemptMs=1777489875871 uploadResponseMs=1777489882075 latencyMs=6204 status=200 queueSize=0
+Apr 29 21:11:26 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489886110 monoNs=2639465525822 eventId=1f8b7c6f-bf7a-4b81-902f-5b83832fec3a eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=17 trackerTsMs=1777489886077 localCreatedMs=1777489886077 queueSize=1
+Apr 29 21:11:26 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489886110 monoNs=2639465568766 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=17 trackerTsMs=1777489886077 readerSetting=na
+Apr 29 21:11:26 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489886111 monoNs=2639466720216 eventId=1f8b7c6f-bf7a-4b81-902f-5b83832fec3a attempt=1 uploadAttemptMs=1777489886111 queueSize=1
+Apr 29 21:11:32 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489892326 monoNs=2645681532749 eventId=1f8b7c6f-bf7a-4b81-902f-5b83832fec3a attempt=1 uploadAttemptMs=1777489886111 uploadResponseMs=1777489892326 latencyMs=6215 status=200 queueSize=0
+Apr 29 21:11:40 tracker python3[8505]: rfid-uplink: scan_window wallTsMs=1777489900363 monoNs=2653718621903 windowSec=60.176 readCount=54 queued=5 duplicates=49 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 54} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 21:11:54 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489914070 monoNs=2667425714543 eventId=31e6f9ac-170b-48d1-8bad-2dd4aef7a61b eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=18 trackerTsMs=1777489914037 localCreatedMs=1777489914037 queueSize=1
+Apr 29 21:11:54 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489914070 monoNs=2667425756376 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=18 trackerTsMs=1777489914037 readerSetting=na
+Apr 29 21:11:54 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489914370 monoNs=2667725885156 eventId=31e6f9ac-170b-48d1-8bad-2dd4aef7a61b attempt=1 uploadAttemptMs=1777489914370 queueSize=1
+Apr 29 21:12:00 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489920796 monoNs=2674151464741 eventId=31e6f9ac-170b-48d1-8bad-2dd4aef7a61b attempt=1 uploadAttemptMs=1777489914370 uploadResponseMs=1777489920796 latencyMs=6426 status=200 queueSize=0
+Apr 29 21:12:04 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489924750 monoNs=2678105415206 eventId=c0e518d1-8ea9-405f-b181-dd462f6b9913 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=19 trackerTsMs=1777489924715 localCreatedMs=1777489924715 queueSize=1
+Apr 29 21:12:04 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489924750 monoNs=2678105461077 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=19 trackerTsMs=1777489924715 readerSetting=na
+Apr 29 21:12:04 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489924832 monoNs=2678187859024 eventId=c0e518d1-8ea9-405f-b181-dd462f6b9913 attempt=1 uploadAttemptMs=1777489924832 queueSize=1
+Apr 29 21:12:11 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489931329 monoNs=2684684377018 eventId=c0e518d1-8ea9-405f-b181-dd462f6b9913 attempt=1 uploadAttemptMs=1777489924832 uploadResponseMs=1777489931329 latencyMs=6497 status=200 queueSize=0
+Apr 29 21:12:38 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489958279 monoNs=2711634141740 eventId=79494a96-472b-47a0-bf99-c23e3ca881f3 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=20 trackerTsMs=1777489958244 localCreatedMs=1777489958244 queueSize=1
+Apr 29 21:12:38 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489958279 monoNs=2711634185018 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=20 trackerTsMs=1777489958244 readerSetting=na
+Apr 29 21:12:38 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489958375 monoNs=2711730213564 eventId=79494a96-472b-47a0-bf99-c23e3ca881f3 attempt=1 uploadAttemptMs=1777489958375 queueSize=1
+Apr 29 21:12:45 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489965123 monoNs=2718478798832 eventId=79494a96-472b-47a0-bf99-c23e3ca881f3 attempt=1 uploadAttemptMs=1777489958375 uploadResponseMs=1777489965123 latencyMs=6748 status=200 queueSize=0
+Apr 29 21:12:45 tracker python3[8505]: rfid-uplink: scan_window wallTsMs=1777489965156 monoNs=2718511722505 windowSec=64.793 readCount=16 queued=3 duplicates=13 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 16} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 21:12:53 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489973865 monoNs=2727220279264 eventId=9aef4bb5-4957-4264-87cb-a346fc1e84b7 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=21 trackerTsMs=1777489973833 localCreatedMs=1777489973833 queueSize=1
+Apr 29 21:12:53 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489973865 monoNs=2727220320857 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=21 trackerTsMs=1777489973833 readerSetting=na
+Apr 29 21:12:54 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489974161 monoNs=2727516146324 eventId=9aef4bb5-4957-4264-87cb-a346fc1e84b7 attempt=1 uploadAttemptMs=1777489974161 queueSize=1
+Apr 29 21:13:04 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489984710 monoNs=2738065377548 eventId=9aef4bb5-4957-4264-87cb-a346fc1e84b7 attempt=1 uploadAttemptMs=1777489974161 uploadResponseMs=1777489984710 latencyMs=10549 status=200 queueSize=0
+Apr 29 21:13:04 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777489984773 monoNs=2738129077162 eventId=698c711e-7d48-4778-9b11-1b0747bd4873 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=22 trackerTsMs=1777489984740 localCreatedMs=1777489984740 queueSize=1
+Apr 29 21:13:04 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777489984774 monoNs=2738129116570 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=22 trackerTsMs=1777489984740 readerSetting=na
+Apr 29 21:13:05 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777489985740 monoNs=2739095758817 eventId=698c711e-7d48-4778-9b11-1b0747bd4873 attempt=1 uploadAttemptMs=1777489985740 queueSize=1
+Apr 29 21:13:13 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777489993129 monoNs=2746484748433 eventId=698c711e-7d48-4778-9b11-1b0747bd4873 attempt=1 uploadAttemptMs=1777489985740 uploadResponseMs=1777489993129 latencyMs=7389 status=200 queueSize=0
+Apr 29 21:13:39 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490019869 monoNs=2773225109617 eventId=9ce41389-e7c8-491f-9b7d-296dc9ba6e1c eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=23 trackerTsMs=1777490019833 localCreatedMs=1777490019834 queueSize=1
+Apr 29 21:13:39 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490019870 monoNs=2773225150728 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=23 trackerTsMs=1777490019833 readerSetting=na
+Apr 29 21:13:40 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490020205 monoNs=2773561020650 eventId=9ce41389-e7c8-491f-9b7d-296dc9ba6e1c attempt=1 uploadAttemptMs=1777490020205 queueSize=1
+Apr 29 21:13:47 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490027089 monoNs=2780444564390 eventId=9ce41389-e7c8-491f-9b7d-296dc9ba6e1c attempt=1 uploadAttemptMs=1777490020205 uploadResponseMs=1777490027089 latencyMs=6884 status=200 queueSize=0
+Apr 29 21:13:47 tracker python3[8505]: rfid-uplink: scan_window wallTsMs=1777490027124 monoNs=2780479803407 windowSec=61.968 readCount=12 queued=3 duplicates=9 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 12} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 21:13:50 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490030534 monoNs=2783889123418 eventId=a8e9cbc0-03dd-4cc0-850d-1b46d46ccdb8 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=24 trackerTsMs=1777490030509 localCreatedMs=1777490030509 queueSize=1
+Apr 29 21:13:50 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490030534 monoNs=2783889163456 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=24 trackerTsMs=1777490030509 readerSetting=na
+Apr 29 21:13:51 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490031125 monoNs=2784480330826 eventId=a8e9cbc0-03dd-4cc0-850d-1b46d46ccdb8 attempt=1 uploadAttemptMs=1777490031125 queueSize=1
+Apr 29 21:13:57 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490037552 monoNs=2790907484646 eventId=a8e9cbc0-03dd-4cc0-850d-1b46d46ccdb8 attempt=1 uploadAttemptMs=1777490031125 uploadResponseMs=1777490037552 latencyMs=6427 status=200 queueSize=0
+Apr 29 21:14:00 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490040669 monoNs=2794024132603 eventId=d2b52e74-4421-4cc6-8f82-4ffb34a657b2 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=25 trackerTsMs=1777490040627 localCreatedMs=1777490040627 queueSize=1
+Apr 29 21:14:00 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490040669 monoNs=2794024165584 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=25 trackerTsMs=1777490040627 readerSetting=na
+Apr 29 21:14:01 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490041584 monoNs=2794939553407 eventId=d2b52e74-4421-4cc6-8f82-4ffb34a657b2 attempt=1 uploadAttemptMs=1777490041584 queueSize=1
+Apr 29 21:14:09 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490049362 monoNs=2802717379285 eventId=d2b52e74-4421-4cc6-8f82-4ffb34a657b2 attempt=1 uploadAttemptMs=1777490041584 uploadResponseMs=1777490049362 latencyMs=7778 status=200 queueSize=0
+Apr 29 21:14:11 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490051441 monoNs=2804796976058 eventId=1b74bbf4-13aa-44f3-913a-4795a9a96288 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=26 trackerTsMs=1777490051408 localCreatedMs=1777490051408 queueSize=1
+Apr 29 21:14:11 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490051441 monoNs=2804797017947 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=26 trackerTsMs=1777490051408 readerSetting=na
+Apr 29 21:14:12 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490052395 monoNs=2805750499069 eventId=1b74bbf4-13aa-44f3-913a-4795a9a96288 attempt=1 uploadAttemptMs=1777490052395 queueSize=1
+Apr 29 21:14:18 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490058881 monoNs=2812236560795 eventId=1b74bbf4-13aa-44f3-913a-4795a9a96288 attempt=1 uploadAttemptMs=1777490052395 uploadResponseMs=1777490058881 latencyMs=6486 status=200 queueSize=0
+Apr 29 21:14:40 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490080795 monoNs=2834150540418 eventId=ea92bcbe-ead0-4b48-8ddd-def709902545 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=27 trackerTsMs=1777490080645 localCreatedMs=1777490080645 queueSize=1
+Apr 29 21:14:40 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490080795 monoNs=2834150583103 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=27 trackerTsMs=1777490080645 readerSetting=na
+Apr 29 21:14:40 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490080926 monoNs=2834281117894 eventId=ea92bcbe-ead0-4b48-8ddd-def709902545 attempt=1 uploadAttemptMs=1777490080925 queueSize=1
+Apr 29 21:14:49 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490089023 monoNs=2842378537705 eventId=ea92bcbe-ead0-4b48-8ddd-def709902545 attempt=1 uploadAttemptMs=1777490080925 uploadResponseMs=1777490089023 latencyMs=8098 status=200 queueSize=0
+Apr 29 21:14:49 tracker python3[8505]: rfid-uplink: scan_window wallTsMs=1777490089055 monoNs=2842410227723 windowSec=61.930 readCount=64 queued=4 duplicates=60 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 64} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 21:14:50 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490090715 monoNs=2844070940967 eventId=70dbfe0d-900d-4428-bba4-94f9a26d3bad eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=28 trackerTsMs=1777490090674 localCreatedMs=1777490090675 queueSize=1
+Apr 29 21:14:50 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490090715 monoNs=2844070982949 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=28 trackerTsMs=1777490090674 readerSetting=na
+Apr 29 21:14:51 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490091055 monoNs=2844410753040 eventId=70dbfe0d-900d-4428-bba4-94f9a26d3bad attempt=1 uploadAttemptMs=1777490091055 queueSize=1
+Apr 29 21:14:59 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490099584 monoNs=2852939121610 eventId=70dbfe0d-900d-4428-bba4-94f9a26d3bad attempt=1 uploadAttemptMs=1777490091055 uploadResponseMs=1777490099583 latencyMs=8528 status=200 queueSize=0
+Apr 29 21:15:01 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490101134 monoNs=2854489688817 eventId=046f8653-c98a-45a0-8f0d-d22a06f74ffe eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=29 trackerTsMs=1777490101099 localCreatedMs=1777490101099 queueSize=1
+Apr 29 21:15:01 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490101134 monoNs=2854489724039 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=29 trackerTsMs=1777490101099 readerSetting=na
+Apr 29 21:15:01 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490101624 monoNs=2854979406821 eventId=046f8653-c98a-45a0-8f0d-d22a06f74ffe attempt=1 uploadAttemptMs=1777490101624 queueSize=1
+Apr 29 21:15:07 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490107816 monoNs=2861171243046 eventId=046f8653-c98a-45a0-8f0d-d22a06f74ffe attempt=1 uploadAttemptMs=1777490101624 uploadResponseMs=1777490107815 latencyMs=6191 status=200 queueSize=0
+Apr 29 21:15:15 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490115610 monoNs=2868965740275 eventId=41c4a27a-5000-4cf7-bc8a-96443eb0b100 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=30 trackerTsMs=1777490115575 localCreatedMs=1777490115575 queueSize=1
+Apr 29 21:15:15 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490115610 monoNs=2868965784164 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=30 trackerTsMs=1777490115575 readerSetting=na
+Apr 29 21:15:15 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490115858 monoNs=2869213995013 eventId=41c4a27a-5000-4cf7-bc8a-96443eb0b100 attempt=1 uploadAttemptMs=1777490115858 queueSize=1
+Apr 29 21:15:22 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490122835 monoNs=2876190402434 eventId=41c4a27a-5000-4cf7-bc8a-96443eb0b100 attempt=1 uploadAttemptMs=1777490115858 uploadResponseMs=1777490122835 latencyMs=6977 status=200 queueSize=0
+Apr 29 21:15:25 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490125404 monoNs=2878759436277 eventId=d2b566d1-6975-4798-920e-83021415e179 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=31 trackerTsMs=1777490125369 localCreatedMs=1777490125369 queueSize=1
+Apr 29 21:15:25 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490125404 monoNs=2878759477407 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=31 trackerTsMs=1777490125369 readerSetting=na
+Apr 29 21:15:25 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490125867 monoNs=2879222993710 eventId=d2b566d1-6975-4798-920e-83021415e179 attempt=1 uploadAttemptMs=1777490125867 queueSize=1
+Apr 29 21:15:32 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490132241 monoNs=2885597051354 eventId=d2b566d1-6975-4798-920e-83021415e179 attempt=1 uploadAttemptMs=1777490125867 uploadResponseMs=1777490132241 latencyMs=6374 status=200 queueSize=0
+Apr 29 21:15:36 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490136088 monoNs=2889444097863 eventId=99eca9a3-6ee7-45d9-837f-e5d767aa001d eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=32 trackerTsMs=1777490136054 localCreatedMs=1777490136054 queueSize=1
+Apr 29 21:15:36 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490136089 monoNs=2889444143808 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=32 trackerTsMs=1777490136054 readerSetting=na
+Apr 29 21:15:36 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490136279 monoNs=2889634776019 eventId=99eca9a3-6ee7-45d9-837f-e5d767aa001d attempt=1 uploadAttemptMs=1777490136279 queueSize=1
+Apr 29 21:15:42 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490142537 monoNs=2895892211830 eventId=99eca9a3-6ee7-45d9-837f-e5d767aa001d attempt=1 uploadAttemptMs=1777490136279 uploadResponseMs=1777490142536 latencyMs=6257 status=200 queueSize=0
+Apr 29 21:15:49 tracker python3[8505]: rfid-uplink: scan_window wallTsMs=1777490149082 monoNs=2902438010076 windowSec=60.028 readCount=48 queued=5 duplicates=43 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 48} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 21:15:50 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490150596 monoNs=2903951454883 eventId=4fc84849-90ce-46fc-b986-0fe1d51b9284 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=33 trackerTsMs=1777490150563 localCreatedMs=1777490150563 queueSize=1
+Apr 29 21:15:50 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490150596 monoNs=2903951497920 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=33 trackerTsMs=1777490150563 readerSetting=na
+Apr 29 21:15:50 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490150596 monoNs=2903951571291 eventId=4fc84849-90ce-46fc-b986-0fe1d51b9284 attempt=1 uploadAttemptMs=1777490150596 queueSize=1
+Apr 29 21:15:56 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490156881 monoNs=2910237069035 eventId=4fc84849-90ce-46fc-b986-0fe1d51b9284 attempt=1 uploadAttemptMs=1777490150596 uploadResponseMs=1777490156881 latencyMs=6285 status=200 queueSize=0
+Apr 29 21:16:00 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490160517 monoNs=2913872670781 eventId=21e42ada-7359-4a31-b8d9-11e423f21ff4 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=34 trackerTsMs=1777490160484 localCreatedMs=1777490160484 queueSize=1
+Apr 29 21:16:00 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490160517 monoNs=2913872711300 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=34 trackerTsMs=1777490160484 readerSetting=na
+Apr 29 21:16:00 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490160914 monoNs=2914270074142 eventId=21e42ada-7359-4a31-b8d9-11e423f21ff4 attempt=1 uploadAttemptMs=1777490160914 queueSize=1
+Apr 29 21:16:07 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490167241 monoNs=2920596848171 eventId=21e42ada-7359-4a31-b8d9-11e423f21ff4 attempt=1 uploadAttemptMs=1777490160914 uploadResponseMs=1777490167241 latencyMs=6327 status=200 queueSize=0
+Apr 29 21:16:11 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490171067 monoNs=2924423054179 eventId=7171c147-6af2-4a78-86d7-12261379def9 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=35 trackerTsMs=1777490171030 localCreatedMs=1777490171030 queueSize=1
+Apr 29 21:16:11 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490171067 monoNs=2924423097346 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=35 trackerTsMs=1777490171030 readerSetting=na
+Apr 29 21:16:11 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490171277 monoNs=2924632906419 eventId=7171c147-6af2-4a78-86d7-12261379def9 attempt=1 uploadAttemptMs=1777490171277 queueSize=1
+Apr 29 21:16:17 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490177483 monoNs=2930838162801 eventId=7171c147-6af2-4a78-86d7-12261379def9 attempt=1 uploadAttemptMs=1777490171277 uploadResponseMs=1777490177482 latencyMs=6205 status=200 queueSize=0
+Apr 29 21:16:27 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490187375 monoNs=2940731057135 eventId=63b32a99-1747-4b62-9eee-3d7cc2eec448 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=36 trackerTsMs=1777490187342 localCreatedMs=1777490187342 queueSize=1
+Apr 29 21:16:27 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490187375 monoNs=2940731108080 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=36 trackerTsMs=1777490187342 readerSetting=na
+Apr 29 21:16:27 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490187537 monoNs=2940892622615 eventId=63b32a99-1747-4b62-9eee-3d7cc2eec448 attempt=1 uploadAttemptMs=1777490187537 queueSize=1
+Apr 29 21:16:33 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490193682 monoNs=2947037264503 eventId=63b32a99-1747-4b62-9eee-3d7cc2eec448 attempt=1 uploadAttemptMs=1777490187537 uploadResponseMs=1777490193681 latencyMs=6144 status=200 queueSize=0
+Apr 29 21:16:37 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490197705 monoNs=2951060869010 eventId=8ac3803d-419f-4351-8bd5-6fa5215d799d eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=37 trackerTsMs=1777490197670 localCreatedMs=1777490197670 queueSize=1
+Apr 29 21:16:37 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490197705 monoNs=2951060909473 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=37 trackerTsMs=1777490197670 readerSetting=na
+Apr 29 21:16:37 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490197718 monoNs=2951073239937 eventId=8ac3803d-419f-4351-8bd5-6fa5215d799d attempt=1 uploadAttemptMs=1777490197718 queueSize=1
+Apr 29 21:16:44 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490204055 monoNs=2957410880268 eventId=8ac3803d-419f-4351-8bd5-6fa5215d799d attempt=1 uploadAttemptMs=1777490197718 uploadResponseMs=1777490204055 latencyMs=6337 status=200 queueSize=0
+Apr 29 21:16:49 tracker python3[8505]: rfid-uplink: scan_window wallTsMs=1777490209097 monoNs=2962452158716 windowSec=60.014 readCount=70 queued=5 duplicates=65 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 70} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 21:16:54 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490214154 monoNs=2967509166558 eventId=f2e921fd-9291-4090-93c6-54447c0a1f56 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=38 trackerTsMs=1777490214119 localCreatedMs=1777490214119 queueSize=1
+Apr 29 21:16:54 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490214154 monoNs=2967509208595 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=38 trackerTsMs=1777490214119 readerSetting=na
+Apr 29 21:16:55 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490215099 monoNs=2968454922966 eventId=f2e921fd-9291-4090-93c6-54447c0a1f56 attempt=1 uploadAttemptMs=1777490215099 queueSize=1
+Apr 29 21:17:02 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490222308 monoNs=2975663490918 eventId=f2e921fd-9291-4090-93c6-54447c0a1f56 attempt=1 uploadAttemptMs=1777490215099 uploadResponseMs=1777490222308 latencyMs=7209 status=200 queueSize=0
+Apr 29 21:17:05 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490225484 monoNs=2978839434007 eventId=b324a002-7970-43dc-8e6f-956cfa2b7917 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=39 trackerTsMs=1777490225442 localCreatedMs=1777490225442 queueSize=1
+Apr 29 21:17:05 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490225484 monoNs=2978839476359 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=39 trackerTsMs=1777490225442 readerSetting=na
+Apr 29 21:17:06 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490226343 monoNs=2979698651683 eventId=b324a002-7970-43dc-8e6f-956cfa2b7917 attempt=1 uploadAttemptMs=1777490226343 queueSize=1
+Apr 29 21:17:13 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490233415 monoNs=2986771045848 eventId=b324a002-7970-43dc-8e6f-956cfa2b7917 attempt=1 uploadAttemptMs=1777490226343 uploadResponseMs=1777490233415 latencyMs=7072 status=200 queueSize=0
+Apr 29 21:17:17 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490237539 monoNs=2990894842902 eventId=78ee7c7e-1ffb-41fc-adc4-1dd67e7f030b eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=40 trackerTsMs=1777490237499 localCreatedMs=1777490237499 queueSize=1
+Apr 29 21:17:17 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490237539 monoNs=2990894885273 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=40 trackerTsMs=1777490237499 readerSetting=na
+Apr 29 21:17:18 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490238449 monoNs=2991804136930 eventId=78ee7c7e-1ffb-41fc-adc4-1dd67e7f030b attempt=1 uploadAttemptMs=1777490238449 queueSize=1
+Apr 29 21:17:25 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490245335 monoNs=2998690732674 eventId=78ee7c7e-1ffb-41fc-adc4-1dd67e7f030b attempt=1 uploadAttemptMs=1777490238449 uploadResponseMs=1777490245335 latencyMs=6886 status=200 queueSize=0
+Apr 29 21:17:28 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490248553 monoNs=3001909096812 eventId=7921720f-7c7d-41cb-9ad1-2d32e543def5 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=41 trackerTsMs=1777490248143 localCreatedMs=1777490248143 queueSize=1
+Apr 29 21:17:28 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490248554 monoNs=3001909140479 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=41 trackerTsMs=1777490248143 readerSetting=na
+Apr 29 21:17:28 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490248554 monoNs=3001909223572 eventId=7921720f-7c7d-41cb-9ad1-2d32e543def5 attempt=1 uploadAttemptMs=1777490248554 queueSize=1
+Apr 29 21:17:34 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490254980 monoNs=3008335626860 eventId=7921720f-7c7d-41cb-9ad1-2d32e543def5 attempt=1 uploadAttemptMs=1777490248554 uploadResponseMs=1777490254980 latencyMs=6426 status=200 queueSize=0
+Apr 29 21:17:49 tracker python3[8505]: rfid-uplink: scan_window wallTsMs=1777490269118 monoNs=3022473834642 windowSec=60.022 readCount=21 queued=4 duplicates=17 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 21} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 21:17:52 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490272408 monoNs=3025763505329 eventId=604f77ef-07d0-4e13-a711-1820ce679880 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=42 trackerTsMs=1777490272379 localCreatedMs=1777490272379 queueSize=1
+Apr 29 21:17:52 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490272408 monoNs=3025763547459 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=42 trackerTsMs=1777490272379 readerSetting=na
+Apr 29 21:17:53 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490273120 monoNs=3026475723912 eventId=604f77ef-07d0-4e13-a711-1820ce679880 attempt=1 uploadAttemptMs=1777490273120 queueSize=1
+Apr 29 21:17:59 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490279686 monoNs=3033041563487 eventId=604f77ef-07d0-4e13-a711-1820ce679880 attempt=1 uploadAttemptMs=1777490273120 uploadResponseMs=1777490279686 latencyMs=6566 status=200 queueSize=0
+Apr 29 21:18:02 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490282617 monoNs=3035973091906 eventId=fefe1219-3459-4773-b2b5-142c588d472c eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=43 trackerTsMs=1777490282586 localCreatedMs=1777490282586 queueSize=1
+Apr 29 21:18:02 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490282618 monoNs=3035973124776 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=43 trackerTsMs=1777490282586 readerSetting=na
+Apr 29 21:18:02 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490282718 monoNs=3036073418416 eventId=fefe1219-3459-4773-b2b5-142c588d472c attempt=1 uploadAttemptMs=1777490282718 queueSize=1
+Apr 29 21:18:17 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490297610 monoNs=3050965431557 eventId=fefe1219-3459-4773-b2b5-142c588d472c attempt=1 uploadAttemptMs=1777490282718 uploadResponseMs=1777490297610 latencyMs=14892 status=200 queueSize=0
+Apr 29 21:18:17 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490297707 monoNs=3051062136642 eventId=b5acfb33-2fc2-4c63-91a6-1150a699cd2c eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=44 trackerTsMs=1777490297663 localCreatedMs=1777490297663 queueSize=1
+Apr 29 21:18:17 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490297707 monoNs=3051062178531 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=44 trackerTsMs=1777490297663 readerSetting=na
+Apr 29 21:18:18 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490298664 monoNs=3052019274808 eventId=b5acfb33-2fc2-4c63-91a6-1150a699cd2c attempt=1 uploadAttemptMs=1777490298664 queueSize=1
+Apr 29 21:18:26 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490306528 monoNs=3059883730262 eventId=b5acfb33-2fc2-4c63-91a6-1150a699cd2c attempt=1 uploadAttemptMs=1777490298664 uploadResponseMs=1777490306528 latencyMs=7864 status=200 queueSize=0
+Apr 29 21:18:29 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490309176 monoNs=3062531477996 eventId=bb0af53c-f3cd-4f60-b274-5775aed7e16b eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=45 trackerTsMs=1777490309148 localCreatedMs=1777490309148 queueSize=1
+Apr 29 21:18:29 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490309176 monoNs=3062531519311 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=45 trackerTsMs=1777490309148 readerSetting=na
+Apr 29 21:18:29 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490309560 monoNs=3062916047179 eventId=bb0af53c-f3cd-4f60-b274-5775aed7e16b attempt=1 uploadAttemptMs=1777490309560 queueSize=1
+Apr 29 21:18:36 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490316502 monoNs=3069857934819 eventId=bb0af53c-f3cd-4f60-b274-5775aed7e16b attempt=1 uploadAttemptMs=1777490309560 uploadResponseMs=1777490316502 latencyMs=6942 status=200 queueSize=0
+Apr 29 21:18:42 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490322218 monoNs=3075574026885 eventId=27c0a5fc-99b5-41d2-999c-13320d608a14 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=46 trackerTsMs=1777490322178 localCreatedMs=1777490322178 queueSize=1
+Apr 29 21:18:42 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490322218 monoNs=3075574068015 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=46 trackerTsMs=1777490322178 readerSetting=na
+Apr 29 21:18:42 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490322534 monoNs=3075889370957 eventId=27c0a5fc-99b5-41d2-999c-13320d608a14 attempt=1 uploadAttemptMs=1777490322534 queueSize=1
+Apr 29 21:18:48 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490328998 monoNs=3082353839722 eventId=27c0a5fc-99b5-41d2-999c-13320d608a14 attempt=1 uploadAttemptMs=1777490322534 uploadResponseMs=1777490328998 latencyMs=6464 status=200 queueSize=0
+Apr 29 21:18:49 tracker python3[8505]: rfid-uplink: scan_window wallTsMs=1777490329530 monoNs=3082885293640 windowSec=60.411 readCount=31 queued=5 duplicates=26 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 31} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 21:19:48 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490388804 monoNs=3142160063479 eventId=60e22fc5-c3b4-4a2a-99b4-5fae54827107 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=47 trackerTsMs=1777490388775 localCreatedMs=1777490388775 queueSize=1
+Apr 29 21:19:48 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490388804 monoNs=3142160104053 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=47 trackerTsMs=1777490388775 readerSetting=na
+Apr 29 21:19:49 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490389061 monoNs=3142416277648 eventId=60e22fc5-c3b4-4a2a-99b4-5fae54827107 attempt=1 uploadAttemptMs=1777490389061 queueSize=1
+Apr 29 21:19:55 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490395997 monoNs=3149352943879 eventId=60e22fc5-c3b4-4a2a-99b4-5fae54827107 attempt=1 uploadAttemptMs=1777490389061 uploadResponseMs=1777490395997 latencyMs=6936 status=200 queueSize=0
+Apr 29 21:19:56 tracker python3[8505]: rfid-uplink: scan_window wallTsMs=1777490396509 monoNs=3149864355139 windowSec=66.979 readCount=2 queued=1 duplicates=1 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 2} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 21:20:08 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490408375 monoNs=3161731105789 eventId=521fb690-97a1-49f5-bb9c-0ffbaf7f481b eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=48 trackerTsMs=1777490408346 localCreatedMs=1777490408346 queueSize=1
+Apr 29 21:20:08 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490408376 monoNs=3161731147419 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=48 trackerTsMs=1777490408346 readerSetting=na
+Apr 29 21:20:08 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490408515 monoNs=3161870241358 eventId=521fb690-97a1-49f5-bb9c-0ffbaf7f481b attempt=1 uploadAttemptMs=1777490408515 queueSize=1
+Apr 29 21:20:14 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490414740 monoNs=3168095838338 eventId=521fb690-97a1-49f5-bb9c-0ffbaf7f481b attempt=1 uploadAttemptMs=1777490408515 uploadResponseMs=1777490414740 latencyMs=6225 status=200 queueSize=0
+Apr 29 21:20:18 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490418675 monoNs=3172030981871 eventId=dfe2c650-c607-4b59-a5a7-c3cf9b4ff1f2 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=49 trackerTsMs=1777490418648 localCreatedMs=1777490418648 queueSize=1
+Apr 29 21:20:18 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490418675 monoNs=3172031023352 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=49 trackerTsMs=1777490418648 readerSetting=na
+Apr 29 21:20:18 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490418773 monoNs=3172128916717 eventId=dfe2c650-c607-4b59-a5a7-c3cf9b4ff1f2 attempt=1 uploadAttemptMs=1777490418773 queueSize=1
+Apr 29 21:20:25 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490425298 monoNs=3178653771035 eventId=dfe2c650-c607-4b59-a5a7-c3cf9b4ff1f2 attempt=1 uploadAttemptMs=1777490418773 uploadResponseMs=1777490425298 latencyMs=6525 status=200 queueSize=0
+Apr 29 21:20:28 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490428875 monoNs=3182230461338 eventId=ad2078ba-533f-4e0c-9a5c-9362795c1c8c eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=50 trackerTsMs=1777490428844 localCreatedMs=1777490428844 queueSize=1
+Apr 29 21:20:28 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490428875 monoNs=3182230504246 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=50 trackerTsMs=1777490428844 readerSetting=na
+Apr 29 21:20:29 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490429330 monoNs=3182685932805 eventId=ad2078ba-533f-4e0c-9a5c-9362795c1c8c attempt=1 uploadAttemptMs=1777490429330 queueSize=1
+Apr 29 21:20:35 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490435861 monoNs=3189216843129 eventId=ad2078ba-533f-4e0c-9a5c-9362795c1c8c attempt=1 uploadAttemptMs=1777490429330 uploadResponseMs=1777490435861 latencyMs=6531 status=200 queueSize=0
+Apr 29 21:20:39 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490439110 monoNs=3192465627211 eventId=f1d19647-2367-49b1-9ebc-c2045615305e eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=51 trackerTsMs=1777490439079 localCreatedMs=1777490439079 queueSize=1
+Apr 29 21:20:39 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490439110 monoNs=3192465665915 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=51 trackerTsMs=1777490439079 readerSetting=na
+Apr 29 21:20:39 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490439890 monoNs=3193245181682 eventId=f1d19647-2367-49b1-9ebc-c2045615305e attempt=1 uploadAttemptMs=1777490439890 queueSize=1
+Apr 29 21:20:46 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490446183 monoNs=3199538411255 eventId=f1d19647-2367-49b1-9ebc-c2045615305e attempt=1 uploadAttemptMs=1777490439890 uploadResponseMs=1777490446183 latencyMs=6293 status=200 queueSize=0
+Apr 29 21:20:49 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490449075 monoNs=3202430320990 eventId=2cf42050-7885-4258-8a34-bfe008a0da4c eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=52 trackerTsMs=1777490449046 localCreatedMs=1777490449046 queueSize=1
+Apr 29 21:20:49 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490449075 monoNs=3202430363565 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=52 trackerTsMs=1777490449046 readerSetting=na
+Apr 29 21:20:49 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490449216 monoNs=3202571697419 eventId=2cf42050-7885-4258-8a34-bfe008a0da4c attempt=1 uploadAttemptMs=1777490449216 queueSize=1
+Apr 29 21:20:55 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490455389 monoNs=3208744831585 eventId=2cf42050-7885-4258-8a34-bfe008a0da4c attempt=1 uploadAttemptMs=1777490449216 uploadResponseMs=1777490455389 latencyMs=6173 status=200 queueSize=0
+Apr 29 21:20:56 tracker python3[8505]: rfid-uplink: scan_window wallTsMs=1777490456537 monoNs=3209892667107 windowSec=60.028 readCount=71 queued=5 duplicates=66 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 71} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 21:20:59 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490459814 monoNs=3213169644073 eventId=676314ec-d989-4d0b-84c8-659c430435c8 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=53 trackerTsMs=1777490459777 localCreatedMs=1777490459777 queueSize=1
+Apr 29 21:20:59 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490459814 monoNs=3213169703425 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=53 trackerTsMs=1777490459777 readerSetting=na
+Apr 29 21:21:00 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490460415 monoNs=3213771081558 eventId=676314ec-d989-4d0b-84c8-659c430435c8 attempt=1 uploadAttemptMs=1777490460415 queueSize=1
+Apr 29 21:21:06 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490466898 monoNs=3220253812124 eventId=676314ec-d989-4d0b-84c8-659c430435c8 attempt=1 uploadAttemptMs=1777490460415 uploadResponseMs=1777490466898 latencyMs=6483 status=200 queueSize=0
+Apr 29 21:21:10 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490470206 monoNs=3223561751830 eventId=970b21fd-b090-44f5-8343-1f5555054d8c eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=54 trackerTsMs=1777490470177 localCreatedMs=1777490470177 queueSize=1
+Apr 29 21:21:10 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490470206 monoNs=3223561792941 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=54 trackerTsMs=1777490470177 readerSetting=na
+Apr 29 21:21:10 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490470928 monoNs=3224283943241 eventId=970b21fd-b090-44f5-8343-1f5555054d8c attempt=1 uploadAttemptMs=1777490470928 queueSize=1
+Apr 29 21:21:17 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490477317 monoNs=3230672772239 eventId=970b21fd-b090-44f5-8343-1f5555054d8c attempt=1 uploadAttemptMs=1777490470928 uploadResponseMs=1777490477317 latencyMs=6389 status=200 queueSize=0
+Apr 29 21:21:23 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490483079 monoNs=3236434444740 eventId=1c4ed1c5-3c7f-46f9-8797-51c4116fd9ab eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=55 trackerTsMs=1777490483046 localCreatedMs=1777490483046 queueSize=1
+Apr 29 21:21:23 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490483079 monoNs=3236434485963 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=55 trackerTsMs=1777490483046 readerSetting=na
+Apr 29 21:21:23 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490483350 monoNs=3236705975730 eventId=1c4ed1c5-3c7f-46f9-8797-51c4116fd9ab attempt=1 uploadAttemptMs=1777490483350 queueSize=1
+Apr 29 21:21:29 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490489887 monoNs=3243242926792 eventId=1c4ed1c5-3c7f-46f9-8797-51c4116fd9ab attempt=1 uploadAttemptMs=1777490483350 uploadResponseMs=1777490489887 latencyMs=6537 status=200 queueSize=0
+Apr 29 21:21:33 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490493069 monoNs=3246424649525 eventId=78a16eb4-0bb0-437c-9fb5-51bcba5768e3 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=56 trackerTsMs=1777490493038 localCreatedMs=1777490493039 queueSize=1
+Apr 29 21:21:33 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490493069 monoNs=3246424691099 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=56 trackerTsMs=1777490493038 readerSetting=na
+Apr 29 21:21:33 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490493912 monoNs=3247267843508 eventId=78a16eb4-0bb0-437c-9fb5-51bcba5768e3 attempt=1 uploadAttemptMs=1777490493912 queueSize=1
+Apr 29 21:21:41 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490501740 monoNs=3255095374695 eventId=78a16eb4-0bb0-437c-9fb5-51bcba5768e3 attempt=1 uploadAttemptMs=1777490493912 uploadResponseMs=1777490501740 latencyMs=7828 status=200 queueSize=0
+Apr 29 21:21:56 tracker python3[8505]: rfid-uplink: scan_window wallTsMs=1777490516771 monoNs=3270126389701 windowSec=60.234 readCount=55 queued=4 duplicates=51 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 55} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 21:21:59 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490519636 monoNs=3272991935002 eventId=77ca0054-ac63-4159-abb9-3ea879f4cec9 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=57 trackerTsMs=1777490519608 localCreatedMs=1777490519608 queueSize=1
+Apr 29 21:21:59 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490519636 monoNs=3272991976317 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=57 trackerTsMs=1777490519608 readerSetting=na
+Apr 29 21:21:59 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490519772 monoNs=3273127493828 eventId=77ca0054-ac63-4159-abb9-3ea879f4cec9 attempt=1 uploadAttemptMs=1777490519772 queueSize=1
+Apr 29 21:22:13 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490533280 monoNs=3286635675709 eventId=77ca0054-ac63-4159-abb9-3ea879f4cec9 attempt=1 uploadAttemptMs=1777490519772 uploadResponseMs=1777490533280 latencyMs=13508 status=200 queueSize=0
+Apr 29 21:22:13 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490533339 monoNs=3286694444674 eventId=d91f1620-7d6a-46f0-91df-1a914cca5a02 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=58 trackerTsMs=1777490533307 localCreatedMs=1777490533307 queueSize=1
+Apr 29 21:22:13 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490533339 monoNs=3286694484785 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=58 trackerTsMs=1777490533307 readerSetting=na
+Apr 29 21:22:14 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490534308 monoNs=3287663452931 eventId=d91f1620-7d6a-46f0-91df-1a914cca5a02 attempt=1 uploadAttemptMs=1777490534308 queueSize=1
+Apr 29 21:22:21 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490541316 monoNs=3294671288591 eventId=d91f1620-7d6a-46f0-91df-1a914cca5a02 attempt=1 uploadAttemptMs=1777490534308 uploadResponseMs=1777490541315 latencyMs=7007 status=200 queueSize=0
+Apr 29 21:22:43 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490563021 monoNs=3316376495771 eventId=0cc25f08-b157-4d2d-bd51-0f326360d4ad eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=59 trackerTsMs=1777490562992 localCreatedMs=1777490562993 queueSize=1
+Apr 29 21:22:43 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490563021 monoNs=3316376536900 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=59 trackerTsMs=1777490562992 readerSetting=na
+Apr 29 21:22:43 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490563353 monoNs=3316708665876 eventId=0cc25f08-b157-4d2d-bd51-0f326360d4ad attempt=1 uploadAttemptMs=1777490563353 queueSize=1
+Apr 29 21:22:49 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490569821 monoNs=3323176886405 eventId=0cc25f08-b157-4d2d-bd51-0f326360d4ad attempt=1 uploadAttemptMs=1777490563353 uploadResponseMs=1777490569821 latencyMs=6468 status=200 queueSize=0
+Apr 29 21:22:53 tracker python3[8505]: rfid-uplink: event_queued wallTsMs=1777490573384 monoNs=3326739935358 eventId=e793bb0b-a047-48dd-8769-7c863ff4f3e6 eventType=rfid_scan beaconId=rfid:E280B117200078010222AB97 seq=60 trackerTsMs=1777490573357 localCreatedMs=1777490573357 queueSize=1
+Apr 29 21:22:53 tracker python3[8505]: rfid-uplink: scan_detected wallTsMs=1777490573384 monoNs=3326739977581 beaconId=rfid:E280B117200078010222AB97 epc=E280B117200078010222AB97 seq=60 trackerTsMs=1777490573357 readerSetting=na
+Apr 29 21:22:53 tracker python3[8505]: rfid-uplink: upload_attempt wallTsMs=1777490573861 monoNs=3327216403937 eventId=e793bb0b-a047-48dd-8769-7c863ff4f3e6 attempt=1 uploadAttemptMs=1777490573861 queueSize=1
+Apr 29 21:23:00 tracker python3[8505]: rfid-uplink: upload_response wallTsMs=1777490580729 monoNs=3334084885597 eventId=e793bb0b-a047-48dd-8769-7c863ff4f3e6 attempt=1 uploadAttemptMs=1777490573861 uploadResponseMs=1777490580729 latencyMs=6868 status=200 queueSize=0
+Apr 29 21:23:00 tracker python3[8505]: rfid-uplink: scan_window wallTsMs=1777490580761 monoNs=3334116640349 windowSec=63.990 readCount=38 queued=4 duplicates=34 uniqueEpcs=1 epcCounts={"E280B117200078010222AB97": 38} readerDevice=/dev/rfid_reader frameSize=64 readerSetting=na queueSize=0
+Apr 29 21:23:00 tracker python3[8505]: Traceback (most recent call last):
+Apr 29 21:23:00 tracker python3[8505]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 21:23:00 tracker python3[8505]:     main()
+Apr 29 21:23:00 tracker python3[8505]:     ~~~~^^
+Apr 29 21:23:00 tracker python3[8505]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 154, in main
+Apr 29 21:23:00 tracker python3[8505]:     frame = os.read(fd, FRAME_SIZE)
+Apr 29 21:23:00 tracker python3[8505]: OSError: [Errno 5] Input/output error
+Apr 29 21:23:00 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 21:23:00 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 21:23:02 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 1.
+Apr 29 21:23:02 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 21:23:02 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 21:23:02 tracker python3[11380]: Traceback (most recent call last):
+Apr 29 21:23:02 tracker python3[11380]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 21:23:02 tracker python3[11380]:     main()
+Apr 29 21:23:02 tracker python3[11380]:     ~~~~^^
+Apr 29 21:23:02 tracker python3[11380]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 21:23:02 tracker python3[11380]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 21:23:02 tracker python3[11380]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 21:23:02 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 21:23:02 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 21:23:05 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 2.
+Apr 29 21:23:05 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 21:23:05 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 21:23:05 tracker python3[11382]: Traceback (most recent call last):
+Apr 29 21:23:05 tracker python3[11382]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 21:23:05 tracker python3[11382]:     main()
+Apr 29 21:23:05 tracker python3[11382]:     ~~~~^^
+Apr 29 21:23:05 tracker python3[11382]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 21:23:05 tracker python3[11382]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 21:23:05 tracker python3[11382]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 21:23:05 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 21:23:05 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 21:23:07 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 3.
+Apr 29 21:23:07 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 21:23:07 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 21:23:07 tracker python3[11384]: Traceback (most recent call last):
+Apr 29 21:23:07 tracker python3[11384]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 21:23:07 tracker python3[11384]:     main()
+Apr 29 21:23:07 tracker python3[11384]:     ~~~~^^
+Apr 29 21:23:07 tracker python3[11384]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 21:23:07 tracker python3[11384]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 21:23:07 tracker python3[11384]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 21:23:07 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 21:23:07 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 21:23:09 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 4.
+Apr 29 21:23:09 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 21:23:09 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 21:23:09 tracker python3[11386]: Traceback (most recent call last):
+Apr 29 21:23:09 tracker python3[11386]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 21:23:09 tracker python3[11386]:     main()
+Apr 29 21:23:09 tracker python3[11386]:     ~~~~^^
+Apr 29 21:23:09 tracker python3[11386]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 21:23:09 tracker python3[11386]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 21:23:09 tracker python3[11386]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 21:23:09 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 21:23:09 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 21:23:11 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 5.
+Apr 29 21:23:11 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 21:23:11 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 21:23:11 tracker python3[11388]: Traceback (most recent call last):
+Apr 29 21:23:11 tracker python3[11388]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 21:23:11 tracker python3[11388]:     main()
+Apr 29 21:23:11 tracker python3[11388]:     ~~~~^^
+Apr 29 21:23:11 tracker python3[11388]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 21:23:11 tracker python3[11388]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 21:23:11 tracker python3[11388]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 21:23:11 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 21:23:11 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 21:23:14 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 6.
+Apr 29 21:23:14 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 21:23:14 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 21:23:14 tracker python3[11390]: Traceback (most recent call last):
+Apr 29 21:23:14 tracker python3[11390]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 21:23:14 tracker python3[11390]:     main()
+Apr 29 21:23:14 tracker python3[11390]:     ~~~~^^
+Apr 29 21:23:14 tracker python3[11390]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 21:23:14 tracker python3[11390]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 21:23:14 tracker python3[11390]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 21:23:14 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 21:23:14 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 21:23:16 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 7.
+Apr 29 21:23:16 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 21:23:16 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 21:23:16 tracker python3[11392]: Traceback (most recent call last):
+Apr 29 21:23:16 tracker python3[11392]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 21:23:16 tracker python3[11392]:     main()
+Apr 29 21:23:16 tracker python3[11392]:     ~~~~^^
+Apr 29 21:23:16 tracker python3[11392]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 21:23:16 tracker python3[11392]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 21:23:16 tracker python3[11392]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 21:23:16 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 21:23:16 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 21:23:18 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 8.
+Apr 29 21:23:18 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 21:23:18 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 21:23:18 tracker python3[11394]: Traceback (most recent call last):
+Apr 29 21:23:18 tracker python3[11394]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 21:23:18 tracker python3[11394]:     main()
+Apr 29 21:23:18 tracker python3[11394]:     ~~~~^^
+Apr 29 21:23:18 tracker python3[11394]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 21:23:18 tracker python3[11394]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 21:23:18 tracker python3[11394]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 21:23:18 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 21:23:18 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 21:23:20 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 9.
+Apr 29 21:23:20 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 21:23:20 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 21:23:20 tracker python3[11396]: Traceback (most recent call last):
+Apr 29 21:23:20 tracker python3[11396]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 21:23:20 tracker python3[11396]:     main()
+Apr 29 21:23:20 tracker python3[11396]:     ~~~~^^
+Apr 29 21:23:20 tracker python3[11396]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 21:23:20 tracker python3[11396]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 21:23:20 tracker python3[11396]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 21:23:20 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 21:23:20 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 21:23:23 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 10.
+Apr 29 21:23:23 tracker systemd[1]: Starting rfid_uplink.service - RFID Uplink to Convex /ingest...
+Apr 29 21:23:23 tracker systemd[1]: Started rfid_uplink.service - RFID Uplink to Convex /ingest.
+Apr 29 21:23:23 tracker python3[11398]: Traceback (most recent call last):
+Apr 29 21:23:23 tracker python3[11398]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 213, in <module>
+Apr 29 21:23:23 tracker python3[11398]:     main()
+Apr 29 21:23:23 tracker python3[11398]:     ~~~~^^
+Apr 29 21:23:23 tracker python3[11398]:   File "/opt/parcel-tracker-pi/runtime/rfid_uplink.py", line 113, in main
+Apr 29 21:23:23 tracker python3[11398]:     fd = os.open(DEVICE, os.O_RDONLY | os.O_NONBLOCK)
+Apr 29 21:23:23 tracker python3[11398]: FileNotFoundError: [Errno 2] No such file or directory: '/dev/rfid_reader'
+Apr 29 21:23:23 tracker systemd[1]: rfid_uplink.service: Main process exited, code=exited, status=1/FAILURE
+Apr 29 21:23:23 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 21:23:25 tracker systemd[1]: rfid_uplink.service: Scheduled restart job, restart counter is at 11.
+Apr 29 21:23:25 tracker systemd[1]: rfid_uplink.service: Start request repeated too quickly.
+Apr 29 21:23:25 tracker systemd[1]: rfid_uplink.service: Failed with result 'exit-code'.
+Apr 29 21:23:25 tracker systemd[1]: Failed to start rfid_uplink.service - RFID Uplink to Convex /ingest.

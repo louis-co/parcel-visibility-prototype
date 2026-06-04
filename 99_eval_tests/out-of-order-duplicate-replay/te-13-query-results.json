@@ -1,0 +1,405 @@
+{
+  "liveness": [
+    {
+      "label": "after heartbeat-newer",
+      "rows": [
+        {
+          "_creationTime": 1777630814094.851,
+          "_id": "jn74caf4b95s1f6ydzgws2nfd985wwk4",
+          "lastEventType": "heartbeat",
+          "lastIngestTsMs": 1777630814094,
+          "lastTrackerTsMs": 1777629973312,
+          "trackerId": "te13-replay-truck-a-20260501102013"
+        }
+      ],
+      "row": {
+        "_creationTime": 1777630814094.851,
+        "_id": "jn74caf4b95s1f6ydzgws2nfd985wwk4",
+        "lastEventType": "heartbeat",
+        "lastIngestTsMs": 1777630814094,
+        "lastTrackerTsMs": 1777629973312,
+        "trackerId": "te13-replay-truck-a-20260501102013"
+      }
+    },
+    {
+      "label": "after duplicate heartbeat-newer",
+      "rows": [
+        {
+          "_creationTime": 1777630814094.851,
+          "_id": "jn74caf4b95s1f6ydzgws2nfd985wwk4",
+          "lastEventType": "heartbeat",
+          "lastIngestTsMs": 1777630814094,
+          "lastTrackerTsMs": 1777629973312,
+          "trackerId": "te13-replay-truck-a-20260501102013"
+        }
+      ],
+      "row": {
+        "_creationTime": 1777630814094.851,
+        "_id": "jn74caf4b95s1f6ydzgws2nfd985wwk4",
+        "lastEventType": "heartbeat",
+        "lastIngestTsMs": 1777630814094,
+        "lastTrackerTsMs": 1777629973312,
+        "trackerId": "te13-replay-truck-a-20260501102013"
+      }
+    },
+    {
+      "label": "after delayed older heartbeat",
+      "rows": [
+        {
+          "_creationTime": 1777630814094.851,
+          "_id": "jn74caf4b95s1f6ydzgws2nfd985wwk4",
+          "lastEventType": "heartbeat",
+          "lastIngestTsMs": 1777630814094,
+          "lastTrackerTsMs": 1777629973312,
+          "trackerId": "te13-replay-truck-a-20260501102013"
+        }
+      ],
+      "row": {
+        "_creationTime": 1777630814094.851,
+        "_id": "jn74caf4b95s1f6ydzgws2nfd985wwk4",
+        "lastEventType": "heartbeat",
+        "lastIngestTsMs": 1777630814094,
+        "lastTrackerTsMs": 1777629973312,
+        "trackerId": "te13-replay-truck-a-20260501102013"
+      }
+    },
+    {
+      "label": "after same-timestamp gps_no_fix",
+      "rows": [
+        {
+          "_creationTime": 1777630814094.851,
+          "_id": "jn74caf4b95s1f6ydzgws2nfd985wwk4",
+          "lastEventType": "gps_no_fix",
+          "lastIngestTsMs": 1777630815353,
+          "lastTrackerTsMs": 1777629973312,
+          "locationMode": "no_fix",
+          "trackerId": "te13-replay-truck-a-20260501102013"
+        }
+      ],
+      "row": {
+        "_creationTime": 1777630814094.851,
+        "_id": "jn74caf4b95s1f6ydzgws2nfd985wwk4",
+        "lastEventType": "gps_no_fix",
+        "lastIngestTsMs": 1777630815353,
+        "lastTrackerTsMs": 1777629973312,
+        "locationMode": "no_fix",
+        "trackerId": "te13-replay-truck-a-20260501102013"
+      }
+    },
+    {
+      "label": "after shuffled batch",
+      "rows": [
+        {
+          "_creationTime": 1777630814094.851,
+          "_id": "jn74caf4b95s1f6ydzgws2nfd985wwk4",
+          "lastEventType": "heartbeat",
+          "lastIngestTsMs": 1777630816539,
+          "lastTrackerTsMs": 1777630033312,
+          "trackerId": "te13-replay-truck-a-20260501102013"
+        }
+      ],
+      "row": {
+        "_creationTime": 1777630814094.851,
+        "_id": "jn74caf4b95s1f6ydzgws2nfd985wwk4",
+        "lastEventType": "heartbeat",
+        "lastIngestTsMs": 1777630816539,
+        "lastTrackerTsMs": 1777630033312,
+        "trackerId": "te13-replay-truck-a-20260501102013"
+      }
+    }
+  ],
+  "trackerHistory": [
+    {
+      "_creationTime": 1777630816539.742,
+      "_id": "jh7esqgh7aate7jzdhej7x08hs85xn1d",
+      "contractVersion": "1.0.0",
+      "eventId": "te13-20260501102013-heartbeat-latest",
+      "eventType": "heartbeat",
+      "ingestTsMs": 1777630816539,
+      "seq": 120,
+      "sourcePayload": {
+        "label": "heartbeat-latest",
+        "runId": "20260501102013",
+        "scenario": "latest event in shuffled batch should become live tracker snapshot",
+        "testId": "TE-13"
+      },
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777630033312
+    },
+    {
+      "_creationTime": 1777630815674.509,
+      "_id": "jh71ct1h5q848g1b07tdksvcz985w1mx",
+      "beaconId": "ble:te13-replay-20260501102013",
+      "contractVersion": "1.0.0",
+      "eventId": "te13-20260501102013-ble-newer",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777630815674,
+      "seq": 90,
+      "signal": {
+        "rssi": -55
+      },
+      "sourcePayload": {
+        "label": "ble-newer",
+        "runId": "20260501102013",
+        "scenario": "newer BLE scan included in shuffled batch",
+        "syntheticRssiAnchor": "strong",
+        "testId": "TE-13"
+      },
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777630003312
+    },
+    {
+      "_creationTime": 1777630815353.192,
+      "_id": "jh7aqp8fny0a2rmjewhfvt364585xv58",
+      "contractVersion": "1.0.0",
+      "eventId": "te13-20260501102013-gps-no-fix-same-ts",
+      "eventType": "gps_no_fix",
+      "ingestTsMs": 1777630815353,
+      "seq": 61,
+      "sourcePayload": {
+        "label": "gps-no-fix-same-ts",
+        "runId": "20260501102013",
+        "scenario": "equal tracker timestamp sent later to verify equal timestamp tie behavior",
+        "testId": "TE-13"
+      },
+      "status": {
+        "locationMode": "no_fix"
+      },
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777629973312
+    },
+    {
+      "_creationTime": 1777630814094.8506,
+      "_id": "jh7ayw1mce8m7k06q4772gcrdn85wtma",
+      "contractVersion": "1.0.0",
+      "eventId": "te13-20260501102013-heartbeat-newer",
+      "eventType": "heartbeat",
+      "ingestTsMs": 1777630814094,
+      "seq": 60,
+      "sourcePayload": {
+        "label": "heartbeat-newer",
+        "runId": "20260501102013",
+        "scenario": "newer live snapshot sent first",
+        "testId": "TE-13"
+      },
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777629973312
+    },
+    {
+      "_creationTime": 1777630816120.1003,
+      "_id": "jh7838hrzd1dg7avn1f5rced2h85xv05",
+      "beaconId": "ble:te13-replay-20260501102013",
+      "contractVersion": "1.0.0",
+      "eventId": "te13-20260501102013-ble-older-delayed",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777630816120,
+      "seq": 30,
+      "signal": {
+        "rssi": -82
+      },
+      "sourcePayload": {
+        "label": "ble-older-delayed",
+        "runId": "20260501102013",
+        "scenario": "older BLE scan replayed after newer BLE evidence",
+        "syntheticRssiAnchor": "weak",
+        "testId": "TE-13"
+      },
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777629943312
+    },
+    {
+      "_creationTime": 1777630815023.5564,
+      "_id": "jh74ymvf645fstq0vn0vjgakg585x3js",
+      "contractVersion": "1.0.0",
+      "eventId": "te13-20260501102013-heartbeat-older-delayed",
+      "eventType": "heartbeat",
+      "ingestTsMs": 1777630815023,
+      "seq": 20,
+      "sourcePayload": {
+        "label": "heartbeat-older-delayed",
+        "runId": "20260501102013",
+        "scenario": "delayed old event sent after newer live snapshot",
+        "testId": "TE-13"
+      },
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777629933312
+    },
+    {
+      "_creationTime": 1777630816577.559,
+      "_id": "jh74v2fe1deznc4n3ht4eby2kh85wqxj",
+      "contractVersion": "1.0.0",
+      "eventId": "te13-20260501102013-heartbeat-stale-after-latest",
+      "eventType": "heartbeat",
+      "ingestTsMs": 1777630816577,
+      "seq": 10,
+      "sourcePayload": {
+        "label": "heartbeat-stale-after-latest",
+        "runId": "20260501102013",
+        "scenario": "very old heartbeat sent after latest event should not regress live snapshot",
+        "testId": "TE-13"
+      },
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777629923312
+    }
+  ],
+  "dashboardEvents": [
+    {
+      "_id": "jh7esqgh7aate7jzdhej7x08hs85xn1d",
+      "eventId": "te13-20260501102013-heartbeat-latest",
+      "eventType": "heartbeat",
+      "ingestTsMs": 1777630816539,
+      "seq": 120,
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777630033312
+    },
+    {
+      "_id": "jh71ct1h5q848g1b07tdksvcz985w1mx",
+      "beaconId": "ble:te13-replay-20260501102013",
+      "eventId": "te13-20260501102013-ble-newer",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777630815674,
+      "seq": 90,
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777630003312
+    },
+    {
+      "_id": "jh7aqp8fny0a2rmjewhfvt364585xv58",
+      "eventId": "te13-20260501102013-gps-no-fix-same-ts",
+      "eventType": "gps_no_fix",
+      "ingestTsMs": 1777630815353,
+      "locationMode": "no_fix",
+      "seq": 61,
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777629973312
+    },
+    {
+      "_id": "jh7ayw1mce8m7k06q4772gcrdn85wtma",
+      "eventId": "te13-20260501102013-heartbeat-newer",
+      "eventType": "heartbeat",
+      "ingestTsMs": 1777630814094,
+      "seq": 60,
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777629973312
+    },
+    {
+      "_id": "jh7838hrzd1dg7avn1f5rced2h85xv05",
+      "beaconId": "ble:te13-replay-20260501102013",
+      "eventId": "te13-20260501102013-ble-older-delayed",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777630816120,
+      "seq": 30,
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777629943312
+    },
+    {
+      "_id": "jh74ymvf645fstq0vn0vjgakg585x3js",
+      "eventId": "te13-20260501102013-heartbeat-older-delayed",
+      "eventType": "heartbeat",
+      "ingestTsMs": 1777630815023,
+      "seq": 20,
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777629933312
+    },
+    {
+      "_id": "jh74v2fe1deznc4n3ht4eby2kh85wqxj",
+      "eventId": "te13-20260501102013-heartbeat-stale-after-latest",
+      "eventType": "heartbeat",
+      "ingestTsMs": 1777630816577,
+      "seq": 10,
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777629923312
+    }
+  ],
+  "beaconHistory": [
+    {
+      "_creationTime": 1777630815674.509,
+      "_id": "jh71ct1h5q848g1b07tdksvcz985w1mx",
+      "beaconId": "ble:te13-replay-20260501102013",
+      "contractVersion": "1.0.0",
+      "eventId": "te13-20260501102013-ble-newer",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777630815674,
+      "seq": 90,
+      "signal": {
+        "rssi": -55
+      },
+      "sourcePayload": {
+        "label": "ble-newer",
+        "runId": "20260501102013",
+        "scenario": "newer BLE scan included in shuffled batch",
+        "syntheticRssiAnchor": "strong",
+        "testId": "TE-13"
+      },
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777630003312
+    },
+    {
+      "_creationTime": 1777630816120.1003,
+      "_id": "jh7838hrzd1dg7avn1f5rced2h85xv05",
+      "beaconId": "ble:te13-replay-20260501102013",
+      "contractVersion": "1.0.0",
+      "eventId": "te13-20260501102013-ble-older-delayed",
+      "eventType": "ble_scan",
+      "ingestTsMs": 1777630816120,
+      "seq": 30,
+      "signal": {
+        "rssi": -82
+      },
+      "sourcePayload": {
+        "label": "ble-older-delayed",
+        "runId": "20260501102013",
+        "scenario": "older BLE scan replayed after newer BLE evidence",
+        "syntheticRssiAnchor": "weak",
+        "testId": "TE-13"
+      },
+      "trackerId": "te13-replay-truck-a-20260501102013",
+      "trackerTsMs": 1777629943312
+    }
+  ],
+  "currentOwner": {
+    "associationState": "candidate",
+    "beaconId": "ble:te13-replay-20260501102013",
+    "confidence": 0.7969629927594529,
+    "evidenceAgeMs": 798617,
+    "evidenceState": "confirmed",
+    "isActiveConflict": true,
+    "lastAssignedEvidenceEventType": null,
+    "lastAssignedEvidenceTsMs": 1777630019999,
+    "lastSeenTsMs": 1777630003312,
+    "manualPrior": null,
+    "missedHeartbeats": 0,
+    "missingSinceTsMs": null,
+    "ownerState": "ambiguous",
+    "routeSession": null,
+    "source": "live",
+    "state": "ambiguous",
+    "trackerId": null,
+    "trackingNumber": null
+  },
+  "assignmentTimeline": [
+    {
+      "_creationTime": 1777630816120.101,
+      "_id": "jx77px8wbnfw81kzd4y6qspgdx85xpd2",
+      "beaconId": "ble:te13-replay-20260501102013",
+      "confidenceAvg": 0.58,
+      "endTsMs": 1777629959999,
+      "isBackfilled": false,
+      "modelVersion": "hmm-v1",
+      "startTsMs": 1777629930000,
+      "state": "ambiguous",
+      "updatedAtMs": 1777630816120
+    },
+    {
+      "_creationTime": 1777630815674.51,
+      "_id": "jx75ky7azf3rh141erf5sc6zx585x1cv",
+      "beaconId": "ble:te13-replay-20260501102013",
+      "confidenceAvg": 0.7969629927594529,
+      "endTsMs": 1777630019999,
+      "isBackfilled": false,
+      "modelVersion": "hmm-v1",
+      "startTsMs": 1777629990000,
+      "state": "ambiguous",
+      "updatedAtMs": 1777630815674
+    }
+  ]
+}

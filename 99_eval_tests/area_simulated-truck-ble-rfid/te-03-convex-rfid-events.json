@@ -1,0 +1,2149 @@
+[
+  {
+    "_creationTime": 1777660536840.0295,
+    "_id": "jh7bpfac90hh438t106tcstj3n85w2cy",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "cfc156eb-e61e-4db0-a43c-b4473e688060",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660536840,
+    "seq": 71,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660530493
+  },
+  {
+    "_creationTime": 1777660537338.7585,
+    "_id": "jh7458gqxq1h9s6pqqa0wphhh185xerh",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "41f9e447-a106-44af-9598-7780e1bb318e",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660537338,
+    "seq": 72,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660530950
+  },
+  {
+    "_creationTime": 1777660543570.944,
+    "_id": "jh7fcfbvp4yrk032nn9m9werad85xxy2",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "7cd47370-2d8a-43db-8567-64171e40129a",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660543571,
+    "seq": 73,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660538191
+  },
+  {
+    "_creationTime": 1777660550126.411,
+    "_id": "jh727qardmyz1y2nzem7qzj0ah85wzsd",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "f583cb5e-b6fe-4a29-952f-73a7b397b03d",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660550126,
+    "seq": 74,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660544268
+  },
+  {
+    "_creationTime": 1777660556632.7593,
+    "_id": "jh78vn09y6tza15jpy9xpg00cn85w5a6",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "0dfa1850-bece-4bcf-9448-744fbd5c1d1c",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660556632,
+    "seq": 75,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660550999
+  },
+  {
+    "_creationTime": 1777660562812.8462,
+    "_id": "jh77vx2x3pttbf6gjgfragtf0h85wbx8",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "38fa121f-97f4-4667-a319-796a989f9c10",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660562812,
+    "seq": 76,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660557447
+  },
+  {
+    "_creationTime": 1777660569421.7266,
+    "_id": "jh7fjtft79c99222yqmb3kgvr985w5f5",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "3a0619f2-18cd-4631-8d15-13754ea23aea",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660569421,
+    "seq": 77,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660563430
+  },
+  {
+    "_creationTime": 1777660575637.5164,
+    "_id": "jh734zqj1p7djqww4438zvqbj185xg5p",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "079ea19b-760f-49dd-af4b-0fd087501b84",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660575637,
+    "seq": 78,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660570203
+  },
+  {
+    "_creationTime": 1777660581790.7317,
+    "_id": "jh7bjgkn76ce8eg7dzr883ptax85w64f",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "7d01670c-df9b-4500-b285-61480b64507b",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660581790,
+    "seq": 79,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660576376
+  },
+  {
+    "_creationTime": 1777660596744.657,
+    "_id": "jh73stz202j8gsggh1gy6ft8cn85xwtc",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "6e973a7b-6dde-4204-b6af-fa73a211210e",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660596744,
+    "seq": 80,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660582637
+  },
+  {
+    "_creationTime": 1777660602823.9587,
+    "_id": "jh78e5ymhvjzdb8bv5t644mhy185wsac",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "7ebf55ac-77d2-4d75-b836-db7f88a01a74",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660602824,
+    "seq": 81,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660597417
+  },
+  {
+    "_creationTime": 1777660609733.9448,
+    "_id": "jh73a15v791npt40ww3cn02b7d85w0b4",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "8d9b1d90-d1ea-4ff2-8058-90cd7194acf2",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660609734,
+    "seq": 82,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660603473
+  },
+  {
+    "_creationTime": 1777660616826.3083,
+    "_id": "jh7b0qxmkqz2nh8fqpw2vjae2185xd9r",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "3d5e0307-5e69-4607-943d-510b1b569571",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660616826,
+    "seq": 83,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660611129
+  },
+  {
+    "_creationTime": 1777660623305.4512,
+    "_id": "jh7ffk5mtd4f6pcnkrtzhphz1n85xx57",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "2c100df4-2dfb-4e72-98d0-2a1436f37632",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660623305,
+    "seq": 84,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660617891
+  },
+  {
+    "_creationTime": 1777660629993.5322,
+    "_id": "jh74g19sn5r7rx32gmhxaam50h85xcdd",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "ee0b689f-e2b8-477b-bac6-3842a6663c5a",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660629993,
+    "seq": 85,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660624070
+  },
+  {
+    "_creationTime": 1777660636062.4683,
+    "_id": "jh7en6bwc13akdhh9ebm0qcjpx85x3ba",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "dd19214a-72e4-4d47-bf65-7bad3d82cffd",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660636062,
+    "seq": 86,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660630680
+  },
+  {
+    "_creationTime": 1777660642646.905,
+    "_id": "jh7fjsz9acf6p2tvgrp65x4tcx85w96n",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "1ec54533-7b63-41a0-9add-15f3ae810099",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660642646,
+    "seq": 87,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660636745
+  },
+  {
+    "_creationTime": 1777660649208.6428,
+    "_id": "jh7ejmdzg7pzymf09nwkdw2kw585whwq",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "91ea692b-fe93-430a-a261-f7a62c3118dc",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660649208,
+    "seq": 88,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660643519
+  },
+  {
+    "_creationTime": 1777660657088.4678,
+    "_id": "jh7ewacgdbffrh6cbdcwm1qtcd85wv2z",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "2da52266-50f8-41cd-b3dc-6eab7c4a7e10",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660657088,
+    "seq": 89,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660650198
+  },
+  {
+    "_creationTime": 1777660663227.0027,
+    "_id": "jh71ne7sp8k4xyce8qhmfj5rsh85xgxh",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "0716bea2-4b8b-4fec-ad7b-a99afd067849",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660663227,
+    "seq": 90,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660657787
+  },
+  {
+    "_creationTime": 1777660669341.549,
+    "_id": "jh783d80y914r5xssw7yawra5585wzvd",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "27317938-bc20-4947-8262-13705491e0da",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660669341,
+    "seq": 91,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660663957
+  },
+  {
+    "_creationTime": 1777660675764.6504,
+    "_id": "jh7eyzcdr9tdwyq500n618nf8n85w72d",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "8184e157-cba7-4a1b-8d01-3d77fdb10da7",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660675764,
+    "seq": 92,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660670375
+  },
+  {
+    "_creationTime": 1777660682803.2405,
+    "_id": "jh76av07kmzcvf2sd24kjnnmws85wft8",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "97904f3f-0287-449b-8645-5fc6d243bd9e",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660682803,
+    "seq": 93,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660676760
+  },
+  {
+    "_creationTime": 1777660689054.9832,
+    "_id": "jh75htwyfrvv6vm1xh21sqv69h85x9dr",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "95e3345c-3f38-44af-94d1-50a14f16e4f4",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660689055,
+    "seq": 94,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660683615
+  },
+  {
+    "_creationTime": 1777660695690.7488,
+    "_id": "jh7bp5ybsvfy5bcbrmpw36ra3h85wt38",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "74a9b1ad-9568-4a0f-8c61-68d4b47aaf16",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660695690,
+    "seq": 95,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660689808
+  },
+  {
+    "_creationTime": 1777660702254.6345,
+    "_id": "jh7b6gnbjs6ye5vh9fy6k1x97x85x8dr",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "00d8b25e-35b9-47da-b3a5-6e67aeb5bf4c",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660702254,
+    "seq": 96,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660696608
+  },
+  {
+    "_creationTime": 1777660709024.5864,
+    "_id": "jh741e8yaskg3wnkscj2rked9d85x2qx",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "90fe44ab-ec43-4807-a828-42ee9d944712",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660709024,
+    "seq": 97,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660703006
+  },
+  {
+    "_creationTime": 1777660715430.179,
+    "_id": "jh79hxysmcy3nrvq4525xakk0n85wm2j",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "70fef44a-4788-4f62-b21d-435d2664797f",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660715430,
+    "seq": 98,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660710041
+  },
+  {
+    "_creationTime": 1777660721892.621,
+    "_id": "jh7790hcz76jz6vkn9kfnjpeex85xkny",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "e148d683-9683-4a3d-a3a4-a556fd8150b2",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660721892,
+    "seq": 99,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660716444
+  },
+  {
+    "_creationTime": 1777660728954.7803,
+    "_id": "jh70rw29hy7mwbssvab3v3nwas85wxgt",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "f427becd-1368-42a7-92bd-12599cb69cb8",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660728954,
+    "seq": 100,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660722836
+  },
+  {
+    "_creationTime": 1777660735593.5303,
+    "_id": "jh77vkmjs7nnp712czftcc0gnh85x4j7",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "246fcaaa-13fb-411d-8165-8aac642a6da2",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660735593,
+    "seq": 101,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660729880
+  },
+  {
+    "_creationTime": 1777660743808.2004,
+    "_id": "jh7e6eeet1cmb0g1heyynbhwr985wjea",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "5489b931-83e9-4d9b-867b-ce767be9f0dc",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660743808,
+    "seq": 102,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660736329
+  },
+  {
+    "_creationTime": 1777660750893.6304,
+    "_id": "jh7frf7anwwfjdb43ex5edvgnx85xba8",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "88f8b956-5520-4e60-80bc-9dcd385f9d03",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660750893,
+    "seq": 103,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660744917
+  },
+  {
+    "_creationTime": 1777660757198.79,
+    "_id": "jh7839qasfeckx499k4ytcvry985wbf7",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "2096d033-7c6f-4311-af35-587d87976586",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660757198,
+    "seq": 104,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660751786
+  },
+  {
+    "_creationTime": 1777660764275.8276,
+    "_id": "jh7129kwjjg0y1np6azrkpwwys85wac9",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "c5bf48ff-166b-4db4-8aa4-916ca33d4ad2",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660764275,
+    "seq": 105,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660758344
+  },
+  {
+    "_creationTime": 1777660771151.9329,
+    "_id": "jh77sark4kh3gysg67f1sa5qhh85xjdz",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "4cf35db2-bca2-4437-9aa6-013e4a9f0ea6",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660771152,
+    "seq": 106,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660765091
+  },
+  {
+    "_creationTime": 1777660777533.1763,
+    "_id": "jh7avkh51nxh4q96x525yf46w985wzff",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "a1e925e1-b240-41f5-b1cc-9d9eb1cb1d92",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660777533,
+    "seq": 107,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660772102
+  },
+  {
+    "_creationTime": 1777660784947.0435,
+    "_id": "jh745khwfp0n49513pvsk7v4bn85xfjb",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "d5d1f060-ad34-46d1-801a-3692aa82ac9b",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660784947,
+    "seq": 108,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660778556
+  },
+  {
+    "_creationTime": 1777660791682.6948,
+    "_id": "jh79h1gwvtsqbw57vtvhscmrcd85xh82",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "f55af2ac-d847-4ad8-9068-ac54ae2e2f64",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660791682,
+    "seq": 109,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660785877
+  },
+  {
+    "_creationTime": 1777660797886.9128,
+    "_id": "jh7c113n9d92h6bwtjy3qsncb585xpea",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "f8297e5a-e946-44be-b4f9-9c9fb0a645b5",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660797886,
+    "seq": 110,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660792480
+  },
+  {
+    "_creationTime": 1777660804408.794,
+    "_id": "jh759sq45cxv8rctw2402nrjkx85wd1z",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "5760ea48-49af-40da-a63a-c7f700cd255e",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660804408,
+    "seq": 111,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660798997
+  },
+  {
+    "_creationTime": 1777660811788.9497,
+    "_id": "jh75wefhzwzk0ax63vh3k97bys85w5da",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "615eae20-50d6-4755-8d98-23cfd38c57d7",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660811789,
+    "seq": 112,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660805717
+  },
+  {
+    "_creationTime": 1777660819018.329,
+    "_id": "jh70c8ft4nfpze7y74c3b3b3rh85x50e",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "a4e4ec9f-876e-48d3-9dd4-93976d7f03a6",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660819018,
+    "seq": 113,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660812759
+  },
+  {
+    "_creationTime": 1777660825782.3008,
+    "_id": "jh7c4bj1w458wkdytfg9a1b7gs85wzs0",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "3a9d1e81-1de6-47c9-b751-b0524a78a6fd",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660825782,
+    "seq": 114,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660819792
+  },
+  {
+    "_creationTime": 1777660832472.7805,
+    "_id": "jh7a3btpc9rd5p4991qrr70xb985w4ds",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "be845bff-cc92-429a-ac79-20d42037ae2e",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660832472,
+    "seq": 115,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660826838
+  },
+  {
+    "_creationTime": 1777660838915.9817,
+    "_id": "jh7fqxa887m0dn5w6q3z90hxzh85wch5",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "50f13446-f4c6-41f1-8338-9d0e53cecbf9",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660838916,
+    "seq": 116,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660833538
+  },
+  {
+    "_creationTime": 1777660845617.1467,
+    "_id": "jh73j1etc3pk7sxa8xpg0tnxsn85wr98",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "de78fab9-3507-4954-a427-8cc76cc46a6f",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660845617,
+    "seq": 117,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660839733
+  },
+  {
+    "_creationTime": 1777660853081.042,
+    "_id": "jh748zbxwacc2gd3tx3tn3qnds85x9ng",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "4bb9812b-3642-45bd-94ec-b1c8cd9a6246",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660853081,
+    "seq": 118,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660846676
+  },
+  {
+    "_creationTime": 1777660859510.6257,
+    "_id": "jh73q1cdbry1q6vvk301tspx4s85x1kq",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "b8130fbf-86c1-4778-a39f-18847b8c598f",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660859510,
+    "seq": 119,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660854127
+  },
+  {
+    "_creationTime": 1777660865861.0198,
+    "_id": "jh7fcmfxf2e2yz6335pw2g67vn85x0f5",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "f949d8de-b0f5-45f6-9aa2-63b70a843f03",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660865861,
+    "seq": 120,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660860464
+  },
+  {
+    "_creationTime": 1777660872386.3213,
+    "_id": "jh76z2t6cqm3zwc5mftf7qec2s85w6w3",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "3f21f94e-08b3-4f67-a42a-850aa961ab2f",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660872386,
+    "seq": 121,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660866924
+  },
+  {
+    "_creationTime": 1777660879517.1245,
+    "_id": "jh787fnk25e3c6raqwm1md544585whht",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "f12ccec0-d109-45de-858a-cd9e07ba51c2",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660879517,
+    "seq": 122,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660873240
+  },
+  {
+    "_creationTime": 1777660886790.066,
+    "_id": "jh7adstcprfkzpsa9cngvwh17s85wnpz",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "9b165c79-3626-47ae-a920-dca03e9c07f0",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660886790,
+    "seq": 123,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660880597
+  },
+  {
+    "_creationTime": 1777660893350.1382,
+    "_id": "jh72b7q1typtjkbcct9ppydtws85x5st",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "d8f77402-a755-4be1-b77e-d4cfb041d57a",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660893350,
+    "seq": 124,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660887871
+  },
+  {
+    "_creationTime": 1777660900889.5466,
+    "_id": "jh7ejw3qs7z00me19fe0p0nwv585w0k9",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "90eb19fc-6bb7-4257-9bae-2dfaa1dd5206",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660900889,
+    "seq": 125,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660895006
+  },
+  {
+    "_creationTime": 1777660908970.2356,
+    "_id": "jh74ggb69sdkqrevfmttey9vxh85w609",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "72d5bdbe-dcee-4998-af7b-a54af1c0098c",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660908970,
+    "seq": 126,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660902808
+  },
+  {
+    "_creationTime": 1777660916498.7786,
+    "_id": "jh76pwyyvnc04mdkekxp0r747985xn74",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "f0d5b98b-ca0d-4b56-8896-e2e39de68410",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660916498,
+    "seq": 127,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660909857
+  },
+  {
+    "_creationTime": 1777660924195.4414,
+    "_id": "jh79cmhscsd5tph3599ks4dx5n85wzth",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "e9c8c2e4-0b07-4183-a22c-f73f0f1ae855",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660924195,
+    "seq": 128,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660917504
+  },
+  {
+    "_creationTime": 1777660931052.137,
+    "_id": "jh70asqexrj24hgnt53r2hz0f185xc31",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "cf7a4aad-4a5a-496c-b319-cf56ef3f7eee",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660931052,
+    "seq": 129,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660925046
+  },
+  {
+    "_creationTime": 1777660938409.9255,
+    "_id": "jh76j83513gtww4tbzmekj103d85wmj1",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "082e94d2-6e1c-4ef5-8721-1fe1931d6ec0",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660938410,
+    "seq": 130,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660932120
+  },
+  {
+    "_creationTime": 1777660945685.9492,
+    "_id": "jh7am4hn7wewqh90f7fhwkh67185xbwx",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "0963f5fc-df76-457e-9872-49302ef8d9a2",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660945686,
+    "seq": 131,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660939902
+  },
+  {
+    "_creationTime": 1777660952835.492,
+    "_id": "jh74jgzqb5qgndwt989fp30v5585xq8x",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "1a40422a-ad4b-46cf-bc1e-cd385b0c6d7b",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660952835,
+    "seq": 132,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660946829
+  },
+  {
+    "_creationTime": 1777660959216.1597,
+    "_id": "jh72fsp01hhap595dsk8e2q8jx85x555",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "edad0f9a-18bb-4118-862c-474942557695",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660959216,
+    "seq": 133,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660953852
+  },
+  {
+    "_creationTime": 1777660965508.1062,
+    "_id": "jh70vqgmzh9ad8zgd83n4rq5x185w25n",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "63cc9e93-341b-4803-bd2f-7726108793f2",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660965508,
+    "seq": 134,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660960136
+  },
+  {
+    "_creationTime": 1777660972056.4055,
+    "_id": "jh73amehrh277y8dqyec7wwy2185w9wa",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "1ef99d87-980f-4035-9994-ba2f81a0e173",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660972056,
+    "seq": 135,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660966671
+  },
+  {
+    "_creationTime": 1777660980300.5054,
+    "_id": "jh70ygj8yaq256eqk7fy215ytn85wjvn",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "c360ee4b-34d6-4fab-87cd-7ce91c2267d7",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660980300,
+    "seq": 136,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660973075
+  },
+  {
+    "_creationTime": 1777660986539.515,
+    "_id": "jh7ep9drf21px5x96m316x6vtd85wwds",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "cf8bb324-5e65-4f2a-b569-f0b5cc6a002c",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660986539,
+    "seq": 137,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660981146
+  },
+  {
+    "_creationTime": 1777660992836.483,
+    "_id": "jh70geam2g4y00j4t2ff6m2c6h85x6bb",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "091fea84-f630-43a6-a323-8d8814b8d9f6",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777660992836,
+    "seq": 138,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660987460
+  },
+  {
+    "_creationTime": 1777661000217.9766,
+    "_id": "jh75jsezxhkzybkbyt1aamr9b985xtw2",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "138dd9dc-9e78-476f-86bd-8213d1186949",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661000218,
+    "seq": 139,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777660994191
+  },
+  {
+    "_creationTime": 1777661007757.2607,
+    "_id": "jh73p727qevb9dtccr1xmr65nx85wve1",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "47769882-0823-4c3e-b94a-9640c2000adf",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661007757,
+    "seq": 140,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661001555
+  },
+  {
+    "_creationTime": 1777661015309.4802,
+    "_id": "jh75yptt905b05hj5j1r2f50k185x4m2",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "aeddfd98-bfc1-4144-82dd-b38c1d6349d4",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661015309,
+    "seq": 141,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661008910
+  },
+  {
+    "_creationTime": 1777661021691.7708,
+    "_id": "jh7fxzyvqr53bcs7d738962k7x85w77c",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "88727554-52f3-4033-8a33-f504cf651a42",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661021691,
+    "seq": 142,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661016309
+  },
+  {
+    "_creationTime": 1777661028214.8164,
+    "_id": "jh7e75mstp53wj2nv9s65k1fph85wedt",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "4eaff60e-b5fc-49f7-8d77-8077b2896c12",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661028214,
+    "seq": 143,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661022837
+  },
+  {
+    "_creationTime": 1777661035507.0825,
+    "_id": "jh74a3j931ezafby5nap2rrbr185wrqv",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "5126931c-dd07-4d0c-8028-e48b40760bcd",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661035507,
+    "seq": 144,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661029129
+  },
+  {
+    "_creationTime": 1777661042803.8157,
+    "_id": "jh74dskmsz6dj85zz8r3nkd9f185xndc",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "a9f4fec7-796e-4654-9cb0-ea7d10b6cfeb",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661042803,
+    "seq": 145,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661036755
+  },
+  {
+    "_creationTime": 1777661049233.3418,
+    "_id": "jh72wytm11gt54pk1bx67ak9vx85wnjn",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "67737905-ce4f-493e-b2b3-b61a2979f9ce",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661049233,
+    "seq": 146,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661043853
+  },
+  {
+    "_creationTime": 1777661056695.1184,
+    "_id": "jh78ch7avgeajh93qfwrmm0d0985xtgn",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "0bd407e5-bebd-49bf-a150-5613bc444ecf",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661056695,
+    "seq": 147,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661050170
+  },
+  {
+    "_creationTime": 1777661063666.5056,
+    "_id": "jh75hz6438ccfck0xx2dvcew5s85wzpm",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "18967ea1-73d3-4b1d-8c95-336ba5bf3e58",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661063666,
+    "seq": 148,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661057687
+  },
+  {
+    "_creationTime": 1777661070301.3057,
+    "_id": "jh7dq5w22ye7y51k2jkjk63a8h85w9tf",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "94850185-a6ad-44c5-b681-611237f37f17",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661070301,
+    "seq": 149,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661064911
+  },
+  {
+    "_creationTime": 1777661077547.1372,
+    "_id": "jh77n7rwfkqxv6d6nvtdjxyfe985wzzk",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "e1d8e89f-de70-4576-9930-6a09507ca890",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661077547,
+    "seq": 150,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661071557
+  },
+  {
+    "_creationTime": 1777661084110.9473,
+    "_id": "jh78ms24xf8rwj7nbfxcjymz2s85x5me",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "5232909c-e5f6-469a-89ac-16888789f69e",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661084111,
+    "seq": 151,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661078439
+  },
+  {
+    "_creationTime": 1777661091950.955,
+    "_id": "jh753eb1atsht76m0vcgjhrf1n85wq3h",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "364f538f-3659-4951-a1e5-65b52f5ea6a4",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661091951,
+    "seq": 152,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661085023
+  },
+  {
+    "_creationTime": 1777661098960.3455,
+    "_id": "jh72hjcn3kxbkgrxgc9x77pa9985xr36",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "f4f7f715-57e1-439d-bbce-6ab582dedfd1",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661098960,
+    "seq": 153,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661093095
+  },
+  {
+    "_creationTime": 1777661106152.7246,
+    "_id": "jh76zmzs0n19mejjcc16e3rg3x85wggm",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "aa91dd23-b11e-454d-875b-c05bcc6b6c5b",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661106152,
+    "seq": 154,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661100111
+  },
+  {
+    "_creationTime": 1777661112519.5532,
+    "_id": "jh781jwvc39hfb9f2pfd626y8185wj39",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "ea2dce70-d22a-4697-8341-94c68c3fd9dc",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661112519,
+    "seq": 155,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661107156
+  },
+  {
+    "_creationTime": 1777661119672.6594,
+    "_id": "jh729vvdxbnw2eq9sgq09aqqhn85xx80",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "75eeb9ca-160a-4e00-926c-4d58fb58e143",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661119672,
+    "seq": 156,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661113551
+  },
+  {
+    "_creationTime": 1777661126114.1794,
+    "_id": "jh74yre3nw9drazww0e6dheeqn85wy86",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "138b1ea8-0462-4318-9a2e-9b3296744f61",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661126114,
+    "seq": 157,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661120746
+  },
+  {
+    "_creationTime": 1777661133408.9895,
+    "_id": "jh70hm2e1pjzpp9v1ncxb7j99h85ws9p",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "d8f40fec-3b8f-4cea-b2cb-570c6d6629fe",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661133409,
+    "seq": 158,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661127216
+  },
+  {
+    "_creationTime": 1777661141384.6365,
+    "_id": "jh70evrpwprp9sh94d0b97tffn85x9sx",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "b9228722-1b3e-4a62-8654-5b2d4e71f080",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661141384,
+    "seq": 159,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661134364
+  },
+  {
+    "_creationTime": 1777661148210.9954,
+    "_id": "jh79a0xbe9sc9xv14h69yb44xn85wzx9",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "20c137c0-e450-4a0b-a1c0-be92604ba2f0",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661148211,
+    "seq": 160,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661142513
+  },
+  {
+    "_creationTime": 1777661154750.2695,
+    "_id": "jh75ktn9e009w1k6na0qy14vas85x5dq",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "0845dc49-5839-436b-8bec-8afc41ff6de5",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661154750,
+    "seq": 161,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661149388
+  },
+  {
+    "_creationTime": 1777661162297.0261,
+    "_id": "jh7apvat1vg6jyzkg06895dwxx85w5xq",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "1dd73736-c6f4-4e58-ac10-ed0d982a25bd",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661162297,
+    "seq": 162,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661155799
+  },
+  {
+    "_creationTime": 1777661169582.388,
+    "_id": "jh75wfc7ptqwfw90fjthka79cs85wc3s",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "1a9ac1fa-03b6-4f93-8cce-8417362eddc6",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661169582,
+    "seq": 163,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661163313
+  },
+  {
+    "_creationTime": 1777661176897.6838,
+    "_id": "jh7f8py8c83jqh3ve502rsq5n585wjrr",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "b21909d0-6be1-40b5-928b-25f778fe69b4",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661176897,
+    "seq": 164,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661170572
+  },
+  {
+    "_creationTime": 1777661183920.3025,
+    "_id": "jh74kj4cqkbb95jd5v5dbnx9hd85wbph",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "9a0416e9-e11f-42fc-a407-ec537928e551",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661183920,
+    "seq": 165,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661177850
+  },
+  {
+    "_creationTime": 1777661191827.0637,
+    "_id": "jh71hef4fksyzv99zs91w1ssb585xg7z",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "7bcc0bd6-f8cc-4585-9fc3-c7ac4adbb274",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661191827,
+    "seq": 166,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661185043
+  },
+  {
+    "_creationTime": 1777661199088.757,
+    "_id": "jh7dk34y4qk0pcjb2z5ettngts85xs6n",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "95b51a2c-bffe-40bc-b9b3-62f198514d58",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661199088,
+    "seq": 167,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661192943
+  },
+  {
+    "_creationTime": 1777661205624.983,
+    "_id": "jh7c7rh6tjnk61fe3wdegjeb5985wqym",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "130ce960-35ed-406d-ab47-958e68ce4ae1",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661205625,
+    "seq": 168,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661200211
+  },
+  {
+    "_creationTime": 1777661214084.4302,
+    "_id": "jh71543rpx6344f8e5asqtbbq585whk8",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "e0b3f6d2-e729-4aef-99d8-4041847a0cf8",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661214084,
+    "seq": 169,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661206675
+  },
+  {
+    "_creationTime": 1777661221235.7397,
+    "_id": "jh7ahrddqscpf7f67ac1a4wkt985w9p7",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "df6678ce-f1d0-4de3-bd2b-d97f4e966ffc",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661221235,
+    "seq": 170,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661215117
+  },
+  {
+    "_creationTime": 1777661228068.8726,
+    "_id": "jh76favx6z3ja3axph5ya511r985x1wn",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "9b5c4ab1-47d4-4671-b1c0-810655fd1df4",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661228068,
+    "seq": 171,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661222678
+  },
+  {
+    "_creationTime": 1777661234883.302,
+    "_id": "jh78j5htwt28njb8dyamqz424n85x04r",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "49a045c0-70ce-4946-8eca-fd8d16e6113a",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661234883,
+    "seq": 172,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661229406
+  },
+  {
+    "_creationTime": 1777661243204.8943,
+    "_id": "jh75g1baxat8t9ap4bggvsttsh85w6pr",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "1493b86c-1e19-413d-b4a6-6d15c0517537",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661243204,
+    "seq": 173,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661236109
+  },
+  {
+    "_creationTime": 1777661250795.462,
+    "_id": "jh7a1erda35jgkn0t13hqmkdn985wh0p",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "0c386d69-a97b-47b5-983e-1b7ed90c056f",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661250795,
+    "seq": 174,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661244345
+  },
+  {
+    "_creationTime": 1777661259362.4402,
+    "_id": "jh7dmvh7xtzf3bw2s530vxkx8n85x8ct",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "a3a9bd5d-9ce4-491a-b4cc-85a7c185674c",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661259362,
+    "seq": 175,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661252108
+  },
+  {
+    "_creationTime": 1777661267377.433,
+    "_id": "jh75gz1r7z2nn4bfkp33kg8e3d85wg3w",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "3b6bbfd4-e65c-4edf-9392-19fce80af684",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661267377,
+    "seq": 176,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661260917
+  },
+  {
+    "_creationTime": 1777661273799.9558,
+    "_id": "jh79pyzde1a6egz99wvd07wta185wj0g",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "b98dcc8f-60c8-4866-af42-35b2d2f4d90c",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661273800,
+    "seq": 177,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661268430
+  },
+  {
+    "_creationTime": 1777661280511.2744,
+    "_id": "jh73ay78gvtetyzdfvkr28qf4185w2ss",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "cfb60f45-5c7b-4c9c-acaa-9f0cab6594a4",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661280511,
+    "seq": 178,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661275150
+  },
+  {
+    "_creationTime": 1777661287980.38,
+    "_id": "jh7c8mhnfe6w5mget9pzhkavg985wsns",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "f500f89a-6eed-455f-90d4-53e61165310b",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661287980,
+    "seq": 179,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661281875
+  },
+  {
+    "_creationTime": 1777661294645.468,
+    "_id": "jh77jj2p6nxvs4e4dmpvm1f42185xdfz",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "18e987cd-f18e-45ef-8ee6-b4d197beec60",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661294645,
+    "seq": 180,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661289272
+  },
+  {
+    "_creationTime": 1777661301368.9739,
+    "_id": "jh76ems5dmtnar361mm5f4vyhx85wp7q",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "b0e72879-46fe-4afb-a0cf-d6d720020eb5",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661301369,
+    "seq": 181,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661295999
+  },
+  {
+    "_creationTime": 1777661308099.8423,
+    "_id": "jh79hh0ptkn6mn7sqe8737wkys85wpye",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "366f9fea-13cb-4fa7-bbf1-87b14916461e",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661308099,
+    "seq": 182,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661302711
+  },
+  {
+    "_creationTime": 1777661315579.6208,
+    "_id": "jh7aprb82e8ay3jk73hznswey585wcnn",
+    "beaconId": "rfid:E280B117200078010222AB97",
+    "contractVersion": "1.0.0",
+    "eventId": "979dfd1f-8bc1-48bf-96d2-5a0dd40d1460",
+    "eventType": "rfid_scan",
+    "ingestTsMs": 1777661315579,
+    "seq": 183,
+    "sourcePayload": {
+      "epc": "E280B117200078010222AB97",
+      "frameSize": 64,
+      "readerDevice": "/dev/rfid_reader",
+      "readerSetting": "na",
+      "source": "rfid"
+    },
+    "trackerId": "pi-5-gateway-01",
+    "trackerTsMs": 1777661309431
+  }
+]

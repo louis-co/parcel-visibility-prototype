@@ -1,0 +1,158 @@
+{
+  "allWindow": {
+    "name": "full extracted window",
+    "startLocal": "2026-05-10 18:15:00.000 CEST",
+    "endLocal": "2026-05-10 21:30:00.000 CEST",
+    "events": 772,
+    "countsByType": {
+      "rfid_scan": 155,
+      "gps_no_fix": 52,
+      "heartbeat": 110,
+      "ble_scan": 397,
+      "gps_fix": 58
+    },
+    "uniqueBle": 60,
+    "uniqueRfid": 17,
+    "firstTrackerLocal": "2026-05-10 18:15:27.854 CEST",
+    "lastTrackerLocal": "2026-05-10 21:22:27.636 CEST",
+    "firstIngestLocal": "2026-05-10 18:15:34.310 CEST",
+    "lastIngestLocal": "2026-05-10 21:22:28.795 CEST",
+    "lagSec": {
+      "min": 0.112,
+      "p50": 9.318,
+      "p95": 414.759,
+      "max": 1004.423,
+      "mean": 58.533
+    },
+    "sampleBeaconIds": {
+      "ble": [
+        "ble:7f3c2d1a-9b4e-4c22-a8f0-251011020001",
+        "ble:7f3c2d1a-9b4e-4c22-a8f0-251011020002",
+        "ble:7f3c2d1a-9b4e-4c22-a8f0-251011020003",
+        "ble:7f3c2d1a-9b4e-4c22-a8f0-251011020004",
+        "ble:7f3c2d1a-9b4e-4c22-a8f0-251011020005",
+        "..."
+      ],
+      "rfid": [
+        "rfid:E20000000000000000000000",
+        "rfid:E280B110200078011129A1BA",
+        "rfid:E280B110200078011129A1CB",
+        "rfid:E280B110200078011129A1DA",
+        "rfid:E280B110200078011129A1EA",
+        "..."
+      ]
+    }
+  },
+  "radioCoexistence": {
+    "name": "radio coexistence",
+    "startLocal": "2026-05-10 18:32:00.000 CEST",
+    "endLocal": "2026-05-10 19:05:00.000 CEST",
+    "events": 583,
+    "countsByType": {
+      "rfid_scan": 104,
+      "ble_scan": 361,
+      "gps_no_fix": 1,
+      "heartbeat": 59,
+      "gps_fix": 58
+    },
+    "uniqueBle": 60,
+    "uniqueRfid": 16,
+    "firstTrackerLocal": "2026-05-10 18:32:10.429 CEST",
+    "lastTrackerLocal": "2026-05-10 19:04:45.864 CEST",
+    "firstIngestLocal": "2026-05-10 18:34:44.364 CEST",
+    "lastIngestLocal": "2026-05-10 19:04:51.654 CEST",
+    "lagSec": {
+      "min": 2.255,
+      "p50": 9.348,
+      "p95": 156.684,
+      "max": 162.164,
+      "mean": 20.257
+    },
+    "sampleBeaconIds": {
+      "ble": [
+        "ble:7f3c2d1a-9b4e-4c22-a8f0-251011020001",
+        "ble:7f3c2d1a-9b4e-4c22-a8f0-251011020002",
+        "ble:7f3c2d1a-9b4e-4c22-a8f0-251011020003",
+        "ble:7f3c2d1a-9b4e-4c22-a8f0-251011020004",
+        "ble:7f3c2d1a-9b4e-4c22-a8f0-251011020005",
+        "..."
+      ],
+      "rfid": [
+        "rfid:E280B110200078011129A1BA",
+        "rfid:E280B110200078011129A1CB",
+        "rfid:E280B110200078011129A1DA",
+        "rfid:E280B110200078011129A1EA",
+        "rfid:E280B110200078011129A1FB",
+        "..."
+      ]
+    }
+  },
+  "catchupRecovery": {
+    "name": "outage and catch-up",
+    "startLocal": "2026-05-10 20:50:00.000 CEST",
+    "endLocal": "2026-05-10 21:12:30.000 CEST",
+    "events": 69,
+    "countsByType": {
+      "gps_no_fix": 26,
+      "heartbeat": 26,
+      "rfid_scan": 17
+    },
+    "uniqueBle": 0,
+    "uniqueRfid": 12,
+    "firstTrackerLocal": "2026-05-10 20:50:03.156 CEST",
+    "lastTrackerLocal": "2026-05-10 21:12:19.403 CEST",
+    "firstIngestLocal": "2026-05-10 20:50:14.728 CEST",
+    "lastIngestLocal": "2026-05-10 21:12:19.791 CEST",
+    "lagSec": {
+      "min": 0.365,
+      "p50": 486.016,
+      "p95": 1002.99,
+      "max": 1004.423,
+      "mean": 454.203
+    },
+    "sampleBeaconIds": {
+      "ble": [],
+      "rfid": [
+        "rfid:E280B110200078011129A1BA",
+        "rfid:E280B110200078011129A1CB",
+        "rfid:E280B110200078011129A1DA",
+        "rfid:E280B110200078011129A1EA",
+        "rfid:E280B110200078011129A1FB",
+        "..."
+      ]
+    }
+  },
+  "postRecoveryStable": {
+    "name": "post recovery stable",
+    "startLocal": "2026-05-10 21:12:30.000 CEST",
+    "endLocal": "2026-05-10 21:23:00.000 CEST",
+    "events": 40,
+    "countsByType": {
+      "gps_no_fix": 20,
+      "heartbeat": 20
+    },
+    "uniqueBle": 0,
+    "uniqueRfid": 0,
+    "firstTrackerLocal": "2026-05-10 21:12:52.458 CEST",
+    "lastTrackerLocal": "2026-05-10 21:22:27.636 CEST",
+    "firstIngestLocal": "2026-05-10 21:12:52.637 CEST",
+    "lastIngestLocal": "2026-05-10 21:22:28.795 CEST",
+    "lagSec": {
+      "min": 0.112,
+      "p50": 0.195,
+      "p95": 0.442,
+      "max": 1.159,
+      "mean": 0.252
+    },
+    "sampleBeaconIds": {
+      "ble": [],
+      "rfid": []
+    }
+  },
+  "powerPhoto": {
+    "voltageV": 5.1,
+    "currentA": 1.4,
+    "computedPowerW": 7.14,
+    "source": "IMG_1538.heic, rotated copy in evidence folder"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "assignmentSegmentsInWindow": 1,
+  "beaconEventCount": 5,
+  "beaconId": "ble:1002:2",
+  "bleRssi": {
+    "count": 5,
+    "max": -36.0,
+    "median": -58.0,
+    "min": -63.0
+  },
+  "bleScanWindows": {
+    "count": 29,
+    "detectionsMedianPerWindow": 23,
+    "detectionsTotal": 685,
+    "duplicatesTotal": 680,
+    "queuedTotal": 5
+  },
+  "convexEventCount": 25,
+  "currentOwner": {
+    "associationState": "assigned",
+    "beaconId": "ble:1002:2",
+    "confidence": 0.7350407214710173,
+    "evidenceAgeMs": 58595.0,
+    "evidenceState": "confirmed",
+    "isActiveConflict": false,
+    "lastAssignedEvidenceEventType": "ble_scan",
+    "lastAssignedEvidenceTsMs": 1777556613199.0,
+    "lastSeenTsMs": 1777556613199.0,
+    "manualPrior": null,
+    "missedHeartbeats": 0.0,
+    "missingSinceTsMs": null,
+    "ownerState": "assigned",
+    "routeSession": null,
+    "source": "live",
+    "state": "resolved",
+    "trackerId": "pi-5-gateway-01",
+    "trackingNumber": null
+  },
+  "dashboardEventCount": 25,
+  "durationSeconds": 301.0,
+  "eventTypeCounts": {
+    "ble_scan": 5,
+    "gps_no_fix": 10,
+    "heartbeat": 10
+  },
+  "ingestLagMs": {
+    "count": 25,
+    "max": 6173.0,
+    "median": 5524.0,
+    "min": 5317.0,
+    "p95": 6126.2
+  },
+  "piUploadLatencyMs": {
+    "allCount": 21,
+    "allMedian": 254,
+    "allP95": 6057,
+    "bleCount": 5,
+    "bleMedian": 5939,
+    "locationCount": 16,
+    "locationMedian": 250.5
+  },
+  "resolvedPathPointsInWindow": 0,
+  "resource": {
+    "cpuBusyMedianPct": 1.75,
+    "cpuTempMaxC": 41.9,
+    "samples": 4,
+    "throttledNowAny": false,
+    "throttledSinceBootAny": true,
+    "uvNowAny": false,
+    "uvSinceBootAny": true
+  },
+  "trackerId": "pi-5-gateway-01",
+  "usb0Bytes": {
+    "bytesPerSecondTotal": 1127.1196013289036,
+    "endRx": 856869,
+    "endTx": 1071912,
+    "rxDelta": 133497,
+    "startRx": 723372,
+    "startTx": 866146,
+    "totalDelta": 339263,
+    "txDelta": 205766
+  },
+  "windowEndMs": 1777556525000,
+  "windowEndUtc": "2026-04-30T13:42:05Z",
+  "windowStartMs": 1777556224000,
+  "windowStartUtc": "2026-04-30T13:37:04Z"
+}

@@ -1,0 +1,12 @@
+{
+  "eventId": "sample-ble-0001",
+  "contractVersion": "1.0.0",
+  "trackerId": "pi-sample-01",
+  "eventType": "ble_scan",
+  "trackerTsMs": 1771251189000,
+  "seq": 126,
+  "beaconId": "ble:2164195606",
+  "signal": {
+    "rssi": -67
+  }
+}

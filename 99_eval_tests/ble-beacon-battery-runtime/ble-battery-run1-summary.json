@@ -1,0 +1,290 @@
+{
+  "testId": "TE-BLE-BATTERY-2026-05-05",
+  "beaconId": "ble:7f3c2d1a-9b4e-4c22-a8f0-251011020001",
+  "trackerId": "pi-5-gateway-01",
+  "reportedStartTsMs": 1777971000000,
+  "reportedStartZurich": "2026-05-05 10:50:00,000",
+  "firstDetectedTsMs": 1777971002864,
+  "firstDetectedZurich": "2026-05-05 10:50:02,864",
+  "firstDetectedRssi": -81,
+  "lastDetectedTsMs": 1778055395015,
+  "lastDetectedZurich": "2026-05-06 10:16:35,015",
+  "lastIngestZurich": "2026-05-06 10:16:40,805",
+  "lastDetectedRssi": -83,
+  "lastConvexId": "jh73z2pq7b29rky5exb6ab6pcd866yg7",
+  "observedDetectionRuntimeHours": 23.4431,
+  "observedDetectionRuntime": "23 h 26 min 35 s",
+  "detectionCount": 1250,
+  "hourlyBuckets": [
+    {
+      "hourStartZurich": "2026-05-05 10:50:00,000",
+      "n": 58,
+      "avgRssi": -85,
+      "minRssi": -93,
+      "maxRssi": -72
+    },
+    {
+      "hourStartZurich": "2026-05-05 11:50:00,000",
+      "n": 58,
+      "avgRssi": -86.4,
+      "minRssi": -95,
+      "maxRssi": -81
+    },
+    {
+      "hourStartZurich": "2026-05-05 12:50:00,000",
+      "n": 58,
+      "avgRssi": -83.2,
+      "minRssi": -86,
+      "maxRssi": -80
+    },
+    {
+      "hourStartZurich": "2026-05-05 13:50:00,000",
+      "n": 58,
+      "avgRssi": -83.4,
+      "minRssi": -87,
+      "maxRssi": -72
+    },
+    {
+      "hourStartZurich": "2026-05-05 14:50:00,000",
+      "n": 18,
+      "avgRssi": -84.1,
+      "minRssi": -86,
+      "maxRssi": -82
+    },
+    {
+      "hourStartZurich": "2026-05-05 15:50:00,000",
+      "n": 0,
+      "avgRssi": null,
+      "minRssi": null,
+      "maxRssi": null
+    },
+    {
+      "hourStartZurich": "2026-05-05 16:50:00,000",
+      "n": 40,
+      "avgRssi": -84.1,
+      "minRssi": -87,
+      "maxRssi": -81
+    },
+    {
+      "hourStartZurich": "2026-05-05 17:50:00,000",
+      "n": 57,
+      "avgRssi": -84,
+      "minRssi": -87,
+      "maxRssi": -81
+    },
+    {
+      "hourStartZurich": "2026-05-05 18:50:00,000",
+      "n": 59,
+      "avgRssi": -83.9,
+      "minRssi": -87,
+      "maxRssi": -81
+    },
+    {
+      "hourStartZurich": "2026-05-05 19:50:00,000",
+      "n": 59,
+      "avgRssi": -84.3,
+      "minRssi": -88,
+      "maxRssi": -82
+    },
+    {
+      "hourStartZurich": "2026-05-05 20:50:00,000",
+      "n": 58,
+      "avgRssi": -83.8,
+      "minRssi": -87,
+      "maxRssi": -81
+    },
+    {
+      "hourStartZurich": "2026-05-05 21:50:00,000",
+      "n": 58,
+      "avgRssi": -84.1,
+      "minRssi": -87,
+      "maxRssi": -81
+    },
+    {
+      "hourStartZurich": "2026-05-05 22:50:00,000",
+      "n": 59,
+      "avgRssi": -83.8,
+      "minRssi": -87,
+      "maxRssi": -81
+    },
+    {
+      "hourStartZurich": "2026-05-05 23:50:00,000",
+      "n": 59,
+      "avgRssi": -84.3,
+      "minRssi": -95,
+      "maxRssi": -76
+    },
+    {
+      "hourStartZurich": "2026-05-06 00:50:00,000",
+      "n": 59,
+      "avgRssi": -84.9,
+      "minRssi": -91,
+      "maxRssi": -82
+    },
+    {
+      "hourStartZurich": "2026-05-06 01:50:00,000",
+      "n": 59,
+      "avgRssi": -85.9,
+      "minRssi": -91,
+      "maxRssi": -83
+    },
+    {
+      "hourStartZurich": "2026-05-06 02:50:00,000",
+      "n": 58,
+      "avgRssi": -85,
+      "minRssi": -91,
+      "maxRssi": -82
+    },
+    {
+      "hourStartZurich": "2026-05-06 03:50:00,000",
+      "n": 58,
+      "avgRssi": -85.8,
+      "minRssi": -92,
+      "maxRssi": -81
+    },
+    {
+      "hourStartZurich": "2026-05-06 04:50:00,000",
+      "n": 58,
+      "avgRssi": -85.6,
+      "minRssi": -92,
+      "maxRssi": -82
+    },
+    {
+      "hourStartZurich": "2026-05-06 05:50:00,000",
+      "n": 58,
+      "avgRssi": -85.8,
+      "minRssi": -91,
+      "maxRssi": -82
+    },
+    {
+      "hourStartZurich": "2026-05-06 06:50:00,000",
+      "n": 59,
+      "avgRssi": -85.5,
+      "minRssi": -92,
+      "maxRssi": -77
+    },
+    {
+      "hourStartZurich": "2026-05-06 07:50:00,000",
+      "n": 58,
+      "avgRssi": -83.9,
+      "minRssi": -93,
+      "maxRssi": -81
+    },
+    {
+      "hourStartZurich": "2026-05-06 08:50:00,000",
+      "n": 57,
+      "avgRssi": -82.4,
+      "minRssi": -85,
+      "maxRssi": -72
+    },
+    {
+      "hourStartZurich": "2026-05-06 09:50:00,000",
+      "n": 27,
+      "avgRssi": -82.5,
+      "minRssi": -84,
+      "maxRssi": -81
+    }
+  ],
+  "largestGaps": [
+    {
+      "from": 1777986551819,
+      "to": 1777993808227,
+      "gapMs": 7256408,
+      "fromRssi": -82,
+      "toRssi": -82,
+      "fromZurich": "2026-05-05 15:09:11,819",
+      "toZurich": "2026-05-05 17:10:08,227",
+      "gapSec": 7256.4
+    },
+    {
+      "from": 1777973136808,
+      "to": 1777973259117,
+      "gapMs": 122309,
+      "fromRssi": -88,
+      "toRssi": -86,
+      "fromZurich": "2026-05-05 11:25:36,808",
+      "toZurich": "2026-05-05 11:27:39,117",
+      "gapSec": 122.3
+    },
+    {
+      "from": 1777976307943,
+      "to": 1777976430010,
+      "gapMs": 122067,
+      "fromRssi": -86,
+      "toRssi": -87,
+      "fromZurich": "2026-05-05 12:18:27,943",
+      "toZurich": "2026-05-05 12:20:30,010",
+      "gapSec": 122.1
+    },
+    {
+      "from": 1778029845476,
+      "to": 1778029967525,
+      "gapMs": 122049,
+      "fromRssi": -82,
+      "toRssi": -86,
+      "fromZurich": "2026-05-06 03:10:45,476",
+      "toZurich": "2026-05-06 03:12:47,525",
+      "gapSec": 122
+    },
+    {
+      "from": 1777996979136,
+      "to": 1777997101184,
+      "gapMs": 122048,
+      "fromRssi": -81,
+      "toRssi": -86,
+      "fromZurich": "2026-05-05 18:02:59,136",
+      "toZurich": "2026-05-05 18:05:01,184",
+      "gapSec": 122
+    },
+    {
+      "from": 1777972587893,
+      "to": 1777972709887,
+      "gapMs": 121994,
+      "fromRssi": -89,
+      "toRssi": -84,
+      "fromZurich": "2026-05-05 11:16:27,893",
+      "toZurich": "2026-05-05 11:18:29,887",
+      "gapSec": 122
+    },
+    {
+      "from": 1778041187180,
+      "to": 1778041309172,
+      "gapMs": 121992,
+      "fromRssi": -84,
+      "toRssi": -83,
+      "fromZurich": "2026-05-06 06:19:47,180",
+      "toZurich": "2026-05-06 06:21:49,172",
+      "gapSec": 122
+    },
+    {
+      "from": 1777979966197,
+      "to": 1777980088148,
+      "gapMs": 121951,
+      "fromRssi": -82,
+      "toRssi": -82,
+      "fromZurich": "2026-05-05 13:19:26,197",
+      "toZurich": "2026-05-05 13:21:28,148",
+      "gapSec": 122
+    },
+    {
+      "from": 1777986429902,
+      "to": 1777986551819,
+      "gapMs": 121917,
+      "fromRssi": -84,
+      "toRssi": -82,
+      "fromZurich": "2026-05-05 15:07:09,902",
+      "toZurich": "2026-05-05 15:09:11,819",
+      "gapSec": 121.9
+    },
+    {
+      "from": 1778033809075,
+      "to": 1778033930972,
+      "gapMs": 121897,
+      "fromRssi": -89,
+      "toRssi": -85,
+      "fromZurich": "2026-05-06 04:16:49,075",
+      "toZurich": "2026-05-06 04:18:50,972",
+      "gapSec": 121.9
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "testId": "TE-13b",
+  "name": "Parallel Duplicate Race",
+  "runId": "20260501103025",
+  "trackerId": "te13b-race-tracker-20260501103025",
+  "baseTsMs": 1777630705835,
+  "attemptCount": 40,
+  "acceptedResponses": 1,
+  "duplicateResponses": 39,
+  "failures": 0,
+  "occurrenceCount": 1,
+  "pass": true,
+  "responseDurationsMs": [
+    666.09,
+    678.83,
+    650.41,
+    669.52,
+    669.34,
+    649.53,
+    649.51,
+    649.48,
+    688.07,
+    649.01,
+    649.22,
+    649.18,
+    648.33,
+    668.25,
+    648.57,
+    648.61,
+    648.77,
+    648.61,
+    648.57,
+    648.62,
+    648.15,
+    648.5,
+    667.57,
+    648.4,
+    667.02,
+    669.37,
+    667.34,
+    667.27,
+    647.6,
+    648,
+    647.05,
+    647.58,
+    695.48,
+    677.32,
+    692.49,
+    647.32,
+    683.14,
+    673.86,
+    647.01,
+    666.22
+  ],
+  "historyQueryDurationMs": 275.46,
+  "attempts": [
+    {
+      "index": 1,
+      "durationMs": 666.09,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 2,
+      "durationMs": 678.83,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 3,
+      "durationMs": 650.41,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 4,
+      "durationMs": 669.52,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 5,
+      "durationMs": 669.34,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 6,
+      "durationMs": 649.53,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 7,
+      "durationMs": 649.51,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 8,
+      "durationMs": 649.48,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 9,
+      "durationMs": 688.07,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 10,
+      "durationMs": 649.01,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 11,
+      "durationMs": 649.22,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 12,
+      "durationMs": 649.18,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 13,
+      "durationMs": 648.33,
+      "body": {
+        "duplicate": false,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 14,
+      "durationMs": 668.25,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 15,
+      "durationMs": 648.57,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 16,
+      "durationMs": 648.61,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 17,
+      "durationMs": 648.77,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 18,
+      "durationMs": 648.61,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 19,
+      "durationMs": 648.57,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 20,
+      "durationMs": 648.62,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 21,
+      "durationMs": 648.15,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 22,
+      "durationMs": 648.5,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 23,
+      "durationMs": 667.57,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 24,
+      "durationMs": 648.4,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 25,
+      "durationMs": 667.02,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 26,
+      "durationMs": 669.37,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 27,
+      "durationMs": 667.34,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 28,
+      "durationMs": 667.27,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 29,
+      "durationMs": 647.6,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 30,
+      "durationMs": 648,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 31,
+      "durationMs": 647.05,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 32,
+      "durationMs": 647.58,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 33,
+      "durationMs": 695.48,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 34,
+      "durationMs": 677.32,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 35,
+      "durationMs": 692.49,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 36,
+      "durationMs": 647.32,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 37,
+      "durationMs": 683.14,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 38,
+      "durationMs": 673.86,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 39,
+      "durationMs": 647.01,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    },
+    {
+      "index": 40,
+      "durationMs": 666.22,
+      "body": {
+        "duplicate": true,
+        "ok": true,
+        "rawEventId": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+        "statusCode": 200,
+        "httpOk": true
+      }
+    }
+  ],
+  "history": [
+    {
+      "_creationTime": 1777631426264.9653,
+      "_id": "jh77x82712mhb5evjm6tz21j9h85x0q7",
+      "contractVersion": "1.0.0",
+      "eventId": "te13b-20260501103025-parallel-duplicate-race",
+      "eventType": "heartbeat",
+      "ingestTsMs": 1777631426268,
+      "seq": 1,
+      "sourcePayload": {
+        "label": "parallel-duplicate-race",
+        "purpose": "same eventId sent concurrently",
+        "runId": "20260501103025",
+        "synthetic": true,
+        "testId": "te13b"
+      },
+      "trackerId": "te13b-race-tracker-20260501103025",
+      "trackerTsMs": 1777630735835
+    }
+  ]
+}
