@@ -4,9 +4,9 @@ This repository contains the implementation and evaluation material for a parcel
 
 ## Demo
 
-<video src="docs/media/parcel-visibility-demo.webm" controls autoplay muted loop playsinline width="100%"></video>
+https://github.com/user-attachments/assets/e8d3f6c9-38f6-411a-bdef-67b7bccd78fe
 
-[Open the WebM demo](docs/media/parcel-visibility-demo.webm) if the inline player does not render.
+The repository also keeps a compact WebM copy at `docs/media/parcel-visibility-demo.webm`.
 
 ## System Overview
 
