@@ -11,32 +11,22 @@ This repository contains the implementation and evaluation material for a parcel
 ## System Overview
 
 ```mermaid
-flowchart LR
-  subgraph Devices["Device Layer"]
-    Beacon["ESP32-C3 BLE beacon firmware"]
-    RFID["RFID tags"]
-    Tracker["Raspberry Pi tracker runtime"]
-  end
-
-  subgraph Backend["Backend Layer"]
-    Contract["Raw event contract v1.0.0"]
-    Ingest["Convex HTTP ingest"]
-    Store["Validated event storage and deduplication"]
-    Queries["Dashboard query API"]
-  end
-
-  subgraph Interface["Reader and Operator Layer"]
-    Dashboard["Next.js tracker dashboard"]
-    Evidence["Evaluation evidence and thesis figures"]
-  end
+flowchart TD
+  Beacon["01 Firmware: ESP32-C3 BLE beacons"]
+  RFID["RFID tags"]
+  Tracker["01 Firmware: Raspberry Pi tracker runtime"]
+  Contract["04 Event contract: raw event schema v1.0.0"]
+  Backend["02 Convex backend: ingest, validation, deduplication"]
+  Store["Backend event storage and tracker liveness state"]
+  Dashboard["03 Dashboard: route, liveness, BLE/RFID activity"]
+  Evidence["99 Evaluation tests: thesis figures, logs, summaries"]
 
   Beacon --> Tracker
   RFID --> Tracker
   Tracker --> Contract
-  Contract --> Ingest
-  Ingest --> Store
-  Store --> Queries
-  Queries --> Dashboard
+  Contract --> Backend
+  Backend --> Store
+  Store --> Dashboard
   Store --> Evidence
   Dashboard --> Evidence
 ```
