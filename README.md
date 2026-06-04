@@ -2,28 +2,54 @@
 
 This repository contains the implementation and evaluation material for a parcel visibility prototype. The system combines BLE beacons, RFID tags, a Raspberry Pi tracker, a Convex backend, and a dashboard for visualizing tracker state and event history.
 
-## Repository Structure
+## Demo
 
-- `01_firmware_tracker_beacon/` contains the device-side code:
-  - Raspberry Pi tracker runtime services for GNSS/cellular fallback, BLE, RFID, LTE initialization, and resource monitoring.
-  - ESP32-C3 BLE beacon firmware variants for normal beacon operation and density testing.
-- `02_convex_backend/` contains the Convex backend:
-  - HTTP ingest endpoint.
-  - Raw event validation and deduplication.
-  - Tracker liveness state.
-  - Dashboard-facing query functions.
-- `03_tracker_dashboard/` contains the Next.js dashboard:
-  - Map-based route visualization.
-  - Event and liveness summaries.
-  - BLE/RFID activity views.
-  - Configurable Convex data source settings.
-- `04event_contract/` contains the shared event contract:
-  - Contract version.
-  - JSON Schema for raw tracker events.
-  - Example payloads.
-- `99_eval_tests/` contains evaluation evidence:
-  - BLE, RFID, road-test, backend, dashboard, and tracker runtime test data.
-  - CSV/JSON summaries, rendered figures, and selected raw logs.
+<video src="docs/media/parcel-visibility-demo.webm" controls autoplay muted loop playsinline width="100%"></video>
+
+[Open the WebM demo](docs/media/parcel-visibility-demo.webm) if the inline player does not render.
+
+## System Overview
+
+```mermaid
+flowchart LR
+  subgraph Devices["Device Layer"]
+    Beacon["ESP32-C3 BLE beacon firmware"]
+    RFID["RFID tags"]
+    Tracker["Raspberry Pi tracker runtime"]
+  end
+
+  subgraph Backend["Backend Layer"]
+    Contract["Raw event contract v1.0.0"]
+    Ingest["Convex HTTP ingest"]
+    Store["Validated event storage and deduplication"]
+    Queries["Dashboard query API"]
+  end
+
+  subgraph Interface["Reader and Operator Layer"]
+    Dashboard["Next.js tracker dashboard"]
+    Evidence["Evaluation evidence and thesis figures"]
+  end
+
+  Beacon --> Tracker
+  RFID --> Tracker
+  Tracker --> Contract
+  Contract --> Ingest
+  Ingest --> Store
+  Store --> Queries
+  Queries --> Dashboard
+  Store --> Evidence
+  Dashboard --> Evidence
+```
+
+## Repository Map
+
+| Folder | Role | Main contents |
+| --- | --- | --- |
+| `01_firmware_tracker_beacon/` | Device-side implementation | Raspberry Pi tracker runtime services for GNSS/cellular fallback, BLE, RFID, LTE initialization, resource monitoring, plus ESP32-C3 BLE beacon firmware variants. |
+| `02_convex_backend/` | Backend implementation | Convex HTTP ingest endpoint, raw event validation, deduplication, tracker liveness state, schema, and dashboard-facing queries. |
+| `03_tracker_dashboard/` | Dashboard application | Next.js dashboard with map-based route visualization, liveness summaries, BLE/RFID activity views, and configurable Convex data source settings. |
+| `04event_contract/` | Shared data contract | Contract version, raw tracker event JSON Schema, and example event payloads. |
+| `99_eval_tests/` | Evaluation evidence | BLE, RFID, road-test, backend, dashboard, and tracker runtime test data, including CSV/JSON summaries, rendered figures, and selected raw logs. |
 
 ## System Flow
 
@@ -52,7 +78,7 @@ The active contract version is `1.0.0`.
 - Use `02_convex_backend/README.md` for backend setup, deployment, endpoints, and query names.
 - Use `03_tracker_dashboard/README.md` for dashboard setup and configuration.
 - Use `04event_contract/README.md` for the raw event schema.
-- Use `99_eval_tests/README.md` to navigate the evaluation evidence.
+- Use `99_eval_tests/` together with the repository map above to navigate the evaluation evidence.
 
 ## Notes
 
