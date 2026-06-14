@@ -74,3 +74,7 @@ The active contract version is `1.0.0`.
 ## Notes
 
 This repository is organized as a publication-ready bundle rather than a single deployable monorepo. Each numbered implementation folder keeps its own setup instructions and runtime assumptions.
+
+## License
+
+This repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
